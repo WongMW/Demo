@@ -1,0 +1,223 @@
+.clickMenu div.outerbox,.sfActionsDDL div.rmSlide,div.rtbSlide,.sfMoreContextMenu,.sfPagePersomalizationDdlWrp .sfSegmentListWrp{display:none}
+.clickMenu div.outerbox,.sfActionsDDL div.rmSlide,div.rtbSlide,.sfMoreContextMenu,.sfPagePersomalizationDdlWrp .sfSegmentListWrp,.sfActionsMenu.k-menu .k-animation-container{cursor:default;padding:0;background-color:#fff;border:1px solid #e5e5e5;box-shadow:0 1px 3px #e5e5e5}
+.clickMenu div.outerbox{position:absolute;left:0;top:13px}
+.sfPagePersomalizationDdlWrp .sfSegmentListWrp{position:absolute;z-index:1000;text-align:left;min-width:100px}
+div.sfActionsDDL div.rmSlide iframe,div.rtbSlide iframe,.sfMoreContextMenu iframe{top:-1000px!important;left:-1000px!important}
+.clickMenu li.main li.sfSeparator,div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparator,div.rtbSlide .rtbGroup .rtbSeparator,.k-menu .k-group .k-item.sfSeparator,.sfActionsDDL .rmGroup li.sfSimpleSeparator{margin-top:8px;padding-top:12px;padding-bottom:5px;border-top:1px solid #e4e4e4}
+.clickMenu li.main li.sfSeparator:hover,div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparator:hover,div.rtbSlide .rtbGroup .rtbSeparator:hover,.k-menu .k-group .k-item.sfSeparator:hover{background-color:transparent!important}
+.clickMenu li.main li.sfSeparator:first-child,div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparator:first-child,div.rtbSlide .rtbGroup .rtbSeparator:first-child,.k-menu .k-group .k-item.sfSeparator:first-child{margin-top:0;padding-top:0;border-top:0}
+.sfActionsMenu.k-menu .k-popup.k-group .sfSeparator.k-item .k-link{padding-left:0;background-image:none;line-height:1.2}
+.clickMenu li.main .innerBox li.sfActionsSectionTitle{padding-bottom:5px;padding-top:5px;font-size:13px;border-top:0}
+.clickMenu li.main li strong,div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparator .rmText,.k-menu .k-group .k-item.sfSeparator strong{display:block;cursor:default;color:#666;font-weight:normal;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:12px;text-transform:uppercase;white-space:nowrap}
+.sfActionsMenu.k-menu .k-popup.k-group .sfSeparator.k-item .k-link::before{display:none}
+div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparatorNormal{min-height:0}
+div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparatorNormal .rmText{display:none}
+.clickMenu li.main li strong.sfSeparator strong,.clickMenu li.main strong strong,.clickMenu li.main li.sfActionsSectionTitle strong{padding-top:0}
+.clickMenu li.main li .sfSepNoTitle{display:none}
+.clickMenu div.outerbox ul.innerBox a,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink,div.rtbSlide .RadToolBarDropDown .rtbWrap,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .rmLink,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link,.sfPagePersomalizationDdlWrp .sfSegmentListWrp .sfLnk{white-space:nowrap;background-image:none;padding-left:0}
+.clickMenu div.outerbox .innerBox a::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink::before,div.rtbSlide .RadToolBarDropDown .rtbWrap::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .rmLink::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link::before,.sfPagePersomalizationDdlWrp .sfSegmentListWrp .sfLnk::before{font-family:FontAwesome;display:inline-block;content:"\f0f6";vertical-align:top;margin-right:5px;color:#666;font-size:14px}
+.clickMenu div.outerbox .innerBox a:hover::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink:hover::before,div.rtbSlide .RadToolBarDropDown .rtbWrap:hover::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .rmLink:hover::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link:hover::before,.sfPagePersomalizationDdlWrp .sfSegmentListWrp .sfLnk:hover::before{color:#000}
+.RadToolBarDropDown_Default{background-image:none!important}
+.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link{display:block;padding:3px 15px}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem .rmLink:hover{background-repeat:no-repeat!important;background-color:transparent!important;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfMoreActions.gif") %>)!important}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink{color:#333!important}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink:hover{color:#000!important}
+.sfActionsDDL.RadMenu .rmGroup a.rmLink:hover .rmText,.sfActionsDDL.RadMenu .rmGroup a.rmFocused .rmText{background:transparent}
+.sfActionsDDL.RadMenu .rmGroup{padding:0;background:transparent}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .sfSelectedListItemsOrder .rmLink{color:#000;cursor:default;background-position:0 -195px!important}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .sfSelectedProductAttributeValuesOrder .rmLink{color:#000;cursor:default;background-position:0 -195px!important}
+.clickMenu div.outerbox .innerBox .sfDeleteItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfDeleteItm::before,div.rtbSlide .RadToolBarDropDown .sfDeleteItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfDeleteItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfDeleteItm::before{content:"\f014"}
+.clickMenu div.outerbox .innerBox .sfPublishItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfPublishItm::before,div.rtbSlide .RadToolBarDropDown .sfPublishItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfPublishItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfPublishItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfActivate::before{content:"\f058"}
+.clickMenu div.outerbox .innerBox .sfTranslateItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfTranslateItm::before,div.rtbSlide .RadToolBarDropDown .sfTranslateItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfTranslateItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfTranslateItm::before{content:"\f1ab"}
+.clickMenu div.outerbox .innerBox .sfDuplicateItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfDuplicateItm::before,div.rtbSlide .RadToolBarDropDown .sfDuplicateItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfDuplicateItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfDuplicateItm::before{content:"\f0c5"}
+.clickMenu div.outerbox .innerBox .sfSetHome::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfSetHome::before,div.rtbSlide .RadToolBarDropDown .sfSetHome::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfSetHome::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfSetHome::before{content:"\f015"}
+.clickMenu div.outerbox .innerBox .sfCreateChild::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfCreateChild::before,div.rtbSlide .RadToolBarDropDown .sfCreateChild::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfCreateChild::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfCreateChild::before{content:"\f0ea"}
+.clickMenu div.outerbox .innerBox .sfMoveUp::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfMoveUp::before,div.rtbSlide .RadToolBarDropDown .sfMoveUp::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfMoveUp::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfMoveUp::before{content:"\f062"}
+.clickMenu div.outerbox .innerBox .sfMoveDown::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfMoveDown::before,div.rtbSlide .RadToolBarDropDown .sfMoveDown::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfMoveDown::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfMoveDown::before{content:"\f063"}
+.clickMenu div.outerbox .innerBox .sfUnpublishItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfUnpublishItm::before,div.rtbSlide .RadToolBarDropDown .sfUnpublishItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfUnpublishItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfUnpublishItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfInactivate::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfRemPersonalizedItm::before{content:"\f00d"}
+.clickMenu div.outerbox .innerBox .sfDownloadItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfDownloadItm::before,div.rtbSlide .RadToolBarDropDown .sfDownloadItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfDownloadItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfDownloadItm::before{content:"\f019"}
+.clickMenu div.outerbox .innerBox .sfPlayItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfPlayItm::before,div.rtbSlide .RadToolBarDropDown .sfPlayItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfPlayItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfPlayItm::before{content:"\f04b"}
+.clickMenu div.outerbox .innerBox .sfViewImg::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfViewImg::before,div.rtbSlide .RadToolBarDropDown .sfViewImg::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfViewImg::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfViewImg::before{content:"\f03e"}
+.clickMenu div.outerbox .innerBox .sfRemoveItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfRemoveItm::before,div.rtbSlide .RadToolBarDropDown .sfRemoveItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfRemoveItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfRemoveItm::before{content:"\f057"}
+.clickMenu div.outerbox .innerBox .sfViewOrg::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfViewOrg::before,div.rtbSlide .RadToolBarDropDown .sfViewOrg::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfViewOrg::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfViewOrg::before{content:"\f08e"}
+.clickMenu div.outerbox .innerBox .sfMakePrimary::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfMakePrimary::before,div.rtbSlide .RadToolBarDropDown .sfMakePrimary::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfMakePrimary::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfMakePrimary::before{content:"\f015"}
+.clickMenu div.outerbox .innerBox .sfCloseItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfCloseItm::before,div.rtbSlide .RadToolBarDropDown .sfCloseItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfCloseItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfCloseItm::before{content:"\f023"}
+.clickMenu div.outerbox .innerBox .sfStickyItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfStickyItm::before,div.rtbSlide .RadToolBarDropDown .sfStickyItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfStickyItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfStickyItm::before{content:"\f08d"}
+.clickMenu div.outerbox .innerBox .sfConfigureItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfConfigureItm::before,div.rtbSlide .RadToolBarDropDown .sfConfigureItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfConfigureItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfConfigureItm::before{content:"\f013"}
+.clickMenu div.outerbox .innerBox .sfTurnOnItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfTurnOnItm::before,div.rtbSlide .RadToolBarDropDown .sfTurnOnItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfTurnOnItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfTurnOnItm::before{content:"\f04b"}
+.clickMenu div.outerbox .innerBox .sfTurnOffItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfTurnOffItm::before,div.rtbSlide .RadToolBarDropDown .sfTurnOffItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfTurnOffItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfTurnOffItm::before{content:"\f04d"}
+.clickMenu div.outerbox .innerBox .sfPersonalizeItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfPersonalizeItm::before,div.rtbSlide .RadToolBarDropDown .sfPersonalizeItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfPersonalizeItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfPersonalizeItm::before,.sfPagePersomalizationDdlWrp .sfSegmentListWrp .sfLnk::before{content:"\f007"}
+.clickMenu div.outerbox .innerBox .sfApprovalItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfApprovalItm::before,div.rtbSlide .RadToolBarDropDown .sfApprovalItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfApprovalItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfApprovalItm::before{content:"\f046"}
+.clickMenu div.outerbox .innerBox .sfAuthorizationItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfAuthorizationItm::before,div.rtbSlide .RadToolBarDropDown .sfAuthorizationItm::before,.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfAuthorizationItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfAuthorizationItm::before{content:"\f007"}
+.clickMenu div.outerbox .innerBox .sfShareLinkItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfShareLinkItm::before,div.rtbSlide .RadToolBarDropDown .sfShareLinkItm::before,.sfMoreContextMenu.RadMenu_Sitefinity .rmGroup .rmItem .sfShareLinkItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfShareLinkItm::before{content:"\f045"}
+.clickMenu div.outerbox .innerBox .sfWidgetOverrideItm::before,div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfWidgetOverrideItm::before,div.rtbSlide .RadToolBarDropDown .sfWidgetOverrideItm::before,.sfMoreContextMenu.RadMenu_Sitefinity .rmGroup .rmItem .sfWidgetOverrideItm::before,.sfActionsMenu.k-menu .k-popup.k-group .k-item .k-link.sfWidgetOverrideItm::before{content:"\f044"}
+.clickMenu div.outerbox .innerBox .sfStopItm::before{content:"\f28d"}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfPersonalizedFor::before{padding-left:2px;padding-right:2px;content:"\f007"}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem .sfPersonaNotSpecified::before{content:"\f0c0"}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.rmLink.sfSeparatorDown{display:block;margin-bottom:15px}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.rmLink.sfSeparatorDown:after{border-bottom:1px solid #ccc;position:relative;bottom:-8px;margin-left:-10px;margin-right:-10px}
+.sfMessagePaneDropdown.sfSegmentListWrp .sfPersonalizedFor{display:inline-block;line-height:21px;min-height:22px;height:auto;font-size:13px;white-space:nowrap}
+.sfMessagePaneDropdown.sfSegmentListWrp .sfPersonalizedFor::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f007";font-size:14px;color:#666}
+.sfMessagePaneDropdown.sfSegmentListWrp .sfPersonaNotSpecified .sfPersonalizedFor::before{content:"\f0c0"}
+.sfCurrSegmentLnk .sfPersonaNotSpecifiedIcn{display:none}
+.sfCurrSegmentLnk.sfPersonaNotSpecified .sfPersonaNotSpecifiedIcn{display:inline-block;margin-left:10px;vertical-align:top}
+.sfCurrSegmentLnk.sfPersonaNotSpecified .sfPersonaNotSpecifiedIcn::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;content:"\f0c0";font-size:16px;color:#666}
+.sfHiddenGridRow div.cmDiv{display:none}
+.sfCommentsActionsList .clickMenu div.outerbox{width:150px}
+.clickMenu div.inner{left:0;z-index:700010;padding-top:10px;padding-bottom:10px}
+.clickMenu div.inner div.outerbox{left:98px;top:-3px}
+.clickMenu li.main{position:relative;cursor:pointer;word-wrap:normal}
+.clickMenu li.sfLast::after{display:inline-block;margin-left:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:middle;line-height:1.1;font-size:14px;color:#666}
+.clickMenu li.main>a[menu]{cursor:pointer}
+.clickMenu div.outerbox .innerBox li{padding:3px 15px}
+.clickMenu div.outerbox .innerBox li:hover{background-color:#f2f2f2}
+.clickMenu div.outerbox .innerBox li>a{display:block;margin:-3px -15px;padding:3px 15px}
+.clickMenu div.outerbox ul.innerBox a,.RadGrid .clickMenu div.outerbox ul.innerBox a{color:#333!important}
+.clickMenu div.outerbox ul.innerBox .sfDisabled,.RadGrid .clickMenu div.outerbox ul.innerBox .sfDisabled{background-color:transparent;color:#999!important}
+.clickMenu div.outerbox ul.innerBox a:hover,.clickMenu div.outerbox ul.innerBox a:focus,.RadGrid .clickMenu div.outerbox ul.innerBox a:hover,.RadGrid .clickMenu div.outerbox ul.innerBox a:focus{color:#000!important}
+.clickMenu div.outerbox ul.innerBox .sfDisabled,.clickMenu div.outerbox ul.innerBox .sfDisabled:hover,.clickMenu div.outerbox ul.innerBox .sfDisabled:focus,.RadGrid .clickMenu div.outerbox ul.innerBox .sfDisabled,.RadGrid .clickMenu div.outerbox ul.innerBox .sfDisabled:hover,.RadGrid .clickMenu div.outerbox ul.innerBox .sfDisabled:focus{background-color:transparent;color:#999!important}
+.clickMenu div.outerbox ul.innerBox .sfDisabled::before,.RadGrid .clickMenu div.outerbox ul.innerBox .sfDisabled::before{color:#999!important}
+.sfBreadCrumb .clickMenu li.main .sfCurrentTypeHeader{display:inline-block;vertical-align:top;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfBreadCrumb .clickMenu li.main .sfCurrentTypeHeader::after{display:inline-block;font-family:FontAwesome;vertical-align:middle;content:"\f0d7";font-size:14px;color:#666}
+.sfBreadCrumb .clickMenu div.outerbox{min-width:100px;font-size:13px}
+.sfBreadCrumb .clickMenu div.outerbox .innerBox a{background-image:none;padding-left:0;vertical-align:top}
+div.sfActionsDDL .rmItem{float:none}
+div.sfActionsDDL .rmItem:after{content:"";display:table;clear:both}
+div.sfActionsDDL .rmSlide .rmGroup{float:none}
+div.sfActionsDDL .rmGroup .rmLink{cursor:pointer}
+div.sfActionsDDL .rmGroup .rmText{margin:0;padding:0}
+div.sfActionsDDL .rmVertical .rmItem .rmText{display:inline}
+div.sfActionsDDL .rmSlide{padding-top:10px;padding-bottom:10px;float:none;top:20px!important;box-shadow:0 1px 3px #e5e5e5}
+div.sfActionsDDL .rmSlide .rmItem{padding:3px 15px}
+div.sfActionsDDL .rmSlide .rmItem:hover{background-color:#f2f2f2}
+div.sfActionsDDL.RadMenu .rmRootGroup li.sfSeparator.sfFirst{padding-top:0;border-top:0}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink,.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText{display:inline-block;min-height:27px;line-height:26px;vertical-align:middle;text-decoration:none}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink{padding-right:10px;padding-left:10px;border:1px solid #ccc;border-radius:3px;cursor:pointer;color:#333}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText{vertical-align:top;font-weight:normal;padding-right:0;max-width:470px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText::after{display:inline-block;margin-top:8px;margin-left:8px;font-family:FontAwesome;content:"\f0d7";color:#666;vertical-align:top;line-height:1.1}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink:hover,.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink:active,.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink:focus{color:#000;background-color:#f2f2f2}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink.rmDisabled{cursor:default;color:#999!important;background-color:#f2f2f2}
+.sfAllToolsWrapper .sfActionsDDL .rmRootGroup>.rmItem>.rmLink.rmDisabled .rmText::after{color:#999}
+.sfAllToolsWrapper div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink{width:auto!important}
+.sfAllToolsWrapper div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfDisabledLinkBtn{background-color:transparent;color:#999!important;cursor:default}
+.sfAllToolsWrapper div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink.sfDisabledLinkBtn::before{color:#999!important}
+.sfFormDialog div.sfActionsDDL,.sfTwoColsSecond div.sfActionsDDL{float:none;z-index:2999!important;vertical-align:middle;margin:0 4px 0 0}
+.sfWrapper .sfTwoColsSecond div.sfActionsDDL{z-index:2940!important}
+.sfFormDialog .sfActionsDDL div.rmSlide,.sfTwoColsSecond .sfActionsDDL div.rmSlide{width:auto!important;top:33px!important}
+.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink,.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText{background-image:none;font-size:13px;min-height:28px;line-height:27px}
+.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>.rmLink,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>.rmLink{display:inline-block;max-width:470px;border:1px solid #ccc;border-radius:3px;padding-right:10px;padding-left:10px;cursor:pointer;vertical-align:middle;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333;background-color:#fff;transition:background-color .2s;background-image:none}
+.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText{display:inline;padding:0}
+.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>a.rmLink:hover,.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>a.rmLink:focus,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>a.rmLink:hover,.sfTwoColsSecond div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>a.rmLink:focus{color:#000;background-color:#f2f2f2}
+.sfFormDialog div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmExpandDown::after{display:inline-block;margin-left:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:middle;line-height:1.1;font-size:14px}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink{background-image:none;font-size:13px;padding-left:0}
+div.sfActionsDDL.RadMenu div.rmSlide .rmLevel1 .rmLink::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0f6";vertical-align:middle;line-height:1.1;font-size:14px;color:#666}
+.sfAllToolsWrapper div.sfActionsDDL div.rmSlide{padding:10px 0;top:33px!important;left:0!important;width:auto!important;height:auto!important;min-width:150px}
+.sfAllToolsWrapper div.sfActionsDDL .sfSeparator{background-image:none;margin-left:0}
+.sfAllToolsWrapper div.sfActionsDDL .rmSlide .sfSeparator .rmText{margin:0;padding-bottom:0;background-color:transparent;font-size:13px;line-height:1.8;height:auto!important;border-bottom:0;border-top:0}
+body div.rtbSlide{padding:8px 20px 10px;max-width:200px;box-shadow:0 1px 3px #e5e5e5}
+div.RadToolBarDropDown .rtbWrap{font-family:open_sansregular,Arial,Verdana,sans-serif}
+div.rtbSlide div.RadToolBarDropDown{border:0;width:auto!important}
+div.rtbSlide .RadToolBarDropDown .rtbGroup{font-size:12px!important;font-weight:normal!important;font-style:normal!important;text-transform:none!important;text-decoration:none!important;letter-spacing:normal!important;word-spacing:0!important;line-height:1.5!important;text-align:left!important;margin:0!important;padding:0!important;border:0!important;position:static!important;display:block!important;visibility:visible!important;float:none!important;clear:none!important;list-style-type:none!important;background-image:none!important}
+div.rtbSlide .RadToolBarDropDown .rtbItem{font-size:12px!important;font-weight:normal!important;font-style:normal!important;text-transform:none!important;text-decoration:none!important;letter-spacing:normal!important;word-spacing:0!important;line-height:1.5!important;text-align:left!important;background-color:transparent!important;background-image:none!important;height:22px!important;margin:0!important;padding:0!important;border:0!important}
+div.rtbSlide .RadToolBarDropDown .rtbText{padding:0}
+div.rtbSlide .RadToolBarDropDown .rtbSeparator{font-size:12px!important;font-weight:normal!important;font-style:normal!important;text-transform:none!important;text-decoration:none!important;letter-spacing:normal!important;word-spacing:0!important;line-height:1.5!important;text-align:left!important;background-color:transparent!important;background-image:none!important;margin:8px 0 0!important;padding:0!important;border:0!important;border-top:1px solid #ccc!important}
+div.rtbSlide .RadToolBarDropDown .rtbWrap{font-size:13px!important;font-weight:normal!important;font-style:normal!important;text-transform:none!important;text-decoration:none!important;letter-spacing:normal!important;word-spacing:0!important;line-height:21px!important;text-align:left!important;vertical-align:baseline!important;color:#105CB6!important;min-height:22px!important;margin:0!important;padding:0!important;border:0!important;position:static!important;display:inline-block!important;float:none!important;clear:none!important;color:#333!important}
+div.rtbSlide .RadToolBarDropDown .rtbWrap:hover{color:#000!important}
+div.rtbSlide .rtbGroup .rtbItemHovered,div.rtbSlide .rtbGroup .rtbItemHovered .rtbWrap{text-decoration:none;background-color:transparent!important}
+div.rtbSlide .rtbGroup a.sfMenuTitle,div.rtbSlide .rtbGroup a.sfMenuTitle:hover,div.rtbSlide .rtbGroup a.sfMenuTitle:focus{cursor:default!important;background-image:none!important;padding-top:0!important;padding-left:5px!important;font-weight:normal!important;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000!important;font-size:13px!important}
+div.rtbSlide .rtbGroup a.sfMenuTitle::before{display:none}
+div.sfMoreContextMenu{margin:0 0 0 -85px!important;padding:10px 0 13px!important;text-align:left!important;background-color:#fff!important;width:auto!important;height:auto!important;box-shadow:0 1px 3px #e5e5e5}
+.sfMoreContextMenu.RadMenu .rmGroup{margin:0!important;padding:0!important;list-style-type:none!important;border:0!important;background-color:#fff!important;background-image:none!important;min-width:150px}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem{margin:0!important;list-style-type:none!important;border:0!important;float:none!important;min-height:20px!important}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.rmLink:hover{background-color:#f2f2f2!important}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.rmLink{cursor:pointer;margin:0;border:0;font-family:open_sansregular,Arial,Verdana,sans-serif;padding:0 10px!important}
+.sfMoreContextMenu .rmGroup .rmItem a.rmLink{color:#333;font-size:13px}
+.sfMoreContextMenu .rmGroup .rmItem a.rmLink:hover,.sfMoreContextMenu .rmGroup .rmItem a.rmLink:focus{color:#000!important;text-decoration:none!important}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.rmLink .rmText{display:inline-block;margin:0;padding:0}
+.sfMoreContextMenu.RadMenu .rmGroup a.rmLink:hover .rmText,.sfMoreContextMenu.RadMenu .rmGroup a.rmFocused .rmText,.sfMoreContextMenu.RadMenu .rmGroup a.rmSelected .rmText,.sfMoreContextMenu.RadMenu .rmGroup a.rmExpanded .rmText{background-image:none}
+.sfMoreContextMenu.RadMenu .rmGroup .rmLast a.rmLink,.sfMoreContextMenu.RadMenu .rmGroup .rmLast a.rmLink:hover,.sfMoreContextMenu.RadMenu .rmGroup .rmLast a.rmFocused,.sfMoreContextMenu.RadMenu .rmGroup .rmLast a.rmSelected,.sfMoreContextMenu.RadMenu .rmGroup .rmLast a.rmExpanded{padding-bottom:0}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText,.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText:hover{margin-bottom:5px;background-image:none!important;max-width:220px;white-space:normal;line-height:1.2;cursor:default}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText .rmText,.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText:hover .rmText{color:#666!important}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText:hover{background-color:#fff!important}
+.sfMoreContextMenu.RadMenu .rmGroup .rmItem a.sfDisplayText:before{content:''}
+div.sfMoreContextMenuSelectedState.sfMoreContextMenu{min-width:120px}
+.sfMoreContextMenuSelectedState.sfMoreContextMenu.RadMenu .rmGroup .rmItem{padding-left:25px!important}
+.sfMoreContextMenuSelectedState.sfMoreContextMenu.RadMenu .rmGroup .rmItem.sfSel::before{display:inline-block;position:absolute;left:5px;font-family:FontAwesome;vertical-align:top;content:"\f00c";font-size:14px;color:#999}
+.sfMoreContextMenuTitle{display:block}
+.sfMoreContextMenuSelectedState .sfMoreContextMenuTitle{padding-left:25px;font-size:13px}
+.sfActionsMenu.k-menu{border:0}
+.sfActionsMenu.k-menu:after{display:none}
+.sfActionsMenu.k-menu>li{line-height:16px}
+.sfActionsMenu.k-menu.k-menu-horizontal .k-animation-container .k-menu-group{margin-left:0}
+.sfActionsMenu.k-menu.k-menu-horizontal .k-item{border-right:0}
+.sfActionsMenu.k-menu.k-menu-horizontal .k-animation-container .k-item:hover{background-color:#f2f2f2}
+.sfActionsMenu.k-menu.k-menu-horizontal .k-animation-container .k-item.sfActionsMenuTitle:hover{background-color:transparent}
+.sfActionsMenu.k-menu.k-menu-horizontal .k-item .k-content strong{color:#666;font-weight:normal;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:12px;text-transform:uppercase}
+.sfActionsMenu.k-menu .k-item>.k-link{padding:0 0 5px 0;cursor:pointer;color:#105CB6}
+.k-widget.k-menu .k-item>.k-link{background-color:transparent}
+.sfActionsMenu.k-menu .k-item>.k-link:hover,.sfActionsMenu.k-menu .k-item>.k-link.sfActivate:hover,.sfActionsMenu.k-menu .k-item>.k-link.sfActivate:focus{color:#00f}
+.sfActionsMenu.k-menu .k-item>.k-link .k-i-arrow-s{background-image:none}
+.sfActionsMenu.k-menu .k-item .k-item>.k-link{color:#333}
+.sfActionsMenu.k-menu .k-item .k-item .k-link:hover{color:#000}
+.sfActionsMenu.k-menu .k-animation-container{padding-top:10px!important;padding-bottom:10px!important}
+.sfActionsMenu.k-menu .k-group{border:0;box-shadow:none;background-color:transparent}
+.sfActionsMenu.k-menu .k-icon::after{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:top;line-height:1.1;font-size:14px;color:#666}
+.sfSiteSelectorMenuWrp .clickMenu{float:left;margin-top:9px;margin-left:25px;padding-top:1px}
+.sfSiteSelectorMenuWrp .clickMenu::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0ac";vertical-align:top;line-height:1.1;font-size:18px;color:#666}
+.sfSiteSelectorMenuWrp .clickMenu li.main{display:inline-block;padding-bottom:0;padding-left:0;padding-right:15px;line-height:1.2;color:#aaa}
+.sfSiteSelectorMenuWrp .clickMenu li.main::after{display:inline-block;margin-left:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:middle;line-height:1.1;font-size:14px;color:#ccc}
+.sfSiteSelectorMenuWrp .clickMenu li.main:hover{color:#999}
+.sfSiteSelectorMenuWrp .clickMenu li.main>span{font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#333;font-size:15px}
+.sfSwitchMenuWrp .clickMenu div.inner{margin-top:6px;margin-left:-15px;min-width:180px}
+.sfSwitchMenuWrp .main>span{font-size:14px;color:#666}
+.sfSwitchMenuWrp .main>span::after{display:inline-block;margin-left:7px;font-family:FontAwesome;content:"\f0d7";font-size:16px}
+.sfSwitchMenuWrp .sfOptGroup{font-size:11px;color:#999;text-transform:uppercase}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox li:hover{background-color:transparent}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a:not(.sfSel):hover{background-color:#f2f2f2}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a.sfSel{pointer-events:none}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a.sfSel:hover{cursor:default}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a::before{content:"";min-width:15px;color:#999}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a.sfSel::before{content:"\f00c"}
+.sfSwitchMenuWrp .clickMenu div.outerbox .innerBox a.sfSel:hover::before{color:#999}
+.sfSwitchMenuWrp>.cmDiv>div{display:none}
+.sfProviderSelectorWrp .cmDiv{display:inline-block;vertical-align:top;margin-left:10px}
+.sfProviderSelectorWrp .clickMenu li.main{padding-left:0}
+.sfProviderSelectorWrp .clickMenu li.main::after{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:middle;line-height:1.1;font-size:14px;color:#666}
+.sfProviderSelectorWrp .clickMenu li.main>a,.sfProviderSelectorWrp .clickMenu li.main>a:hover,.sfProviderSelectorWrp .clickMenu li.main>a:focus{color:#666}
+.sfProviderSelectorWrp div.inner{z-index:1100}
+.sfMediaProviderSelectorWrp{position:absolute;top:-5px;right:0}
+.sfMediaProviderSelectorWrp .clickMenu div.outerbox{right:0;left:auto!important}
+.sfMediaProviderSelectorWrp .clickMenu li.main{background-position:100% -294px;padding-left:0;padding-right:15px}
+.sfMediaProviderSelectorWrp .clickMenu li.main>a,.sfMediaProviderSelectorWrp .clickMenu li.main>a span{display:inline-block;vertical-align:top}
+.sfMediaProviderSelectorWrp .clickMenu li.main>a{width:100px;white-space:nowrap;text-align:right;overflow:hidden;text-overflow:ellipsis}
+.sfMediaProviderSelectorWrp .clickMenu li.main>a::after{display:inline-block;font-family:FontAwesome;margin-left:5px;vertical-align:top;content:"\f0d7";font-size:14px;color:#666}
+.sfMediaProviderSelectorWrp .clickMenu li.main>a span{max-width:75px;overflow:hidden;text-overflow:ellipsis}
+.sfMediaProviderSelectorWrp .clickMenu li.main>a,.sfMediaProviderSelectorWrp .clickMenu li.main>a:hover,.sfMediaProviderSelectorWrp .clickMenu li.main>a:focus{color:#000}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox,.sfProviderSelectorWrp .clickMenu div.outerbox,.sfMediaProviderSelectorWrp .clickMenu div.outerbox{margin-top:5px;min-width:170px;box-shadow:0 1px 3px #e5e5e5}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox li,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox li,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox li{margin-bottom:5px;list-style-type:none}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp{padding-top:10px;border-top:1px solid #ccc}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox a,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox a{display:block;min-height:0;line-height:1.2;background-image:none;width:250px;overflow:hidden;text-overflow:ellipsis}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a::before,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox a::before,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox a::before{display:none}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a.sfSel,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox a.sfSel,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox a.sfSel{color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif;cursor:default}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a.sfMoreDetails,.sfProviderSelectorWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp a,.sfMediaProviderSelectorWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp a{color:#666;display:inline;font-size:12px}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp .sfMoreDetails::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f013";vertical-align:top;line-height:1.1;font-size:14px}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfGlobalSettingsWrp .sfMoreDetails::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0ad";vertical-align:top;line-height:1.1;font-size:14px}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeLnkWrp{margin-top:5px;margin-bottom:-10px;float:right}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp:hover,.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfGlobalSettingsWrp:hover,.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeLnkWrp:hover{background-color:transparent}
+.sfLibActionsWrp{position:relative;float:right;clear:right;margin-top:-19px;z-index:1}
+.sfLibActionsWrp .sfActionsDDL .rmFirst .rmRootLink{padding-left:0;cursor:pointer}
+.sfLibActionsWrp .sfActionsDDL .rmFirst .rmRootLink::after{display:inline-block;margin-top:3px;margin-left:8px;font-family:FontAwesome;content:"\f0d7";color:#ccc;vertical-align:top;line-height:1.1}
+.sfLibActionsWrp .sfActionsDDL .rmFirst .rmRootLink .rmText{padding-right:0}
+.sfLibActionsWrp div.sfActionsDDL .rmSlide .rmGroup{float:left}
+.k-widget.k-menu.sfMessagePaneDropdown{padding:13px 14px;background:#fff;max-width:230px}
+.k-widget.k-menu.sfMessagePaneDropdown.sfSegmentListWrp{width:230px}
+.sfMessagePaneDropdown .sfMessagePaneDropdownSmText{margin-top:7px;font-size:12px;color:#666;font-weight:normal;line-height:normal}
+.sfSeparatorBottom{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #e4e4e4}
+.sfSeparatorTop{padding-top:13px;margin-top:13px;border-top:1px solid #e4e4e4}
+.sfMessagePaneDropdownSelectedState .sfPrimarySegmentsList li{padding-left:40px!important;padding-right:30px}
+.sfMessagePaneDropdown.sfMessagePaneDropdownSelectedState .sfSel::before{display:inline-block;position:absolute;left:20px;font-family:FontAwesome;vertical-align:top;content:"\f00c";font-size:14px;color:#999}
+.sfMessagePaneDropdown.sfMessagePaneDropdownSelectedState .sfSel a:not(.sfDeleteSegmentItm){cursor:default}
+.sfPreviewWrp .sfMenuList div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>.rmLink{display:block;padding:5px 6px 4px;min-height:0;border-radius:5px}
+.sfPreviewWrp .sfMenuList div.sfActionsDDL .rmRootGroup>.rmItem.rmLast>.rmLink::before{display:inline-block;font-family:FontAwesome;content:"\f013";vertical-align:top;line-height:1;font-size:16px;color:#666}
+.sfFormDialog .sfMenuList div.sfActionsDDL{margin:0}
+.sfPreviewWrp .sfMenuList div.sfActionsDDL .rmRootGroup>.rmItem>.rmLink .rmText{display:none}

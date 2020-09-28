@@ -1,0 +1,35 @@
+@font-face{font-family:'open_sansregular';src:url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.OpenSans.OpenSans-Regular-webfont.woff") %>') format('woff'),url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.OpenSans.OpenSans-Regular-webfont.ttf") %>') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'open_sanssemibold';src:url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.OpenSans.OpenSans-Semibold-webfont.woff") %>') format('woff'),url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.OpenSans.OpenSans-Semibold-webfont.ttf") %>') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'FontAwesome';src:url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.FontAwesome.fontawesome-webfont.woff2") %>') format('woff2'),url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.FontAwesome.fontawesome-webfont.woff") %>') format('woff'),url('<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.FontAwesome.fontawesome-webfont.ttf") %>') format('truetype');font-weight:normal;font-style:normal}
+.sfLogin .sfWrapper{overflow:hidden}
+.sfLogin .sfHeader,.sfLogin .sfFooter{display:none}
+.sfLogin .sfMain{border-top:0}
+.sfLogin h1{margin:120px auto 60px;padding:0;width:194px;height:26px;border-bottom:0;position:relative;text-indent:-9999px;overflow:hidden;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.ProgressSitefinityCms.min.svg") %>) no-repeat 50% 0}
+.sfLoginForm{margin:0 auto;width:430px;min-height:420px}
+.sfLoginForm>table{width:100%}
+.sfLoginForm .sfForm{border:1px solid #e5e5e5;padding:40px}
+.sfLoginForm .sfTxtLbl{margin-bottom:5px}
+.sfLoginForm .sfTxt{padding:12px 14px;width:100%;font-size:18px;border:1px solid #ddd;border-radius:3px;box-sizing:border-box}
+.sfLoginForm select{margin-bottom:15px;border:1px solid #ddd;border-radius:3px}
+.sfLoginForm h2{padding-bottom:16px}
+.sfLoginForm .sfLoginUsersList{padding-top:5px}
+.sfLoginForm .sfLoginUsersList li{padding:1px 0 3px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfLoginForm .sfSubmitBtn{padding-top:20px}
+.sfLoginForm .sfValidator strong{display:block;margin:4px 0 6px;padding-left:20px;font-size:11px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#f30;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 0 -499px}
+.sfLoginForm .sfLoginHelp{padding:9px 0 0 2px;font-size:12px}
+.sfLoginForm .sfForm .sfLoginHelp{padding-top:0}
+.sfLoginForm .sfLoginHelp li{padding-bottom:0}
+.sfLoginForm .sfLoginHelp a{color:#666}
+.sfLoginForm .sfLoginHelp a:hover,.sfLoginForm .sfLoginHelp a:focus{color:#333}
+.sfLoginForm .sfSave{padding:6px 20px;font-size:18px;min-width:90px;text-align:center}
+.sfLoginForm .sfLinkBtn.sfNormalBtn{padding:0 10px;font-size:13px;min-width:0}
+.sfLoginForm .fa{font-family:FontAwesome;display:inline-block;font-style:normal}
+.sfLoginForm .fa-times:before{content:'\f00d'}
+.sfLoginForm .fa.sfNoProfilePicture{font-size:60px;width:100px;height:100px;line-height:100px;border-radius:50%;color:#fff;background-color:#DCECF5}
+.sfLogin .sfFailure,.sfLogin .sfSuccess,.sfLogin .sfNeutral{margin:0 0 30px}
+.sfLogin .sfNeutral.sfCredentialInfo{margin-bottom:0;padding:15px 15px 20px}
+.sfLogin .sfNeutral.sfCredentialInfo li{padding-bottom:0;list-style-type:disc;margin-left:20px;margin-top:3px}
+.sfDetailedInfo ul{list-style-type:circle;margin-left:18px}
+.sfDetailedInfo h3{font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;margin-top:5px}
+.sfDetailedInfo .sfDetailedHowTo{margin:10px;padding:18px;background-color:#fff}
+.sfDetailedInfo .sfDetailedHowTo h3{margin-top:10px}

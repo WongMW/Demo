@@ -1,0 +1,23 @@
+.sfFormEditor .sfNewContentForm{width:950px}
+.sfFormEditWrp{position:relative;padding:10px;background-color:#f2f2f2}
+.sfFormEditWrp .sfFormContainerWrp{width:650px;float:left;background-color:#fff}
+.sfFormEditWrp .sfFormToolboxWrp{width:270px;float:right}
+.sfFormEditWrp .sfFormToolboxWrp{position:absolute;top:10px;right:10px;width:270px;float:right}
+.sfFormWidgetsListWrp{margin-top:10px;margin-left:10px;padding-top:15px;padding-left:5px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 0;overflow:auto}
+.sfFormToolboxWrp .sfInstructions{margin-top:15px;margin-left:10px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfFormEditWrp .RadToolBar{border:1px solid #ccc}
+.sfFormEditWrp .RadToolBar .rtbOuter{border-top:1px solid #fff}
+.sfFormEditWrp .RadToolBar .rtbMiddle{min-height:34px;padding-top:1px}
+.sfFormWidgetsList{margin-left:10px;padding-left:5px}
+.sfFormWidgetsList .sfFormWidget{margin-bottom:1px;border:1px solid #f2f2f2}
+.sfFormWidgetsList .sfFormWidget:hover{border-color:#d6d6d6}
+.sfFormWidgetsList .sfFormWidget a{display:block;padding:5px 0 5px 51px;border-top:1px solid #f2f2f2;border-left:1px solid #f2f2f2;color:#333;background-color:transparent;background-repeat:no-repeat;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfForms.gif") %>);background-position:2px 2px}
+.sfFormWidgetsList .sfFormWidget a:hover,.sfFormWidgetsList .sfFormWidget a:focus{color:#000;border-top-color:#fff;border-left-color:#fff}
+.sfFormWidgetsList .sfFormWidget.sfTextboxIcn a{background-position:2px -98px}
+.sfFormWidgetsList .sfFormWidget.sfMultipleChoiceIcn a{background-position:2px -198px}
+.sfFormWidgetsList .sfFormWidget.sfCheckboxesIcn a{background-position:2px -298px}
+.sfFormWidgetsList .sfFormWidget.sfParagraphboxIcn a{background-position:2px -398px}
+.sfFormWidgetsList .sfFormWidget.sfDropdownIcn a{background-position:2px -498px}
+.sfFormWidgetsList .sfFormWidget.sfSectionHeaderIcn a{background-position:2px -598px}
+.sfFormWidgetsList .sfFormWidget.sfInstructionIcn a{background-position:2px -698px}
+.sfFormWidgetsList .sfFormWidget.sfSubmitBtnIcn a{background-position:2px -698px}

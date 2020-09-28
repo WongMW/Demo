@@ -1,0 +1,1 @@
+<%@ Control Language="VB" AutoEventWireup="false" CodeFile="~/UserControls/Aptify_General/TrackClick.ascx.vb" Inherits="Aptify.Framework.Web.eBusiness.TrackClick" %>

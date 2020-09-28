@@ -1,0 +1,204 @@
+/* CSS Stylesheet for Aptify Corporation Public Web Site */
+ 
+/*Style items for the navbar*/
+
+.TopGroupPC
+{
+   /* background-image: url(../../App_Themes/ICE/_img/nav-bar-bg.jpg);   
+    background-repeat: repeat-x;    
+    height: 30px;   
+	z-index: 4000;
+	text-align: left; */	
+    cursor:pointer;
+	vertical-align: middle;
+   /* background-color: #ede0ca; 
+    border:1px solid #d1b88e;*/ 
+    color:#a56813;
+    padding:0px,0px,0px,5px;
+    height:21px;
+ }
+
+.MenuGroupPC
+{
+  /*
+  background: #d3d5d6 url(../../App_Themes/ICE/_img/nav-bar-bg.jpg) left top repeat-x; 
+  border-top: 1px solid #a6a6a6;
+  border-right: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  border-left: 1px solid #a6a6a6; 
+  */
+    cursor:pointer; 
+    background-color: #ede0ca;
+    border:1px solid #d1b88e; 
+     height:21px;
+     width:165px;
+     padding:0px,0px,0px,5px;
+}
+
+.TopMenuItemPC
+{ 
+  /* border: 1px solid #CBD1D5; .TopMenuItemHoverPC border:1px solid #d1b88e; 
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;*/
+  border-bottom: 1px solid #e1cca4;
+  font-size: 12px;
+  font-weight: bold;
+  color: #a56813;
+  text-align: left;
+  vertical-align: middle;
+  background-image: url(../../App_Themes/ICE/_img/pro-cat-bg.jpg) repeat-x;
+   height:21px;
+}
+
+.TopMenuItemHoverPC
+{ 
+  /* 
+  background-image: url(../../App_Themes/ICE/_img/nav-bar-bg-hover.jpg);
+  background-repeat: repeat-x;
+  color:#ffffff border:1px solid #d1b88e; 
+  */
+	background-color: #553916;
+    color:White;
+    font-weight:bold;
+     height:21px;
+
+} 
+
+
+.MenuItemPC
+{
+	/*display: block;
+	float: none;
+	text-indent: 0;
+    background-color:#dbc195;
+	line-height: 1.5em;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a56813;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px solid #d1b88e;
+	width:165px;
+	background-color: #ede0ca;
+ height:21px; */
+   border-bottom: 1px solid #e1cca4;
+  font-size: 12px;
+  font-weight: bold;
+  color: #a56813;
+  text-align: left;
+  vertical-align: middle;
+  background-image: url(../../App_Themes/ICE/_img/pro-cat-bg.jpg) repeat-x;
+   height:21px;
+}
+
+.MenuItemHoverPC
+{
+	/* display: block;
+	float: none;
+	text-indent: 0;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-weight:bold;
+	text-align: left;		
+	background-color: #553916;
+    color:White;
+    width:165px;
+     height:21px; */
+        border-bottom: 1px solid #e1cca4;
+  font-size: 12px;
+  font-weight: bold;
+  color: White;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #553916;
+   height:21px;
+}
+
+.MenuItemExpandedPC
+{
+	/* display: block;
+	float: none;
+	text-indent: 0;
+	font-size: 12px;	
+	line-height: 1.5em;
+	font-weight:bold;
+	text-decoration: none;
+	color: #a56813;
+	background-color: #dbc195;
+	width:165px; */
+    border-bottom: 1px solid #e1cca4;
+  font-size: 12px;
+  font-weight: bold;
+  color: White;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #553916;
+   height:21px;
+}
+
+.MenuItemActivePC
+{
+	/* display: block;
+	float: none;
+	text-indent: 0;
+	font-size: 12px;	
+	line-height: 1.5em;	
+	font-weight:bold;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #dbc195;	
+	width:165px;
+	 height:21px; */
+	   border-bottom: 1px solid #e1cca4;
+  font-size: 12px;
+  font-weight: bold;
+  color: White;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #553916;
+   height:21px;
+}
+
+.MenuBreakPC
+{
+  /*background-color: red;
+  width:100%;
+  height:2px;*/
+
+}
+
+.MenuActive
+{
+    color:White;
+    Background:Black;
+}
+
+/* Not sure what the ScrollItem Is */
+.ScrollItemPC
+{
+  background-color:#F5F5F5; 
+  border: 1px solid #757495; 
+  text-align:center;
+  cursor:default;
+}
+
+.ScrollItemHPC
+{
+  background-color:#FFEEC2; 
+  border: 1px solid #757495; 
+  text-align:center;
+  cursor:default;
+}
+
+.ScrollItemAPC
+{
+  background-color:#FBE694; 
+  border: 1px solid #BB5503; 
+  text-align:center;
+  cursor:default;
+}
+
+/* Nav Bar Ends Here */

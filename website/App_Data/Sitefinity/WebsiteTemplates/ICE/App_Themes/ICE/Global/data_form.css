@@ -1,0 +1,355 @@
+table.data-form { border: 0px; width: 100%;  }  
+table.data-form td { padding: 3px; vertical-align: top; }
+table.data-form td.Header {  font-size: 12pt; font-weight: bold; border-bottom: solid 1px gray;}  
+table.data-form td.SmallHeader { font-weight: bold;}  
+table.data-form td.OptionalField { background-color: #f2f2f2;}  
+ 
+ /* Anil Changess 12718 */
+ table.data-form td.RigthColumnContactBold { font-weight: bold; } 
+ table.data-formFindProduct { border: 0px; width:700px; }  
+ .cmbFindProductCategories
+{
+    width:162px;
+    font-size:12px;
+    height:20px;
+}
+.txtFindProductCategories
+{
+    width:162px;
+    font-size:12px;
+    height:18px;
+}
+/* Neha, Issue 14750, 02/25/2013, added missing css*/
+table.data-form td.LeftColumnEditProfile { text-align: right; font-weight: bold; width: 150px; overflow: hidden;} 
+ /* Anil Changess end  */
+ 
+/* Aparna Changess end  */
+table.data-form td.LeftColumnAdminEditProfile {font-weight: bold; width: 178px; overflow: hidden;} 
+table.data-form td.LeftAdminMemberInfo {font-weight: bold; width: 129px; overflow: hidden;} 
+table.data-form td.LeftAdminPersonInfo {font-weight: bold; width: 129px; overflow: hidden;} 
+table.data-form td.LeftColumnAdminContactinfo {font-weight: bold; width: 124px; overflow: hidden;} 
+table.data-form td.RightColumnAdmin { text-align: right;} 
+ /* Anil Changess end  */
+ 
+table.data-form td.LeftColumn { text-align: left; font-weight: bold; width: 120px; overflow: hidden;} 
+table.data-form td.LeftColumnAbstract { text-align: right; font-weight: bold; width: 30px; overflow: hidden;}  
+table.data-form td.LeftColumnContact { text-align: left; font-weight: bold; width: 60px; overflow: hidden;} 
+table.data-form td.RigthColumnContact { text-align: left; width: 160px; } 
+ 
+table.data-form td.LeftColumnMarketPlace { text-align: right; font-weight: bold; width: 180px; overflow: hidden;}  
+table.data-form td.LeftColumnBorder { border-right: solid 1px gray;}  
+table.data-form td.RightColumn { text-align: left;  } 
+table.data-form td.RightMoneyColumn { text-align: left; } 
+table.data-form td.MeetingStyle1 { font-weight: bold;  } 
+table.data-form td.MeetingLeftColumnBorder { font-weight: 700;  } 
+table.data-form td.Footer{text-align:left;}
+
+p.RequiredField { color: red; }
+span.RequiredField { color: red; }
+span.Error {color: Red; font-weight: bold; }
+span.Title {font-size: 14pt; font-weight: bold;}
+span.SmallTitle {font-size: 12pt; font-weight: bold;}
+table.Forums { width: 100%; }
+tr.GridFooter td
+{
+    background-color: Crimson;
+    font-weight: bold;
+    color: White;
+}
+tr.GridHeader td
+{
+    background-color: #7B0408;
+    font-weight: bold;
+    color: White;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #707070;
+}
+tr.GridAlternatingRow td
+{
+    background-color: #f2f2f2;
+}
+tr.GridRow td
+{
+    background-color: White;
+}
+tr.GridPager td
+{
+    background-color: Crimson;
+    color: White;
+    text-align: center;
+}
+
+.Repeater
+{ width: 100%;
+  margin-bottom: 10px;
+}
+
+.Repeater td
+{ vertical-align:middle;
+	text-align:center;
+}
+
+.RepeaterMsg 
+{
+	margin: 2px 5px 2px 10px;
+	width: 400px;
+}
+
+.RepeaterMsg td
+{
+	text-align:left;
+	border-bottom: solid 1px black;
+}
+
+.RepeaterMsg td.HeaderTxt 
+{
+	font-weight:bold;
+}
+
+.AptifySearchButton
+{
+	background: #9e040c url(../../App_Themes/ICE/_img/search-button-bg.png); 
+	width: 55px; 
+	height: 20px; 
+	color:White; 
+	cursor: pointer; 
+	text-indent: -3000px; 
+	border-width: 0;
+}
+
+.ViewAllLink
+{
+    background:url(../../App_Themes/ICE/_img/view-all-icon.png) no-repeat right; 
+    width:68px;
+    float:right; 
+    cursor:pointer;
+ 
+}
+.AddLink
+{
+    background:url(../../App_Themes/ICE/_img/add-icon.png) no-repeat left; 
+    width:100px;
+    float:left;  
+    padding-left:22px;  
+  cursor:pointer;
+
+}
+
+.cmbEventCategory, .cmbEventType
+{
+    width:200px;
+}
+
+.MeetingsCalendar
+{
+    float:right;
+    text-align:right;
+    margin:4px;
+}
+
+/* Navin Prasad Profile Control Start */
+
+.txtBoxEditProfile
+{
+    width:400px;
+}
+
+/* Anil Bisen changess for issue 12718  */
+.txtBoxPasswordProfile
+{
+    width:160px; 
+}
+
+
+
+.cmbBoxChoosColour
+{
+    width:164px;
+    font-size:12px;
+     height:20px;
+}
+
+
+
+.txtUserProfileCity
+{
+    width:160px;
+}
+.txtUserProfileZipCode
+{
+    width:160px;
+}
+
+.txtUserProfileAreaCode
+{
+   
+    width:expression( this.width = 115 ? "111" : "auto";); /* sets max-width for IE */
+    max-width: 111px; /* sets max-height value for all standards-compliant browsers  width:111px; */
+    
+}
+/* Neha, Issue 14750, 02/25/2013, added missing things in css*/
+.txtUserProfileAreaCodeSmall
+{
+    width:40px !important;
+}
+
+.cmbUserProfileState
+{
+    width:164px;
+    font-size:12px;
+    height:20px;
+}
+.cmbUserProfileCountry
+{
+   
+    font-size:12px;
+    height:20px;
+    width:163px;
+   /*width:expression( this.width = 165 ? "161" : "auto";); /* sets max-width for IE */
+   /* max-width: 161px; /* sets max-height value for all standards-compliant browsers */
+}
+
+.cmbUserProfileBussinessAdress
+{
+    width:163px;
+    font-size:12px;
+    height:20px;
+}
+
+.txtBoxEditProfileForDropdown
+{
+    width:403px;
+     height:20px;
+}
+
+.fileUpload
+{
+    
+    height:23px;
+    width:180px;
+}
+
+table.test tr td label
+    {
+     margin-left :3px;
+    }
+    .cb label
+    {
+    margin-left: 3px;
+    }      
+    
+    .imgMembership
+    {
+         height:410px;
+         width:175px;      
+         border-radius: 10px 10px 10px 10px;      
+          
+    } 
+    
+    .SpanZipCode
+    {   
+       
+       width:200px;
+        padding-left:16px;
+        padding-right:2px;
+    }
+     .SpanState
+    {   
+       
+        width:200px;
+        padding-left:34px;
+        padding-right:2px;
+    } 
+ 
+/* @end */
+
+
+
+
+
+/* Navin Prasad Profile Control End */
+
+.StatusHeaderDivArea .HeaderFontStyle1,
+.StatusHeaderDivArea .HeaderFontStyle2 {
+    color: #f0f0f0;
+}
+
+
+.HeaderFontStyle1
+{
+	 
+	color: #6c0a3d; 
+	font-weight:bold;
+	font-size:11px;
+}
+
+.HeaderFontStyle1 a {
+    color: #f0f0f0!important;
+}
+
+.HeaderFontStyle2
+{
+	color:#6C0A3D  ;
+	font-weight:bold;
+	font-size:11px;
+}
+table.data-form td.LeftColumnAdminEditProfile {font-weight: bold; width: 178px; overflow: hidden;} 
+
+/*Anil Issue 14381*/
+.RegistrationInfo1
+    {
+        
+        font-size: 12px;
+        font-weight: bold;
+        font-family:Segoe UI;
+   }
+ /*Anil Issue 9389*/
+
+.lblAdendeePreference
+{
+    color: #855724;
+    font-size: 12px;
+    font-weight: bold;    
+    text-align: left;
+    padding-left:5px;
+    padding-bottom:5px;
+    }
+  .txtOther
+  {   
+          height:40px !Important;      
+      }
+  .ddlFoodPreference
+  {
+      width:252px !Important;
+      
+      }
+   .ddlTravelPreference
+   {
+        width:182px !Important;
+       
+       } 
+       
+  .trHeigth
+  {
+      height:58px;
+      vertical-align:top;
+      }
+      
+      .PopupRadSimilarRecords
+      {
+          height:10px ! Important;
+          width:300px ! Important;
+         top: 240px! Important; 
+       
+      
+          
+          }
+          
+      #ctl00_MainContentAreaPlaceHolder_MeetingRegistration_radSimilarRecords_C
+      {
+          height:153px ! Important;
+          
+          }
+          
+

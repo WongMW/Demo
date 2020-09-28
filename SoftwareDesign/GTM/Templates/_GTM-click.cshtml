@@ -1,0 +1,45 @@
+﻿
+<script>
+    /**
+ * Call this function when a user clicks on a product link. This function uses the event
+ * callback datalayer variable to handle navigation after the ecommerce data has been sent
+ * to Google Analytics.
+ * @@param {Object} productObj An object representing a product.
+ */
+
+
+    function trackGTMClick(name, id, price, brand, cat, variant, position, url, currency, event) {
+		if(event != undefined && event != null)
+		{
+			event.preventDefault();
+		}
+
+        let localLoading = $('#baseTemplatePlaceholder_content_ProductCategory_ProdListingGrid_updateProcessingIndicator');
+
+        if (localLoading != undefined && localLoading != null) {
+            $('#baseTemplatePlaceholder_content_ProductCategory_ProdListingGrid_updateProcessingIndicator').show();
+        }
+
+        dataLayer.push({
+            'event': 'productClick',
+            'ecommerce': {
+                'currencyCode': currency,
+                'click': {
+                    'actionField': { 'list': 'Search Results' },      // Optional list property.
+                    'products': [{
+                        'name': name,                      // Name or ID is required.
+                        'id': id,
+                        'price': price,
+                        'brand': brand,
+                        'category': cat,
+                        'variant': variant,
+                        'position': position
+                    }]
+                }
+            },
+            'eventCallback': function () {
+                document.location = url;
+            }
+        });
+    };
+</script>

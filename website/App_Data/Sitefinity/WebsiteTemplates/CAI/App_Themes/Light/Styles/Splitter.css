@@ -1,0 +1,22 @@
+.sfMasterAndDetails .sfAllToolsWrapper .sfSearch{display:none}
+.sfResponcesSplitter .RadSplitter{border-top-width:0!important;border-left-width:0!important;font-size:13px}
+.sfResponcesSplitter .rspPane,.sfResponcesSplitter .rspResizeBar{border-bottom-width:0!important;border-right-width:0!important}
+.sfResponcesSplitter .sfMasterPane .sfBreadCrumb,.sfResponcesSplitter .sfMasterPane .sfAllToolsWrapper{display:none}
+.sfResponcesSplitter .RadSplitter .sfMasterPane{background-color:#fff}
+.sfShowSearchPanel .sfResponcesSplitter .RadSplitter .sfMasterPane .sfWorkArea{margin-top:37px}
+.sfResponcesSplitter .RadSplitter .rspResizeBar,.sfResponcesSplitter .RadSplitter .rspSlideContainerResize{background-color:#f2f2f2;background-image:none}
+.sfResponcesSplitter .RadSplitter .rspCollapseBarExpand,.sfResponcesSplitter .RadSplitter .rspCollapseBarCollapse{height:23px;line-height:23px;width:20px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 8px -1600px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane{background-color:#f2f2f2}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfTxtLbl{color:#666;font-weight:normal}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponceDetailsWrp{margin:20px 16px 20px 0;padding:20px;border:1px solid #ccc;background-color:#fff;overflow:auto;visibility:hidden}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfLinkBtn{float:right;margin-top:7px;margin-left:8px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseCount{color:#000;font-size:21px;margin-right:85px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp{margin:9px 0 15px;padding:8px 8px 10px 40px;min-height:35px;font-size:12px;background-color:#f2f2f2;line-height:1.3}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0f6";vertical-align:middle;font-size:28px;color:#999;position:absolute;margin-left:-30px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp .sfResponseDate,.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp .sfResponseIP{display:inline-block;vertical-align:top}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp .sfResponseDate{margin-right:20px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponseDetailsWrp .sfResponseUserName{padding-top:10px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponceFieldsWrp{margin-left:43px}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponceFieldsWrp>div{margin-bottom:15px}
+.sfResponcesSplitter .sfResponceFieldsWrp .sfFormTitle{margin:20px 0 15px;padding:0;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000}
+.sfResponcesSplitter .RadSplitter .sfDetailsPane .sfResponceFieldsWrp .sfFormTitle:first-child{margin-top:0}

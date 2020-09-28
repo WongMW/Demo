@@ -1,0 +1,36 @@
+﻿@model SoftwareDesign.GTM.Model.CheckoutDto
+
+<script>
+    /**
+ * A function to handle a click on a checkout button. This function uses the eventCallback
+ * data layer variable to handle navigation after the ecommerce data has been sent to Google Analytics.
+ */
+
+        dataLayer.push({
+            'event': 'checkout',
+            'ecommerce': {
+                'currencyCode': '@Model.Currency',
+                'checkout': {
+                    'actionField': { 'step': @Model.StepNumber },
+                    'products': [
+
+                    @foreach (var detail in Model.Products)
+                    {
+                        <text>
+                            {
+                                'name': '@detail.Name',
+                                'id': '@detail.Id',
+                                'price': '@detail.GetPrice()',
+                                'brand': '@detail.Brand',
+                                'category': '@detail.Category',
+                                'variant': '@detail.Variant',
+                                'quantity': @detail.Quantity
+                                },
+                        </text>
+                    }
+                    ]
+                }
+            }
+        });
+
+</script>

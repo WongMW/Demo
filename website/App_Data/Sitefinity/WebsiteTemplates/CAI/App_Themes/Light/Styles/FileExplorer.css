@@ -1,0 +1,146 @@
+.RadFileExplorer{border:0!important;height:auto!important;_overflow-x:hidden}
+.sfPageBrowser .RadFileExplorer{width:auto!important;overflow-x:hidden!important}
+.RadFileExplorer .RadGrid .rgMasterTable,.RadFileExplorer .RadGrid .rgDetailTable,.RadFileExplorer .RadGrid .rgMasterTable tbody{width:100%}
+#defaultBackendPagesPanel{position:absolute;top:141px;left:0;border:25px;width:100%;z-index:1000;background-color:#fff;text-align:center}
+#defaultBackendPagesPanel h2{margin-top:20px;color:#000}
+#defaultBackendPagesPanel h2::before{display:block;font-family:FontAwesome;vertical-align:top;content:"\f071";font-size:134px;color:#828282}
+#defaultBackendPagesPanel .sfCheckBox{padding:12px 0 35px;font-size:11px;color:#666}
+#defaultBackendPagesPanel label,#defaultBackendPagesPanel input{vertical-align:middle}
+.RadFileExplorer .RadToolBar{float:left!important;width:100%;padding-top:5px}
+.RadFileExplorer .RadToolBar .rtbMiddle{min-height:37px;padding-left:22px;border-bottom:1px solid #f2f2f2}
+.RadFileExplorer .RadToolBar .rtbUL,.RadFileExplorer .RadToolBar .rtbItem{vertical-align:top}
+.RadFileExplorer .RadToolBar .rtbItem{margin:0 3px;min-height:36px}
+.RadFileExplorer .RadToolBar .sfSeparator{margin-left:9px;padding-left:10px;border-left:1px solid #f2f2f2}
+.RadFileExplorer .RadToolBar .rtbItem .rtbWrap{display:inline-block;min-height:28px;line-height:27px;padding-right:10px;padding-left:10px;max-width:470px;vertical-align:middle;text-decoration:none;font-size:13px;border:1px solid #ccc;border-radius:3px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333;background-color:#fff;transition:background-color .2s}
+.RadFileExplorer .RadToolBar .rtbItem .rtbWrap:hover{color:#000;background-color:#f2f2f2}
+.RadFileExplorer .RadToolBar .rtbDisabled .rtbWrap,.RadFileExplorer .RadToolBar .rtbDisabled .rtbWrap:hover,.RadFileExplorer .RadToolBar .rtbDisabled .rtbWrap:focus{cursor:default;color:#999!important;background-color:#f2f2f2}
+.RadFileExplorer .RadToolBar .rtbWrap .rtbOut,.RadFileExplorer .RadToolBar .rtbWrap .rtbMid,.RadFileExplorer .RadToolBar .rtbWrap .rtbIn,.RadFileExplorer .RadToolBar .rtbWrap .rtbText{display:inline;margin:0;padding:0;font-weight:normal;background-image:none;vertical-align:top;line-height:27px}
+.RadFileExplorer .RadToolBar .rtbDropDown .rtbWrap .rtbText{margin-right:0}
+.RadFileExplorer .RadToolBar .rtbDropDown .rtbChoiceArrow{vertical-align:top;height:12px}
+.RadFileExplorer .RadToolBar .icnCreateNew .rtbChoiceArrow{height:24px}
+.RadFileExplorer .RadToolBar .rtbIconOnly .rtbIn .rtbText{font-size:13px}
+.RadFileExplorer .RadToolBar .rtbItem .icnCreateNew,.RadFileExplorer .RadToolBar .rtbItem .icnCreateTemplate,.RadFileExplorer .RadToolBar .rtbItem .icnUpload{min-height:30px;line-height:29px;border:0;color:#fff;background-color:#4cb861}
+.RadFileExplorer .RadToolBar .rtbItem .icnCreateNew:hover,.RadFileExplorer .RadToolBar .rtbItem .icnCreateNew:focus,.RadFileExplorer .RadToolBar .rtbItem .icnCreateTemplate:hover,.RadFileExplorer .RadToolBar .rtbItem .icnCreateTemplate:focus,.RadFileExplorer .RadToolBar .rtbItem .icnUpload:hover,.RadFileExplorer .RadToolBar .rtbItem .icnUpload:focus{color:#fff;background-color:#429f55}
+.RadFileExplorer .RadToolBar .rtbItemHovered .icnCreateNew .rtbText,.RadFileExplorer .RadToolBar .rtbItemHovered .icnCreateTemplate .rtbText,.RadFileExplorer .RadToolBar .rtbItemHovered .icnUpload .rtbText{color:#fff}
+.rtbSlide{padding-left:17px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfMenuSelector.png") %>) no-repeat 0 100%}
+.rtbSlide .RadToolBarDropDown{border:0;padding-right:17px;padding-bottom:6px;overflow:visible!important;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfMenuSelector.png") %>) no-repeat 100% 100%;*width:576px!important}
+.rtbSlide .RadToolBarDropDown .rtbGroup{position:relative;top:-4px;margin:0 -13px -4px;background-color:#fff;border:1px solid #ccc;padding:25px;*width:550px!important}
+.rtbSlide .RadToolBarDropDown .rtbWrap,.rtbSlide .RadToolBarDropDown .rtbTemplate{line-height:normal}
+.rtbSlide .RadToolBarDropDown li.icnCreatePage,.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup,.rtbSlide .RadToolBarDropDown li.icnCreateBlog,.rtbSlide .RadToolBarDropDown li.icnPhotoGallery,.rtbSlide .RadToolBarDropDown li.icnTemplate{margin-bottom:10px;padding:0 0 0 45px;height:42px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfPageIcons.gif") %>) no-repeat 0 0}
+.rtbSlide .RadToolBarDropDown li.icnCreatePage{height:45px}
+.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup{height:30px;background-position:0 -100px;margin-bottom:12px}
+.rtbSlide .RadToolBarDropDown li.icnCreateBlog{background-position:0 -185px;border-top:1px solid #EEE;margin-top:20px;padding-top:20px;display:none}
+.rtbSlide .RadToolBarDropDown li.icnPhotoGallery{background-position:0 -300px;margin-bottom:12px;display:none}
+.rtbSlide .RadToolBarDropDown li.icnTemplate{background-position:0 -385px;border-top:1px solid #EEE;margin-top:14px;padding-top:18px}
+.rtbSlide .RadToolBarDropDown li.icnCreatePage a,.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup a,.rtbSlide .RadToolBarDropDown li.icnCreateBlog a,.rtbSlide .RadToolBarDropDown li.icnPhotoGallery a,.rtbSlide .RadToolBarDropDown li.icnTemplate a{cursor:pointer;color:#105CB6;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;position:relative}
+.rtbSlide .RadToolBarDropDown li.icnCreatePage a:hover,.rtbSlide .RadToolBarDropDown li.icnCreatePage a:active,.rtbSlide .RadToolBarDropDown li.icnCreatePage a:focus,.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup a:hover,.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup a:active,.rtbSlide .RadToolBarDropDown li.icnCreatePageGroup a:focus,.rtbSlide .RadToolBarDropDown li.icnCreateBlog a:hover,.rtbSlide .RadToolBarDropDown li.icnCreateBlog a:active,.rtbSlide .RadToolBarDropDown li.icnCreateBlog a:focus,.rtbSlide .RadToolBarDropDown li.icnPhotoGallery a:hover,.rtbSlide .RadToolBarDropDown li.icnPhotoGallery a:active,.rtbSlide .RadToolBarDropDown li.icnPhotoGallery a:focus,.rtbSlide .RadToolBarDropDown li.icnTemplate a:hover,.rtbSlide .RadToolBarDropDown li.icnTemplate a:active,.rtbSlide .RadToolBarDropDown li.icnTemplate a:focus{color:#00f}
+.rtbSlide .RadToolBarDropDown li.icnCreatePage a{font-size:21px}
+.rtbSlide .RadToolBarDropDown .icnDescription{display:block;font-size:11px;color:#666}
+.rtbSlide .RadToolBarDropDown .rtbText{display:inline;padding:0}
+.rtbSlide .RadToolBarDropDown .rtbItemHovered,.rtbSlide .RadToolBarDropDown .rtbItemHovered .rtbWrap{text-decoration:none}
+.rtbSlide .RadToolBarDropDown a.icnPublish,.rtbSlide .RadToolBarDropDown a.icnReorderPages,.rtbSlide .RadToolBarDropDown a.icnPageProperties,.rtbSlide .RadToolBarDropDown a.icnOwner,.rtbSlide .RadToolBarDropDown a.icnTemplate,.rtbSlide .RadToolBarDropDown a.icnParent,.rtbSlide .RadToolBarDropDown a.icnTemplateProperties,.rtbSlide .RadToolBarDropDown a.icnParentTemplate{padding:1px 1px}
+.rtbSlide .RadToolBarDropDown a.icnPublish:hover,.rtbSlide .RadToolBarDropDown a.icnPublish:active,.rtbSlide .RadToolBarDropDown a.icnPublish:focus,.rtbSlide .RadToolBarDropDown a.icnReorderPages:hover,.rtbSlide .RadToolBarDropDown a.icnReorderPages:active,.rtbSlide .RadToolBarDropDown a.icnReorderPages:focus,.rtbSlide .RadToolBarDropDown a.icnPageProperties:hover,.rtbSlide .RadToolBarDropDown a.icnPageProperties:active,.rtbSlide .RadToolBarDropDown a.icnPageProperties:focus,.rtbSlide .RadToolBarDropDown a.icnOwner:hover,.rtbSlide .RadToolBarDropDown a.icnOwner:active,.rtbSlide .RadToolBarDropDown a.icnOwner:focus,.rtbSlide .RadToolBarDropDown a.icnTemplate:hover,.rtbSlide .RadToolBarDropDown a.icnTemplate:active,.rtbSlide .RadToolBarDropDown a.icnTemplate:focus,.rtbSlide .RadToolBarDropDown a.icnParent:hover,.rtbSlide .RadToolBarDropDown a.icnParent:active,.rtbSlide .RadToolBarDropDown a.icnParent:focus{color:#00f}
+.rtbSlide .RadToolBarDropDown a.icnPublish em,.rtbSlide .RadToolBarDropDown a.icnReorderPages em,.rtbSlide .RadToolBarDropDown a.icnPageProperties em,.rtbSlide .RadToolBarDropDown a.icnOwner em,.rtbSlide .RadToolBarDropDown a.icnTemplate em,.rtbSlide .RadToolBarDropDown a.icnParent em,.rtbSlide .RadToolBarDropDown a.icnCreateBlog em,.rtbSlide .RadToolBarDropDown a.icnPhotoGallery em{color:#999;cursor:default;font-size:9px;font-style:normal}
+.rtbSlide .RadToolBarDropDown a.rtbWrap strong{display:block;font-size:13px;color:#000;margin:10px 0 5px;cursor:default}
+.rtbSlide .RadToolBarDropDown .rtbDisabled a.rtbWrap,.rtbSlide .RadToolBarDropDown .rtbDisabled a.rtbWrap:hover,.rtbSlide .RadToolBarDropDown .rtbDisabled a.rtbWrap:focus{color:#666!important}
+div.RadToolBar .rtbUL .rtbItem .icnEditPages,div.RadToolBar .rtbUL .rtbItem .icnEditPages .rtbOut,div.RadToolBar .rtbUL .rtbItem .icnEditPages .rtbMid,div.RadToolBar .rtbUL .rtbItem .icnEditPages .rtbIn,div.RadToolBar .rtbUL .rtbItem .icnEditTemplates,div.RadToolBar .rtbUL .rtbItem .icnEditTemplates .rtbOut,div.RadToolBar .rtbUL .rtbItem .icnEditTemplates .rtbMid,div.RadToolBar .rtbUL .rtbItem .icnEditTemplates .rtbIn{background-image:none}
+div.RadToolBar .rtbUL .rtbItem .icnEditPages,div.RadToolBar .rtbUL .rtbItem .icnEditTemplates{position:absolute;top:91px;left:100%;margin-left:-150px;font-size:12px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfButtonIcons.gif") %>) no-repeat 0 -244px;padding-left:7px}
+.sfAutoHeight{height:auto!important}
+.sfAutoWidth{width:auto!important}
+.RadFileExplorer .sfSplitterWrapper{height:auto!important;width:100%!important;clear:both}
+.RadFileExplorer .sfSplitterPane{height:auto!important;clear:both}
+.RadFileExplorer .RadSplitter{width:100%!important}
+.RadFileExplorer .rspFirstItem{width:1px}
+.RadFileExplorer .rspLastItem>div{width:100%!important}
+.sfPageBrowser .rspLastItem,.sfFileBrowser .rspFirstItem{background-color:#f5f7f8}
+.RadSplitter .rspResizeBar{border:0!important;background-color:transparent!important;background-image:none!important;width:1px!important}
+.RadSplitter .rspCollapseBarExpand,.RadSplitter .rspCollapseBarCollapse{display:none!important}
+.RadSplitter .rspCollapseBarSpacer{width:1px!important}
+.RadFileExplorer .RadTreeView{padding:10px 5px 27px 20px;font-family:open_sansregular,Arial,Verdana,sans-serif}
+.RadFileExplorer .RadTreeView .rtSp,.sfPageBrowser .RadFileExplorer .RadTreeView .rfeFileExtension{display:none}
+.sfPageBrowser .RadFileExplorer .RadTreeView .rtLI .rtIn,.sfPageBrowser .RadFileExplorer .RadTreeView .rtLI .rtHover .rtIn,.sfPageBrowser .RadFileExplorer .RadTreeView .rtLI .rtSelected .rtIn{padding-left:30px!important;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>);background-repeat:no-repeat;background-position:7px -1296px}
+.RadFileExplorer .RadTreeView .rtLI .rtHover .rtIn{text-decoration:none}
+.RadFileExplorer .RadTreeView .rtLI .rtHover .rtIn,.RadFileExplorer .RadTreeView .rtLI .rtSelected .rtIn{padding:1px 4px 0 3px!important;border:0;background-image:none;background-color:#e4e4e4;color:#333;border-radius:3px}
+.rspPane h2.sfSidebarTitle{color:#333;margin-left:40px;margin-right:20px;padding:20px 0 5px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 0}
+.rspPane .sfGoToPage{display:inline-block;min-height:17px;line-height:1.2;vertical-align:top;cursor:pointer;margin-left:40px;padding:3px 2px 1px 23px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 1px 1px}
+.rspPane a.sfGoToPage{color:#333;text-decoration:none}
+.rspPane a.sfGoToPage:hover,.rspPane a.sfGoToPage:focus{color:#000}
+.RadFileExplorer .RadGrid{overflow:visible;height:auto!important;padding:30px 27px 27px}
+div.RadFileExplorer .rspPane .sfSplitterPane .RadGrid th,div.RadFileExplorer .rspPane .sfSplitterPane .RadGrid td{padding-left:0;padding-right:0}
+div.RadFileExplorer .sfpeGridWrapper .rspPane .sfSplitterPane .RadGrid th,div.RadFileExplorer .sfpeGridWrapper .rspPane .sfSplitterPane .RadGrid td{padding-left:4px;padding-right:4px}
+.RadFileExplorer .RadGrid .rgDataDiv{height:auto!important}
+.RadFileExplorer .RadGrid .rgDataDiv td{border-bottom:1px solid #eee!important}
+.sfPageBrowser .RadGrid .rgDataDiv td{padding-top:8px}
+.sfPageBrowser .RadGrid .rgDataDiv .rfeFileExtension{display:block;padding-left:45px!important;font-size:15px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#105CB6;cursor:pointer;min-height:36px;height:auto!important;_height:36px!important;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfPageIcons.gif") %>);background-repeat:no-repeat;background-position:0 -500px}
+.sfPageBrowser .RadGrid .rgDataDiv .rfeFileExtension:hover,.sfPageBrowser .RadGrid .rgDataDiv .rfeFileExtension:focus{color:#00f}
+.sfPageBrowser .RadGrid .rgDataDiv .sfpePage .rfeFileExtension{background-position:0 -700px!important}
+.sfPageBrowser .RadGrid .rgDataDiv .sfpePageGroup .rfeFileExtension{background-position:0 -100px!important}
+.sfPageBrowser .RadGrid .rgDataDiv .sfpeHome .rfeFileExtension{background-position:0 -600px!important}
+.sfPageBrowser .RadGrid .rgDataDiv .rfeFileExtension div.sfpePageStatus{font-size:11px;color:#666;font-weight:normal;cursor:default}
+.sfFileExplorer .rgDataDiv .rfeFileExtension{padding-left:27px!important}
+.RadGrid .sfpeView{text-align:right}
+.RadGrid .sfpeTemplate a,.RadGrid .sfpeView a{padding-left:20px;padding-bottom:2px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfArrows.gif") %>) no-repeat 0 -100px;display:inline-block}
+.RadGrid .rgDataDiv .sfPageBrowserActions{padding-right:15px;color:#105cb6;cursor:pointer;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfArrows.gif") %>) no-repeat 100% -295px}
+.RadGrid .rgDataDiv .sfPageBrowserActions:hover,.RadGrid .rgDataDiv .sfPageBrowserActions:focus{color:#00f}
+div.sfpeGridMoreActions{line-height:18px}
+div.sfpeGridMoreActions ul.rmGroup{padding:12px 0}
+div.sfpeGridMoreActions .rmVertical .rmItem{margin:1px 14px;float:none}
+div.sfpeGridMoreActions .rmVertical .rmSeparator{margin-top:8px;margin-bottom:11px;width:auto!important;background-color:#ccc;height:1px}
+div.sfpeGridMoreActions .rmVertical .rmItem .rmLink{font-size:11px;margin:0;padding:0;cursor:pointer;display:inline;line-height:18px}
+div.sfpeGridMoreActions .rmVertical .sfMenuTitle .rmLink{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;cursor:default}
+div.sfpeGridMoreActions .rmVertical .sfMenuTitle a.rmLink,div.sfpeGridMoreActions .rmVertical .sfMenuTitle a.rmLink:hover,div.sfpeGridMoreActions .rmVertical .sfMenuTitle a.rmLink:focus{color:#000}
+div.sfpeGridMoreActions .rmGroup .rmItem .rmLink .rmText{margin:0;padding:0;display:inline}
+div.sfpeGridMoreActions .rmGroup .rmItem .rmLink .rmText em{font-style:normal;color:#999;cursor:default;font-size:9px}
+.RadGrid tbody td span.sfteTemplatePages{cursor:pointer;color:#105cb6}
+.RadGrid tbody td span.sfteTemplatePages:hover,.RadGrid tbody td span.sfteTemplatePages:active,.RadGrid tbody td span.sfteTemplatePages:focus{color:#00f}
+.RadFileExplorer .sfBreadCrumb{padding-left:30px;padding-top:7px;height:29px;background-color:#f1f1f1;border-bottom:1px solid #dfdfdf;font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#666}
+.RadFileExplorer .sfBreadCrumb .bcArrow{display:inline-block;margin:0 7px;vertical-align:middle;width:11px;height:5px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfArrows.gif") %>) no-repeat 0 -1000px;text-indent:-9999px;overflow:hidden}
+.RadFileExplorer .rfeAddressBox{position:absolute;top:-1000px;left:-1000px}
+div.RadFileExplorer .sfMessage{margin:0;position:relative;height:18px;margin:7px 0 -29px 28px;float:left;clear:both}
+.sfPageBrowser .RadWindow{border:0!important}
+.sfKendoFileExplorer .k-plus::before,.sfKendoFileExplorer .k-minus::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;font-size:14px;line-height:10px;color:#666}
+.sfKendoFileExplorer .k-plus::before{content:"\f0da"}
+.sfKendoFileExplorer .k-minus::before{content:"\f0d7"}
+.sfKendoFileExplorer .sf_emptyfolder .k-plus,.sfKendoFileExplorer .sf_emptyfolder .k-minus{display:none}
+.sfKendoFileExplorer .k-treeview .k-state-hover,.sfKendoFileExplorer .k-treeview .k-state-selected{background-color:#e4e4e4!important;border-color:#e4e4e4!important;border-radius:3px!important;color:#333!important}
+.sfKendoFileExplorer .k-in{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExplorerExtensions.png") %>) no-repeat -7px -680px!important;padding:2px 2px 2px 22px!important;border-width:0!important}
+.sfKendoFileExplorer .sf_folder .k-in{background-position:-5px -8px!important}
+.sfKendoFileExplorer .sf_file .k-in{background-position:-7px -680px!important}
+.sfKendoFileExplorer .sf_file.gif .k-in{background-position:-7px -39px!important}
+.sfKendoFileExplorer .sf_file.html .k-in,.sfKendoFileExplorer .sf_file.htm .k-in,.sfKendoFileExplorer .sf_file.xhtml .k-in,.sfKendoFileExplorer .sf_file.hta .k-in{background-position:-7px -71px!important}
+.sfKendoFileExplorer .sf_file.exe .k-in,.sfKendoFileExplorer .sf_file.bat .k-in{background-position:-7px -967px!important}
+.sfKendoFileExplorer .sf_file.rar .k-in,.sfKendoFileExplorer .sf_file.zip .k-in,.sfKendoFileExplorer .sf_file.ace .k-in{background-position:-7px -102px!important}
+.sfKendoFileExplorer .sf_file.psd .k-in,.sfKendoFileExplorer .sf_file.pdd .k-in{background-position:-7px -135px!important}
+.sfKendoFileExplorer .sf_file.js .k-in{background-position:-7px -167px!important}
+.sfKendoFileExplorer .sf_file.vbs .k-in{background-position:-7px -999px!important}
+.sfKendoFileExplorer .sf_file.css .k-in{background-position:-5px -200px!important}
+.sfKendoFileExplorer .sf_file.txt .k-in{background-position:-7px -232px!important}
+.sfKendoFileExplorer .sf_file.asp .k-in{background-position:-7px -264px!important}
+.sfKendoFileExplorer .sf_file.aspx .k-in{background-position:-7px -296px!important}
+.sfKendoFileExplorer .sf_file.sln .k-in{background-position:-7px -327px!important}
+.sfKendoFileExplorer .sf_file.suo .k-in{background-position:-7px -1344px!important}
+.sfKendoFileExplorer .sf_file.config .k-in{background-position:-7px -360px!important}
+.sfKendoFileExplorer .sf_file.cs .k-in{background-position:-7px -392px!important}
+.sfKendoFileExplorer .sf_file.vb .k-in{background-position:-7px -424px!important}
+.sfKendoFileExplorer .sf_file.doc .k-in,.sfKendoFileExplorer .sf_file.docx .k-in,.sfKendoFileExplorer .sf_file.rtf .k-in,.sfKendoFileExplorer .sf_file.dot .k-in{background-position:-7px -456px!important}
+.sfKendoFileExplorer .sf_file.ppt .k-in,.sfKendoFileExplorer .sf_file.pptx .k-in{background-position:-7px -488px!important}
+.sfKendoFileExplorer .sf_file.xls .k-in,.sfKendoFileExplorer .sf_file.xlsx .k-in{background-position:-7px -519px!important}
+.sfKendoFileExplorer .sf_file.ascx .k-in{background-position:-7px -550px!important}
+.sfKendoFileExplorer .sf_file.jpg .k-in,.sfKendoFileExplorer .sf_file.jpeg .k-in,.sfKendoFileExplorer .sf_file.jpe .k-in{background-position:-7px -584px!important}
+.sfKendoFileExplorer .sf_file.png .k-in{background-position:-7px -615px!important}
+.sfKendoFileExplorer .sf_file.mdb .k-in{background-position:-7px -648px!important}
+.sfKendoFileExplorer .sf_file.csproj .k-in{background-position:-7px -711px!important}
+.sfKendoFileExplorer .sf_file.webinfo .k-in{background-position:-7px -744px!important}
+.sfKendoFileExplorer .sf_file.vbproj .k-in{background-position:-7px -775px!important}
+.sfKendoFileExplorer .sf_file.pdf .k-in{background-position:-7px -808px!important}
+.sfKendoFileExplorer .sf_file.bmp .k-in{background-position:-7px -840px!important}
+.sfKendoFileExplorer .sf_file.swf .k-in{background-position:-7px -872px!important}
+.sfKendoFileExplorer .sf_file.tif .k-in,.sfKendoFileExplorer .sf_file.tiff .k-in{background-position:-7px -904px!important}
+.sfKendoFileExplorer .sf_file.mpg .k-in,.sfKendoFileExplorer .sf_file.mpeg .k-in,.sfKendoFileExplorer .sf_file.avi .k-in,.sfKendoFileExplorer .sf_file.gp3 .k-in,.sfKendoFileExplorer .sf_file.mov .k-in,.sfKendoFileExplorer .sf_file.mpeg4 .k-in,.sfKendoFileExplorer .sf_file.aif .k-in,.sfKendoFileExplorer .sf_file.aiff .k-in,.sfKendoFileExplorer .sf_file.rm .k-in,.sfKendoFileExplorer .sf_file.wmv .k-in{background-position:-7px -936px!important}
+.sfKendoFileExplorer .sf_file.mp3 .k-in,.sfKendoFileExplorer .sf_file.mp4 .k-in,.sfKendoFileExplorer .sf_file.mid .k-in,.sfKendoFileExplorer .sf_file.midi .k-in,.sfKendoFileExplorer .sf_file.wav .k-in,.sfKendoFileExplorer .sf_file.gp3 .k-in,.sfKendoFileExplorer .sf_file.gp4 .k-in,.sfKendoFileExplorer .sf_file.gp5 .k-in,.sfKendoFileExplorer .sf_file.wma .k-in,.sfKendoFileExplorer .sf_file.ogg .k-in{background-position:-7px -1031px!important}
+.sfKendoFileExplorer .sf_file.fla .k-in,.sfKendoFileExplorer .sf_file.flv .k-in{background-position:-7px -1063px!important}
+.sfKendoFileExplorer .sf_file.dll .k-in{background-position:-7px -1095px!important}
+.sfKendoFileExplorer .sf_file.xml .k-in{background-position:-7px -1127px!important}
+.sfKendoFileExplorer .sf_file.xslt .k-in{background-position:-7px -1159px!important}
+.sfKendoFileExplorer .sf_file.xsl .k-in{background-position:-7px -1191px!important}
+.sfKendoFileExplorer .sf_file.bac .k-in{background-position:-7px -681px!important}

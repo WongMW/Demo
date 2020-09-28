@@ -1,0 +1,53 @@
+.sfQueryBuilder .sfButtonArea{margin-top:15px}
+.sfQueryBuilder .sfQueryRow{padding-left:3px;background-color:#f1f1f1}
+ul.sfQueryBuilder,.sfQueryBuilder ul{margin:0;padding:0;list-style-position:outside}
+.sfQueryBuilder li{margin:0;padding:0;list-style-type:none}
+.sfQueryBuilder li:after{content:"";display:block;height:0;clear:both;visibility:hidden}
+.sfQueryBuilder li{display:inline-block}
+/*\*/* html .sfQueryBuilder li{height:1%}
+.sfQueryBuilder li{display:block}
+/**/.sfQueryBuilder strong.sfGroupName{display:block;margin:19px 0 0;padding-left:7px;position:relative;font-size:11px;background-color:#f1f1f1;font-weight:normal}
+.sfQueryBuilder strong.sfGroupName a{color:#666}
+.sfQueryBuilder strong.sfGroupName a:hover,.sfQueryBuilder strong.sfGroupName a:focus{color:#333}
+.sfQueryBuilder .sfTxt{padding:2px 3px;width:200px}
+.sfQueryBuilder select{padding:1px}
+.sfQueryBuilder .sfTxt,.sfQueryBuilder select,.sfQueryBuilder .sfAddCondition,.sfQueryBuilder .sfRemoveCondition{vertical-align:top}
+.sfQueryGroupActions{margin-right:20px;text-align:right;font-size:11px}
+.sfGroupingMode .sfQueryGroupActions{margin-bottom:10px;padding:10px 15px 9px 10px;background-color:#ffc}
+.sfQueryGroupActions #groupButton{float:left}
+.sfQueryBuilder .sfUngroupLink,.sfItemGrouping{display:none}
+.sfGroupingMode .sfUngroupLink,.sfGroupingMode .sfItemGrouping{display:inline}
+.sfQueryBuilder .sfItemGrouping{vertical-align:middle}
+.sfJoin{margin-left:3px}
+.sfGroupingMode .sfJoin{margin-left:19px;_margin-left:26px;*margin-left:26px}
+.sfAddCondition,.sfRemoveCondition{display:inline-block;min-height:20px;line-height:19px;width:20px;cursor:pointer;overflow:hidden;text-indent:-9999px;vertical-align:middle;background-repeat:no-repeat;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfButtons.gif") %>)}
+.sfAddCondition{background-position:0 -1600px}
+.sfRemoveCondition{background-position:-50px -1600px}
+.sfQueryNestedGroup1 ul{margin-left:-20px}
+.sfQueryNestedGroup1 li{padding-left:20px}
+.sfQueryNestedGroup2 ul{margin-left:-30px}
+.sfQueryNestedGroup2 li{padding-left:30px}
+.sfQueryNestedGroup3 ul{margin-left:-40px}
+.sfQueryNestedGroup3 li{padding-left:40px}
+.sfQueryNestedGroup4 ul{margin-left:-50px}
+.sfQueryNestedGroup4 li{padding-left:50px}
+.sfQueryNestedGroup5 ul{margin-left:-60px}
+.sfQueryNestedGroup5 li{padding-left:60px}
+.sfQueryBuilder li ul{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBMiddle.gif") %>) repeat-y 0 0}
+.sfQueryBuilder li li ul{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBMiddle.gif") %>) repeat-y 10px 0}
+.sfQueryBuilder li li li ul{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBMiddle.gif") %>) repeat-y 20px 0}
+.sfQueryBuilder li li li li ul{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBMiddle.gif") %>) repeat-y 30px 0}
+.sfQueryBuilder li li li li li ul{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBMiddle.gif") %>) repeat-y 40px 0}
+.sfQueryBuilder li .sfQueryFirstInGroup,.sfQueryBuilder li li:first-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBTop.gif") %>) no-repeat 0 0}
+.sfQueryBuilder li li .sfQueryFirstInGroup,.sfQueryBuilder li li li:first-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBTop.gif") %>) no-repeat 10px 0}
+.sfQueryBuilder li li li .sfQueryFirstInGroup,.sfQueryBuilder li li li li:first-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBTop.gif") %>) no-repeat 20px 0}
+.sfQueryBuilder li li li li .sfQueryFirstInGroup,.sfQueryBuilder li li li li li:first-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBTop.gif") %>) no-repeat 30px 0}
+.sfQueryBuilder li li li li li .sfQueryFirstInGroup,.sfQueryBuilder li li li li li li:first-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBTop.gif") %>) no-repeat 40px 0}
+.sfQueryBuilder li .sfQueryLastInGroup,.sfQueryBuilder li ul li:last-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBBottom.gif") %>) no-repeat 0 100%}
+.sfQueryBuilder li li .sfQueryLastInGroup,.sfQueryBuilder li li ul li:last-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBBottom.gif") %>) no-repeat 10px 100%}
+.sfQueryBuilder li li li .sfQueryLastInGroup,.sfQueryBuilder li li li ul li:last-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBBottom.gif") %>) no-repeat 20px 100%}
+.sfQueryBuilder li li li li .sfQueryLastInGroup,.sfQueryBuilder li li li li ul li:last-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBBottom.gif") %>) no-repeat 30px 100%}
+.sfQueryBuilder li li li li li .sfQueryLastInGroup,.sfQueryBuilder li li li li li ul li:last-child{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfQBBottom.gif") %>) no-repeat 40px 100%}
+div.sfQueryOperator .rcbInputCell .rcbInput{font-size:11px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+div.sfQueryOperator .rcbInputCellLeft,div.sfQueryOperator .rcbInputCellRight{background-image:none!important}
+div.sfQueryOperator .rcbArrowCellLeft,div.sfQueryOperator .rcbArrowCellRight{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfArrows.gif") %>) no-repeat 0 -790px!important}

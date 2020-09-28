@@ -1,0 +1,162 @@
+ul.sfTreeTableHeader{margin:0 0 5px 61px!important;padding:0;color:#777}
+ul.sfTreeTableHeader .sfHeaderColumn{list-style-type:none;margin:0;padding:0;float:right;font-size:9px;letter-spacing:1px;text-transform:uppercase}
+ul.sfTreeTableHeader a,ul.sfTreeTableHeader a:hover,ul.sfTreeTableHeader a:focus{color:#777}
+ul.sfTreeTableHeader .sfFirstHeaderColumn{float:none}
+.sfTreeTableHeader .sfNumeric{text-align:right}
+.sfPagesTreeview .sfTreeTableHeader .sfView a{padding-left:0}
+.sfPagesTreeview .sfTreeTableHeader .sfView a,.sfPagesTreeview .sfTreeTableHeader .sfView a:hover,.sfPagesTreeview .sfTreeTableHeader .sfView a:focus{background-image:none}
+div.sfTreeTable{font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:13px;border-bottom:1px solid #eee}
+.sfSelectorWrp div.sfTreeTable{border-bottom:0}
+div.sfTreeTable.RadTreeView .rtUL .rtLI .rtUL{padding-left:0}
+div.sfTreeTable.RadTreeView .rtLI .sfFirstTreeTableColumn{padding:0 260px 0 0}
+.sfPagesTreeview div.sfTreeTable.RadTreeView .rtLI .sfFirstTreeTableColumn{padding-right:295px}
+.sfMultilingualTreeview .sfPagesTreeview div.sfTreeTable.RadTreeView .rtLI .sfFirstTreeTableColumn{padding-right:520px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:28px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:56px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:84px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:112px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:140px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:168px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:196px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:224px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:252px}
+div.sfTreeTable.RadTreeView .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .sfFirstTreeTableColumn{padding-left:280px}
+div.sfTreeTable.RadTreeView .rtUL{position:static}
+div.sfTreeTable.RadTreeView .rtTop,div.sfTreeTable.RadTreeView .rtMid,div.sfTreeTable.RadTreeView .rtBot{padding-top:3px;padding-left:55px;min-height:23px;border-top:1px solid #eee;position:static}
+.sfSelectorWrp div.sfTreeTable.RadTreeView .rtTop,.sfSelectorWrp div.sfTreeTable.RadTreeView .rtMid,.sfSelectorWrp div.sfTreeTable.RadTreeView .rtBot{border-top:0}
+.sfTreeTable.RadTreeView .rtSp,.sfTreeTable.RadTreeView .rtImg,.sfTreeTable.RadTreeView .rtIn,.sfTreeTable.RadTreeView .rtChk{vertical-align:middle}
+div.sfTreeTable .rtTop,div.sfTreeTable .rtMid,div.sfTreeTable .rtBot{clear:both}
+div.sfTreeTable .rtTop:before,div.sfTreeTable .rtTop:after,div.sfTreeTable .rtMid:before,div.sfTreeTable .rtMid:after,div.sfTreeTable .rtBot:before,div.sfTreeTable .rtBot:after{content:"";display:table}
+div.sfTreeTable .rtTop:after,div.sfTreeTable .rtMid:after,div.sfTreeTable .rtBot:after{clear:both}
+div.sfTreeTable .rtTop,div.sfTreeTable .rtMid,div.sfTreeTable .rtBot{zoom:1}
+div.sfTreeTable .rtTop,div.sfTreeTable .rtMid,div.sfTreeTable .rtBot{display:block}
+.sfMultilingualTreeview.sfCategoriesTreeview div.sfTreeTable .rtTop,.sfMultilingualTreeview.sfCategoriesTreeview div.sfTreeTable .rtMid,.sfMultilingualTreeview.sfCategoriesTreeview div.sfTreeTable .rtBot{min-height:34px}
+div.sfTreeTable .rtHover{background-color:#f8f8f8}
+div.sfTreeTable .rtSelected{background-color:#e6f2f8}
+div.sfTreeTable span.rtIn{display:inline;border:0}
+div.sfTreeTable span.rtIn,div.sfTreeTable .rtHover span.rtIn{margin:0;padding:0!important;border:0}
+div.sfTreeTable li.rtLI .rtSelected span.rtIn{background-color:transparent;color:#000;border:0}
+div.sfTreeTable .rtLI .rtChk{position:absolute;left:58px;margin:10px 0 0 0;vertical-align:baseline}
+.sfCategoriesTreeview div.sfTreeTable .rtLI .rtChk{margin-top:6px}
+div.sfTreeTable .rtLI .rtSp{display:none}
+div.sfTreeTable .rtLI .rtPlus,div.sfTreeTable .rtLI .rtMinus{margin-top:4px;margin-right:2px;float:left;vertical-align:top}
+div.sfTreeTable .rtLI .rtPlus,div.sfTreeTable .rtLI .rtMinus{margin-left:-14px}
+div.sfTreeTable .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtMinus{margin-left:14px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtMinus{margin-left:42px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:70px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:98px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:126px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:154px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:182px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:210px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:238px}
+div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtPlus,div.sfTreeTable .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtLI .rtMinus{margin-left:266px}
+.sfPagesTreeview div.sfTreeTable .rtLI .rtPlus,.sfPagesTreeview div.sfTreeTable .rtLI .rtMinus{margin-top:11px}
+div.sfTreeTable .rtLoadingBefore,div.sfTreeTable .rtLoadingAfter,div.sfTreeTable .rtLoadingBelow,div.sfTreeTable .rtLoadingIcon{display:inline}
+div.sfTreeTable .sfTreeTableColumn{float:right;margin:3px 0 0;padding:0;vertical-align:middle}
+div.sfTreeTable .sfFirstTreeTableColumn{display:block;float:none;margin:0;padding:0}
+div.sfTreeTable .sfFirstTreeTableColumn a.rtIn,div.sfTreeTable .rtHover .sfFirstTreeTableColumn a.rtIn,div.sfTreeTable .rtSelected .sfFirstTreeTableColumn a.rtIn,div.sfPagesTreeview .sfTitleCol a.sfredirect{line-height:14px;margin-left:0;padding:3px 0 5px 29px;text-decoration:none;background-repeat:no-repeat;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfStatuses.gif") %>);background-position:0 -1997px}
+.sfTreeTable .sfItemTitle{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+div.sfTreeTable .sfFirstTreeTableColumn .sfItemTitle,div.sfPagesTreeview .sfTitleCol .sfredirect{display:block;padding-top:3px;min-height:26px;border:0}
+div.sfTreeTable .sfFirstTreeTableColumn .sfItemTitle strong{white-space:normal;color:#105cb6}
+div.sfTreeTable .sfCreateChildLnk{margin-left:60px;position:relative;top:-5px}
+.sfForumsTreeview .sfForumImg{position:absolute;width:50px;height:50px}
+.sfForumsTreeview .sfTreeTable .rtUL .rtUL .sfFirstTreeTableColumn .sfItemTitle,.sfForumsTreeview .sfTreeTable .rtUL .rtUL .rtHover .sfFirstTreeTableColumn .sfItemTitle{background-image:none;padding-left:0;margin-left:60px}
+.sfForumsTreeview.RadGrid tbody .rgRow td{padding-top:7px}
+.sfForumsTreeview .sfCheckBoxCol{margin-top:2px}
+.sfForumsTreeview .rgMasterTable .sfItemTitle,.sfForumsTreeview .rgMasterTable .sfCreateChildLnk{margin-left:60px;display:block}
+.sfForumsTreeview .rgMasterTable .sfCreateChildLnk{position:relative;top:-5px}
+.sfForumsTreeview .rgMasterTable .sfItemTitle{padding:3px 0 5px}
+.sfForumsTreeview .rgMasterTable .sfItemTitle .sfStatusLocation{margin-top:4px;margin-bottom:2px}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated,div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated:hover,div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated:focus{color:#444;opacity:.3;filter:alpha(opacity=30);-ms-filter:"alpha(opacity=30)";zoom:1}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations,div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations:hover,div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations:focus{opacity:1}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sftranslations strong{display:block}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations strong{font-family:open_sanssemibold,Arial,Verdana,sans-serif;font-weight:normal;opacity:.3}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sftranslations .sfStatusLocation{display:inline-block}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations .sfStatusLocation{display:none}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations.sfgroup .sfStatusLocation,div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle.sfNotTranslated.sftranslations.sfredirect .sfStatusLocation{display:inline-block}
+div.sfTreeTable .sfFirstTreeTableColumn a.sfItemTitle .sfStatusAdditional{opacity:1;font-weight:normal;color:#666}
+div.sfTreeTable .rtHover .sfFirstTreeTableColumn a.rtIn strong,div.sfTreeTable .rtSelected .sfFirstTreeTableColumn a.rtIn strong{color:#00f}
+div.sfTreeTable .rtHover .sfFirstTreeTableColumn a.rtIn.sfDisabled strong,div.sfTreeTable .rtSelected .sfFirstTreeTableColumn a.rtIn.sfDisabled strong{color:#666}
+div.sfTreeTable .sfFirstTreeTableColumn div{display:inline}
+div.sfTreeTable .sfDragAndDropTreeTableColumn{width:15px;height:23px;left:22px;position:absolute;vertical-align:baseline;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>);background-repeat:no-repeat;background-position:0 -2989px}
+.sfMain div.sfTreeTable .sfDragAndDropTreeTableColumn{left:43px}
+.sfMain .sfPagesTreeview div.sfTreeTable .sfDragAndDropTreeTableColumn{height:38px}
+div.sfTreeTable .sfNumeric{text-align:right;padding-right:3px}
+div.sfTreeTable .sfUrl{overflow:hidden;word-wrap:break-word}
+div.sfTreeTable .sfLine{display:block}
+ul.sfTreeTableHeader .sfLanguagesCol{width:190px}
+div.sfTreeTable .sfLanguagesCol{width:190px;white-space:normal}
+div.sfDragHelper{padding:8px 35px;background-color:#fefecb;background-color:rgba(254,254,203,0.7);_background-color:#fefecb;*background-color:#fefecb;border:1px dashed #c9c9c9}
+div.sfDragHelper .sfTreeTableColumn,div.sfDragHelper .sfFirstTreeTableColumn .sfStatusLocation,div.sfDragHelper .sfDragAndDropTreeTableColumn{display:none}
+div.sfDragHelper .sfFirstTreeTableColumn{display:inline}
+div.sfDragHelper .sfFirstTreeTableColumn .sfItemTitle{padding-left:0!important;background-image:none!important;*zoom:0}
+div.sfDragHelper .sfFirstTreeTableColumn strong{color:#000}
+body.sfDraggingStart div.sfTreeTable .rtHover .sfItemTitle strong{background-color:#03f;color:#fff}
+.sfDraggingStart .rtDropAbove,.sfDraggingStart .rtDropBelow{border:0;line-height:4px;height:4px;border-top:1px solid #ccc;border-left:1px solid #ccc;background-color:#eaebeb}
+.sfDraggingStart .rtDropAbove{margin-top:-2px}
+.sfDraggingStart .rtDropBelow{margin-top:3px}
+.sfForumsTreeview div.sfTreeTable.RadTreeView .rtTop,.sfForumsTreeview div.sfTreeTable.RadTreeView .rtMid,.sfForumsTreeview div.sfTreeTable.RadTreeView .rtBot{padding-top:7px;padding-bottom:2px}
+.sfPagesTreeview div.sfTreeTable .sfTreeTableColumn{margin-top:0}
+.sfPagesTreeview .sfItemTitle .sfStatusLocation .sfSep{color:#999}
+.sfForumsTreeview div.sfTreeTable .sfFirstTreeTableColumn a.rtIn.sfDisabled strong{color:#000}
+.sfPagesTreeview .sfItemTitle .sfStatusLocation strong,.sfPagesTreeview .sfItemTitle .sfStatusLocation em,.sfPagesTreeview .sfItemTitle.sftranslations .sfStatusLocation strong{display:inline-block;font-weight:normal;color:#000}
+.sfForumsTreeview .rtLI .rtLI .sfItemTitle .sfStatusLocation{margin-top:4px;margin-bottom:2px}
+.sfPagesTreeview div.sfTreeTable .sfView,.sfPagesTreeview div.sfTreeTable .sfMoreActions,.sfPagesTreeview div.sfTreeTable .sfDateAuthor,.sfPagesTreeview div.sfTreeTable .sfDateAndHour,.sfPagesTreeview div.sfTreeTable .sfAuthor,.sfPagesTreeview div.sfTreeTable .sfPersonalized,.sfPagesTreeview div.sfTreeTable .sfStatsColumn,.sfForumsTreeview div.sfTreeTable .sfMoreActions,.sfForumsTreeview div.sfTreeTable .sfDateAuthor{padding-top:4px;min-height:14px}
+.sfPagesTreeview .sfView{width:70px}
+.sfPagesTreeview .sfView a::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:bottom;content:"\f08e";line-height:1.1;font-size:14px;color:#999}
+.sfPagesTreeview .sfStatsColumn{text-align:center;width:40px}
+.sfPagesTreeview .sfMoreActions,.sfForumsTreeview .sfMoreActions,.sfCommonTreeviw .sfMoreActions{width:80px}
+.sfPagesTreeview .sfDateAuthor,.sfPagesTreeview .sfDateAndHour,.sfForumsTreeview .sfDateAuthor{width:140px;text-align:right;padding-right:3px;text-overflow:ellipsis;overflow:hidden}
+.sfPagesTreeview div.sfTreeTable .sfLanguagesCol,.sfForumsTreeview div.sfTreeTable .sfLanguagesCol{padding-top:3px}
+.sfListItemsListview .sfMoreActions,.sfListItemsListview .sfStatsColumn{width:120px}
+.sfListItemsListview .sfDate,.sfListItemsListview .sfDateAndHour{width:120px;text-align:left;padding-right:3px;text-overflow:ellipsis;overflow:hidden}
+.sfListItemsListview .sfAuthor,.sfPagesTreeview .sfAuthor{width:120px;text-align:left;padding-right:3px;text-overflow:ellipsis;overflow:hidden}
+div.sfPagesTreeview .sfPersonalized{padding-right:40px;min-width:90px}
+div.sfPagesTreeview .sfPersonalized .sfView{padding-top:0;display:inline-block;width:auto;vertical-align:top}
+.sfPersonalizedLabel{display:inline-block;padding:3px 10px;background-color:#ddecf4;border-radius:9px}
+.sfPersonalizedLabel .sfSeparatorCircle{margin-bottom:2px;margin-left:5px;margin-right:5px}
+.sfPageReportDEC{margin-left:15px}
+.sfCommonTreeviw .sfRegular{width:150px}
+.sfCommonTreeviw .sfMedium{width:200px}
+.sfCommonTreeviw .sfItemsInCategory{list-style-type:disc;padding-bottom:5px;padding-left:15px}
+.sfNoRowSelection .rtChk{display:none}
+.sfNoRowSelection div.sfTreeTable.RadTreeView .rtTop,.sfNoRowSelection div.sfTreeTable.RadTreeView .rtMid,.sfNoRowSelection div.sfTreeTable.RadTreeView .rtBot{padding-left:15px}
+.sfCategoriesTreeview div.sfTreeTable .sfFirstTreeTableColumn .sfItemTitle::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f07b";vertical-align:top;font-size:14px;color:#ccd6ec}
+.sfTaxonomiesLoadMore{color:#000!important;font-size:11px;padding:4px 0!important;display:inline-block!important;height:13px;line-height:20px;background:0;font-style:italic}
+.sfSelectorDialog .sfClearFilterWrp,.sfInpageWnd .sfClearFilterWrp{position:relative}
+.sfClearFilterWrp .sfClearFilter{position:absolute;top:46px;right:15px;font-size:11px;z-index:9999}
+.sfSelectorDialog .sfFlatDialogSelector .sfSelectorFilters.sfClearFilterWrp .sfClearFilter{display:none!important}
+.sfInpageWnd .sfClearFilterWrp .sfClearFilter{top:60px}
+.sfClearFilterWrp a.sfClearFilter{color:#666;text-decoration:underline}
+.sfClearFilterWrp a.sfClearFilter:hover,.sfClearFilterWrp a.sfClearFilter:focus{color:#666;text-decoration:none}
+.sfSelectorWrp{background-color:#fff;border:1px solid #ccc;height:240px;*height:235px;overflow:auto;padding:10px;position:relative}
+.sfSelectorWrp .sfCheckListBox li{margin-bottom:5px}
+.sfSelectorWrp .sfCheckListBox label{padding-left:5px}
+.sfSelectorWrp .RadGrid thead tr{display:none}
+.sfSelectorWrp div.sfTreeTable.RadTreeView .rtLI .sfFirstTreeTableColumn{padding-right:0}
+.sfSelectorWrp div.sfTreeTable.RadTreeView .rtTop,.sfSelectorWrp div.sfTreeTable.RadTreeView .rtMid,.sfSelectorWrp div.sfTreeTable.RadTreeView .rtBot{padding-top:3px;padding-left:25px}
+.sfSelectorWrp div.sfTreeTable .rtSelected{background-color:#dcecf5}
+.sfSelectorWrp div.sfTreeTable li.rtLI .rtSelected span.rtIn{color:#333}
+.sfSelectorWrp div.sfTreeTable li.rtLI span.rtIn.sfDisabled{color:#999}
+.sfMultipleSelectionWrp .sfSelectorWrp div.sfTreeTable.RadTreeView .rtTop,.sfMultipleSelectionWrp .sfSelectorWrp div.sfTreeTable.RadTreeView .rtMid,.sfMultipleSelectionWrp .sfSelectorWrp div.sfTreeTable.RadTreeView .rtBot{padding-left:40px}
+.sfMultipleSelectionWrp .sfSelectorWrp div.sfTreeTable.RadTreeView .rtLI .rtChk{left:16px;margin-top:1px}
+.sfMultipleSelectionWrp.sfSelectorWrpLarge .sfSelectorWrp{height:400px}
+div.sfTreeTable .sfFirstTreeTableColumn .sfSummaryAndReadMore{white-space:normal;padding:2px 290px 8px 30px;display:block}
+div.sfTreeTable .sfFirstTreeTableColumn .sfSummaryAndReadMore .sfReadMoreLink{white-space:nowrap}
+.sfDisplayNone{display:none}
+.sfLibFilterWrp div.sfTreeTable{margin-left:-13px;border-bottom:0;font-size:13px}
+.sfLibFilterWrp div.sfTreeTable.RadTreeView .rtTop,.sfLibFilterWrp div.sfTreeTable.RadTreeView .rtMid,.sfLibFilterWrp div.sfTreeTable.RadTreeView .rtBot{border-top:0}
+.sfLibFilterWrp .sfSelectorWrp div.sfTreeTable .sfTreeTableColumn span{padding:3px 5px;cursor:pointer}
+.sfLibFilterWrp .sfSelectorWrp div.sfTreeTable .rtSelected{background-color:transparent}
+.sfLibFilterWrp .sfSelectorWrp div.sfTreeTable .rtSelected .sfTreeTableColumn span{background-color:#e4e4e4;border-radius:3px}
+.sfKendoTreeList.k-grid tbody td{padding:10px 4px 8px;font-size:12px}
+.sfKendoTreeList.k-grid tbody td.sfAccess{padding:5px 4px}
+.sfKendoTreeList .k-icon{font-size:inherit;line-height:inherit;cursor:pointer}
+.sfKendoTreeList .k-icon::before{display:inline-block;font-family:FontAwesome;vertical-align:top;font-size:14px;line-height:14px;color:#666}
+.sfKendoTreeList .k-i-collapse::before{content:"\f0d7"}
+.sfKendoTreeList .k-i-expand::before{content:"\f0da"}
+.sfKendoTreeList.k-widget.k-grid tr:hover{color:#000}
+.sfSelectorDisabled{opacity:.5;pointer-events:none}
+.sfSelectorDisabled,.sfSelectorDisabled .sfSearchLbl,.sfSelectorDisabled .sfTreeTableNoRecords{color:#000}
+.sfSelectorDisabled .sfTxt,.sfSelectorDisabled .sfSelectorWrp{background-color:#f2f2f2}

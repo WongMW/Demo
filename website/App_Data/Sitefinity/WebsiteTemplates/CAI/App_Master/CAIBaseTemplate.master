@@ -1,0 +1,161 @@
+<%@ Master Language="C#" MasterPageFile="~/App_Data/Sitefinity/WebsiteTemplates/CAI/App_Master/CAI.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="baseTemplatePlaceholder" runat="server">
+    <script>
+        try {
+            $telerik.$
+        }
+        catch(e){
+            jQuery.noConflict(true);
+        }
+    </script>
+
+    <div class="wrapper">
+        <div class="main-header">
+            <div class="top-nav-wrapper">
+                <div class="content">
+                    <div runat="server" class="sf_cols">
+                        <div class="left-nav" style="display: none">
+                            <div runat="server" class="sf_colsOut sf_2cols_1_67 CustomClass">
+                                <div runat="server" class="sf_colsIn sf_2col_1in_67">
+                                    <asp:ContentPlaceHolder ID="leftNavigationContentHolder" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-nav">
+                            <div runat="server" class="sf_colsOut sf_2cols_2_33 CustomClass">
+                                <div runat="server" class="sf_colsIn sf_2col_2in_33">
+                                    <asp:ContentPlaceHolder ID="rightNavigationContentHolder" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav-wrapper">
+                <div class="content">
+                    <div runat="server" class="sf_cols">
+                        <div class="logo">
+                            <div runat="server" class="sf_colsOut sf_3cols_1_25 CustomClass">
+                                <div runat="server" class="sf_colsIn sf_3col_1in_25">
+                                    <a href="/">
+                                        <asp:Image runat="server" ImageUrl="~/Images/CAITheme/institute_logo.png" ID="caiLogo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-nav">
+                            <div runat="server" class="sf_colsOut sf_3cols_2_50 main-menu-nav">
+                                <div runat="server" class="sf_colsIn sf_3col_2in_50">
+
+                                    <asp:ContentPlaceHolder ID="mainNavigationContentHolder" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-utils">
+                            <div runat="server" class="sf_colsOut sf_3cols_3_25 CustomClass">
+                                <div runat="server" class="sf_colsIn sf_3col_3in_25">
+                                    <div runat="server" class="sf_cols">
+                                        <div class="utils">
+                                            <div runat="server" class="sf_colsOut sf_2cols_1_50 CustomClass">
+                                                <div runat="server" class="sf_colsIn sf_2col_1in_50">
+                                                    <asp:ContentPlaceHolder ID="Contentplaceholder1" runat="server">
+                                                    </asp:ContentPlaceHolder>
+                                                </div>
+                                            </div>
+                                            <div runat="server" class="sf_colsOut sf_2cols_2_50 CustomClass">
+                                                <div runat="server" class="sf_colsIn sf_2col_2in_50">
+                                                    <asp:ContentPlaceHolder ID="Contentplaceholder2" runat="server">
+                                                    </asp:ContentPlaceHolder>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+        <div class="clear"></div>
+    </div>
+    <!-- end of wrapper -->
+
+    <div class="clear"></div>
+
+    <div class="footer-wrapper">
+        <div class="newsletter-wrapper">
+
+            <asp:ContentPlaceHolder ID="newsletterContentHolder" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+        <div class="footer-wrapper-main">
+            <div class="content">
+                <div runat="server" class="sf_cols customClass">
+                    <div runat="server" class="sf_colsOut sf_3cols_1_33 CustomClass">
+                        <div runat="server" class="sf_colsIn sf_3col_1in_33">
+                            <asp:ContentPlaceHolder ID="footerLeftContentHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+
+                    <div runat="server" class="sf_colsOut sf_3cols_2_34 CustomClass">
+                        <div runat="server" class="sf_colsIn sf_3col_2in_34">
+                            <asp:ContentPlaceHolder ID="footerCenterContentHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+
+                    <div runat="server" class="sf_colsOut sf_3cols_3_33 CustomClass">
+                        <div runat="server" class="sf_colsIn sf_3col_3in_33">
+                            <asp:ContentPlaceHolder ID="footerRightContentHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrapper-bottom">
+            <div class="content">
+                <div runat="server" class="sf_cols customClass">
+                    <div runat="server" class="sf_colsOut sf_2cols_1_50 CustomClass">
+                        <div runat="server" class="sf_colsIn sf_2col_1in_50">
+                            <div class="client-logos">
+                                <asp:ContentPlaceHolder ID="footerBottomLeftContentHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div runat="server" class="sf_colsOut sf_2cols_2_50 CustomClass">
+                        <div runat="server" class="sf_colsIn sf_2col_2in_50">
+                            <div class="footer-logo">
+                                <asp:Image runat="server" ImageUrl="~/Images/CAITheme/institute_logo.png" ID="Image1" />
+                            </div>
+                            <asp:ContentPlaceHolder ID="footerBottomRightContentHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".left-nav").show();
+        });
+    </script>
+
+</asp:Content>

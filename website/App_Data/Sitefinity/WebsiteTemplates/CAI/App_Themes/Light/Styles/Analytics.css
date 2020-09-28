@@ -1,0 +1,56 @@
+.sfLoginToExternal{margin:0 auto;width:500px;position:relative}
+.sfLoginToExternal .sfNote{font-size:12px;line-height:1.4}
+.sfLoginToExternal .sfFormFAQ{margin-top:10px;position:absolute;left:520px;width:280px;line-height:1.4}
+.sfLoginToExternal .sfFormFAQ h2{color:#000;font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfLoginToExternal .sfFormFAQ ul{margin-top:5px}
+.sfLoginToExternal .sfFormFAQ h2+ul{margin-top:15px}
+.sfLoginToExternal .sfFormFAQ li{margin-bottom:15px}
+#mapWrapper{height:90%}
+#mapDiv{height:100%}
+.k-datepicker .k-picker-wrap,.k-dropdown .k-dropdown-wrap,.k-combobox .k-dropdown-wrap{height:25px}
+.k-datepicker .k-picker-wrap.k-state-hover .k-select,.k-dropdown .k-dropdown-wrap.k-state-hover .k-select,.k-combobox .k-dropdown-wrap.k-state-hover .k-select{background-color:#999}
+.k-dropdown.k-widget .k-state-hover .k-input,.k-combobox.k-widget .k-state-hover .k-input{color:#000}
+.k-dropdown.k-widget .k-state-hover.k-state-focused,.k-combobox.k-widget .k-state-hover.k-state-focused{background-color:transparent}
+.sfTwoColsFirst .k-treeview{margin-left:-20px;margin-bottom:20px;overflow:visible}
+.sfTwoColsFirst .k-treeview .k-in{color:#333;padding:4px 5px 3px;border:0;cursor:pointer}
+.sfTwoColsFirst .k-treeview .k-in.k-state-hover,.sfTwoColsFirst .k-treeview .k-in:hover,.sfTwoColsFirst .k-treeview .k-in:focus{border:0;padding:4px 5px 3px;color:#000;background-color:transparent;background-image:none}
+.sfTwoColsFirst .k-treeview .k-in.k-state-selected,.sfTwoColsFirst .k-treeview .k-in.k-state-focused,.sfTwoColsFirst .sfGlobalSettingsWrp .k-state-selected{background-color:#e4e4e4;color:#333;box-shadow:none;border-radius:3px}
+.sfTwoColsFirst .k-treeview .k-sprite{line-height:1.2}
+.sfTwoColsFirst .k-treeview .k-sprite::before{display:inline-block;margin-right:5px;font-family:FontAwesome;vertical-align:top;content:"\f0f6";font-size:14px}
+.sfTwoColsFirst .k-treeview .k-sprite.content-icon::before{content:"\f0c5"}
+.sfTwoColsFirst .k-treeview .k-sprite.visitors-icon::before{content:"\f0c0"}
+.sfTwoColsFirst .k-treeview .k-sprite.dashboard-icon::before{content:"\f0e4"}
+.sfTwoColsFirst .k-treeview .k-sprite.traffic-icon::before{content:"\f0ec"}
+.sfPeriodPickerWrp{position:relative;float:right;margin-top:-28px;z-index:100}
+.sfPeriodPickerWrp .sfPeriodPickerLnk{font-size:16px}
+.sfPeriodPickerWrp .sfPeriodPickerLnk a{color:#333}
+.sfPeriodPickerWrp .sfPeriodPickerLnk a::after{display:inline-block;margin-left:5px;font-family:FontAwesome;vertical-align:top;content:"\f0d7";font-size:14px}
+.sfPeriodPickerWrp .sfPeriodPickerLnk a:hover,.sfPeriodPickerWrp .sfPeriodPickerLnk a:focus{color:#000}
+.sfPeriodPickerPopup{display:none;float:none;overflow:hidden;position:absolute;top:35px;right:2px;width:440px;padding:15px 20px 20px;background-color:#fff;border:1px solid #c1c1c1;box-shadow:1px 1px 1px 1px #eee,-1px 1px 1px 1px #eee}
+.sfButtonsList li{display:inline}
+.sfGridSectionSubTitleWrp .sfButtonsList{vertical-align:middle}
+.sfGroupByWrp .group-by-button{display:inline-block;margin-left:-5px;padding:3px 10px;vertical-align:top;border:1px solid #d5d5d5;background-color:#fff;cursor:pointer;color:#333}
+.sfGroupByWrp .group-by-button:hover{background-color:#f5f5f5}
+.sfGroupByWrp .group-by-button.clicked{background-color:#eee;cursor:default}
+.sfGroupByWrp .group-by-button.icon-map{margin-left:10px}
+.sfGroupByWrp .group-by-button.icon-day:empty::before{content:"Day"}
+.sfGroupByWrp .group-by-button.icon-week:empty::before{content:"Week"}
+.sfGroupByWrp .group-by-button.icon-month:empty::before{content:"Month"}
+.sfGroupByWrp .group-by-button.icon-map::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f0ac";font-size:14px;line-height:19px}
+.sfGroupByWrp .group-by-button.icon-charts::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f080";font-size:14px}
+.sfGroupByWrp .group-by-button.disabled{display:none}
+.sfHalfInlineBlockCol .sparkLineMetric{margin-top:10px}
+.sfHalfInlineBlockCol .sparkLine{min-height:70px;border:1px solid #999;padding:5px 5px 0 5px;width:240px}
+.sfHalfInlineBlockCol .sparklineMetricName{width:30%;font-size:15px;margin-left:15px}
+.sfWrapper .sfTwoColsSecond h3.sfCaptionTitle{font-size:14px;padding:10px 15px}
+.sfWrapper .sfTwoColsSecond .sfViewAllTableItems{font-size:12px;margin-top:-40px}
+#gridWrapper .k-grid th,#gridWrapper .k-grid td{text-align:right}
+#gridWrapper .k-grid th:first-child,#gridWrapper .k-grid td:first-child{text-align:left}
+#gridWrapper .k-grid td:first-child a{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;line-height:1.2;max-width:440px}
+.sfWrapper .sfTwoColsSecond .k-grid .k-state-selected{background-color:#105CB6;color:#fff}
+.searchWrapper{width:100%}
+.searchWrapper>.k-autocomplete{width:80%}
+.sfWrapper .sfTwoColsSecond .sfMTop10{margin-top:10px}
+.sfWrapper .sfTwoColsSecond #mapControlpanel{width:100%;text-align:center}
+.sfNoAnalyticsData{margin-top:15px;width:50%;height:202px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDashboardNoData.gif") %>) no-repeat 100% -400px}
+.k-grid .sfItemProvider{float:right;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;line-height:1.2}

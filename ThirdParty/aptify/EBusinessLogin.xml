@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBusinessLogin
+</name>
+</assembly>
+<members>
+<member name="P:Aptify.Framework.Web.eBusiness.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Aptify.Framework.Web.eBusiness.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Aptify.Framework.Web.eBusiness.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.LoadUserObjectFromWebUserID(Aptify.Framework.Web.eBusiness.IUser,Aptify.Framework.DataServices.DataAction,System.String,System.Web.HttpApplicationState,System.Security.Principal.IPrincipal)">
+	<summary>
+ This method will load up a user object based on the provided WebUserID
+ </summary>
+	<param name="User"></param>
+	<param name="DataAction"></param>
+	<param name="WebUserID"></param>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.LoadUserInfo(Aptify.Framework.DataServices.DataAction,System.String,System.Web.HttpApplicationState,System.Web.SessionState.HttpSessionState,System.Security.Principal.IPrincipal)">
+	<summary>
+ This function is called by the base class or subclasses when needing to load data into the user object
+ </summary>
+	<param name="DataAction"></param>
+	<param name="UserID"></param>
+	<param name="Application"></param>
+	<param name="Session"></param>
+	<param name="UserInfo"></param>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.GetCompanyDataRow(System.Int64,Aptify.Framework.DataServices.DataAction,Aptify.Framework.Application.AptifyApplication)">
+	<summary>
+ Returns a data row for the specified company ID
+ </summary>
+	<param name="CompanyID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.DeterminePreferredCurrency(Aptify.Framework.Application.AptifyApplication,Aptify.Framework.DataServices.DataAction,System.Int64,System.Int64,System.Int64)">
+	<summary>
+ The User's Preferred Currency Type is based on either the Preferred Currency Type of the Company linked to the Person.
+ If the Company does not have a Preferred Currency or the Person does not have a linked Company, the Person's Preferred
+ Currency Type will be used.  If the Person does not have a Preferred Currency Type, the system's Functional Currency will
+ be used.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.DecryptStoredPassword(System.Web.HttpApplicationState,System.Security.Principal.IPrincipal,System.String)">
+	<summary>
+ This method is responsible for decrypting a stored password.
+ </summary>
+	<param name="Application"></param>
+	<param name="UserInfo"></param>
+	<param name="UserID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.IsUserDisabled(System.Web.HttpApplicationState,System.Security.Principal.IPrincipal,System.String)">
+	<summary>
+ This method is responsible for returning the 'disable' status of an e-buisiness user.
+ </summary>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.UpdateNumTries(System.Web.HttpApplicationState,System.Security.Principal.IPrincipal,System.String,System.Int32)">
+	<summary>
+ This method handles checking the number login attempts and eventual disabling of the e-Business user account after 
+ the number of tries specified has been reached.
+ </summary>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.InternalLogin(System.String,System.String,System.Int32,System.Web.SessionState.HttpSessionState,System.Web.HttpApplicationState,System.Security.Principal.IPrincipal)">
+	<summary>
+ This method handles the actual login process and is overridable by sub-classes to alter the base processing
+ logic for logging in an e-Business user.
+ </summary>
+	<param name="UserID"></param>
+	<param name="Password"></param>
+	<param name="MaxLoginTries"></param>
+	<param name="Session"></param>
+	<param name="Application"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.AutoLogin(System.Web.HttpRequest,System.Web.HttpResponse,System.Web.SessionState.HttpSessionState,System.Web.HttpApplicationState,System.Security.Principal.IPrincipal)">
+	<summary>
+ This method will pull the UserID and Password from an existing cookie,
+ Decrypt them and login the user.
+ </summary>
+	<param name="Request"></param>
+	<param name="Response"></param>
+	<param name="Session"></param>
+	<param name="Application"></param>
+	<param name="UserInfo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.AddAutoLoginCookie(System.Web.HttpResponse,System.String,System.String,Aptify.Framework.DataServices.UserCredentials)">
+	<summary>
+ Adds the auto-login cookies to the response for future logins.
+ UserID and Password will be stored in an encrypted format.
+ </summary>
+	<param name="Response"></param>
+	<param name="UserID"></param>
+	<param name="Password"></param>
+	<remarks></remarks>
+</member><member name="M:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin.AddAutoLoginCookie(System.Web.HttpResponse,System.String,System.String)">
+	<summary>
+ Adds the auto-login cookies to the response for future logins.
+ UserID and Password will be stored in an encrypted format.
+ </summary>
+	<param name="Response"></param>
+	<param name="UserID"></param>
+	<param name="Password"></param>
+	<remarks></remarks>
+</member><member name="T:Aptify.Framework.Web.eBusiness.AptifyWebUserLogin">
+	<summary>
+ Aptify e-Business Login Server Control for ASP.NET 2.x+
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Aptify.Framework.Web.eBusiness.ILogin">
+	<summary>
+ Interface class for read-only access to current user in Aptify e-Business
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

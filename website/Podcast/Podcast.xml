@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Accountancy Ireland</title>
+		<link>http://www.charteredaccountants.ie/Accountancy-Ireland/Home</link>
+		<image>
+			<url>http://www.charteredaccountants.ie/Images/AccountancyIreland-iTunesCover3000x3000.png</url>
+			<title>Accountancy Ireland</title>
+			<link>http://www.charteredaccountants.ie/Accountancy-Ireland/Home</link>
+		</image>
+		<description>
+			With every issue of the magazine, Accountancy Ireland hosts a round-table discussion with experts in their field on the theme of the issue. Popular topics include: diversity in the workplace, the future of the accountancy profession, regulation, public sector, Brexit, ethics and governance. Find out more: www.AccountancyIreland.ie
+		</description>
+		<language>en-gb</language>
+		<copyright>Copyright Chartered Accountants Ireland 2017. All Rights Reserved.</copyright>
+		<webMaster>webmaster@charteredaccountants.ie (Webmaster)</webMaster>
+		<managingEditor>Liz.Riley@charteredaccountants.ie (Liz Riley)</managingEditor>
+		<atom:link href="http://www.charteredaccountants.ie/Podcast/Podcast.xml" rel="self" type="application/rss+xml"/>
+		<lastBuildDate>Wed, 19 Jul 2017 09:00:00 GMT</lastBuildDate>
+		<pubDate>Wed, 19 Jul 2017 09:00:00 GMT</pubDate>
+		<itunes:author>Liz Riley</itunes:author>
+		<itunes:summary>
+			With every issue of the magazine, Accountancy Ireland hosts a round-table discussion with experts in their field on the theme of the issue. Popular topics include: diversity in the workplace, the future of the accountancy profession, regulation, public sector, Brexit, ethics and governance. Find out more: www.AccountancyIreland.ie
+		</itunes:summary>
+		<itunes:subtitle>Accountancy Ireland hosts a round-table discussion with experts in their field.</itunes:subtitle>
+		<itunes:owner>
+			<itunes:name>Daisy Downes</itunes:name>
+			<itunes:email>Ddd22007@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:keywords>
+			Accountancy Ireland, accounting, accountants, diversity in the workplace, the future of the accountancy profession, regulation, public sector, Brexit, ethics, governance
+		</itunes:keywords>
+		<itunes:image href="http://www.charteredaccountants.ie/Images/AccountancyIreland-iTunesCover3000x3000.png"/>
+		<itunes:category text="Business"></itunes:category>
+		<itunes:category text="Business">
+			<itunes:category text="Business News"></itunes:category>
+		</itunes:category>
+		<itunes:category text="Business">
+			<itunes:category text="Careers"></itunes:category>
+		</itunes:category>
+		<itunes:category text="News &amp; Politics"></itunes:category>
+
+		<item>
+			<title>June 2017 Accountancy Ireland Podcast</title>
+			<description>Muireann Reedy, Dargan FitzGerald and Aidan Lambe discuss regulation in Ireland on the June 2017 podcast.</description>
+			<itunes:summary>Muireann Reedy, Dargan FitzGerald and Aidan Lambe discuss regulation in Ireland on the June 2017 podcast.</itunes:summary>
+			<itunes:subtitle>Muireann Reedy, Dargan FitzGerald and Aidan Lambe discussion on regulation in Ireland.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountacy-ireland-podcast-june-2017.mp3" type="audio/mpeg" length="12250352" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountacy-ireland-podcast-june-2017.mp3</guid>
+			<itunes:duration>0:17:00</itunes:duration>
+			<pubDate>Wed, 14 Jun 2017 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>April 2017 Accountancy Ireland Podcast</title>
+			<description>Is diversity good for business, really? Aoife Flood, PwC, Claire Fitzpatrick, Red Planet, and Mark Fenton, MASF Consulting, discuss the benefits and challenges when encouraging diversity in the workplace.</description>
+			<itunes:summary>Is diversity good for business, really? Aoife Flood, PwC, Claire Fitzpatrick, Red Planet, and Mark Fenton, MASF Consulting, discuss the benefits and challenges when encouraging diversity in the workplace.</itunes:summary>
+			<itunes:subtitle>Aoife Flood, Claire Fitzpatrick and Mark Fenton on benefits and challenges of diversity in the workplace.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-april-2017.mp3" type="audio/mpeg" length="15755551" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-april-2017.mp3</guid>
+			<itunes:duration>0:21:30</itunes:duration>
+			<pubDate>Sat, 01 Apr 2017 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>February 2017 Accountancy Ireland Podcast</title>
+			<description>President Liam Lynch, ethic expert Penelope Kenny and recruitment specialist Ed Heffernan talk about the future of the accountancy profession in this round-table discussion.</description>
+			<itunes:summary>President Liam Lynch, ethic expert Penelope Kenny and recruitment specialist Ed Heffernan talk about the future of the accountancy profession in this round-table discussion.</itunes:summary>
+			<itunes:subtitle>Liam Lynch, Penelope Kenny and Ed Heffernan talks about the future of the accountancy profession.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_feb17.mp3" type="audio/mpeg" length="19772345" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_feb17.mp3</guid>
+			<itunes:duration>0:27:21</itunes:duration>
+			<pubDate>Wed, 01 Feb 2017 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>December 2016 Accountancy Ireland Podcast</title>
+			<description>In this month's podcast, Accountancy Ireland talks to Heather Briers about how you can get involved in CAVA; Kerri O'Connell about the burden the current tax regime puts on SMEs; and Ita Gibney about communication planning for your business.</description>
+			<itunes:summary>In this month's podcast, Accountancy Ireland talks to Heather Briers about how you can get involved in CAVA; Kerri O'Connell about the burden the current tax regime puts on SMEs; and Ita Gibney about communication planning for your business.</itunes:summary>
+			<itunes:subtitle>Kerri O'Connell on the burden of current tax regime, Ita Gibney talks about business communication planning. Heather Briers on getting involved in CAVA.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/december-2016-podcast.mp3" type="audio/mpeg" length="18453017" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/december-2016-podcast.mp3</guid>
+			<itunes:duration>0:25:31</itunes:duration>
+			<pubDate>Thu, 01 Dec 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Budget 2017 Accountancy Ireland Podcast</title>
+			<description>Paul Dillion, Tax Partner in Duignan Cathy O'Neill and Chartered Accountants Ireland Council member, Norah Collender, Tax Technical Manager and Crona Brady, Tax Manager in Chartered Accountants Ireland discuss the key points of Budget 2017.</description>
+			<itunes:summary>Paul Dillion, Tax Partner in Duignan Cathy O'Neill and Chartered Accountants Ireland Council member, Norah Collender, Tax Technical Manager and Crona Brady, Tax Manager in Chartered Accountants Ireland discuss the key points of Budget 2017.</itunes:summary>
+			<itunes:subtitle>Discussion on key points of Budget 2017</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-budget-2017-podcast.mp3" type="audio/mpeg" length="10427522" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-budget-2017-podcast.mp3</guid>
+			<itunes:duration>0:14:22</itunes:duration>
+			<pubDate>Wed, 12 Oct 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>October 2016 Accountancy Ireland Podcast</title>
+			<description>Accountancy Ireland talks to Des Peelo, author of the second edition of Valuation of Businesses and Shares, about the changing landscape of business valuations. We also discuss the US Presidential election and what that could mean to Ireland with Feargal O'Rourke.</description>
+			<itunes:summary>Accountancy Ireland talks to Des Peelo, author of the second edition of Valuation of Businesses and Shares, about the changing landscape of business valuations. We also discuss the US Presidential election and what that could mean to Ireland with Feargal O'Rourke.</itunes:summary>
+			<itunes:subtitle>Des Peelo on the changing landscape of business valuations and the US Presidential election impact on Ireland.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-oct-2016.mp3" type="audio/mpeg" length="14501532" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-oct-2016.mp3</guid>
+			<itunes:duration>0:20:01</itunes:duration>
+			<pubDate>Sat, 01 Oct 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>August 2016 Accountancy Ireland Podcast</title>
+			<description>In the August Accountancy Ireland Podcast, Mark Kennedy explains how Ireland can position itself well leading up to Britian's exit from the EU, Penelope Kenny discusses the importance of whistleblowing programmes and John Glennon takes us on the journey from SME to international firm.</description>
+			<itunes:summary>In the August Accountancy Ireland Podcast, Mark Kennedy explains how Ireland can position itself well leading up to Britian's exit from the EU, Penelope Kenny discusses the importance of whistleblowing programmes and John Glennon takes us on the journey from SME to international firm.</itunes:summary>
+			<itunes:subtitle>Penelope Kenny talks about the importance of whistleblowing programmes. Mark Kennedy talks about Brexit and Ireland. John Glennon on journey from SME to international firm.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast_august-2016.mp3" type="audio/mpeg" length="21131264" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast_august-2016.mp3</guid>
+			<itunes:duration>0:29:20</itunes:duration>
+			<pubDate>Mon, 01 Aug 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>June 2016 Accountancy Ireland Podcast</title>
+			<description>Interviews with Peter Vale about transparency in the EU, Niall Quinn preps us for a media interview, Ros O'Shea talks about the lack of ethical leaders in business and Alan Baldwin takes us through dilapidations.</description>
+			<itunes:summary>Interviews with Peter Vale about transparency in the EU, Niall Quinn preps us for a media interview, Ros O'Shea talks about the lack of ethical leaders in business and Alan Baldwin takes us through dilapidations.</itunes:summary>
+			<itunes:subtitle>Peter Vale interview about Transparency in the EU. Ros O'Shea talks about the lack of ethical leaders in business. Alan Baldwin on dilapidations.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_june_2016.mp3" type="audio/mpeg" length="23506129" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_june_2016.mp3</guid>
+			<itunes:duration>0:32:32</itunes:duration>
+			<pubDate>Wed, 01 Jun 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>April 2016 Accountancy Ireland Podcast</title>
+			<description>Liz Riley talks to Barry Doyle, CFO at XSellco, about his success as a young Chartered Accountant; Sarah Conroy, Partner at Beale &amp; Company, discusses the importance of having terms of engagement with your clients; and Gina London, communication expert, helps you enhance your executive presence.</description>
+			<itunes:summary>Liz Riley talks to Barry Doyle, CFO at XSellco, about his success as a young Chartered Accountant; Sarah Conroy, Partner at Beale &amp; Company, discusses the importance of having terms of engagement with your clients; and Gina London, communication expert, helps you enhance your executive presence.</itunes:summary>
+			<itunes:subtitle>Barry Doyle on success as a young Chartered Accountant. Sarah Conroy discusses the importance of having terms of engagement with clients. Gina London on enhancing your executive presence.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-april-2016.mp3" type="audio/mpeg" length="11150872" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-april-2016.mp3</guid>
+			<itunes:duration>0:23:03</itunes:duration>
+			<pubDate>Fri, 01 Apr 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>February 2016 Accountancy Ireland Podcast</title>
+			<description>Liz Riley talks to Garrett Cronin from PWC about improving the finance function; Caroline Pope explains the benefits of non-financial reporting; and David Fox discusses his emigration back to Ireland from Australia.</description>
+			<itunes:summary>Liz Riley talks to Garrett Cronin from PWC about improving the finance function; Caroline Pope explains the benefits of non-financial reporting; and David Fox discusses his emigration back to Ireland from Australia.</itunes:summary>
+			<itunes:subtitle>Garrett Cronin talks about improving the finance function. Caroline Pope on benefits of non-financial reporting. David Fox discusses emigrating back to Ireland from Australia.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-february-2016.mp3" type="audio/mpeg" length="12237022" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-february-2016.mp3</guid>
+			<itunes:duration>0:16:53</itunes:duration>
+			<pubDate>Mon, 01 Feb 2016 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>December 2015 Accountancy Ireland Podcast</title>
+			<description>Liz Riley talks to Penelope Kenny about the struggle to get a good ethical culture in organisations; discusses the riskiness of bonds with Brian Murphy; and explores the complexities of integration management with Dr Nicholas Ingle.</description>
+			<itunes:summary>Liz Riley talks to Penelope Kenny about the struggle to get a good ethical culture in organisations; discusses the riskiness of bonds with Brian Murphy; and explores the complexities of integration management with Dr Nicholas Ingle.</itunes:summary>
+			<itunes:subtitle>Penelope Kenny talks about struggles of ethical culture in organisations. Brian Murphy on bond risks. Dr Nicholas Ingle explores the complexities of integration management.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_december_2015.mp3" type="audio/mpeg" length="15110201" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_podcast_december_2015.mp3</guid>
+			<itunes:duration>0:20:52</itunes:duration>
+			<pubDate>Tue, 01 Dec 2015 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Budget 2016 Accountancy Ireland Podcast</title>
+			<description>Liam Lynch, Tax Partner and Head of Insurance at KPMG and Deputy President of Chartered Accountants Ireland; Kim Rowan, Tax Manager at Chartered Accountants Ireland; and Paul Dillon, Tax Partner at Duignan Carthy O'Neill, discuss Budget 2016.</description>
+			<itunes:summary>Liam Lynch, Tax Partner and Head of Insurance at KPMG and Deputy President of Chartered Accountants Ireland; Kim Rowan, Tax Manager at Chartered Accountants Ireland; and Paul Dillon, Tax Partner at Duignan Carthy O'Neill, discuss Budget 2016.</itunes:summary>
+			<itunes:subtitle>Discussion on Budget 2016</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_budget_2016.mp3" type="audio/mpeg" length="9084928" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy_ireland_budget_2016.mp3</guid>
+			<itunes:duration>0:18:45</itunes:duration>
+			<pubDate>Wed, 14 Oct 2015 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>October 2015 Accountancy Ireland Podcast</title>
+			<description>Interviews with Niall May, Audit, Advisory and Assurance Partner at Baker Tilly Ryan Glennon, about the new role of the internal auditor; Kim Rowan, tax manager at Chartered Accountants Ireland, on iXBRL; and Ed Heffernan talks about making a career change.</description>
+			<itunes:summary>Interviews with Niall May, Audit, Advisory and Assurance Partner at Baker Tilly Ryan Glennon, about the new role of the internal auditor; Kim Rowan, tax manager at Chartered Accountants Ireland, on iXBRL; and Ed Heffernan talks about making a career change.</itunes:summary>
+			<itunes:subtitle>Niall May and Ryan Glennon talks about role of the internal auditor. Kim Rowan on iXBRL. Ed Heffernan talks career change.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland_oct_15.mp3" type="audio/mpeg" length="11576441" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland_oct_15.mp3</guid>
+			<itunes:duration>0:23:57</itunes:duration>
+			<pubDate>Thu, 01 Oct 2015 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>August 2015 Accountancy Ireland Podcast</title>
+			<description>Ian Mitchell from Eighty20 Focus gives a few tips on creating a harmonious working relationship with your partner; James McNally from PwC discusses how tax practitioners can make the tax function more of a strategic asset and Dawn Leane,  HR Director for Chartered Accountants Ireland talks about the importance of Chartered Accountants Support.</description>
+			<itunes:summary>Ian Mitchell from Eighty20 Focus gives a few tips on creating a harmonious working relationship with your partner; James McNally from PwC discusses how tax practitioners can make the tax function more of a strategic asset and Dawn Leane,  HR Director for Chartered Accountants Ireland talks about the importance of Chartered Accountants Support.</itunes:summary>
+			<itunes:subtitle>Ian Mitchell gives tips on creating a harmonious working relationship with your partner. James McNally on tax practitioners. Dawn Leane explains the importance of Chartered Accountants Support.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-august-2015.mp3" type="audio/mpeg" length="8769536" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-august-2015.mp3</guid>
+			<itunes:duration>0:18:05</itunes:duration>
+			<pubDate>Sat, 01 Aug 2015 09:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>June 2015 Accountancy Ireland Podcast</title>
+			<description>Chartered Accountants Ireland Deputy President Liam Lynch talks about Strategy 2020; Stephen Tormey talks to delegates at the annual conference; and Daisy Downes, outgoing-managing editor of Accountancy Ireland, recalls her time at the Institute.</description>
+			<itunes:summary>Chartered Accountants Ireland Deputy President Liam Lynch talks about Strategy 2020; Stephen Tormey talks to delegates at the annual conference; and Daisy Downes, outgoing-managing editor of Accountancy Ireland, recalls her time at the Institute.</itunes:summary>
+			<itunes:subtitle>Liam Lynch talks about Strategy 2020. Delegates on the Annual Conference. Daisy Downes recalls her time at the Institute.</itunes:subtitle>
+			<enclosure url="http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-june-2015.mp3" type="audio/mpeg" length="10907648" />
+			<guid>http://www.charteredaccountants.ie/docs/default-source/Publishing/podcasts/accountancy-ireland-podcast-june-2015.mp3</guid>
+			<itunes:duration>0:22:33</itunes:duration>
+			<pubDate>Mon, 01 Jun 2015 09:00:00 EST</pubDate>
+		</item>
+	</channel>
+</rss>

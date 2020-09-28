@@ -1,0 +1,2849 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+  /*  background-color: #231F20;*PS*/
+background-color :White!important;
+    font-family: Segoe UI, Arial, Helvetica;
+    font-size: 12px;
+    color: #333;
+    overflow-x: hidden;
+}
+
+#page
+{
+    width: 100%;
+    padding: 0px;
+    background: white;
+    /*margin: 0px auto 0px auto;*/
+}
+#home #page
+{
+    
+}
+
+#page-inner
+{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: White;
+    /*overflow: auto;*/
+}
+
+#page-inner h1 {
+    font-family: arial, serif;
+    font-size: 20px;
+    color: #6C0A3D;
+}
+
+/* @group navigation */
+#navigation ul
+{
+    list-style: none;
+    display: inline;
+    float: right;
+    height: 25px;
+    position: relative;
+}
+#navigation ul li
+{
+    list-style: none;
+    display: block;
+    width: auto;
+    float: left;
+    border: none;
+    position: relative;
+}
+/* @end */
+
+/* @group header */
+
+#home #header
+{
+    background: #eeeeee;
+    width: 100%;
+}
+#home #header-inner
+{
+    background: transparent url(/ebusiness/Images/CAI/CAI-logo.jpg) left 15px no-repeat;
+    height: 98px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#home #header a.header-logo
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.search-wrap {
+    float: right;
+    margin-top: 30px;
+}
+
+.search-wrap input[type="submit"] {
+    margin: 0;
+    /*padding: 5px 10px;*/
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background: #eee;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+        color: #ffffff;
+    background-color: #0064cd;
+    background-repeat: repeat-x;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(top, #049cdb, #0064cd);
+    border-left-color: #0064cd;
+    border-right-color: #0064cd;
+    border-top-color: #0064cd;
+    border-bottom-color: #003f81;
+    cursor: pointer;
+}
+
+.search-wrap input[type="text"] {
+    border: thin solid;
+    padding: 5px;
+    display: inline-block;
+    width: 210px;
+    padding: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #808080;
+    border: 1px solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.navigation {
+    background: #eeeeee url(/ebusiness/Images/CAI/header-nav-bg.jpg) top left repeat-x;
+    width:100%;
+    height: 26px;
+    padding-bottom: 5px;
+}
+
+.navigation-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* @end */
+
+/* @group content */
+/* begin #content styles */
+/*Nalini Issue:12429*/
+#home #content
+{
+    background: -webkit-linear-gradient(top, #f0f0f0 100%,#ffffff 100%);
+    width: 980px;
+    padding: 10px;
+    vertical-align: top;
+    background-color:White;
+    margin-top: 10px;
+}
+
+#home #content input[type="submit"],
+#home #content input[type="button"] {
+    margin: 0 0 0 0;
+    /*padding: 5px 10px;*/
+    font-size: 12px;
+    font-weight: bold;
+   /* border: 1px solid #ccc;*/
+    /*background: #eee;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    /*background-color: #0064cd;*/
+    /* background-repeat: repeat-x;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(top, #049cdb, #0064cd);
+   border-left-color: #0064cd;
+    border-right-color: #0064cd;
+    border-top-color: #0064cd;
+    border-bottom-color: #003f81;*/
+    cursor: pointer;
+}
+
+#home #contentLeft
+{
+    float: left;
+    width: 300px;
+    vertical-align: top;
+}
+#home #contentMiddle
+{
+    float: left;
+    margin: 2px;
+    vertical-align: top;
+    width: 350px;
+}
+#home #contentRight
+{
+    float: right;
+    width: 300px;
+    vertical-align: top;
+}
+#home .contact-info
+{
+    background: transparent url(../../App_Themes/ICE/_img/home-contact-bg.png) top left repeat-x;
+    padding: 20px;
+    width: 210px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+#home .contact-info h3
+{
+    padding: 0px 0px 5px 0px;
+    color: #005CAB;
+}
+#home .contact-info p
+{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+#home #content .right
+{
+    margin: 0px 0px 0px 10px;
+}
+
+#content
+{
+    width: 680px;
+    float: left;
+    padding: 0px 0px 10px 0px;
+}
+/* end #content styles */
+/* @end */
+
+/* @group sidebar */
+#home #sidebar
+{
+    width: 350px;
+    float: left; /*background: transparent url(../../App_Themes/ICE/_img/sidebar-home-bg.png) no-repeat;*/
+    background: url("../../App_Themes/ICE/_img/page-home-bg.png") repeat-x scroll 0 0 transparent;
+    padding: 10px;
+    position: relative;
+}
+#sidebar
+{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+/* @end */
+
+
+
+/* @group footer */
+#footer
+{
+    width: 100%;
+    /* Dilip Issue 12717
+   position: relative;*/
+    padding: 7px 1px 18px 0px;
+    margin:0 auto;
+    background-color: #231F20;
+    border-top:2px solid #555;
+    padding-top: 5px;
+    float:right;
+     position:relative;
+   
+}
+
+.footer-inner {
+    /*width: 991px;*/
+ 
+    margin: 0 auto;
+   
+}
+
+#footer ul
+{
+    list-style: none;
+    display: inline;
+    float: left;
+    margin: 0 15px;
+}
+#footer ul li
+{
+    list-style: none;
+    display: inline;
+}
+#footer ul li a
+{
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 0px 8px 0px 0px;
+    margin: 0px 8px 0px 0px;
+    border-right: 1px solid #666666;
+    color: #ffffff;
+}
+#footer ul li.last a
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-right: none;
+}
+
+#footer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+#footer p
+{
+    float: right;
+    /*width: 370px;ps*/
+    text-align: right;
+    padding-right: 4px;
+    padding-bottom: 0;
+    color: white;
+}
+
+#footer hr
+{
+    color: #ffffff;
+    margin-top: 1em;
+    display:none;
+}
+/* @end */
+
+
+
+/* @group clearfix */
+/* begin clearfix styles */
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix
+{
+    display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix
+{
+    height: 1%;
+}
+.clearfix
+{
+    display: block;
+}
+/* End hide from IE-mac */
+/* end clearfix styles */
+
+.test-div
+{
+    height: 10px;
+    background: fuchsia;
+}
+
+#EventsAndMeetings
+{
+    float: left;
+    width: 100%;
+}
+
+#EventsAndMeetingSpacer
+{
+    float: left;
+    width: 2%;
+}
+
+#EventsAndMeetingsLeftContainer
+{
+    float: left;
+    width: 75%;
+}
+
+#EventsAndMeetingsRightContainer
+{
+    float: right;
+    width: 22%;
+}
+
+.MiddleImage
+{
+    vertical-align: middle;
+}
+
+.PeopleImage
+{
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+a.PeopleLink
+{
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: #333333;
+}
+a.PeopleLink:hover
+{
+    text-decoration: underline;
+}
+
+
+/* Sitefinity Search Pagination Style */
+
+div.sf_pagerNumeric
+{
+    width:99%;
+    float:left;
+    text-align:right;
+}
+
+div.sf_pagerNumeric a
+{
+    padding: 0px 4px; 0px; 4px;
+}
+
+div.sf_pagerNumeric a.sf_PagerCurrent
+{
+    font-weight:bold;
+    color:#000000;
+    text-decoration:none;
+}
+
+/* Sitefinity Search Pagination Style */
+
+div.sf_pagerNumeric
+{
+    width:99%;
+    float:left;
+    text-align:right;
+    min-height:22px;
+}
+
+div.sf_pagerNumeric a
+{
+    padding: 0px 8px 0px 8px;
+    border:1px solid #d9c6a6;
+}
+
+div.sf_pagerNumeric a.sf_PagerCurrent
+{
+    font-weight:bold;
+    color:#000000;
+    text-decoration:none;
+}
+
+.sfsearchBox
+{
+    /*float:right;*/
+}
+
+.sfsearchResultHighLighter
+{
+    border-bottom:1px solid #d9c6a6;
+}
+
+	
+#shadow-upper {
+	background: url("../../App_Themes/ICE/_img/shadow-top.png");
+	background-repeat:no-repeat;
+	vertical-align: top;
+	height: 17px;
+	width: 960px;
+	margin: auto;
+	padding: inherit;
+	
+}
+
+
+.GridViewHeader
+{
+
+/* Old browsers */
+  background: #B94D0A  ;
+background: -moz-linear-gradient(top, #d15e37 0%, #d15e37 35%, #B94D0A 51%, #B94D0A 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d15e37), color-stop(50%,#d15e37), color-stop(51%,#B94D0A), color-stop(100%,#B94D0A)) !Important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #d15e37 0%,#d15e37 50%,#B94D0A 51%,#B94D0A 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #d15e37 0%,#d15e37 50%,#B94D0A 51%,#B94D0A 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #d15e37 0%,#d15e37 50%,#B94D0A 51%,#B94D0A 100%); /* IE10+ */
+background: linear-gradient(to bottom, #d15e37 0%,#d15e37 50%,#B94D0A 51%,#B94D0A 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B94D0A', endColorstr='#B94D0A',GradientType=0 ); 
+
+/* background: url("../../App_Themes/ICE/_img/Gradient.png") repeat-x !Important;*/
+
+    font-weight: bold;
+    color: White;
+    font-family: Segoe UI,Arial,Helvetica;
+    font-size: 12px;
+ 
+}
+
+.GridViewHeaderStyle
+{
+   border-left: 1px solid #dc7b55 !Important;
+   border: 1px solid #7d3418 !Important;
+   
+}
+
+.TextboxStyle
+{
+    border: 1px solid #cfc7b6 !Important;
+   Height:20px ! Important;  
+   width:130px; 
+}
+
+.GridFooter
+{
+    background-color: #e1dac7  !Important;
+    font-weight: bold;
+    color: White;
+    font-family: Segoe UI,Arial,Helvetica;
+    font-size: 12px;
+    padding:10px  0px  10px 5px !Important;
+}
+
+
+.GridItemStyle
+{
+  Padding: 10px 10px 10px 10px !Important; 
+  height:32px !Important; 
+    }
+
+
+/* @end */
+/* Dipali*/
+
+
+/* Begin Story No:14902*/
+   .ControlHeight
+       {
+           height:19px !important;
+       }
+	   
+/* End Story No:14902*/
+
+
+.EditBadgeInforwIcon 
+{ 
+
+    background-image: none !important; 
+
+} 
+#ctl00_MainContentAreaPlaceHolder_EditBadgeInformation_UserListDialog_C
+{
+    background-color:#f4f3f1
+}
+  .CSSForTdBottom
+     {
+    padding-bottom:10px;
+   }
+   
+   .RadDateWidth
+   {
+       width:60px !important;
+   }
+     .RadFieldWidth
+   {
+       width:180px !important;
+   }
+   
+     .RadCountFieldWidth
+   {
+       width:240px !important;
+   }
+   
+   .RadGrid .rgFilterRow td {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.MeetingHeader{
+    color: #7A582D;
+    font-size: 12px;
+    font-weight: bold;
+   
+}
+
+   .ImgBarlineWidth
+   {
+       width:970px!important;
+   }
+.RadTabStripTop_Sunset .rtsSelected
+{
+      background-repeat: no-repeat; background: url(../../App_Themes/ICE/_img/EventTab1.png) !important  ;
+      
+     
+}
+.RadTabStrip .rtsLink, .RadTabStripVertical .rtsLink
+{
+    background-repeat: no-repeat; background: url(../../App_Themes/ICE/_img/EventTab2.png) ; 
+    padding-right:4px; 
+    padding-left:4px; 
+}
+
+.RadTabStripTop_Sunset .rtsUL
+{
+      background-repeat: no-repeat; background: url(../Images/BarLine.png) !important  ;
+      
+     
+}
+
+.RadTabStripTop_Sunset .rtsLevel .rtsLevel1
+{
+    height:10px;
+}
+
+.TabFontWidth
+{
+   color: #7a582d;
+  Width:130px;
+   text-decoration:underline;
+   font-size: small;
+font-weight: bold;
+}
+
+
+.RadTabStripTop_Sunset .rtsUL {
+    background: url("../Images/BarLine.png") repeat scroll 0 0 transparent !important;
+    padding: 20px 30px 10px 3px !important;
+    text-align:left !important;
+}
+
+.CssTab
+    {
+        width:139px;
+       padding-left: 10px !Important; 
+       text-align:center !important;
+    }
+    
+    
+  .RadTabStrip .rtsUL .rtsLast {
+    display: inline;
+    float: left;
+    padding-left: 2px !important;
+}
+
+.RegistrationInfo1
+    {
+        
+        font-size: 12px;
+        font-weight: bold;
+        font-family:Segoe UI;
+   }
+.CssStatusText
+    {
+       
+      width:40%;
+         text-align:Center !important;
+         font-weight:bold;
+         color:Black;
+    }
+/* End*/
+	
+	
+/* Navin Prasad  SyncProfile Control Start*/
+
+.SyncProfileMainDiv
+{
+    padding-top:5px;
+    background-color: #E2C8A7;
+    overflow: auto;
+}
+
+.SyncProfileSyncTableDiv
+{
+    margin: 0px 5px 5px 5px; 
+    font-family: Segoe UI, Regular; 
+    font-size: 11px;
+    font-weight: bold; 
+    float:left; 
+    padding-right: 20px;
+}
+.SyncProfileSyncTextDiv
+{
+    width: 100%;
+}
+
+/* Navin Prasad  SyncProfile Control End*/
+
+/* Navin Prasad  Profile Control Start*/
+
+.ProfileMainDiv
+{
+    width: 100%;
+}
+.ProfileTitleDiv
+{
+    width: 100%; 
+    float: left;
+}
+.ProfileTitleTable
+{
+    width: 100%;
+}
+
+.ProfileUpperDiv
+{
+    width: 90%;
+}
+.ProfileLinkedInDiv
+{
+    margin: 0px 5px 5px 5px; 
+    font-family: Segoe UI, Regular; 
+    font-size: 11px;
+    padding-top: 5px;
+    
+}
+/*Anil Changess for issue 12718*/
+.ProfileMiddleDiv
+{
+    width: 100%;
+}
+
+.ProfileRightDiv
+{
+    width: 77%; 
+    float: right;
+}
+.ProfileLeftDiv
+{
+    width: 18%; 
+    float: left;
+}
+/*End*/
+.ProfileLowerDiv
+{
+    
+}
+
+
+.BorderDiv
+{
+    padding-right: 0px; 
+    padding-left: 0px; 
+    border:1px solid #000000; 
+}
+
+
+
+
+
+/* Anil Bisen changess for issue 12718  */
+.tdWebAccountInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/web-icon.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+.tdContactInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/contact-icon.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+.tdTopicofInterestInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/topic-of-int.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+.tdPersonalInfo
+{
+    font-family: Segoe UI, Arial, Helvetica;
+    background: url(../../App_Themes/ICE/_img/personal-icon.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color: White;  
+    background-position: 1% center;
+    vertical-align: middle;
+  
+}
+
+.tdImage
+{
+   
+    background-position: 4% center;
+    padding-left: 15px;
+   
+  
+}
+
+.SyncProfileSyncMessageDiv
+{
+    margin: 0px 5px 5px 5px; 
+    font-family: Segoe UI, Regular; 
+    font-size: 13px;
+}
+.SyncProfileLinkedInDiv
+{
+    margin: 0px 5px 5px 5px;
+}
+/* Anil Bisen  */
+
+/* Navin Prasad  Profile Control End*/
+
+/* Navin Prasad Meeting Control Start */
+
+.MeetingMainDiv
+{
+    width:100%;
+   overflow:auto;
+}
+.MeetingLeftDiv
+{
+    width:72%;
+     float: left;
+     overflow:hidden;
+
+ 
+}
+.MeetingSepDiv
+{
+     width:3%;
+     float: left;
+}
+.MeetingRightDiv
+{
+    width:25%;
+    float: left;
+    overflow:hidden;
+
+}
+.MeetingTitleDiv
+{
+    font-weight:bold ;
+    font-size:18px;
+    color: #E97C00;
+}
+
+.MeetingWebDescriptionDiv
+{
+    text-align: justify;
+}
+.MeetingDetailDiv
+{
+    width:100%;
+}
+.SpeakerDetailsDiv
+{
+}
+ /*Dilip changes 12721*/
+.SpeakerDetailHeader, .SheduleDetailHeader, .DiscussionForumHeader
+{
+    background-repeat: no-repeat;
+    font-weight: bold; 
+    font-size: 12px; 
+    height: 28px;
+    padding:0px 0px 3px 45px;    
+    color:#6c573d;    
+}
+
+.SpeakerDetailHeader
+{
+    background-image:url(../../App_Themes/ICE/_img/speaker-icon.png) ;
+}
+
+.SheduleDetailHeader
+{
+    background-image:url(../../App_Themes/ICE/_img/schedule-icon.png) ;
+}
+
+.DiscussionForumHeader
+{
+    background-color:#000000;
+     /* width:250px;*/
+   /* background-image:url(../../App_Themes/ICE/_img/discussion-icon.png) 5px 3px;  */
+    background:url(../../App_Themes/ICE/_img/discussion-icon.png) no-repeat 5px 3px; 
+    
+}
+
+.PeopleAtMeetingHeader,.TravelDiscountHeader,.RelatedEventsHeader
+{
+    background-color: #f0f0f0;
+    color:#74573b;
+    
+}
+.tdPeopleAtMeetingHeader,.tdTravelDiscountHeader,.tdRelatedEventsHeader
+{
+     
+    font-weight: bold; 
+    font-size: 12px; 
+    height: 28px;
+   /*dilip issue 12721*/
+    
+   /* padding-left: 27px;  */
+    padding-left: 31px;  
+   
+   
+}
+ /*dilip issue 12721*/
+ 
+.tdPeopleAtMeetingHeader
+{
+   
+    background:url(../../App_Themes/ICE/_img/people-icon.png) no-repeat #f0f0f0 5px 3px;
+  
+}
+
+.tdTravelDiscountHeader
+{
+   
+    background:url(../../App_Themes/ICE/_img/travel-icon.png) no-repeat #f0f0f0 5px 3px;
+}
+
+.tdRelatedEventsHeader
+{
+      background:url(../../App_Themes/ICE/_img/event-icon.png) no-repeat #f0f0f0 5px 3px;
+}
+
+.meeting-label
+{
+    width:15%;
+    font-weight:bold;
+}
+
+/* Navin Prasad Meeting Control End */
+
+
+/* Navin Prasad MeetingDirection control Start   */
+.DirAddressDiv
+{
+    Width:98%; display:block; margin-bottom:2em;
+}
+.dirOrAddressDiv
+{
+    Width:40%; float:left; border:1px solid #c7baa6;
+}
+.Dirheader
+{
+    background-color:#b19463; color:White; font-size:12px; font-weight:bold; padding-left: 4px; padding-top:2px;
+}
+.DirArrow
+{
+    Width:15%; text-align:center; vertical-align:middle; float:left;
+      background-image:url(../../App_Themes/ICE/_img/arrow.png);
+}
+.divGoogleMap
+{
+    width:100%; float:left; border:1px solid #c7baa6; height:500px;
+}
+
+/* Navin Prasad MeetingDirection control End   */
+		  
+
+/* suvarna Deshmukh IssueID-12433,12430 and 12434 On Dec 13, 2011 */
+
+.BrowseProduct
+{
+    font-style:normal;
+    color:white;
+    font-weight:bold;    
+    padding-left:0px;
+    /*padding-top:3px;*/   
+    padding-bottom:3px; 
+    font-size:12px;
+}
+
+.BrowseProduct h6
+{
+    background: url(/ebusiness/Images/CAI/nav-bg.jpg) top left repeat-x;
+    min-height:22px;
+    color: #6C0A3D;
+    /*position: relative; */
+}
+
+.CategorySeparator
+{
+    background: url(../../App_Themes/ICE/_img/category-saperator.jpg) repeat-x ;
+    position: relative;
+}
+
+div.ProductCategory
+{
+    width:100%;
+    float:left;
+    border-color:#e2d3bb
+}
+
+.OuterDiv
+{
+    width: 100%;    
+    height:100%;
+}
+
+.ProductCategoryDiv
+{
+    width: 22%; 
+    height:100%; 
+    float:left;
+}
+
+.ProdCategory
+{
+   float:left; 
+   background-color: #eeeeee; 
+  /* border:1px solid #d1b88e; */
+   color:#a56813;
+  /* min-height:450px;  */
+   width:99%; 
+}
+
+.FindProduct
+{
+    background-color: #eeeeee; padding-left:4px; padding-right:4px; padding-bottom:4px; padding-top:4px;
+}
+    
+.div
+{
+float: left; 
+margin-left:25px;
+}
+
+.textfont
+{
+   font-size:18px;   
+   color:#6C0A3D; 
+}
+
+.textfontsub
+{
+   font-size:18px;   
+   color:#6C0A3D;
+}
+
+.ICELabel
+{
+Color:#6C0A3D;
+font-size:12px;
+font-weight:bold;    
+}
+
+.DivGrid 
+{   
+    
+   
+    vertical-align:top;
+    padding: 3px, 0px, 15px, 0px;
+    float:left;
+    width:99%;
+    
+    /*padding-top:0px;
+    border:1px solid #e7d2b6;
+    border-collapse:separate;
+    background-color:White;
+     */
+}
+
+.Imgproduct
+{
+    background-color:White;
+    padding:10px;
+    border:1px solid #000000;
+}
+
+.Image
+{
+    background-color:#e2e2e2;
+    padding:5Px;
+    Height:80px;
+    Width:75px;
+}
+
+/*Anil changess issue 12996*/
+.ICETBLabel
+{
+    text-align: left; 
+    padding-left: 10px; 
+    padding-bottom: 5px;    
+    padding-right: 5px;   
+    width:18%;
+}
+
+.ICETBLabelVal
+{
+    text-align: left; 
+    padding-left: 3px; 
+    padding-bottom: 5px; 
+     width:30%;
+}
+
+.btnCart
+{
+    height: 70%; 
+    padding: 10px; 
+    vertical-align:top;
+    text-align:center;   
+}
+
+.msgCart
+{
+     padding-left: 5px; 
+     padding-bottom: 5px; 
+     padding-top: 5px;
+     text-align:center;
+}
+
+.btnProdCart
+{
+      Width:110px;
+}
+
+.ProdDetails
+{
+    float: left; 
+    margin-right: 10px;
+    width:100%;
+}
+
+.ProdButtonLink 
+{ 
+    color:#7a582d; 
+    font-weight:bold; 
+    font-size:12px; 
+    border:none; 
+    background: none; 
+    cursor: pointer; 
+       /* width:124px; */
+  text-decoration:underline; 
+}
+
+.product-listing
+{
+    background-color:transparent;
+  padding:10px;
+    vertical-align:top;
+  /*  min-height:180px; */
+}
+
+.GriditemMargin
+{
+    background-color:transparent;
+    padding-right:10px;
+    padding-top:10px;
+    vertical-align:top;
+    
+}
+
+.lnkDecoration
+{ 
+  font-size:12px;
+  color:#a56813; 
+  font-weight:bold;
+}
+
+.lnkDecoration a:link 
+{ color: #a56813; }
+
+.lnkDecoration  a:hover 
+{ color: #553916;
+  background-color: #dbc195;
+ }
+
+.searchcor
+{
+    background: url(../../App_Themes/ICE/_img/search-corner.png) no-repeat left top; 
+    height:33px;
+    width:34px;
+    float: right; 
+}
+
+.searchbg
+{
+    background-color:#e2c8a7;
+    height:34px;
+    width: auto;
+    float: right;
+    width: 260px;
+}
+
+/*dilip*/
+
+.tdcalender
+{
+    background-color:#74573b;
+     font-weight:bold;
+      font-size:12pt;
+       color:White ;
+       Height:28px;
+       width:10px;
+      
+}
+
+
+
+
+
+/* Anil Change for whiteline*/
+.SearchContent
+{
+    background: transparent url(../../App_Themes/ICE/_img/page-home-bg.png) repeat-x;
+    height:35%;
+    overflow:auto;
+}
+/* Anil Change end*/
+/* End od addition by suvarna Deshmukh IssueID-12433,12430 and 12434 On Dec 13, 2011 */
+
+/* @end */
+
+/*Nalini Issue # 12578*/
+
+.tdbgcolorshipping
+{
+    background-color:#74573b;
+     padding-left:3px;
+}
+
+.tdbgcolorshippingTo
+{
+    
+    background-color:#f0f0f0;
+    float:left;
+    padding-left:1px;
+    
+}
+.tdchangebuttonshipping
+{
+    valign=middle;
+     align=left;
+     padding-left:5px;
+     padding-bottom:2px;
+}
+
+.tdchangeAddressBackground
+{
+    background-color: #f0f0f0;
+}
+
+.ProdNavBar
+{
+float: left;
+ vertical-align:top;
+  width:19%; 
+  background-color:#eeeeee;
+   /*min-height:450px;*/ 
+   /*border:1px solid #d1b88e;*/ 
+   overflow:auto;    
+}
+
+/* @end */
+   .paging-style td table td
+{
+    padding:0px 5px;
+    }
+       /* Aparna issue no.12966 */ 
+    .red
+{
+    color: #a92b00 !important;
+} 
+/* Anil Issue 13284*/
+.LoginError    
+    {
+         color: Crimson; 
+    }	
+.BetweenDiv {
+    padding-left:10px;
+    height: 1px; 
+    border-top: 1px solid #CEB68C; 
+    text-align: center; 
+    position: relative;  
+    width:100%;
+}
+.BetweenSpan {
+    position: relative; 
+    top: -0.8em; 
+    background-color: #eeeeee;
+    display: inline-block;  
+}
+.ICELoginHeader
+{
+    color: #000000; font-size: 16px;
+}
+    .StatusHeaderDivArea
+    {
+        /*background: url(/ebusiness/Images/CAI/top-header.gif) top center; width: 100%; height: auto;*/
+        background: none;
+    }
+
+    .StatusHeaderDivArea table {
+        margin: 0 auto;
+    }
+
+/* Aparna issue no.14322(Group Admin)*/
+
+
+    .namelink
+    {
+        Font-Size:12px;
+         color:#986a3e;
+         font-weight:bold;
+                 }
+    .imgstaus
+    {
+        Font-Size:11px;
+          Width:10px;
+           Height:10px;
+            border-style:none;
+       }
+       .imgmember
+       {
+           width:50px;
+           height:50px;
+           }
+      
+        .LeftAlign
+        {
+             text-align:left;
+             font-size:11px;
+         }
+          .tdVerticalAlignMiddle
+         {
+              vertical-align:middle !important;
+         }
+         .Emailstyle
+         {     Width:150px;
+              color:#875420;
+         }
+        
+        
+    .IdWidth
+    {
+        text-align:left;
+        width: 50px;
+    }
+ 
+    .memberListtd
+    {
+        width:300px;
+        text-align:left;
+        
+        }
+        .maindiv
+        {
+            padding-bottom:10px;
+            
+            }
+             
+/* END */
+   /*Aparna 14307 */
+.tdMemberInfo
+{
+    font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/Member_Info.png) #f0d4b7;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+/*Aparna 14307 */
+.tdEditInfo
+{
+    font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/Edit.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+/*Aparna 14307 END */
+
+
+.tdEditContactInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/contact-icon.png) #f0d4b7;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+
+.tdEditTopicofInterestInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/topic-of-int.png) #f0d4b7;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+.tdEditPersonalInfo
+{
+    font-family: Segoe UI, Arial, Helvetica;
+    background: url(../../App_Themes/ICE/_img/personal-icon.png) #f0d4b7;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color: White;  
+    background-position: 1% center;
+    vertical-align: middle;
+  
+}
+.RadGrid_Sunset .rgRow td, .RadGrid_Sunset .rgAltRow td, .RadGrid_Sunset .rgEditRow td, .RadGrid_Sunset .rgFooter td
+    {
+        border-style:none !important;
+    }
+    
+     .RadGrid .rgHeader, .RadGrid th.rgResizeCol
+        {
+            font-weight:bold !important;
+        }
+        
+        
+        
+        /*Anil Issue 14302*/
+             .RadGrid_Sunset .rgRow td, .RadGrid_Sunset .rgAltRow td, .RadGrid_Sunset .rgEditRow td, .RadGrid_Sunset .rgFooter td ,.RadGrid_Sunset .rgFilterRow td 
+                { 
+                    border-style:none !important; 
+                    } 
+
+            .RadGrid_Sunset .rgMasterTable .rgSelectedCell, .RadGrid_Sunset .rgSelectedRow
+            {
+                /*background:none !important;*/
+                background: none repeat scroll 0 0 #F1E9DC !important;
+                border-color: #F1E9DC #F1E9DC #F1E9DC #CABAAB !important;
+                border-style: solid !important;
+                padding-bottom: 3px !important;
+                padding-top: 4px !important;
+                padding-left: 8px !important;
+            }
+
+
+
+ .RadGrid_Sunset .rgRow td, .RadGrid_Sunset .rgAltRow td, .RadGrid_Sunset .rgEditRow td, .RadGrid_Sunset .rgFooter td
+    {
+        border-style:none !important;
+    }
+    
+     .RadGrid .rgHeader, .RadGrid th.rgResizeCol
+        {
+            font-weight:bold !important;
+        }
+             
+        #ctl00_MainContentAreaPlaceHolder_AdminEditProfile_radwindowcontact_C
+       {
+           background-color:#F4F3F1 !important;
+           height:275px !important;
+           width:565px !important;
+       }
+        
+         .infohead
+       {
+      color:white;
+       } 
+       
+       
+       /*Anil Issue 14381*/
+    .lblAtendeeNumber
+    {   
+    color:#3A1300;
+    }
+    .leftColumnMeetingRegistration
+    {
+        text-align: right; font-weight: bold; width: 80px; overflow: hidden;  padding: 3px;
+        
+     }
+      .leftColumnMeetingRegistrationPreferences
+    {
+        text-align: right; font-weight: bold; width: 105px; overflow: hidden;  padding: 3px;
+        
+     }
+     .LeftColumnMeetingRegistration1
+     {
+         text-align: right; font-weight: bold; width: 100px; overflow: hidden;  padding: 3px; padding-top:10px;
+     }
+     .rightColumnMeetingRegistration 
+     { 
+         text-align: left;  
+         padding: 3px;  
+     } 
+     
+    .tdAtendeesInfo
+    {
+    font-family: Segoe UI, Arial, Helvetica;
+    background: #F0D4B7 url(../../App_Themes/ICE/_img/Attendee.png);
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color: #855724;
+    background-position: 1% center;
+    vertical-align: middle;
+    padding: 3px;
+    }
+.lblMandatory
+{
+    color: #544C47;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.lblBadgeInformation
+{
+   font-size: 12px;
+    font-weight: bold;
+    color: #855724;
+    padding-left:50px;
+}
+
+.lblAdendeePreference {
+    color: #855724;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+
+.txtOther {
+    height: 40px !important;
+    resize: none;
+	 border: 1px solid #cfc7b6 !Important; 
+	width:250px;
+}
+.lblPriceTDWidth
+{   
+     width:100px;
+    }
+
+.txtMeetingRegistration
+{
+    border: 1px solid #cfc7b6 !Important;
+   Height:22px ! Important; 
+   width:180px;
+}
+.ddlStyleMeeting
+{
+    border: 1px solid #cfc7b6 !Important;
+   Height:22px ! Important; 
+   width:252px;
+}
+.dvMeetingRegistrationRigth
+{
+    float: right;
+    padding-left:8px;
+    padding-top:8px;  
+    width: 200px;
+    height: 500px;
+    background-color: #f0f0f0;
+    
+}
+
+.RadMenu
+{
+    z-index:1 !important;
+}
+#MainContentAreaPlaceHolder_MeetingRegistration_vldSummary ul
+{
+    padding:0px  !important;
+    color:Red;
+}
+.rigthPanelMeeting
+{
+    font-family:Segoe UI;
+    font-weight:bold;
+    font-size:15px;   
+ }
+ .gridItemStyleRegMeet
+ {
+  Padding-left: 10px !Important; 
+  height:32px !Important; 
+ }      
+  #MainContentAreaPlaceHolder_MeetingRegistration_vldSummary ul li
+  {   
+     padding: 0 0 0px !Important;
+  }
+    
+    /*Anil 14302*/
+    .gridAlign
+    { 
+        vertical-align:middle !important;      
+    }  
+   
+ .RadPicker, .RadPicker td
+  {
+    vertical-align: middle;
+    z-index:-1 !important;
+   }
+
+.memberListtdReg
+    {
+        width:250px;
+        text-align:left; 
+        vertical-align:middle;      
+         padding-left :5px;
+        }
+
+#ctl00_MainContentAreaPlaceHolder_MeetingsHome_grdMeetings_ctl00_ctl02_ctl02_FilterTextBox_TemplateColumn3 td
+{ text-align: right !Important;}
+
+.dvLeftStyle
+    {
+        float:left;
+        width:950px;
+        padding-left:10px;
+        }     
+        
+        .ExistMemberWidth
+ { 
+      width:375px !Important;
+      height:175px !Important;
+     }
+     
+     /* END */
+      /* Aparna chane for 14307 */
+      .rightAlign
+        {
+             text-align:right !important;
+            
+         }
+/*Nalini*/
+.LeftColumnAdminEditCompany {font-weight: bold; width: 178px; overflow: hidden;} 
+.tdCompanyEditHeader
+{
+    color:#7a582d;
+    padding-left:0px;
+}
+.tdCompanyEditHeaderFirst
+{
+    color:#7a582d;
+    padding-left:29px;
+}
+.tdValidationcolor
+{
+    color:Red;
+    padding-left:35px;
+}
+#tooltip
+{
+    cursor:pointer !important;
+}
+.tdEditContactInfoCompany 
+{ 
+font-family:Segoe UI, Arial, Helvetica; 
+background:url(../../App_Themes/ICE/_img/contact-icon.png) #f0d4b7; 
+background-repeat: no-repeat; 
+font-size: 12px; 
+font-weight: bold; 
+color:White; 
+background-position: 1% center; 
+vertical-align: middle; 
+}
+  .tdMemberInfoCompany
+{
+    font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/Member_Info.png) #f0d4b7;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+    width:300px;
+}
+
+.RadMenu
+{
+z-index:1 !important;
+}
+
+     
+#ctl00_MainContentAreaPlaceHolder_CompanyEdit_RadWindow1_C
+{
+    background-color:#f4f3f1;
+}
+
+/*Group Admin DashBoard*/
+
+.colorLinkAdmin
+{
+  color:#a56813;
+  font-size:10pt;
+  padding-left:10px;
+  font-weight:normal;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.ColorDivBGAdmin
+{
+    background-color:#eeeeee;
+    width:187px;
+    height:350px;
+    min-height:492px;
+    border:1px solid #e4cda6;
+    float:left;
+}
+#ctl00_MainContentAreaPlaceHolder_GroupAdminDashBoard_MembershipExpireStatus1_RadChart1 img
+{
+    width:173px !important;
+}
+
+#ctl00_MainContentAreaPlaceHolder_GroupAdminDashBoard_MembershipExpireStatus1_RadChart1
+{
+    height:148px !important;
+    width:275px !important;
+}
+
+#ctl00_MainContentAreaPlaceHolder_GroupAdminDashBoard_MembershipExpireStatus1_RadChart2
+{
+     height:148px !important;
+    width:275px !important;
+}
+
+#ctl00_MainContentAreaPlaceHolder_GroupAdminDashBoard_MembershipExpireStatus1_RadChart2 img
+{
+    width:173px !important;
+}
+
+#ctl00_MainContentAreaPlaceHolder_EventCalendar_RadEventCalendar_wrapper
+{
+    float:right;
+    padding-top:200px;
+}
+
+.RadMenu
+{
+z-index:1 !important;
+position:static !important
+}
+#ctl00_NavigationPlaceHolder_navbar_RadMenu1
+{
+z-index:1 !important;
+}
+.RadMenu RadMenu_Sunset
+{
+z-index:1 !important;
+position:static !important
+}
+.websiteRadwindow
+{
+    padding-left:4px;
+}
+
+/*Anil Issue 11155*/
+
+.DDLMyMeeting
+{
+    border: 1px solid #cfc7b6 !Important;
+   Height:22px ! Important; 
+   width:120px;
+     z-index:0 !important;  
+}
+
+/*.RadPicker_Sunset .rcCalPopup, .RadPicker_Sunset .rcTimePopup {
+ 
+    z-index:0 !important;  
+}
+
+.datePicker
+{   
+   Height:22px ! Important; 
+   width:120px;
+     z-index:0 !important;  
+}
+
+.RadScheduler h2
+{
+    color:White !important;
+    background:none !important;
+}
+
+.RadScheduler .rsHeader ul 
+{
+    margin-top: -20px !important;
+}
+
+.RadScheduler_Sunset .rsHeader ul 
+{
+    margin-top: -20px !important;
+}
+
+.rsFirst
+{
+    padding: 0 0 -1px !important;
+}
+.RadMenu .rmRoundedCorners .rmBottomShadowLeft, .rmRoundedCorners .rmGroup .rmBottomShadowLeft
+{
+    bottom:0px !important;
+}
+
+.RadScheduler_Sunset .rsContent, .RadScheduler_Sunset .rsTopWrap .rsFooter
+{
+    border-style:none !important;
+}
+
+.RadSocialShare_Sunset
+{
+    border:none !important;
+    background-color:transparent !important;
+}
+.RadSocialShare_Default
+{
+    border:none !important;
+    background-color:transparent !important;
+    padding-bottom:2px !important;
+}
+.sshContent
+{
+    padding:0px !important;
+}
+.rcbHovered a:hover
+{
+    text-decoration:none !important;
+}*/
+.RadScheduler h2
+{
+   /* color:White !important;*/
+    background:none !important;
+}
+
+
+
+    /* aparna */
+           .tdMemberAccountInfo
+{
+     font-family:Segoe UI, Arial, Helvetica; 
+    background:url(../../App_Themes/ICE/_img/Member_Info.png) #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color:White;
+    background-position: 1% center;
+    vertical-align: middle;
+}
+
+ .RightColumnMemberInfo { text-align: left;  padding-left: 5px!important; } 
+ table.data-form td.LeftMemberInfo {font-weight: bold; width: 148px; overflow: hidden;} 
+
+
+/* Group Admin Dashboard Chart Styles */
+.ChartTitle
+{
+    background-color: #E0E0E0; 
+    font-size: 12px; 
+    height: 30px; 
+    padding-left: 6px; 
+    font-weight:bold;
+}
+/*Neha changes for Groupadmin chart style issue 15231,05/16/13*/
+.LeftChartHyperLink
+{
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding-left: 6px;
+}
+.RightChartHyperLink
+{
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding-left: 6px;
+}
+.AdminProfileImage
+{
+    padding-top: 59px;
+}
+
+.ProfileImageBorder
+{
+    border: 1px solid #8c8c8d;
+}
+
+.AdminProfileImageBorder
+{
+    border: 1px solid #8c8c8d;
+}
+/* Aparna */
+.TextboxStylePayment {
+border: 1px solid #CFC7B6 !important;
+height: 20px !important;
+width: 70px;
+}
+
+    .tdbgcolorpayment
+{
+    background-color: #74573b;
+     padding-left:3px;
+    }
+
+
+.RadUpload .ruInputs li {
+    margin: 0 0 -2px !important;
+}  
+ .infoheadedit
+       {
+      color:#7a582d;
+       }
+       
+       
+       /* Anil Issue 11155*/	
+.rcbSlide 
+{
+    float: left;
+    z-index:0 !Important;
+}
+.DDLTelMyMeeting
+{
+   width:100px !Important;
+    border: 1px solid #cfc7b6 !Important;
+  Height:23px ! Important;   
+    
+    }
+/* 11155  END */ 
+
+/* Amruta Issue 13281 start*/
+th.rdCourseUnit.rgHeader
+{ 
+    text-align: right;    
+}
+
+th.rdCourseDuration.rgHeader
+{
+    text-align: right;    
+}
+/* Amruta Issue 13281 end*/    
+
+/* Amruta Issue 14903 start*/
+#ctl00_MainContentAreaPlaceHolder_CEUSubmission_fUploadCEUDocument ul 
+{   
+    padding-left:1px !Important;
+    padding-right:0px !Important;
+    padding-top: 0px !Important;      
+}
+.tdRightAlignCEU
+{
+    width:100px;
+    font-weight: bold; 
+    text-align: right;
+    overflow: hidden;  
+}
+/* Amruta Issue 14903 end*/
+
+
+.GAComments
+{
+    resize:none;
+    Width:245px;
+    Wrap:true;
+    Height:90px;
+}
+
+/*Changes made by sandeep for issue 11155*/
+
+#ctl00_MainContentAreaPlaceHolder_MyMeetings_cmbCategory table
+{
+    width:100px;
+    
+ }
+     #ctl00_MainContentAreaPlaceHolder_MyMeetings_cmbStatus table
+ { width:100px;
+         
+      }
+      
+      /*Changes made by sandeep for issue 13879*/  
+   #RadWindowWrapper_ctl00_MainContentAreaPlaceHolder_Meeting_radErrorMessage
+   {
+        /*height:200px !Important;*/
+        width:440px !Important;
+   }
+   .btnOkMeetingPage
+   {  text-align:center;
+       
+       }
+   #ctl00_MainContentAreaPlaceHolder_Meeting_radErrorMessage_C
+   {
+       /*height:75px !Important;*/
+       padding-left:10px;
+       
+       
+       
+       
+   }
+   /*End Changes made by sandeep for issue 13879*/   
+   
+   /*Neha for issue 12591*/
+     
+   #RadWindowWrapper_ctl00_MainContentAreaPlaceHolder_Profile1_radwinPassword
+    {
+       height:260px !IMPORTANT;
+           
+    }
+    
+ /* Amruta 14320 start */
+.tdCompanyAddressAlign
+{
+    vertical-align:top;
+}
+
+.tdButtonPadding
+{
+    padding-bottom:15px;
+    padding-right:31px;   
+}
+
+.divAddInfoPopup
+{
+    background-color:#f4f3f1 !important;
+    padding-right:35px !important; 
+    
+}
+/* Amruta 14320 end */
+
+/* Anil  15159  */  
+.txtRestrictResize
+{   
+   resize: none;    
+}
+.gridForumAlign
+{
+   margin-left:2px;
+}
+.tdForumPost
+{
+   padding-bottom: 5px;
+   padding-left: 2px;
+}
+/* Anil  15159 End */ 
+
+/* Amruta Issue 15019 start*/
+.tdProjectFundraising
+{   
+    padding-bottom: 3px;
+    padding-right: 100px;
+    width:487px; 
+}
+ 
+.tdAmountFundraising
+{ 
+     padding-right : 54px;
+     width:487px; 
+}
+
+.txtboxAmountFundraising
+{
+     width:176px;
+}
+  
+/* Amruta Issue 15019 end*/	  
+/* Sandeep Issue 15439*/
+.ddlProjectfundrasing
+{
+     width:178px;
+}
+/* Sandeep Issue 15439 end*/
+
+
+/* Anil 14381 Meeting Registration  */  
+.dvSectionOnMeetingRegistration
+{
+    padding-top: 10px;
+ }
+ .dvSectionBadge
+ {
+     padding-right:15px;
+     padding-top:5px;
+     padding-bottom:10px;   
+     
+ }
+ .meetFieldSet
+ {
+      border: 1px solid #000000;
+      height: 175px     
+ }
+ .meetLegend
+ {
+     margin-left:10px;
+     color:#855724;
+ }
+ .dvBottomFieldset
+ {
+     height:4px;
+  }
+  .dvMeetBorder
+  {
+      
+ }
+ .dvAddAtendeeButton
+ {
+     vertical-align:bottom;
+     padding-left:15px;
+     padding-top:60px;
+ }
+ .tdlstSessionAttendeeName
+ {
+     padding-left:5px; 
+    font-weight:bold;
+    height:35px;
+     
+ }
+ .tdSelectSessionButtunSection
+{
+    text-align: right;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 35px;
+    background-color: #F5F5F5;
+}
+.lblAtendeeNemeFieldonRegistration
+{
+    width:150px;
+    padding-left:5px;
+    
+}
+.leftColumnMeetingRegistrationPopupEdit
+{
+    
+      text-align: right; font-weight: bold; width: 100px; overflow: hidden;  padding: 3px;
+}
+.ddlTravelPreference
+{
+    width: 182px !important;
+    
+ }
+ .lblAddedAtendee
+ {
+     color: #855724;
+     font-weight:bold;
+     font-size:12px; 
+ }
+ 
+ #RadWindowWrapper_ctl00_MainContentAreaPlaceHolder_MeetingRegistration_radMeetingSessionConflictMessage
+   {
+        /*height:200px !Important;*/
+        width:440px !Important;
+   }
+   .btnOkMeetingPage
+   {  text-align:center;
+       
+       }
+   #RadWindowWrapper_ctl00_MainContentAreaPlaceHolder_MeetingRegistration_radMeetingSessionConflictMessage_C
+   {
+       /*height:75px !Important;*/
+       padding-left:10px; 
+       
+   }
+   
+   .dvProcessing
+    {  
+       top: 0px; 
+       height: 100%; 
+       background-color: #CCCCCC;
+       filter: vertical-align: middle; 
+       left: 0px; 
+       z-index: 999999; 
+       width: 100%;
+       position: absolute; 
+       text-align: center; 
+       vertical-align: middle;
+       alpha(opacity=70); /* For IE8 and earlier */
+       opacity: 0.70; 
+      }
+
+      .dvPopUpEditListSession
+      {
+           height:300px;
+          
+      }
+      .PopUpEditAttendeeWindow
+      {
+           height:310px;
+      }
+      .tdProcessing
+    {
+     /*background: url(../../App_Themes/ICE/_img/Busy_icn.png);*/
+     font-size:large;
+     background-position:center;
+     background-repeat:no-repeat;
+     alpha(opacity=100) !important; /* For IE8 and earlier */
+     opacity: 1 !important;
+     font-weight:bold; 
+     z-index:10000;
+     text-align:center;
+     vertical-align:middle;       
+    }   
+      
+      .tdAttendeeEditButton
+      {
+          padding-right: 50px; 
+          padding-top: 5px; 
+          padding-bottom: 5px;
+      }
+      
+      .dvUpdateProgress
+      {
+          background-color: Transparent;
+          height: 100%;
+      }
+      .tblFullHeightWidth
+      {
+          width:100%;       
+          height:100%;            
+      }
+      .tblFullWidth
+      {
+          width:100%;       
+      }
+      .tdAddAtendeeWidth
+      {
+          width:4%;          
+      }
+      .tdRequiredFieldInfo
+      {
+          text-align:right;
+          padding-right: 10px;  
+      }
+      .lblTopMessage
+      {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Segoe UI;
+       }
+       .dvAddedAtendee
+       {
+          height: 30px; 
+          padding-top: 5px; 
+       }
+       .dvCheckoutButton
+       {
+           padding-top:10px;           
+       }
+       .tdCheckoutButton
+       {
+           width:500px;
+           text-align:right;           
+       }
+       .tblEditAtendee
+       {
+           width:100%;       
+          height:100%; 
+          background-color: #f4f3f1;
+          padding-left: 5px;
+          padding-right: 5px; padding-top: 5px;          
+           
+       }
+       .btnSaveCancel
+       {
+           width:70px;            
+       }
+       .tdAttendeeInfoEditSession
+       {
+           vertical-align:top;
+           height:35px;           
+       }
+       .tdGrdMeetingSession
+       {
+           padding-left: 5px; 
+           padding-right: 5px; 
+           vertical-align: top;
+       }
+       .dvGrdMeetingSession
+       {
+           height: 99%; 
+           overflow: auto;
+       }
+       .dvSessionListErrorMessage
+       {
+          height: 100px; 
+          overflow: auto;
+        } 
+       .meetingTitleDiv
+        {
+        color: #E97C00;
+        font-size: 18px;
+        font-weight: bold;
+        }    
+ 
+/* Anil 14381 Meeting Registration End */  
+
+/* Amruta IssueID 13077 start*/
+.divSubmitBtnFundraising
+{
+    padding-left: 128px; 
+    padding-top:5px; 
+}
+/* Amruta IssueID 13077 end*/
+
+/* Suvarna IssueID:13270 View courses control */  
+.radViewCoursesPrerequisitesColumn
+{
+    width: 220px;
+}
+
+.radViewCoursesPrerequisitesDescColumn
+{
+    width:650px;
+}
+
+/* Amruta Issue 14903 start */
+.radFileUploadCEUSubmission
+{
+    float:left !important; 
+    width:auto !important;
+}
+.RadUpload .ruRemove 
+{
+    font-size:12px;
+}
+.RadUpload .ruFileWrap
+{
+    font-size:12px;
+}
+.RadUpload .ruInputs, .RadUploadProgressArea .ruProgress
+{
+    padding-left : 15px !important;
+    padding-top : 9px !important;
+}
+/* Amruta Issue 14903 end */
+
+/* 14317 Excel upload functionality*/
+.excelImgDiv
+{
+    float:right;
+    width:20%;
+}
+.exportExcelLink
+{
+    margin-top:5px;
+    width:80%; 
+    float:left;
+    
+}
+.exceBtnUpload
+{
+    padding-left:0px !important;  
+}
+    
+.templetLink
+{
+    margin-top:12px;
+    width:83%; 
+    float:right;
+}
+.templetImge
+{
+    float:left !important; 
+    width:17% !important; 
+        
+}
+      
+.excelLblUpload
+{
+    width:55% !important; 
+    padding-left:15px!important; 
+}
+.excellblmsg
+{
+    width:55%;
+    padding-left: 16px;
+    
+}
+    
+.excelTdUpload
+{
+    width:55% !important; 
+    padding-left:36px!important; 
+}
+.excelTdWidth
+{
+    width:25%!important; 
+} 
+
+table.excelFormatTable
+{
+    padding: 10px; 
+    background-color:White;
+    width:100%; 
+    border:1px #F2D7BD solid !important;
+}
+.uploadBtnHeight
+{
+    height: 22px;
+    width:66px;
+
+           
+}
+.ExportExcelPadding
+{	
+    padding-left: 3px;
+}
+.RadGrid .rgRow td, .RadGrid .rgAltRow td, .RadGrid .rgEditRow td, .RadGrid .rgFooter td, .RadGrid .rgFilterRow td, .RadGrid .rgHeader, .RadGrid .rgResizeCol, .RadGrid .rgGroupHeader td
+{
+    padding-right:3px !important;
+}
+
+.excelTdWidthexport
+{
+    width:32% !important; 
+    
+}
+.RadUpload_Sunset .ruButton, .RadUploadProgressArea_Sunset .ruButton 
+{
+    width:66px !important;
+    height:22px !important;
+}
+
+
+/* End */
+
+/* Amruta Issue 14347 RadScheduler control */
+.tdMeetingDetailsSchedulerCalendarViewEvent
+{
+    font-family: Segoe UI, Arial, Helvetica;
+    background: #957140;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    color: White;
+    background-position: 1% center;
+    vertical-align: middle;
+    height: 20px !important;
+    padding-top: 5px !important;
+}
+    
+div.RadScheduler .rsHorizontalHeaderTable, div.RadScheduler .rsContentTable, div.RadScheduler .rsAllDayTable
+{
+    width: 100% !important;
+}
+
+* + html div.RadScheduler .rsHorizontalHeaderTable, * + html div.RadScheduler .rsContentTable, * + html div.RadScheduler .rsAllDayTable
+{
+    width: auto !important;
+}
+
+.RadScheduler .rsTopWrap tr.rsHidden
+{
+    display: block;
+}
+  
+* + html .RadScheduler .rsVerticalHeaderTable tr.rsMainHeader div.rsMainHeader
+{
+    width: auto;
+} 
+.RadScheduler .rsHeader h2
+{
+    font-size: 12px !important;
+    font-weight: bold !important;
+    font-family: Segoe UI, Arial, Helvetica;
+}   
+div.RadScheduler .rsAllDayRow > td 
+{ 
+    border-width: 0 1px 0 0; 
+} 
+.RadScheduler .rsAllDayHeader + .rsHorizontalHeaderWrapper .rsInnerFix  
+{ 
+   border-bottom: 1px solid #C5C3AC; 
+   margin-right: 0 !important; 
+   overflow: scroll !important; 
+   max-height: 350px; 
+} 
+div.RadScheduler .rsInnerScrollFix td 
+{ 
+   border-width: 0 1px 0 0; 
+}  
+.radSchedulerCalendarViewEventHeight
+{
+   height:500px;
+}   
+    
+/* Amruta Issue 14347 end */
+
+/* Amruta ,IssueID 14307, 02/15/2013, css for preferred address header label alignment */
+.lblAdminEditProfile
+{
+   padding-left: 0px !important;
+}
+/* 02/26/2013,Added overwrited  css for AdminEditProfile Page*/
+table.data-form td.LeftColumnAdminEditProfile {font-weight: bold; width: 31px; overflow: hidden;} 
+table.data-form td.LeftAdminMemberInfo {font-weight: bold; width: 127px; overflow: hidden;} 
+table.data-form td.LeftAdminPersonInfo {font-weight: bold; width: 129px; overflow: hidden;} 
+table.data-form td.LeftColumnAdminContactinfo {font-weight: bold; width: 124px; overflow: hidden;} 
+table.data-form td.RightColumnAdmin { text-align: right;}
+table.data-form td.RightColumnContactAdmin { text-align: left;width:89px;} 
+table.data-form td.RightColumnPerferAddAdmin { text-align: left;width:110px;} 
+
+/* end*/
+
+/* Neha Issue 14750, 02/27/13,Added padding for rightcolumn(phone areacode) for viewedit profile, companyeditprofile*/
+.tdRightColumnAreacodephone
+{
+   padding-bottom: 5px !important; 
+}
+/*End issue 14750*/
+/* Sachin Issue 14451 Set telerik Gird */
+.MeetingRate
+{
+	width:110px !important;
+	height:20px !important;
+}
+.DetailTablesSessionColumn
+{
+	width:100px !important;
+}
+.DetailTablesRegisteredByDate
+{
+	width:123px!important;
+}
+.DetailTablesDescription
+{
+	width:80px!important;
+}
+.DetailTablesLocation
+{
+	width:70px!important;
+}
+.DetailTablesOnorAfter
+{
+	width:90px!important;
+}
+.DetailTablesEndDate
+{
+	width:90px!important;
+}
+.DetailTablesPrice
+{
+	width:60px!important;
+}
+.DetailTablesRating
+{
+	width:60px!important;
+}
+.MasterSessionColumn
+{
+	width:70px!important;
+}
+.MasterRegisteredByDate
+{
+	width:127px!important;
+}
+.MasterDescription
+{
+	width:60px!important;
+}
+.DetailTablesLocation
+{
+	width:70px!important;
+}
+.MasterOnorAfter
+{
+	width:90px!important;
+}
+.MasterEndDate
+{
+	width:90px!important;
+}
+.MasterPrice
+{
+	width:60px!important;
+}
+.MasterRating
+{
+	width:60px!important;
+    vertical-align:top!important;
+}
+.RadRating RadRating_Default
+{
+	width:110px !important;
+	height:20px !important;
+}
+/* End */
+/* End */
+/* Suraj Issue 3/6/13 , 14302 apply css for dropdown for Purchase Memberships page grid */
+.ddlAutoRenewEnrollNewMembership
+ {
+    border: 1px solid #cfc7b6 !Important;
+    Height:22px ! Important; 
+ }
+  .td .rcbArrowCell .rcbArrowCellRight > .RadComboBox .rcbReadOnly td.rcbArrowCell a
+  {
+  	width:13px !important;
+  }
+/* End */
+/* Amruta Issue 14320,3/6/2013,Added padding for rightcolumn and leftcolumn of radwindow addressline control for CompanyEdit control*/
+.tdRightColumnCompanyEdit
+{
+    padding-bottom: 5px !important;
+    padding-left: 2px !important;
+}
+.tdLeftColumnCompanyEdit
+{
+    padding-right:5px !important;
+    padding-left: 2px !important;
+}
+/* End */
+
+/* Neha, Issue 12591,03/07/13, Added css for Changepassword Validationerrormessage*/
+.tdValidationErrormessage
+{
+  padding-left: 30px;
+  font-weight: bold; 
+  color: red; 
+  font-size:11px;
+}
+.tdCompairvalidationErrormessage
+{
+ padding-left: 29px;
+   
+}
+ /*End*/
+/* 14342. aparna chages */
+.RadGrid .rgRow td, .RadGrid .rgAltRow td, .RadGrid .rgEditRow td, .RadGrid .rgFooter td, .RadGrid .rgFilterRow td, .RadGrid .rgHeader, .RadGrid .rgResizeCol, .RadGrid .rgGroupHeader td
+{
+    padding-right:3px !important;
+}
+
+/*End */
+
+/*Suraj Issue 44457, 3/8/12. Meeting Home Page chages */
+.RadRating 
+{
+	width:110px !important;
+	height:20px !important;
+}
+.RadRating RadRating_Default > #content ul
+ {
+	font-size: 11px !important;
+    padding: 0px 0px 0px 5px !important;
+ }
+ 
+ .RadRating ul
+{
+    padding:0px !important;
+}
+
+/*End */
+
+ /*Issue 10737 Anil Bisen*/
+  .tdPoNumberCreditCard
+  {
+      width: 117px; 
+      padding-left: 4px !Important;
+      text-align: right;
+      font-weight:bold;
+  }
+  .tdCreditCardBillMeLater
+  {
+      vertical-align:middle !Important;
+      padding-left:1px !Important; 
+  }
+  .tblCreditCartSetPadding
+  {
+      padding-left:0px !Important;
+      
+  }
+  /* End Issue 10737 Anil Bisen */
+
+.addNewPeapleMandatoryFields
+{
+    padding-left: 2px; 
+    font-size: 14px;   
+}
+
+/*  Issue 14381 Anil Bisen */
+ .hlkMeetingSessionGrid
+  {
+      text-decoration:none !Important;      
+      
+  } 
+  /* End Issue 14381 Anil Bisen */
+  /*Suraj Issue 15210, 3/19/12. Meeting Registration Email Validation message */
+.ErrorEmailMsgMettingRegistration
+{
+	color:Red;
+	padding-left:109px;
+}
+/*End */
+
+/* Amruta Issue 14903,20/03/2013,Css for RadAsyncUpload control alignment */
+#ctl00_MainContentAreaPlaceHolder_CEUSubmission_radCEUDocumentUpload ul
+{
+    padding-left: 1px !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+} 
+
+#ctl00_MainContentAreaPlaceHolder_CEUSubmission_radCEUDocumentUploadListContainer ul
+{
+    padding-left: 1px !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+/* end */
+
+/*Suraj Issue 15154, 3/21/13. comman validation message */
+.CommanValidationMessage
+{
+	color:Red;
+	font-size:12PX;
+}
+/*End */ 
+/*neha issue 12793, 03/26/13, css for linkbutton color on reportload*/
+.lnkChapterReportViewer
+{
+   /*color: #7A582D !important;*/
+}
+/*End*/
+
+/*Issue 14344 Anil Bisen  */ 
+ 
+ #ctl00_MainContentAreaPlaceHolder_MemberCEUSubmission_radCEUDocumentUploadListContainer
+ {
+     padding:0px !Important;
+     
+ }
+ #MainContentAreaPlaceHolder_MemberCEUSubmission_tblMain span
+ {
+     font-weight:normal !Important;
+     
+ }
+ 
+ /*Issue 14344 Anil Bisen end  */ 
+ 
+  /* Neha changes for Issue 14452 */
+.grdcoursedate
+{
+    width: 170px !Important;
+    
+ }
+ /* Amruta ,Issue 15371 ,29/3/2013,CSS for UI Problem in browse category menu*/
+.RadMenu .rmRoundedCorners .rmBottomShadowLeft, .rmRoundedCorners .rmGroup .rmBottomShadowLeft
+{
+   display:none !important;
+}
+
+/* Issue 14359 - Resolve popup formaating issue on chrome */
+ .dvPopUpOrderComments
+ {
+     height:184px !Important;
+     
+ }
+ .RadWindow .rwWindowContent
+{
+    background-color: #F4F3F1 !Important;
+}
+
+/* Issue 14449 -Anil */
+.grdAttachRecordAlign
+ {
+     
+    padding-left:0px !Important;
+ }
+ /* End Issue 14449 -Anil */
+    /* 14317 Excel upload functionality */      
+ .RadUploadWidth
+ {
+Width:250px !important;
+}
+
+.RadAsyncUploadTd
+{
+    width:45%;
+       }
+       
+       /*End*/
+
+/*CAI*/
+ul.rmRootGroup.rmRoundedCorners.rmShadows.rmHorizontal {
+    background: url(/ebusiness/Images/CAI/nav-bg.jpg) top left repeat-x;
+}
+
+ul.rmRootGroup.rmRoundedCorners.rmShadows.rmHorizontal li.rmItem a:hover,
+.RadMenu_Sunset a.rmExpanded:hover .rmText,
+.RadMenu_Sunset a.rmLink:hover .rmText, {
+    background: none;
+    text-decoration: underline;
+}
+
+.RadMenu_Sunset .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Sunset a.rmLink,
+.RadMenu_Sunset .rmText,
+.RadMenu_Sunset .rmTopFix,
+.RadMenu_Sunset .rmBottomFix {
+    background: none;
+}
+
+.RadGrid_Sunset .rgHeader, .RadGrid_Sunset th.rgResizeCol, .RadGrid_Sunset .rgHeaderWrapper {
+    background: url(/ebusiness/Images/CAI/nav-bg.jpg) top left repeat-x;
+    color: black;
+}
+
+.RadGrid_Sunset .rgHeader a, .RadGrid_Sunset th.rgResizeCol a, .RadGrid_Sunset .rgHeaderWrapper a {
+    color: black;
+}
+
+li.rmItem:hover {
+    background: #eeeeee! important;
+}
+
+.RadMenu_Sunset .rmVertical a.rmLink:hover .rmExpandRight, .RadMenu_Sunset .rmVertical a.rmFocused .rmExpandRight, .RadMenu_Sunset .rmVertical a.rmExpanded .rmExpandRight, .RadMenu_Sunset .rmVertical a.rmSelected .rmExpandRight, .RadMenu_Sunset .rmVertical a.rmLink:hover .rmExpandLeft, .RadMenu_Sunset .rmVertical a.rmFocused .rmExpandLeft, .RadMenu_Sunset .rmVertical a.rmExpanded .rmExpandLeft, .RadMenu_Sunset .rmVertical a.rmSelected .rmExpandLeft,
+.RadMenu_Sunset .rmBottomLeft, .RadMenu_Sunset .rmRoundedCorners .rmScrollWrapContainer, .RadMenu_Sunset_Context.rmRoundedCorners .rmScrollWrapContainer, .RadMenu_Sunset_Context.rmRoundedCorners ul.rmGroup, .RadMenu_Sunset .rmRoundedCorners ul.rmGroup, .RadMenu_Sunset .rmRoundedCorners .rmMultiColumn,
+.RadMenu .rmShadows .rmTopShadowRight, .rmShadows .rmGroup .rmTopShadowRight,
+.RadMenu .rmRoundedCorners li.rmBottomShadowLeft, .RadMenu .rmRoundedCorners .rmBottomShadowRight, .rmRoundedCorners .rmGroup li.rmBottomShadowLeft, .rmRoundedCorners .rmGroup .rmBottomShadowRight {
+    background-image: none;
+}
+
+.welcome-name {
+    color: #f0f0f0;
+}
+
+/*survey*/
+
+.questiontext {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.ButtonTableCell {
+    padding: 15px 0;
+}
+
+.QuestionTreeListHeader {
+    background: #0064cd! important;
+}
+
+.answertext {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.answertext input {
+    margin:0 10px;
+}

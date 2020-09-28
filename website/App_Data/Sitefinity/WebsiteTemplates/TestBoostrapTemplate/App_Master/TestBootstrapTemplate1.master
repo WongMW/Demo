@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Bootstrap Master Page Test Template 1</title>
+
+    <!-- Telling browsers our website contains Unicode characters - a superset of the ASCII character set -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- Forces IE to use the latest rendering engine, prevents older version that don't support all
+        properties of CSS from breaking our site -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tells the browser to scale our site to the size of the window space, the initial-scale=1 means 
+        scale it to 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap Styles. Avoid making changes to min.css. You can either create a new custom style sheet 
+        for your changes or you can edit the optional theme.css file below -->
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/equal-height-columns.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/responsive-calendar.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/jquery.steps.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/sweetalert.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/select2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/ammap.css"/>
+    <link rel="stylesheet" type="text/css" href="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/css/custom.css"/>
+
+    <!-- Scripts that are called when website is opened in IE8 to bring support for HTML5 and CSS3 -->
+    <!-- [if lt IE 9] >
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <! [endif] -->
+
+    <!-- Adding javascript at the end (just before closing body tag) means that it won't be loaded till 
+        after all HTML contents are loaded, this reduced the page's loading time. However this breaks the Sitefinity CMS -->
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/jquery-1.11.3.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/responsive-calendar.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/jquery.steps.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/sweetalert.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/jquery.pagination.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/select2.full.min.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/ammap.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/irelandHigh.js"></script>
+    <script src="/EBusiness/Sitefinity/WebsiteTemplates/TestBoostrapTemplate/App_Themes/TestBootstrapTheme1/Bootstrap/js/bootstrap.js"></script>
+    
+</head>
+<body class="main-body">
+    <form id="form1" runat="server">
+        <div id="wrapper" class="container">
+            <div id="header">
+                <asp:contentplaceholder id="headerPlaceholder" runat="server">
+
+                </asp:contentplaceholder>
+            </div>
+            <div id="content">
+	            <asp:contentplaceholder id="contentPlaceholder" runat="server">
+
+	            </asp:contentplaceholder>
+            </div>
+	        <div id="footer">
+	            <asp:contentplaceholder id="footerPlaceholder" runat="server">
+
+	            </asp:contentplaceholder>
+	        </div>
+        </div>
+        
+   </form>
+</body>
+</html>

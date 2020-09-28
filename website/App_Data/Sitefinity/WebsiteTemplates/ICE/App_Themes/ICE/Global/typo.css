@@ -1,0 +1,446 @@
+body {
+	/* font-family: "Myriad Pro","Myriad","Lucida Grande",Geneva,Arial,Verdana,clean,sans-serif; */
+	/*Nalini 12429 Line-Height 1.6em for firefox browser*/
+	/*change to 1.7 for header to fit by suvarna*/
+	line-height: 1.7em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 16px;
+	/*color: #ffffff;height: 23px;color:#7A582D;	
+	padding: 0px 0px 10px 0px;	   */
+    text-align:left;
+	vertical-align:top;
+}
+
+/*
+	font-weight: bold;
+	font-size: 138.5%;
+	color: #ffffff;
+	height: 30px;
+	padding: 11px 20px 0px 20px;
+Color:#ffffff has been changed to color: #7a582d;
+by suvarnaD for ICETemplate
+*/
+h2 {
+	font-weight: bold;
+	font-size: 10px;
+	color: #7a582d;
+	height: 23px; 
+
+	padding: 11px 20px 0px 20px;
+}
+
+h3 {
+	font-size: 16px;
+	padding: 0px 0px 10px 0px;
+	font-size: 131%;
+}
+h4 {
+	font-size: 123.1%;
+}
+h5 {
+	font-size: 116%;
+}
+h6 {
+	/* font-size: 108%; */
+}
+
+a {
+	outline-style:none;
+	outline-width:medium;
+	-moz-outline: none;
+	color: #6c0a3d;
+	text-decoration:none;
+	text-decoration:bold;
+}
+a:hover
+{
+    text-decoration:underline;
+    color: #0069d6;
+}
+p {
+	padding: 0px 0px 10px 0px;
+	
+	margin: 0px;
+}
+#content p {
+	padding: 0px 20px 20px 0px;
+}
+#content .content-container p {
+	padding: 0px 0px 15px 0px;
+}
+
+ul, ol, dl {
+	position: relative;
+}
+
+
+dl {
+	padding: 0px 20px 15px 20px;
+	background: transparent url(../../App_Themes/ICE/_img/content-list-bg.png) bottom left repeat-x;
+}
+dt {
+	font-size: 108%;
+	font-weight: bold;
+	padding: 5px 0px 0px 0px;
+}
+dd {
+	
+	padding: 0px 0px 5px 0px;
+}
+blockquote {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-quote-bg.png) top left repeat-x;
+	color: #ffffff;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+/*
+hr {
+	border-top: 1px solid #808080;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin: 20px 0px 20px 0px;
+}
+* html hr {
+	margin: 10px 0px 10px 0px;
+}
+*/
+hr.PeopleSeparator
+{ 
+    width:96%;  
+    color:#f1e4d0; 
+    height:1px; 
+}
+
+hr.GrayLine
+{
+    width:100%;  
+   /* color:#CCCCCC; 
+   Dilip 12717*/
+    color:#e7d2b6 !important;
+    height:1px; 
+}
+
+select
+{
+    /*Font size increase by suvarna for dropdowns*/
+    font-size:12px;
+}
+
+/* @group navigation */
+
+#navigation {
+	font-size: 108%;
+	font-weight: bold;
+background:#ffffff url(../../App_Themes/ICE/_img/navigation-bg.png) top left repeat-x;
+height:28px;
+}
+
+/* @end */
+
+/* @group header */
+#header {
+	
+}
+#home #header h1 {
+	font-size: 161.6%;
+	color: #005CAB;
+	font-weight: normal;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	height: auto;
+	position: absolute;
+	top: 38px;
+	left: 220px;
+	width: 420px;
+}
+#home h1 strong {
+	font-weight: bold;
+	color: #1E1E1E;
+}
+
+#home #header p {
+	font-size: 108%;
+	position: absolute;
+	width: 420px;
+	top: 65px;
+	left: 220px;
+}
+#home #header .learn-more {
+	position: absolute;
+	top: 170px;
+	left: 220px;
+}
+
+/* @end */
+
+/* @group content */
+#content h1 {
+	/*background: #c10104 url(../../App_Themes/ICE/_img/content-h1-bg.png) repeat-x;*/
+	/* Commented by Suvarna to remove header bg color from all second level pages Also Font size, color and font weight added
+    background-color: #e7d2b6;*/
+    color:#f48f0b;
+    font-size:18px;
+    font-weight:normal;
+    float: left;
+    /*width: 568px;*/
+    width:96%;
+}
+#home #content h2 {
+	/*background: #c10104 url(../../App_Themes/ICE/_img/content-h1-bg.png) repeat-x;*/
+	background-color:#e7d2b6;
+	color: #7A582D;
+    
+    font-size: 11px;
+    font-weight: bold;
+    padding-top:inherit;
+}
+#home #content h2:hover
+{
+    color:Blue;
+}
+#home #content .content-callout h2 {
+	background: transparent;
+	padding: 0px 20px 10px 20px;
+	margin: 0px;
+	height: auto;
+	font-weight: normal;
+}
+#content h2 {
+	/*background: #005aa8 url(../../App_Themes/ICE/_img/content-internal-h2-bg.png) repeat-x;*/
+	padding: 15px 20px 10px 20px;
+	margin: 0px;
+	height: auto;
+	font-weight: bold;
+}
+#content .content-h2-wrapper {
+	padding: 0px 0px 10px 0px;
+	background: #58595B url(../../App_Themes/ICE/_img/content-internal-h2-border.png) bottom left repeat-x;
+}
+
+#content h2 strong {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#content h3 {
+	padding: 0px 20px 10px 20px;
+}
+#content .content-container h3 {
+	padding: 0px 0px 10px 0px;
+}
+#content .content-block-2col h3 {
+	padding: 0px 0px 10px 0px;
+}
+#home #content h3 {
+	padding: 0px 0px 10px 0px;
+}
+#content h4 {
+	padding: 0px 20px 10px 20px;
+}
+#content .content-callout h4 {
+	color: #ffffff;
+	background: transparent;
+	padding: 0px 20px 10px 20px;
+	margin: 0px;
+	height: auto;
+	padding: 0px 20px 0px 20px;
+	font-size: 138.5%;
+	font-weight: normal;
+}
+#content h5 {
+	padding: 0px 20px 10px 20px;
+}
+#content h6 {
+	padding: 5px 20px 0px 0px;
+    font-weight: bold;
+}
+
+#content blockquote p {
+	padding: 0px 10px 5px 20px;
+	background: transparent url(../../App_Themes/ICE/_img/content-quote-img.gif) top left no-repeat;
+}
+#content blockquote p.quote-source {
+	text-align: right;
+	padding: 0px;
+	background: none;
+	font-weight: bold;
+}
+#content .content-block-2col p {
+	padding: 0px 0px 20px 0px;
+}
+#content .content-callout p {
+	color: #ffffff;
+}
+#content .content-callout p a {
+	color: #ffffff;
+}
+
+#home #content .content-callout p {
+	color: #ffffff;
+	padding: 0px 20px 15px 20px;
+	margin: 0px;
+}
+#content p.intro {
+	padding: 20px;
+	background: #d1d3d4 url(../../App_Themes/ICE/_img/sidebar-home-callout-bg.png) left top repeat-x;
+	font-size: 116%;
+}
+
+#content ul {
+	/*padding: 20px 50px 10px 35px;PS*/
+	/*padding: 0px 50px 10px 0px;*/
+	font-size:11px;
+	/*font-weight:bold;*/
+}
+.for-tree-structure > ul {
+    padding: 20px 50px 10px 35px !important;
+    float:none !important;
+}
+.for-tree-structure ul ul {
+    padding: 0 0 0 35px !important;
+    float:none  !important;
+}
+.for-tree-structure UL LI 
+{
+    float:none !important;
+}
+.RadTreeView_Default, .RadTreeView_Default a.rtIn, .RadTreeView_Default .rtEdit .rtIn input
+{
+    line-height:12px !important;
+}
+#content ol {
+	padding: 20px 50px 10px 50px;
+	
+}
+#content ul li {
+	/*padding: 0px 0px 5px 0px; */
+
+	list-style-type: none;
+	list-style-position: outside;
+	/*background: transparent url(../../App_Themes/ICE/_img/content-list-bullet.png) no-repeat 0px 7px;*/
+	/*background:url("../../App_Themes/ICE/_img/page-home-bg.png") repeat-x scroll 0 0 transparent padding: 10px 20px 5px 20px; PS*\
+}
+#content ol li {
+	padding: 0px 0px 5px 0px;
+	list-style-type: decimal;
+}
+/* @end */
+
+/* @group sidebar */
+
+#home #sidebar .sidebar-callout h2 {
+	padding: 20px 20px 5px 20px;
+	font-size: 138.5%;	
+}
+#sidebar .sidebar-callout h2 {
+	color: #005cab;
+	font-weight: normal;
+	height: auto;
+	font-size: 123.1%;
+	padding: 20px 10px 5px 10px;
+}
+#sidebar h2 strong {
+	font-weight: bold;
+	color: #1E1E1E;
+}
+
+#home #sidebar .sidebar-callout p {
+	padding: 0px 20px 15px 20px;
+}
+#sidebar p {
+	padding: 0px 10px 15px 10px;
+}
+#sidebar #search p {
+	width: 118px;
+	color: #ffffff;
+	float: left;
+	padding: 1px 0px 0px 0px;
+	margin: 0px;
+}
+#sidebar .contact-info h3 {
+	padding: 5px 10px 2px 10px;
+	margin: 0px 0px 10px 0px;
+	color: #ffffff;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #616264 url(../../App_Themes/ICE/_img/sidebar-contact-h3-bg.png) top left repeat-x;
+}
+#sidebar .contact-info h4 {
+	padding: 0px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	color: #005cab;
+	background: none;
+	font-size: 123.1%;
+}
+
+
+/* @end */
+
+
+
+/* @group footer */
+
+#footer {
+	
+	font-size: 93%;
+}
+
+/* @end */
+
+/* New code provided by Ben to fix the issue in the IE header Learn More bug on home page */
+#home #header .header-learn-more {
+	position: absolute;
+	top: 170px;
+	left: 220px;
+	float: none;
+	z-index: 1000000;
+}
+body p.header-learn-more a {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-learn-more-bg.png) top left repeat-x;
+	padding: 0px;
+	height: 19px;
+	width: 75px;
+	visiblity: visible;
+	display: block;
+	float: none;
+}
+body p.header-learn-more a:hover {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-learn-more-bg.png) bottom left repeat-x;
+}
+/* END ---- New code provided by Ben to fix the issue in the IE header Learn More bug on home page */
+
+/* New code for no bullets */
+#content ul.nobullets li {
+	background-image: none;
+	background-color: none;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+/* END ---- New code for no bullets */
+/*Nalini*/
+.QuestionTreeListHeader
+{
+    background-color: #74573b;
+    font-weight: bold;
+    color: White;
+}
+
+
+.for-tree-structure-without-leftpadding > ul {
+    padding: 20px 50px 10px 0px !important;
+    float:none !important;
+}
+.for-tree-structure-without-leftpadding ul ul {
+    padding: 0 0 0 20px !important;
+    float:none  !important;
+}
+.for-tree-structure-without-leftpadding UL LI 
+{
+    float:none !important;
+}
+

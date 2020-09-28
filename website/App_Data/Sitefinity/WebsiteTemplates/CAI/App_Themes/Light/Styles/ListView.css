@@ -1,0 +1,46 @@
+.sfItemsListMode li.sys-container{display:inline-block;margin:20px 10px 0 0;padding:5px;vertical-align:top;width:190px;line-height:1.2;color:#666;cursor:default}
+.sfItemsListMode li.sys-container .sfMediaItemDetailsWrp{min-height:40px}
+.sfItemsListMode li.sys-container .sfMediaItemDetailsWrp.sfHasTranslations{min-height:83px}
+.sfItemsListMode li.sys-container .sfMediaItemDetailsWrp.sfHasManyTranslations{min-height:104px}
+.sfItemsListMode li.sfSel,.sfItemsListMode li.sfSel:hover{background-color:#e6f2f8;border:1px solid #ddd;padding:4px}
+.sfItemsListMode li.sys-container .sfBigImgTmb,.sfItemsListMode li.sys-container .sfBigLibTmb{display:block;width:160px;height:160px;overflow:hidden;margin-bottom:9px;text-align:center;vertical-align:middle;background-color:#f1f1f1;position:relative}
+.sfItemsListMode li.sys-container .sfBigImgTmb.sfVideoBigTbm{height:120px;line-height:120px;padding-top:20px;padding-bottom:20px;background-color:#f1f1f1}
+.sfItemsListMode li.sys-container .sfBigImgTmb img{vertical-align:middle}
+.sfItemsListMode li.sys-container .sfBigLibTmb{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLibraries.gif") %>) no-repeat 0 -200px}
+.sfItemsListMode li.sys-container .sfBigLibTmb .sfImgFromLib{display:block;margin-left:24px;margin-top:33px;margin-bottom:15px;width:100px;height:60px;overflow:hidden;text-align:center}
+.sfItemsListMode li.sys-container .sfBigLibTmb .sfImgFromLib img{vertical-align:middle;width:100px}
+.sfItemsListMode li.sys-container .sfBigLibTmb .sfItemsCount{display:block;margin-left:25px;text-align:left;font-style:normal}
+.sfItemsListMode li.sys-container .sfBigLibTmb .sfItemsCount b{font-size:12px}
+.sfItemsListMode li.sys-container .sfBigLibTmb .sfItemsCount,.sfItemsListMode li.sys-container .sfBigLibTmb a.sfItemsCount:hover,.sfItemsListMode li.sys-container .sfBigLibTmb a.sfItemsCount:focus{color:#666}
+.sfItemsListMode li.sys-container .sfDuration{background-color:#000;color:#fff;position:absolute;right:10px;bottom:10px;padding:2px 4px;z-index:100;line-height:1.2}
+.sfItemsListMode li.sys-container .sfItemTitleWrp input{float:left}
+.sfItemsListMode li.sys-container .sfItemTitle{display:block;padding-left:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfItemsListMode li.sys-container:hover.sfNotTranslatedRow .cmDiv{display:none}
+.sfItemsListMode li.sys-container .sfCheckBoxEl{float:left}
+.sfItemsListMode .sfdraft,.sfItemsListMode .sfpublished,.sfItemsListMode .sfscheduled,.sfItemsListMode .sfprivatecopy,.sfItemsListMode .sfawaitingapproval,.sfItemsListMode .sfawaitingreview,.sfItemsListMode .sfrejected,.sfItemsListMode .sfrejectedforpublishing,.sfItemsListMode .sfrejectedforreview,.sfItemsListMode .sfawaitingpublishing,.sfItemsListMode .sfunpublished{color:#333}
+.sfItemsListMode li.sys-container .clickMenu{padding-top:4px}
+.sfItemsListMode li.sys-container .clickMenu li.main{display:inline-block;padding-bottom:0}
+.sfItemsListMode li.main>a[menu]{padding-left:3px;border-left:1px solid #ccc}
+.sfItemsListMode li.sfFirst>a[menu]{padding-right:2px;padding-left:0;border-left:0}
+.sfItemsListMode li.sys-container.sfNotTranslatedRow .sfBigImgTmb,.sfItemsListMode li.sys-container.sfNotTranslatedRow .sfItemTitleWrp .sfItemTitle{color:#444;opacity:.3;filter:alpha(opacity=30);-ms-filter:"alpha(opacity=30)";zoom:1}
+.sfItemsListMode li.sys-container.sfNotTranslatedRow .sfMediaItemDetailsWrp{min-height:105px}
+.sfItemsListMode li.sys-container.sfNotTranslatedRow .sfItemTitleWrp .sfItemTitle{font-weight:normal}
+.sfItemsListModeRadio .sfItemsListMode{margin-top:10px}
+.sfItemsListModeRadio .sfItemsListMode li{margin-top:10px;margin-bottom:10px;padding:10px;width:auto;border:0;border-radius:5px;background-color:#ddecf4}
+.sfItemsListModeRadio .sfItemsListMode li label{display:block;margin-bottom:10px;position:relative;vertical-align:middle}
+.sfItemsListModeRadio .sfItemsListMode li.sfSel,.sfItemsListModeRadio .sfItemsListMode li.sfSel:hover{padding:10px;border:0;background-color:#ddecf4}
+.sfItemsListModeRadio .sfItemsListMode li .sfItemTitle{padding-left:0}
+.sfImagesTranslationsList .sfItemsListMode li,.sfMediaTranslationsList .sfItemsListMode li{float:left}
+.sfImagesTranslationsList .sfItemsListMode li label{width:155px;height:155px;overflow:hidden;text-align:center}
+.sfImagesTranslationsList .sfItemsListMode li label img{max-width:100%;max-height:100%}
+.sfMediaTranslationsList .sfItemsListMode li label{width:145px;overflow:hidden}
+.sfMediaTranslationsList .sfItemsListMode li img{width:100%}
+.sfFilesTranslationsList .sfItemsListMode li{margin-top:0;width:100%;box-sizing:border-box}
+.sfFilesTranslationsList .sfItemsListMode .sfext{margin-left:20px;margin-bottom:0}
+.sfFilesTranslationsList .sfItemsListMode input{margin-top:-25px}
+.sfConditionsList li{margin-bottom:7px;padding:2px 5px 1px;width:400px;background-color:#fff}
+.sfConditionsList .sfTitle,.sfConditionsList .sfOp,.sfConditionsList .sfVal{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sfConditionsList .sfTitle{width:120px}
+.sfConditionsList .sfOp{width:145px;text-transform:uppercase}
+.sfConditionsList .sfVal{margin-right:10px;width:90px}
+.sfConditionsList .sfXItm{vertical-align:top}

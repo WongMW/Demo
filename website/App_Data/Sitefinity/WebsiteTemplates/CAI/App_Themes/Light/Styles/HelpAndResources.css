@@ -1,0 +1,24 @@
+.sfHelpAndResourcesWrp h2{margin-top:37px;color:#000;font-size:21px}
+.sfHelpAndResourcesWrp li{float:left;padding-top:30px;padding-right:3%;width:30%;height:70px;border-bottom:1px solid #f2f2f2;vertical-align:top}
+.sfHelpAndResourcesWrp a{display:inline-block;padding-left:45px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHelpAndResources.gif") %>) no-repeat 0 0}
+.sfHelpAndResourcesWrp .sfLatestAnnouncements{background-position:0 3px}
+.sfHelpAndResourcesWrp .sfUpcomingWebinars{background-position:0 -98px}
+.sfHelpAndResourcesWrp .sfFullDocumentation{background-position:0 -196px}
+.sfHelpAndResourcesWrp .sfForums{background-position:0 -296px}
+.sfHelpAndResourcesWrp .sfBlogs{background-position:0 -397px}
+.sfHelpAndResourcesWrp .sfVideos{background-position:0 -500px}
+.sfHelpAndResourcesWrp .sfSoftwareDevelopmentKit{background-position:0 -595px}
+.sfHelpAndResourcesWrp .sfMarketplace{background-position:0 -700px}
+.sfHelpAndResourcesWrp .sfSubmitTicket{background-position:0 -797px}
+.sfHelpAndResourcesWrp .sfSendFeatureRequest{background-position:0 -899px}
+.sfHelpAndResourcesWrp .sfFindPartner{background-position:0 -999px}
+.sfHelpAndResourcesWrp .sfLicensingInformation{background-position:0 -1098px}
+.sfHelpAndResourcesWrp .sfReleaseNotes{background-position:0 -1198px}
+.sfHelpAndResourcesWrp .sfRoadmap{background-position:0 -1300px}
+.sfHelpAndResourcesWrp .sfTraining{background-position:0 -1398px}
+.sfHelpAndResourcesWrp .sfTemplateBuilder{background-position:0 -1499px}
+.sfHelpAndResourcesWrp .sfGettingsStarted{background-position:0 -1597px}
+.sfHelpAndResourcesWrp .sfToDam{background-position:0 -1698px}
+.sfHelpAndResourcesWrp strong{font-size:15px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;padding-bottom:2px;padding-right:16px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 100% -3300px}
+.sfHelpAndResourcesWrp .sfLicensingInformation strong{background-image:none}
+.sfHelpAndResourcesWrp .sfNote{display:block}

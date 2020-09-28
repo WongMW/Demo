@@ -1,0 +1,14 @@
+.RadImageEditor.RadImageEditor_Default{background-color:transparent;border:0;padding:0;overflow:hidden}
+.RadImageEditor.RadImageEditor_Default .RadToolBar_Default{background-color:transparent}
+.RadImageEditor.RadImageEditor_Default .rieContentArea{border:0}
+.RadImageEditor.RadImageEditor_Default .rieToolBar{padding-top:4px;padding-bottom:3px}
+.RadImageEditor.RadImageEditor_Default .rtbItem{margin-left:6px;margin-right:0}
+.RadImageEditor.RadImageEditor_Default .rtbItem:first-child{margin-left:0}
+.RadImageEditor.RadImageEditor_Default .rtbMiddle{background-color:transparent}
+.saveAsContainer{margin:14px}
+.saveAsContainer select.saveAsInput{width:auto}
+.saveAsContainer .sfSaveAsLabel{font-size:1em;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.saveAsContainer .saveAsInput{display:block;width:200px;margin-bottom:1em}
+.saveAsContainer .buttonsContainer{margin-top:2em;line-height:1.6em}
+.saveAsContainer .buttonsContainer .sfCancel{padding-left:0}
+.RadImageEditor.RadImageEditor_Default .RadToolBar .rtbWrap{width:28px}

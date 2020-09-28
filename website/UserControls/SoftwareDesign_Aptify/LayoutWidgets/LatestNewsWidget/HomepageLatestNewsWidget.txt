@@ -1,0 +1,338 @@
+﻿<%@ Control Language="C#" %>
+<asp:Label ID="MessageLabel" Text="Text" runat="server" Visible="false"/>
+
+<div class="sf_cols ">                         
+    <div runat="server" class="sf_colsOut sf_3cols_1_33">
+        <div runat="server" class="sf_colsIn sf_3cols_1in_33 style-1">
+            <div class="latest-news-single-block">
+                <div class="cta-image">
+                     <asp:Image runat="server" ImageUrl="~/Images/CAITheme/Taxation-Audits.png" ID="latestNews" />
+                </div>
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+        
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <div runat="server" class="sf_colsOut sf_3cols_2_34">
+        <div runat="server" class="sf_colsIn sf_3cols_2in_34 style-2">
+             <div class="latest-news-single-block">
+                <div class="cta-image">
+                     <asp:Image runat="server" ImageUrl="~/Images/CAITheme/Taxation-Audits.png" ID="Image1" />
+                </div>
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+        
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <div runat="server" class="sf_colsOut sf_3cols_3_33">
+        <div runat="server" class="sf_colsIn sf_3cols_3in_33 style-3">
+             <div class="latest-news-single-block">
+                <div class="cta-image">
+                     <asp:Image runat="server" ImageUrl="~/Images/CAITheme/Taxation-Audits.png" ID="Image2" />
+                </div>
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+        
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="sf_cols ">                         
+    <div runat="server" class="sf_colsOut sf_1cols_1_100">
+        <div runat="server" class="sf_colsIn sf_1cols_1in_100">
+            <div class="show-more-actions">
+                <div class="btn show-more">
+                    Show Me More News
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+<%@ Control Language="C#" %>
+<asp:Label ID="MessageLabel" Text="Text" runat="server" Visible="false"/>
+
+<div class="sf_cols latest-news-header ">                         
+    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+            <div class="main-title">       
+                    <h2>Latest News</h2>
+            </div>
+        </div>
+    </div>
+    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+        <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+            <div class="view-all-actions">
+                <a href="#">
+                    <div class="btn view-all">
+                        view all
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sf_cols ">                         
+    <div runat="server" class="sf_colsOut sf_3cols_1_33">
+        <div runat="server" class="sf_colsIn sf_3cols_1in_33 style-1">
+            <div class="latest-news-single-block">
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <div runat="server" class="sf_colsOut sf_3cols_2_34">
+        <div runat="server" class="sf_colsIn sf_3cols_2in_34 style-1">
+             <div class="latest-news-single-block">
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+        
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <div runat="server" class="sf_colsOut sf_3cols_3_33">
+        <div runat="server" class="sf_colsIn sf_3cols_3in_33 style-1">
+             <div class="latest-news-single-block">
+                <div class="cta-content">
+                        <div class="cta-title">
+                        <h2>This is a blog listing headline</h2>
+        
+                    </div>
+                    <div class="cta-message">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          </p>
+                    </div>
+                    <div class="latest-news-actions">
+                        <div class="sf_cols ">                         
+                                    <div runat="server" class="sf_colsOut sf_2cols_1_50">
+                                        <div runat="server" class="sf_colsIn sf_2cols_1in_50">
+                                            <div class="date">
+                                                May 22,2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div runat="server" class="sf_colsOut sf_2cols_2_50">
+                                      <div runat="server" class="sf_colsIn sf_2cols_2in_50">
+                                            <div class="latest-news-btn">
+                                                <a href="#" class="btn ">read more</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

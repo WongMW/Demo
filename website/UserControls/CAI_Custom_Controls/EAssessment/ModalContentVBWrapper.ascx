@@ -1,0 +1,1 @@
+<%@ Control Language="VB" AutoEventWireup="false" CodeFile="~/UserControls/CAI_Custom_Controls/EAssessment/ModalContentVBWrapper.ascx.vb" Inherits="SitefinityWebApp.UserControls.CAI_Custom_Controls.EAssessment.ModalContentVBWrapper" %>

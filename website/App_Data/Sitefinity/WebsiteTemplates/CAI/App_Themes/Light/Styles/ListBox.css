@@ -1,0 +1,22 @@
+div.RadListBox{font-size:13px;font-family:open_sansregular,Arial,Verdana,sans-serif}
+div.RadListBox .rlbButtonAreaRight{width:100px!important;margin-right:-70px!important}
+div.RadListBox .rlbList{overflow:auto;*overflow-x:auto;*overflow-y:hidden;*padding-bottom:20px;_overflow-x:auto;_overflow-y:hidden;_padding-bottom:20px}
+div.RadListBox .rlbGroup .rlbSelected{background-color:#e6f2f8}
+div.RadListBox_SimpleListBox.RadListBox{margin-top:3px;line-height:1.2}
+div.RadListBox_SimpleListBox.RadListBox .rlbList{overflow:visible}
+div.RadListBox_SimpleListBox.RadListBox .rlbItem,div.RadListBox_SimpleListBox.RadListBox .rlbGroup .rlbActive{padding:0;border:0}
+.sfTreeview .sfTreeviewHeader{padding-top:5px;padding-bottom:10px;font-size:9px;letter-spacing:1px;text-transform:uppercase;font-weight:normal;color:#777;border-bottom:1px solid #e4e4e4}
+.sfTreeview .sfTreeviewItem{display:flex;flex-direction:column;padding-bottom:0;border-bottom:1px solid #e4e4e4}
+.sfTreeview .sfTreeview .sfTreeviewItem{border-bottom:0;border-top:1px solid #e4e4e4}
+.sfTreeview .sfTreeviewArrow{cursor:pointer;position:relative;margin-left:-16px;width:16px;text-align:center}
+.sfTreeview .sfTreeviewArrow::before{display:inline-block;margin-top:3px;margin-right:5px;font-family:FontAwesome;vertical-align:top;line-height:1.1;font-size:14px;cursor:pointer;width:10px}
+.sfTreeview .sfTreeviewArrowPlus::before{content:"\f0da"}
+.sfTreeview .sfTreeviewArrowMinus::before{content:"\f0d7"}
+.sfTreeview .sfTreeviewRow{display:flex;align-items:center;min-height:36px}
+.sfTreeview .sfTreeviewItemName{display:inline-block;flex:none;width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sfTreeview .sfTxtLbl{display:inline}
+.sfTreeview .sfTreeview .sfTxtLbl{padding-left:30px}
+.sfTreeview .sfTreeview .sfTreeview .sfTxtLbl{padding-left:50px}
+.sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTxtLbl{padding-left:70px}
+.sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTxtLbl{padding-left:90px}
+.sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTreeview .sfTxtLbl{padding-left:110px}

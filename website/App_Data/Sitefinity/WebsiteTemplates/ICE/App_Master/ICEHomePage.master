@@ -1,0 +1,98 @@
+﻿<%@ Master Language="VB" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register TagPrefix="uc1" TagName="StatusHeader" Src="~/UserControls/Aptify_General/StatusHeader.ascx" %>
+<%@ Register TagPrefix="uc2" TagName="FollowUs" Src="~/UserControls/Aptify_General/FollowUs.ascx" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Copyright" content="(c) 2012 Aptify Corporation" />
+    <meta name="Description" content="Aptify e-Business Master Page" />
+    <title>Aptify</title>
+</head>
+<body id="home">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="StatusHeaderDivArea">
+        <table width="1000px">
+            <tr>
+                <td>
+                    <uc1:StatusHeader ID="StatusHeader" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="header">
+        <div id="header-inner">
+            <div style="text-align: right; padding-top: 5px;">
+                <uc2:FollowUs ID="FollowUs" runat="server" />
+            </div>
+            <div class="search-wrap">
+                <div class="searchbackground">
+                    <div style="margin-top: 4px; padding-right: 15px;">
+                        <asp:ContentPlaceHolder ID="SearchPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="navigation-inner">
+            <asp:ContentPlaceHolder ID="NavigationPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="page" class="clearfix">
+        <div id="page-inner">
+            <div id="content">
+                <div id="contentLeft">
+                    <div>
+                        <asp:ContentPlaceHolder ID="LeftTop" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                        <%--  Anil Changes for issue 15016--%>
+                     <asp:ContentPlaceHolder ID="Leftbottom" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="contentMiddle">
+                    <asp:ContentPlaceHolder ID="MiddleTop" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="MiddleCenter" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="MiddleBottom" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <%-- Nalini 12429 13/12/2011 Added searchbackground width --%>
+                <div id="contentRight">
+                    <%-- <div style="float: left; width: 100%;">
+                        <div id="searchcorner" style="float: left; height: 33px; width: 34px;">
+                            &nbsp;</div>
+                        <div class="searchbackground" style="float: left; width: 275px;">
+                            <div style="margin-top: 4px; padding-right: 15px;">
+                    <asp:ContentPlaceHolder ID="SearchPlaceHolder" runat="server" >
+                    </asp:ContentPlaceHolder >
+                        </div>
+                    </div>--%>
+                    <div class="Userlogin">
+                        <asp:ContentPlaceHolder ID="RightTop" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <%--<asp:ContentPlaceHolder ID="RightCenter" runat="server">
+                    </asp:ContentPlaceHolder>--%>
+                    <asp:ContentPlaceHolder ID="RightBottom" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-inner">
+            <asp:ContentPlaceHolder ID="BottomNavPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

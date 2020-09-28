@@ -1,0 +1,24 @@
+html body .RadPicker .RadInput .riTextBox,html body .RadInputMgr.RadInputMgr_Default{font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:13px;padding:2px 5px 4px;border-color:#ccc;height:28px;box-sizing:border-box}
+html body .RadPicker .RadInput .riTextBox[disabled],html body .RadInputMgr.RadInputMgr_Default[disabled]{background-color:#d4d0c8;color:#808080}
+.k-popup.k-calendar-container .k-calendar{padding:10px 20px 10px 8px;width:200px}
+.k-popup.k-calendar-container .k-state-hover,.k-calendar-container .k-state-hover:hover{background-color:transparent}
+.k-calendar-container.k-group.k-popup{border-color:#ccc;border-radius:0;background:#fff;box-shadow:2px 4px 5px rgba(153,153,153,0.5),-2px 4px 5px rgba(153,153,153,0.5)}
+.k-calendar-container .k-header{background:transparent}
+.k-widget.k-calendar .k-content th{background:transparent;border-bottom:0;font-size:12px}
+.k-widget.k-calendar .k-content thead th{font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#999}
+.k-widget.k-calendar .k-nav-fast{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.k-widget.k-calendar .k-nav-fast.k-state-hover{background:transparent}
+.k-widget.k-calendar .k-content .k-link{padding:.2em;color:#105CB6;min-height:0;line-height:inherit}
+.k-widget.k-calendar .k-footer .k-link{color:#999}
+.k-calendar-container td.k-state-hover,.k-calendar-container td.k-state-hover:hover{background-image:none;background-color:#f1f1f1}
+.k-widget.k-calendar td.k-state-focused.k-state-selected,.k-widget.k-calendar td.k-state-selected.k-state-active,.k-widget.k-calendar td.k-state-selected.k-state-hover:active,.k-widget.k-calendar td.k-state-selected:active,.k-widget.k-calendar .k-state-selected>.k-link{color:#fff;font-weight:400;background-color:#105cb6;border:0;box-shadow:none;border-radius:0;background-image:none}
+.k-state-focused,td.k-state-focused{box-shadow:none}
+.k-calendar-container .k-widget.k-calendar td.k-state-focused,.k-calendar-container .k-widget.k-calendar td.k-state-focused.k-state-hover{box-shadow:none}
+.k-group.k-popup.k-calendar-container{padding:0}
+.k-widget.k-calendar .k-icon{font-size:inherit;line-height:inherit;overflow:visible}
+.k-widget.k-calendar td{border-radius:0}
+.k-widget.k-calendar .k-nav-next .k-icon:before,.k-widget.k-calendar .k-nav-prev .k-icon:before{display:inline-block;font-family:FontAwesome;vertical-align:top;font-size:14px;color:#666;cursor:pointer}
+.k-widget.k-calendar .k-nav-next .k-icon:before{content:"\f0a9"}
+.k-widget.k-calendar .k-nav-prev .k-icon:before{content:"\f0a8"}
+.k-calendar td.k-today{box-shadow:none}
+.k-calendar td.k-today .k-link{font-weight:400}

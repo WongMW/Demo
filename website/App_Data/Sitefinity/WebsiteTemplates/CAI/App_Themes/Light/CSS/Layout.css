@@ -1,0 +1,2051 @@
+body{min-width:1250px;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:13px;line-height:1.5}
+body.sfDialog{min-width:500px}
+body.sfHasLeftSidebar.sfGlobalPermissions{min-width:985px}
+body.sfHasSidebar>form,.sfMaximizedWindow.sfHasSidebar .k-window-content,body.sfHasSidebar .sf-modal-fluid .modal-dialog,.sfDialogHasSidebar .modal-dialog,.sfDialogHasSidebar .sfMain{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfSidebar.gif") %>) repeat-y 80% 0}
+body.sfHasSidebar.sfWhiteSidebar>form,.sfMaximizedWindow.sfHasSidebar.sfWhiteSidebar .k-window-content{background-image:none}
+body.sfHasSidebar.sfLoadingTransition>form{background-image:none}
+body.sfHasLeftSidebar>form,.sfMaximizedWindow.k-window.sfHasLeftSidebar{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y 0 0}
+.sfMaximizedWindow.k-window.sfHasLeftSidebar{background-color:#fff}
+body.sfHasLeftSidebar.sfHasSmallSidebar>form{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y -140px 0}
+body.sfHasLeftSidebar.sfHasMediumSidebar>form{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y -80px 0}
+body.sfHasLeftSidebar.sfGlobalPermissions>form{background-position:-60px 0}
+body.sfBoxesMasterView{background-color:#f1f1f1}
+body.sfFormDialog,div.sfFormDialog,.sf-modal-fluid .modal-content{background-color:#f4f6f7}
+.sf-modal-fluid.-light .modal-content{background-color:#fff}
+.sfHasLeftSidebar .sfFormDialog{background-color:transparent}
+.sf-modal-fluid.sfDialogHasSidebar .modal-content{background:#fff url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfSidebar.gif") %>) repeat-y 80% 0}
+:focus{outline:0}
+.sf-modal-fluid{width:100%!important;height:100%;margin:0!important;position:fixed!important;top:0;right:0;bottom:0;left:0;z-index:100000!important;background-color:#fff}
+.modal-open{overflow:hidden}
+.sf-modal-fluid .modal-dialog{width:100%!important;height:100%;padding:0!important;margin:0!important;position:fixed!important;top:0;right:0;bottom:0;left:0;overflow-y:auto}
+.sf-modal-fluid .modal-content{min-height:100%}
+body.sfSelectorDialog{min-width:355px;height:auto;position:relative}
+body.sfSelectorDialog.sfOverflowHidden{height:100%;*overflow:visible!important;*height:auto!important}
+body.sfSelectorDialog.sfItemsSelectorDlg{overflow:hidden;*height:100%}
+body.sfEmpty>form,body.sfEmpty.sfHasSidebar>form{background-image:none}
+body.sfLoadingTransition{background:#fff url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingFormBtns.gif") %>) no-repeat 50% 50%}
+body.sfLoadingItems{background:#fff url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingFormBtns.gif") %>) no-repeat 50% 50%}
+.sfLoadingDataImage{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingData.gif") %>) no-repeat 0 1px;height:20px;width:30px;display:block}
+html,body,form{margin:0;padding:0;border:0;height:100%}
+body.sfSelectorDialog form{height:auto}
+a{color:#105CB6;text-decoration:none;cursor:pointer}
+a:hover,a:focus{text-decoration:none;color:#00f}
+a:focus{outline:0}
+.sfLnk{color:#105CB6;text-decoration:none;cursor:pointer!important}
+.sfLnk:hover{text-decoration:none;color:#00f}
+.sfLnk.sfSel,.sfLnk.sfSel:hover{color:#000;cursor:default!important}
+.sfFilterWrp{margin:10px -20px 0;padding:5px 20px}
+.sfFilterWrp .sfLnk{margin-right:10px;font-family:open_sansregular,Arial,Verdana,sans-serif;font-weight:normal}
+.sfNotLnk,.sfNotLnk:hover,a .sfNotLnk,a:hover .sfNotLnk,a.sfNotLnk,a.sfNotLnk:hover,a.sfNotLnk:focus{color:#000;text-decoration:none}
+a.sfNotLnk{cursor:default}
+a.sfDisabled,a.sfDisabled:hover,a.sfDisabled:focus{color:#666!important}
+.sfMoreDetails{color:#666;text-decoration:underline}
+.sfMoreDetailsQuestion{margin-left:5px;font-size:13px;color:#333;text-decoration:none}
+a.sfMoreDetails:hover,a.sfMoreDetails:focus,.sfMoreDetails:hover,.sfMoreDetails:focus{color:#666;text-decoration:none}
+.sfDisabled{cursor:default!important}
+.sfExternal::before,.sfExternalRight::after{display:inline-block;font-family:FontAwesome;vertical-align:bottom;content:"\f08e";line-height:1.1;font-size:14px;color:#999}
+.sfExternal::before{margin-right:5px}
+.sfExternalRight::after{margin-left:5px}
+a.sfGoto::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0a9";vertical-align:middle;line-height:1.1;font-size:14px}
+a.sfGoto.sfLinkBtn{line-height:inherit;min-height:0;border:0;color:#105CB6;background-color:transparent}
+a.sfGoto.sfLinkBtn:hover,a.sfGoto.sfLinkBtn:focus{color:#00F!important;background-color:transparent}
+.sfGoto.sfMoreDetails{color:#666}
+.sfViewStats::before{display:inline-block;margin-right:5px;font-family:FontAwesome;vertical-align:top;content:"\f080";font-size:14px;color:#84c1ff}
+.sfViewStats:hover::before{color:#333}
+.sfDeleteProfileOff.sfViewStats::before,.sfDeleteProfileOff.sfViewStats:hover::before{color:inherit}
+a.sfViewStats{display:inline-block;min-height:12px}
+.sf_config_newNode{color:#f00}
+.sys-template{display:none}
+.sfDisabledField{position:relative}
+.sfDisabledField label,.sfDisabledField input,.sfDisabledField select{pointer-events:none}
+.sfDisabledField::before{content:"";display:block;position:absolute;z-index:100;width:100%;height:100%;top:0;left:0}
+.sfDisabledField .sfTxtLbl,.sfDisabledField .sfTxtLblWithExample .sfTxtLbl{display:flex}
+.sfDisabledField .sfInlineBlock.sfTxtLbl{display:inline-flex}
+.sfDisabledField .sfTxtLbl::before{margin-left:5px;margin-right:5px;font-family:open_sansregular,Arial,Verdana,sans-serif;color:#999;content:"(for all translations)";order:2}
+.sfDisabledField .sfTxtLbl::after{font-family:FontAwesome;font-size:14px;content:"\f023";color:#999;order:3}
+.sfDisabledField a{color:#999}
+.sfDisabledField .sfCategoriesList .sfRemoveBtn,.sfDisabledField .sfMediaItemsHolder .sfDeleteItm,.sfDisabledField .RadGrid tbody .rgRow .sfDeleteCol,.sfDisabledField .k-grid tbody .sfDeleteCol,.sfDisabledField .RadGrid .sfEditCol,.sfDisabledField .k-grid .sfEditCol,.sfDisabledField .RadGrid .sfView,.sfDisabledField .k-grid .sfView{display:none}
+hr{margin:10px 0;border:0;padding:0;height:1px;width:100%;background-color:#f2f2f2}
+.sfWrapper{position:relative;min-height:100%}
+* html .sfWrapper,.sfFullHeight{height:100%}
+#sfSkip{position:absolute;left:-1000px;top:-1000px}
+.sfHeader{position:relative;height:44px;box-shadow:0 1px 3px #ccc;background-color:#fff;z-index:10}
+.sfPageEditor .sfHeader{height:auto}
+.sfPageEditor .sfTopBar{margin-top:-60px}
+.sfTopBar a,.sfFooter a{color:#333}
+.sfTopBar a:hover,.sfTopBar a:focus,.sfFooter a:hover,.sfFooter a:focus{color:#000}
+.sfTopBar{display:flex;position:absolute;top:0;right:20px;line-height:1.2;color:#999;z-index:10000}
+.sfLogo{margin:0;padding:0;width:142px;height:19px;border-bottom:0;position:relative;text-indent:-9999px;overflow:hidden;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.ProgressSitefinityCms.min.svg") %>) no-repeat 50% 0}
+.sfTopBar .sfLogo{margin-top:12px;order:3}
+.sfTopBar .sfInlineBlock{vertical-align:top}
+.sfTopBar a.sfLiveSite{display:inline-block;margin-top:16px;margin-left:20px;color:#4cb861;text-decoration:underline;order:1}
+.sfTopBar a.sfLiveSite:hover,.sfTopBar a.sfLiveSite:focus{color:#4cb861;text-decoration:none}
+.sfTopBar .sfHelpLnk{display:none}
+.sfTopBar .sfLoggedUser{position:relative;margin-right:15px;order:2;border-right:1px solid #ddd}
+.sfTopBar .sfUserHeader{margin:4px 15px;overflow:hidden;color:#333;cursor:default;text-align:right;cursor:pointer}
+.sfTopBar .sfUserInfo{display:none;position:absolute;right:9px;margin-right:-10px;padding:15px 0;width:280px;background-color:#fff;border:1px solid #e4e4e4;box-shadow:0 0 3px #e5e5e5}
+.sfTopBar .sfUserHeader img{width:36px;height:36px;display:block}
+.sfTopBar .sfUserInfo .sfShortInfo{padding:0 15px}
+.sfTopBar .sfUserInfo .sfShortInfo .sfProfileName{font-size:16px;color:#333;margin-bottom:5px}
+.sfTopBar .sfUserInfo .sfShortInfo img{float:left;width:64px;height:64px;margin-right:15px}
+.sfTopBar .sfOpened .sfUserInfo{display:block}
+.sfTopBar .sfUserInfo li{margin-top:2px;list-style-type:none}
+.sfUserInfoSwitchWrp{display:flex;margin-bottom:8px;margin-top:8px;padding:8px 15px;align-items:center;cursor:pointer;color:#333;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
+.sfTopBar .sfUserInfo .sfUserInfoSwitch{color:#666;margin-left:auto;text-transform:uppercase}
+.sfTopBar .sfUserInfoSwitch i{font-size:22px;vertical-align:middle}
+.sfTopBar .sfUserInfo a{padding:5px 15px;display:block}
+.sfTopBar .sfUserInfo a:hover,.sfTopBar .sfUserInfo a:focus{background-color:#f2f2f2}
+.sfMTopNone{margin-top:0!important}
+.sfMTop2{margin-top:2px}
+.sfMTop5{margin-top:5px}
+.sfMTop10{margin-top:10px}
+.sfMTop15{margin-top:15px}
+.sfMTop20{margin-top:20px!important}
+.sfMTop25{margin-top:25px}
+.sfMTop30{margin-top:30px}
+.sfMTop35{margin-top:35px}
+.sfMTop40{margin-top:40px}
+.sfMTop50{margin-top:50px}
+.sfMTop60{margin-top:60px}
+.sfMTop100{margin-top:100px}
+.sfMTop-5{margin-top:-5px}
+.sfMTop-10{margin-top:-10px}
+.sfMTop-20{margin-top:-20px}
+.sfMTop-30{margin-top:-30px}
+.sfMTop-40{margin-top:-40px}
+.sfMBottom5{margin-bottom:5px}
+.sfMBottom10{margin-bottom:10px}
+.sfMBottom15{margin-bottom:15px}
+.sfMBottom20{margin-bottom:20px!important}
+.sfMBottom25{margin-bottom:25px}
+.sfMBottom30{margin-bottom:30px}
+.sfMBottom35{margin-bottom:35px}
+.sfMBottom40{margin-bottom:40px}
+.sfMBottom-30{margin-bottom:-30px}
+.sfMLeft3{margin-left:3px}
+.sfMLeft5{margin-left:5px}
+.sfMLeft10{margin-left:10px}
+.sfMLeft15{margin-left:15px}
+.sfMLeft20{margin-left:20px}
+.sfMLeft25{margin-left:25px}
+.sfMLeft30{margin-left:30px}
+.sfMLeft40{margin-left:40px}
+.sfMLeft50{margin-left:50px}
+.sfMLeft60{margin-left:60px}
+.sfMLeft65{margin-left:65px}
+.sfMLeft70{margin-left:70px}
+.sfMRight5{margin-right:5px}
+.sfMRight10{margin-right:10px}
+.sfMRight15{margin-right:15px}
+.sfMRight20{margin-right:20px}
+.sfMRight25{margin-right:25px}
+.sfMRight30{margin-right:30px}
+.sfMRight40{margin-right:40px}
+.sfMRight60{margin-right:60px}
+.sfPadding5{padding:5px}
+.sfPadding10{padding:10px}
+.sfPadding20{padding:20px}
+.sfPadding30{padding:30px}
+.sfPadding40{padding:40px}
+.sfPTop5{padding-top:5px}
+.sfPTop10{padding-top:10px}
+.sfPTop15{padding-top:15px}
+.sfPTop20{padding-top:20px}
+.sfPTop25{padding-top:25px}
+.sfPTop30{margin-top:30px}
+.sfPTop100{padding-top:100px}
+.sfPBottom0{padding-bottom:0!important}
+.sfPBottom5{padding-bottom:5px}
+.sfPBottom10{padding-bottom:10px}
+.sfPBottom15{padding-bottom:15px}
+.sfPBottom20{padding-bottom:20px}
+.sfPBottom25{padding-bottom:25px}
+.sfPBottom30{padding-bottom:30px}
+.sfPLeft20{padding-left:20px}
+.sfPLeft35{padding-left:35px}
+.sfPRight35{padding-right:35px}
+.sfWrapper h1,.sfDialog h1,.sf-modal-fluid h1{font-size:34px;line-height:1.1;color:#333;font-weight:normal}
+.sfGlobalPermissions .sfWorkArea h1{padding:5px 0 21px;font-size:24px;color:#000}
+.sfWrapper h2,.sfDialog h2{font-size:18px;color:#888;font-weight:normal}
+.sfWrapper .sfBlack,.sfDialog .sfBlack{color:#000}
+.sfBlackLight{color:#333}
+.sfDialog .sfSelectorShortWrapper h2{font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWrapper h2.sfWorkAreaSectionTitle,.sfWrapper h2.sfGridSectionTitle{margin-top:27px;margin-bottom:15px;color:#000}
+.sfWrapper h3.sfGridSectionSubTitle{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWrapper .sfGridSectionSubTitleWrp{padding:10px 15px;background-color:#f2f2f2}
+.sfWrapper .sfGridSectionSubTitleWrp{min-height:30px}
+.sfDialog .sfModeSelector h2,.sfDialog .sfContentViews .sfModeSelector h2{font-size:15px;line-height:1.2;color:#888;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfMaximizedWindow .sfContent .sfWorkArea h2{margin-top:25px;margin-bottom:15px;font-size:18px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfIos,.sfAndroid{font-size:18px;padding:2px 0 2px 20px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLogos.gif") %>) no-repeat -999px -9999px}
+.sfIos{background-position:0 1px}
+.sfAndroid{background-position:0 -98px}
+.sfDialog .sfModeSelector .sfStep1::before,.sfDialog .sfActionInStpes .sfStep1::before,.sfDialog .sfModeSelector .sfStep2::before,.sfDialog .sfActionInStpes .sfStep2::before,.sfDialog .sfModeSelector .sfStep3::before,.sfDialog .sfActionInStpes .sfStep3::before,.sfDialog .sfModeSelector .sfStep4::before,.sfDialog .sfActionInStpes .sfStep4::before{display:inline-block;margin-right:5px;font-size:20px;background-color:#80aafc;color:#fff;border-radius:25px;min-width:25px;height:25px;vertical-align:middle;text-align:center}
+.sfDialog .sfModeSelector .sfStep1::before,.sfDialog .sfActionInStpes .sfStep1::before{content:"1"}
+.sfDialog .sfModeSelector .sfStep2::before,.sfDialog .sfActionInStpes .sfStep2::before{content:"2"}
+.sfDialog .sfModeSelector .sfStep3::before,.sfDialog .sfActionInStpes .sfStep3::before{content:"3"}
+.sfDialog .sfModeSelector .sfStep4::before,.sfDialog .sfActionInStpes .sfStep4::before{content:"4"}
+.sfAllToolsWrapper h2{line-height:1.3;padding-left:11px;color:#333}
+.sfGlobalPermissions .sfWorkArea h2{padding-bottom:6px;font-size:16px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfTwoColsSecond h2{font-size:24px;color:#000}
+.sfTwoColsSecond.sfBasicSettingsWrp h2{margin-bottom:15px;font-size:19px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfInpageWnd h2{padding:20px 0 10px}
+.sfWrapper h3,.sfDialog h3{font-size:24px;color:#000;font-weight:normal}
+.sfWrapper .sfInstructions h3,.sfDialog .sfInstructions h3{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfTwoColsFirst h3{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog .sfModeSelector h3,.sfSelectorDialog .sfExpandableSection h3,.sfSelectorDialog .sfModeSelector .sfDropDownListWrp .sfTxtLbl,.sfProcessInfoWrp .sfExpandableSection h3,.sfSelectorDialog .sfModeSelector .sfSelectSpecificWrp h2,.sfForm .sfExpandableSection h3,.sfDialog .sfModeSelector .sfStep2Options h2{font-size:13px;margin-top:15px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfForm .sfExpandableSection h3,.sfWrapper .sfExpandableSection h3{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog .sfModeSelector .sfSelectSpecificWrp h2{margin-bottom:5px}
+.sfSelectorDialog .sfExpandableSection .sfExpandableSection h3{margin-top:5px}
+.sfTwoColsSecond.sfBasicSettingsWrp h3{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfTwoColsSecond.sfBasicSettingsWrp h3.sfSettingsSectionTitle{font-size:16px}
+h1.sfBreadCrumb{padding:40px 35px 24px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:transparent}
+h1.sfBreadCrumb.sfBreadCrumbWithBack{white-space:normal}
+h1.sfBreadCrumbCentered{margin-left:auto;margin-right:auto;width:620px}
+.sfContentCentered h1.sfBreadCrumb,h1.sfBreadCrumbCentered{padding-left:0;padding-right:0;white-space:normal}
+.sfHasLeftSidebar h1.sfBreadCrumb{margin-bottom:-1px;position:relative;background-color:#fff;border-bottom:1px solid #e4e4e4;z-index:1}
+h1.sfBreadCrumb .sfBreadCrumbBack,h1.sfBreadCrumb .sfBreadCrumbForward{padding-left:7px;font-size:12px;display:inline-block;vertical-align:middle;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+h1.sfBreadCrumb .sfBreadCrumbBack a,h1.sfBreadCrumb .sfBreadCrumbForward a{border-left:1px solid #f1f1f1}
+h1.sfBreadCrumb .sfBreadCrumbBack a::before,h1.sfBreadCrumb .sfBreadCrumbForward a::before{display:inline-block;margin-right:8px;margin-left:15px;font-family:FontAwesome;vertical-align:middle;font-size:14px}
+h1.sfBreadCrumb .sfBreadCrumbBack a::before{content:"\f0a8"}
+h1.sfBreadCrumb .sfBreadCrumbForward a::before{content:"\f0a9"}
+body.sfHasProviderSelector h1.sfBreadCrumb,body.sfHasSiteSelector h1.sfBreadCrumb,body.sfHasHorizontalTabsMenu h1.sfBreadCrumb{margin-bottom:44px}
+h1.sfBreadCrumb .sfBeta,h2 .sfBeta{padding:1px 5px;position:relative;background-color:#69f;color:#fff;top:-15px;font-size:9px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+h1.sfBreadCrumb.sfBreadCrumbHasTypes{overflow:visible}
+.sfBreadCrumbHasTypes .sfViewTitle{color:#bcbcbc;display:inline-block;vertical-align:top;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfSiteSelectorMenuWrp{display:inline-block;margin-left:-10px;height:40px;position:relative;background-color:#fff;z-index:2951!important}
+.sfSiteSelectorMenuWrp>ul{display:none}
+.sfMain{padding-bottom:45px}
+.k-window.sfMaximizedWindow .sfMain{padding-bottom:45px}
+body.sfHasSidebar .sfMain{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfSidebar.gif") %>) repeat-y 80% 0}
+body.sfHasSidebar.sfWhiteSidebar .sfMain{background-image:none}
+body.sfHasLeftSidebar .sfMain{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y 0 0}
+body.sfHasLeftSidebar.sfHasSmallSidebar .sfMain{background-position:-140px 0}
+body.sfHasLeftSidebar.sfHasMediumSidebar .sfMain{background-position:-80px 0}
+body.sfHasLeftSidebar.sfGlobalPermissions .sfMain{background-position:-60px 0}
+body.sfEmpty .sfMain,body.sfEmpty.sfHasSidebar .sfMain{background-image:none}
+.sfFileExplorer .sfMain,.sfPageBrowser .sfMain,.sfMain.sfSilverlightWrp{padding-bottom:25px}
+.sfHasLeftSidebar.sfSettingsView .sfMain{position:relative}
+.sfContent{width:80%;float:left}
+.sfHasLeftSidebar.sfSettingsView .sfContent{width:auto;float:none;margin-left:350px;margin-right:40px}
+.sfHasLeftSidebar.sfSettingsView.sfHasSmallSidebar .sfContent{margin-left:210px}
+.sfHasLeftSidebar.sfSettingsView.sfHasLeftWithToolbar .sfContent{margin-top:20px;margin-right:0}
+.sfNoSidebar .sfContent,.sfEmpty .sfContent{width:100%;float:none}
+.sfContentCentered{margin-left:auto;margin-right:auto;padding-bottom:45px;width:620px}
+.sfContentCentered .sfHelpOnRightWrp{position:relative}
+.sfContentCentered .sfBorderCol,.sfNewContentForm .sfBorderCol{box-sizing:border-box;border:1px solid #ddd;padding:20px}
+.sfContentCentered .sfLastLyncSummary.sfBorderCol{border:0;padding:0}
+.sfContentCentered .k-widget.sfBorderCol{border:1px solid #ddd!important}
+.sfContentCentered .sfBorderCol .sfForm{padding:0;border:0}
+.sfContentCentered .sfHelpOnRight{right:auto;left:660px}
+.sfContentCentered .sfLastSyncRight{width:35%;border-left:1px solid #ddd}
+.sfHighlightBoxWrp{position:absolute;right:0;width:20%}
+.sfHighlightBox{margin:30px 0 0;padding:16px 18px 14px;background-color:#f5f7f8}
+.sfHighlightBox .sfCreateItm a{display:block;padding-bottom:3px;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfHighlightBox .sfCreateItm a::before{display:inline-block;margin-right:5px;font-family:FontAwesome;vertical-align:top;content:"\f055";font-size:16px;color:#689b30}
+.sfHighlightBox .sfCreateItm .sfExample{margin-left:20px}
+.sfWrapper .sfHighlightBox h2{color:#000;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar{float:right;margin-top:-75px;width:20%;position:relative;z-index:9}
+.sfSidebar.sfSidebar--noHeader{background:0}
+.sfSidebar.sfSidebar--preview{margin-top:0}
+.sfHasLeftSidebar.sfSettingsView .sfSidebar{position:absolute;top:80px;left:40px;float:none;width:310px;background-image:none}
+.sfHasLeftSidebar.sfSettingsView.sfHasSmallSidebar .sfSidebar{width:120px}
+.sfNoSidebar .sfSidebar,.sfEmpty .sfSidebar,.sfEmpty .sfContextWidgetWrp,body.sfLoadingTransition .sfWrapper,body.sfLoadingTransition .sfMessagePane,body.sfLoadingTransition .sfLanguagePane,body.sfLoadingTransition .sfPageEditorToolbarWrapper,body.sfLoadingTransition .sfPageWrapper,.sfEmpty .sfWorkArea .k-grid{display:none}
+body.sfLoadingTransition .RadAjax{display:none!important}
+body.sfHasProviderSelector .sfSidebar,body.sfHasSiteSelector .sfSidebar,body.sfHasHorizontalTabsMenu .sfSidebar{margin-top:-119px}
+.sfEmptyList{width:500px;min-height:85px;padding-top:210px;text-align:center;position:absolute;top:50%;left:50%;margin-top:-150px;margin-left:-250px;z-index:5}
+.sfEmptyList.sfEmptyWithSidebar{left:40%}
+.sfEmptyList .sfMessage{display:inline;display:block;padding:6px 10px 4px;line-height:1.5;font-weight:normal}
+.sfEmptyList .sfMessage h2{color:#000;position:relative;font-size:27px;margin-top:10px;margin-bottom:-8px}
+.sfEmptyList .sfMessage.sfMsgNeutral{background-color:transparent!important;color:#666}
+.sfEmptyList .sfWhatsNext{padding-top:5px}
+.sfWhatsNext .sfCreateItem{font-size:29px}
+.sfWhatsNext .sfCreateSubsequentItem{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWhatsNext .sfDecisionIcon,.sfWhatsNext .sfDecisionImg{display:none}
+.sfWhatsNext .sfCreateItem .sfDecisionIcon,.sfWhatsNext .sfCreateSubsequentItem .sfDecisionIcon,.sfNoHistoryIcon{display:block;position:absolute;margin-left:-100px;top:0;left:50%;z-index:1000;cursor:pointer;color:#cdcdcd;transition:background-color .2s}
+.sfWhatsNext .sfCreateItem:hover .sfDecisionIcon,.sfWhatsNext .sfCreateSubsequentItem:hover .sfDecisionIcon,.sfNoHistoryIcon:hover{color:#aaa}
+.sfWhatsNext .sfCreateItem .sfDecisionIcon::before,.sfWhatsNext .sfCreateSubsequentItem .sfDecisionIcon::before,.sfNoHistoryIcon::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f15c";font-size:92px;line-height:1;width:200px;height:200px;line-height:200px;background-color:#e4e4e4;color:#fff;border-radius:50%}
+.sfWhatsNext .sfCreateItem.sfCreateModule .sfDecisionIcon::before,.sfWhatsNext .sfCreateItem.sfEmptyTranslations .sfDecisionIcon::before{content:"\f016"}
+.sfWhatsNext .sfCreateItem :hover .sfDecisionIcon::before,.sfWhatsNext .sfCreateSubsequentItem :hover .sfDecisionIcon::before,.sfNoHistoryIcon:hover::before{background-color:#ccc}
+.sfWhatsNext .sfDisabled .sfDecisionIcon,.sfWhatsNext .sfDisabled .sfDecisionIcon,.sfNoHistoryIcon{cursor:default}
+.sfWhatsNext .sfCreateItem .sfDecisionImg{display:block;width:100%;position:absolute;margin-top:-215px;cursor:pointer}
+.sfNoHistoryIcon::before{content:"\f017"}
+.sfWhatsNext .sfCreateItem.sfCreateModule .sfDecisionIcon::after{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f013";font-size:40px;position:absolute;left:82px;top:74px;color:#fff}
+.sfWhatsNext .sfCreateItem.sfCreateMobileApp .sfDecisionIcon::before{content:"\f10b";font-size:120px}
+.sfWhatsNext .sfCreateItem.sfCreateComments .sfDecisionIcon::before{content:"\f0e6";font-size:110px}
+.sfWhatsNext .sfCreateItem.sfEmptyRecycleBin .sfDecisionIcon::before{content:"\f014";font-size:110px}
+.sfWhatsNext .sfCreateItem.sfEmptyTranslations .sfDecisionIcon::after{display:inline-block;vertical-align:top;content:"?";font-size:40px;position:absolute;left:78px;top:74px;color:#fff}
+.sfWarningEmptyList{margin:0 auto;text-align:center;max-width:550px}
+.sfWarningEmptyList h2{margin-top:20px;margin-bottom:15px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWarningEmptyList h2::before{display:block;font-family:FontAwesome;vertical-align:top;content:"\f071";font-size:134px;color:#828282}
+.sfSiteSyncEmptyList{padding-top:0;color:#666}
+.sfSiteSyncEmptyList .sfImgWrp{margin-bottom:20px}
+.sfSiteSyncEmptyList .sfWhatsNext{margin-bottom:30px}
+.sfSiteSyncEmptyList .sfWhatsNext .sfCreateItem,.sfConnectorEmptyList .sfWhatsNext .sfCreateItem{font-size:22px}
+.sfForm .sfEmptyList{width:auto;min-height:0;padding-top:10px;text-align:left;position:static;top:50%;left:50%;margin-top:0;margin-left:0;z-index:100}
+.sfForm .sfEmptyList .sfMessage{padding:0}
+#mappingFormWrapper ul{white-space:nowrap}
+.sfSyncIcn{text-indent:-999px;overflow:hidden;width:17px;height:19px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfArrows.gif") %>) no-repeat -1000px -1000px}
+.sfTwoWaySync{background-position:0 -3100px}
+.sfOneWayToSitefinitySync{background-position:0 -3197px}
+.sfOneWayToSharePointSync,.sfOneWayFromSitefinitySync,.sfOneWayToSalesForceSync{background-position:0 -3297px}
+.sfSyncOpt{display:block;margin-left:15px;width:167px;height:53px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfSharepointOpt.gif") %>) no-repeat -1000px -1000px}
+.sfSalesForceSyncOpt .sfSyncOpt{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfSalesforceOpt.gif") %>)}
+.sfTwoWayOpt{background-position:0 0}
+.sfToSitefinityOpt{background-position:0 -200px}
+.sfToSharepointOpt{background-position:0 -100px}
+.sfSidebar h2{margin-top:25px;padding-left:8%;padding-bottom:2px;font-size:18px;color:#666;font-weight:normal}
+.sfSidebar .sfInstructions h2{margin-bottom:15px;padding-left:0;line-height:1.2;color:#000}
+.sfGlobalPermissions h2.sfFilterTitle{padding:0 0 5px;font-size:13px;color:#333;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar h3{margin-bottom:5px;font-size:14px;color:#333;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar .sfWidgetsList,.sfSidebar .sfLinkWidgetsList,.sfSidebar .sfFilterBy,.sfSidebar .sfLangSelector{padding:25px 8% 0 8%}
+.sfHasLeftSidebar .sfSidebar .sfModules{padding-top:15px;padding-left:0}
+.sfSidebar .sfFirst{padding-top:30px}
+.sfSidebar .sfFirst.sfLangSelector{margin-bottom:-15px}
+.sfSidebar .sfInstructions{padding-left:8%;padding-right:8%}
+.sfSidebar .sfWidgetsList dl dt{padding-bottom:3px;overflow:hidden}
+.sfSidebar .sfWidgetsList dl dd{display:none}
+.sfSidebar .sfSeparator li{margin-bottom:1px}
+.sfSidebar .sfWidgetsList li,.sfSidebar .sfWidgetsList .rlbItem{margin-bottom:1px}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li a{display:block;position:relative;padding-right:19px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:top}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li span{vertical-align:top}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li .sfWidgetsListTitle{display:inline-block;max-width:80%;overflow:hidden;text-overflow:ellipsis}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li .sfDarkRemoveBtn{position:absolute;top:3px;right:4px}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li .sfDarkRemoveBtn::before{color:#eee}
+.sfSidebar .sfWidgetsList.sfWidgetsList--block li .sfDarkRemoveBtn:hover::before{color:#fff}
+.sfSidebar .sfWidgetsList a,.sfSidebar .sfFilterBy a,.sfPermissionsFilter a,.sfBasicSettingsList a,.sfBasicSettingsList .k-treeview.k-widget .k-in{color:#333;text-decoration:none}
+.sfSidebar .sfWidgetsList a:hover,.sfSidebar .sfWidgetsList a:focus,.sfSidebar .sfFilterBy a:hover,.sfSidebar .sfFilterBy a:focus,.sfBasicSettingsList a:hover,.sfBasicSettingsList a:focus,.sfBasicSettingsList .k-treeview.k-widget .k-in.k-state-hover{color:#000}
+.sfSidebar .sfWidgetsList a.sfCloseFilter{padding:0;background:transparent;text-decoration:underline;color:#666}
+.sfBasicSettingsList a,.sfBasicSettingsList .k-treeview.k-widget .k-in{display:inline-block;min-height:17px;line-height:1.2;vertical-align:top;cursor:pointer;padding:2px 4px 1px}
+.sfBasicSettingsList .sfGlobalSettingsWrp{margin-top:15px;margin-right:40px}
+.sfHasSmallSidebar .sfBasicSettingsList .sfGlobalSettingsWrp{margin-right:0}
+.sfBasicSettingsList.sfRefs a,.sfBasicSettingsList .k-treeview.k-widget .k-in{padding:3px 5px;background-image:none}
+.sfBasicSettingsList.sfContentTypeRefs .k-treeview.k-widget .k-item ul.k-group{margin-left:23px}
+.sfBasicSettingsList h3{padding:25px 4px 5px;font-size:13px;color:#333;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar .RadListBox{display:block}
+.sfSidebar .RadListBox .rlbGroup,.sfSidebar .RadListBox .rlbItem{border:0}
+.sfSidebar .sfWidgetsList a,.sfPermissionsFilter a,.sfFilterBy.sfFilterByDate ul>li>ul>li>a,.sfSidebar .sfWidgetsList .RadListBox .rlbText{display:inline-block;min-height:17px;line-height:1.2;vertical-align:top;cursor:pointer;margin-left:-2px;padding:4px 5px 2px;border-radius:3px}
+.sfSidebar .sfWidgetsList .rlbSelected .rlbText{background-color:#e4e4e4;color:#333}
+.sfSidebar .RadListBox .rlbGroup .rlbActive,.sfSidebar .RadListBox .rlbItem{padding:0;border:0}
+.sfSidebar .RadListBox .rlbText{color:#333}
+.sfSidebar .sfFilterBy a{margin-left:-1px;padding:2px 5px 2px;display:inline-block;overflow:hidden;text-overflow:ellipsis;max-width:180px;white-space:nowrap;border-radius:3px;vertical-align:top}
+.sfSidebar .sfFilterBy a.sfLinkBtn{padding:0 10px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumFilter{display:inline-block;vertical-align:top;min-height:44px;background-image:none}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfSel .sfAlbumFilter{background-color:#e4e4e4}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumThumb,.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumInfo{display:block;vertical-align:top}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumThumb{margin:8px 0 0 4px;width:32px;height:32px;overflow:hidden;float:left}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumThumb a{display:inline-block;width:32px;height:32px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfAlbumInfo{padding-top:2px;margin-left:50px;margin-right:15px;line-height:1.2}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfImgInAlbum{display:block;font-size:11px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfSel a{color:#fff}
+.sfSidebar .sfFilterBy .sfFilterByAlbum .sfSel .sfImgInAlbum{color:#e4e4e4}
+.sfSidebar .sfFilterBy .sfFilterByAlbum.sfDocFilter .sfAlbumFilter{min-height:37px;background-position:4px -647px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum.sfDocFilter .sfAlbumFilter.sfEmptyFilter{background-position:4px -747px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum.sfDocFilter .sfAlbumThumb{margin-top:3px;width:34px;height:29px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum.sfDocFilter .sfSel .sfAlbumThumb a{background-color:transparent!important;width:34px;height:29px}
+.sfSidebar .sfFilterBy .sfFilterByAlbum.sfDocFilter .sfAlbumThumb img{display:none}
+.sfExpandableLink .allcontent,.sfBreakAll{word-break:break-all}
+.sfSidebar .sfFilterBy a.sfShowMore{padding-top:3px;padding-bottom:13px;color:#105CB6;font-family:open_sanssemibold,Arial,Verdana,sans-serif;max-width:none;white-space:normal}
+.sfSidebar .sfFilterBy a.sfShowMore:hover,.sfSidebar .sfFilterBy a.sfShowMore:focus{color:#00f}
+.sfSidebar .sfManageItems a{padding-top:0;background-image:none;color:#666;text-decoration:underline}
+.sfSidebar .sfManageItems a:hover,.sfSidebar .sfManageItems a:focus{text-decoration:none}
+.sfSidebar .sfFilterBy .sfCloseFilter{position:absolute;right:20px;top:45px;font-size:11px}
+.sfSidebar .sfFilterBy .sfCloseFilter a::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f057";vertical-align:middle;line-height:1.1;font-size:14px}
+.sfSidebar .sfFilterBy .sfTimeRange{margin-top:5px}
+.sfSidebar .sfFilterBy .sfTimeRange .sfTimeRangeWrp{margin-top:10px}
+.sfSidebar .sfFilterBy .sfTimeRange label{display:block;font-size:11px;color:#333}
+.sfSidebar .sfFilterBy .sfTimeRange .sfTimeRangeWrp .sfTxt{width:190px}
+.sfSidebar .sfTimeRange .sfCustomRange a::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f055";vertical-align:middle;line-height:1.1;font-size:14px}
+.sfSidebar .sfWidgetsList a.sfSel,.sfPermissionsFilter .sfSel a,.sfFilterBy a.sfSel,.sfFilterBy .sfSel a,.sfSidebar .sfFilterBy .sfSel a,.sfSidebar .sfFilterBy .sfSel a:hover,.sfSidebar .sfFilterBy .sfSel a:focus,.sfSidebar .sfFilterBy a.sfSel,.sfSidebar .sfFilterBy a.sfSel:hover,.sfSidebar .sfFilterBy a.sfSel:focus,.sfBasicSettingsList a.sfSel,.sfBasicSettingsList a.sfSel:hover,.sfBasicSettingsList a.sfSel:focus,.sfBasicSettingsList .k-treeview.k-widget .k-in.k-state-selected{background-color:#e4e4e4;border-radius:3px}
+.sfSidebar .sfSecondaryFilterList li{margin-bottom:5px}
+.sfSidebar .sfSecondaryFilterList a{padding:4px 5px}
+.sfSidebar .sfAllFilter a{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar .sfEmphasized a{font-style:italic}
+.sfSidebar .sfWidgetsList .sfCount,.sfSidebar .sfFilterBy .sfCount{color:#999}
+.sfSidebar .sfWidgetsList a.sfSel,.sfPermissionsFilter .sfSel a,.sfSidebar .sfFilterBy a.sfSel{cursor:default}
+.sfSidebar .sfWidgetsList .sfCount{vertical-align:top;display:inline-block;font-size:10px;line-height:2}
+.sfSidebar .sfFilterBy .sfCount{font-size:10px}
+.sfSidebar .sfDetailsList{line-height:1.2;padding-bottom:10px;color:#333}
+.sfSidebar .sfDetailsList dt{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSidebar .sfDetailsList dd{padding-bottom:10px}
+.sfSidebar .sfSidebarActionsList a{color:#105CB6;text-decoration:none}
+.sfSidebar .sfSidebarActionsList a:hover,.sfSidebar .sfSidebarActionsList a:focus{text-decoration:none;color:#00f}
+.sfSidebar .RadTreeView{overflow-x:auto}
+.sfSidebar .RadTreeView .rtPlus,.sfSidebar .RadTreeView .rtMinus{background-image:none;width:auto;height:auto;font-size:14px;vertical-align:top}
+.sfSidebar .RadTreeView .rtPlus::before,.sfSidebar .RadTreeView .rtMinus::before{display:inline-block;margin-right:5px;font-family:FontAwesome;vertical-align:top;line-height:1.1;font-size:14px;cursor:pointer;width:10px}
+.sfSidebar .RadTreeView .rtPlus::before{content:"\f0da"}
+.sfSidebar .RadTreeView .rtMinus::before{content:"\f0d7"}
+.sfSidebar .RadTreeView .rtSp{display:none}
+.sfSidebar .RadTreeView .rtIn{margin-left:-10px;padding:0;border:0;text-decoration:none;font-family:open_sansregular,Arial,Verdana,sans-serif!important}
+.sfSidebar .RadTreeView .rtSp+.rtIn{margin-left:-3px}
+.sfSidebar .RadTreeView .rtIn.sfLnk.sfLightTxt{display:block;margin-left:2px;font-style:normal;font-size:12px;color:#105CB6}
+.sfSidebar .RadTreeView .rtIn.sfLnk.sfLightTxt:hover,.sfSidebar .RadTreeView .rtIn.sfLnk.sfLightTxt:focus{color:#00f}
+.sfSidebar .RadTreeView .rtHover .rtIn,.sfSidebar .RadTreeView .rtSelected .rtIn{border:0;padding:0;background-image:none;background-color:transparent}
+.sfSidebar .RadTreeView .rtSelected .rtIn a{margin-left:0}
+.sfSidebar .RadTreeView .rtUL .rtUL{padding-left:15px}
+.sfSidebar .sfLibFolders{margin-left:-19px}
+.sfSidebar .sfSeparator .sfPageFilter{margin-top:9px;padding-top:17px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 0}
+.sfSidebar .sfSeparator .sfPageFilter ul{background-image:none;padding-bottom:0}
+.sfSidebar .sfPageFilter li{line-height:1.1}
+.sfSidebar .sfPageFilter .sfFilterPageTitle{font-size:13px}
+.sfSidebar .sfPageFilter .sfFilterBreadcrumb{display:block;font-size:11px;color:#666;margin-top:-5px;padding-bottom:1px}
+.sfSidebar .sfPageFilter .sfSel .sfCount{color:#cecece}
+.sfSidebar .sfPageFilter .sfSel .sfFilterBreadcrumb{color:#e4e4e4}
+.sfSidebar .sfFieldsList li{margin-bottom:4px;color:#000;cursor:move}
+.sfSidebar .sfFieldsList .sfFieldName{display:inline-block;padding-left:50px;padding-top:3px;min-height:22px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfForms.gif") %>) no-repeat 0 -1100px;font-weight:normal;font-family:open_sansregular,Arial,Verdana,sans-serif}
+.sfSidebar .sfFieldsList .ui-draggable-disabled{color:#999;background-position:0 -1200px;cursor:default}
+.sfSidebar .sfFieldsList .sfFieldAlreadyColumn{width:auto!important;height:auto!important;max-width:100%}
+.sfSectionTitle.ui-draggable-dragging{width:auto!important;height:auto!important;max-width:100%}
+.sfHelpOnRight .sfFormFAQ{padding:10px 15px 15px;border:1px solid #d7d7d7;background-color:#fff;line-height:1.2}
+.sfExternalLinks{line-height:1.2}
+.sfSidebar .sfExternalLinks{margin:100px 10% 0}
+.sfWrapper .sfExternalLinks h3{padding-bottom:10px;font-weight:normal;color:#666;font-size:13px}
+.sfForm .sfExternalLinks li{padding-bottom:5px}
+.sfExternalLinks a{display:inline-block;padding:2px 0 5px}
+.sfExternalLinks .sfVideo a::before,.sfExternalLinks .sfArticle a::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;font-size:14px;color:#64b5f1}
+.sfExternalLinks .sfVideo a::before{content:"\f03d"}
+.sfExternalLinks .sfArticle a::before{content:"\f02d"}
+.sfExternalLinks a .sfDuration{color:#666;cursor:default;white-space:nowrap}
+.sfExternalLinks .sfLearnMore{margin-left:-15px;margin-right:-15px;margin-bottom:-5px;margin-top:10px;padding-top:10px}
+.sfExternalLinks .sfLearnMore a{padding-left:20px}
+.sfHelpOnRight{position:absolute;right:40px;width:300px}
+.sfHelpNextToSettings{position:absolute;left:700px;max-width:300px}
+.sfExternalLinks a.sfNormalLink{color:#105CB6;padding-left:0}
+.sfAllToolsWrapper{position:relative;z-index:2;color:#666;padding-bottom:15px}
+.sfAllToolsSolidWrp{background:#fff;border-bottom:1px solid #e4e4e4}
+.sfAllToolsSolidWrp.sfAllToolsWrapper h2{padding-left:0}
+.sfAllToolsSolidWrp .sfAllTools{padding-left:35px}
+.sfDiagnosticsWrp .sfAllToolsWrapper{background-color:#fff;border-bottom:1px solid #e5e5e5}
+.sfNoSidebar .sfAllToolsWrapper{padding-top:15px;width:100%}
+.sfEmpty .sfAllToolsWrapper{display:none}
+.sfAllTools{padding-left:30px;min-height:30px;_height:30px;*height:30px}
+.sfToolsLineHeight{line-height:30px!important}
+.sfActions li,.sfActions .sfSearchBtnInToolbar,.sfActions .sfActionsItem{display:inline-block;vertical-align:top;min-height:30px;list-style-type:none}
+.sfActions .sfLinkBtn,.sfActions .sfActionsDDL{margin-left:5px;margin-right:5px}
+.sfActions .sfActionContainer{padding-left:0;padding-right:0}
+.sfActions .sfActionContainer>*:first-child{margin-left:3px}
+.sfActions .sfActionContainer>*:last-child{margin-right:3px}
+.sfActions .sfActionsItem h2{font-size:14px;color:#777;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfActions li li{display:block;min-height:0;height:auto}
+.sfActions .sfCancekAction{padding-top:11px;min-height:27px}
+.sfAllTools .sfChangeLanguage em{float:left;padding-left:5px;font-style:normal}
+.sfAllToolsWrapper .sfAdvancedToolsWrapper{float:right;margin-top:-21px;padding-right:10px;color:#333}
+.sfAllToolsWrapper .sfAdvancedToolsWrapper strong{font-size:11px}
+.sfActions .sfQuickSort{position:absolute;right:100px;top:20px}
+.sfActions.sfFormsActions .sfQuickSort{top:2px}
+.sfActions .sfQuickSort label{display:inline;font-weight:normal;padding-right:5px}
+.sfActions .sfQuickSort.sfNoMasterViews{right:40px}
+.sfActions .sfChangeLanguage{margin-left:10px;margin-right:15px;padding-top:5px;box-sizing:border-box}
+.sfProviderWrapper{padding-top:17px}
+.sfTwoColsSecond .sfProviderWrapper{padding-top:0}
+.sfAllToolsWrapper .sfSearch{border-top-color:#f2f2f2;border-top-style:solid;border-bottom-color:#f2f2f2;border-bottom-style:solid}
+.sfShowSearchPanel .sfAllToolsWrapper{margin-bottom:47px}
+.sfMasterAndDetails.sfShowSearchPanel .sfAllToolsWrapper{margin-bottom:0}
+.sfShowSearchPanel .sfAllToolsWrapper .sfSearch{padding:7px 0;border-top-width:1px;border-bottom-width:1px;position:absolute;left:0;top:62px;width:100%}
+.sfShowSearchPanel .sfAllToolsWrapper .sfSearch .sfSearchBoxSet{margin-left:40px}
+.sfShowSearchPanel .sfContent .sfSearchLoading{position:relative;margin-top:-30px;margin-left:40px;padding-top:10px;z-index:100}
+.sfWorkArea .sfSearch{padding:10px 0 0}
+.sfSearchBoxSet,.sfWatermarkField{position:relative}
+.sfSelectorDialog .sfSearchBoxSet{z-index:700009;z-index:1000}
+.sfSelectorDialog .sfColWrapper .sfSearchBoxSet{padding-bottom:10px}
+.sfSelectorDialog .sfSelectorFilters.sfSearchInMiddle{padding-top:15px;min-height:25px;border-top:1px solid #e5e5e5}
+.sfSelectorDialog .sfSelectorFilters:not(.sfSearchInMiddle){display:flex}
+.sfSelectorDialog .sfSelectorFilters.sfSearchInMiddle .sfSearchBoxSet{margin-top:10px}
+.sfSelectorDialog .sfSearchBoxSet .sfTxt,.sfSelectorDialog .sfFormCtrl .sfSearchBoxSet .sfTxt,.sfTwoColsFirst .sfSearchBoxSet .sfTxt{width:calc(100% - 12px)}
+.sfGlobalPermissions .sfTwoColsFirst .sfSearchBoxSet{margin-top:10px;width:220px}
+.sfSearchBoxSet .sfSearchLbl,.sfWatermarkField .sfTxtLbl{left:5px;padding:0;position:absolute;text-align:left;top:6px;color:#999;font-style:italic;font-weight:normal}
+.sfWatermarkField .sfFocusedTxtLbl{text-indent:-99999px}
+.sfHighlighted{padding:1px 2px;background-color:#fffc00}
+.sfWrapper a .sfHighlighted{cursor:pointer}
+.sfMessage{padding:5px 10px 6px;display:none;min-height:17px;color:#000}
+.sfMessageWide{padding:7px 5px}
+.sfCompareTranslationDialog .sfMessage{width:600px}
+.sfSelectorDialog .sfMessage{margin:10px 0 15px}
+.sfGridViewMessage{position:relative;margin-top:10px;margin-bottom:-17px}
+.sfToolMessage{margin:15px 0 5px;padding:5px 15px}
+.sfDialogMessage,.sfDialogMessage.sfFailure,.sfDialogMessage.sfSuccess,.sfDialogMessage.sfNeutral,.sfDialogMessage.sfInformation{margin-top:-10px;margin-bottom:20px;padding:5px 10px;position:relative;line-height:1.1}
+.sfDesignerMessage{margin-bottom:10px}
+.sfUploadedImgMsg{display:none;margin-top:25px;font-size:18px;padding:5px 10px}
+.sfUploadedImgMsg.sfMsgHidden{display:none!important}
+.sfToolsForm .sys-container{display:inline}
+.sfToolsForm label{padding-right:5px}
+.sfCreateRoleForm .sfTxt{padding-top:2px;padding-bottom:2px;width:200px}
+.sfCreateRoleForm label.error{float:left}
+.sfToolsForm .sfLinkBtn{margin-left:5px;margin-right:5px}
+.sfToolsForm select{vertical-align:middle}
+.sfWorkArea,.sfContentArea,.sfWorkArea.sfSectionInSection{padding:0 40px}
+.sfHasLeftWithToolbar .sfWorkArea{padding-left:0;padding-right:0}
+.sfWorkArea .sfFirstInArea{margin-top:20px}
+.sfTwoColsFirst{padding:20px 0 0 0;float:left;width:310px}
+.sfHasSmallSidebar .sfTwoColsFirst{width:170px}
+.sfHasMediumSidebar .sfTwoColsFirst{width:230px}
+.sfGlobalPermissions .sfTwoColsFirst{width:250px}
+.sfTwoColsFirst .RadTreeView{width:300px;overflow:auto}
+.sfTwoColsSecond,.sfGlobalPermissions.k-window .sfTwoColsSecond{padding-top:20px;margin-left:350px}
+.sfHasSmallSidebar .sfTwoColsSecond{margin-left:210px}
+.sfHasMediumSidebar .sfTwoColsSecond{margin-left:290px}
+.sfTwoColsSecond.sfBasicSettingsWrp{position:relative}
+.sfSettingsView .sfTwoColsSecond{margin-left:40px}
+.sfSettingsView.sfHasLeftWithToolbar .sfTwoColsSecond{margin-right:40px}
+.sfGlobalPermissions .sfTwoColsSecond{margin-left:290px}
+body.sfDialog .sfTwoColsSecond{margin-left:0;padding-top:0}
+.sfTwoColsSecond .syntaxhighlighter{overflow:visible!important}
+.sfTwoColsSecond .syntaxhighlighter .toolbar{display:none}
+.sfTwoEqualCols .sfColsFirst,.sfTwoEqualCols .sfColsSecond{width:49%}
+.sfTwoEqualCols .sfColsFirst{float:left}
+.sfTwoEqualCols .sfColsSecond{float:right}
+.sfFooter{display:flex;justify-content:space-between;align-items:center;position:relative;margin-top:-35px;height:34px;font-size:12px;color:#999;background-color:#fff;border-top:1px solid #e5e5e5;clear:both}
+.sfFooter .sfCopy{padding-left:20px}
+.sfFooter .sfSupportLinks{display:inline-flex;padding-right:20px}
+.sfFooter .sfSupportLinks li{padding-left:10px;padding-right:10px;list-style-type:none}
+.sfFooter .sfSupportLinks a{text-decoration:underline}
+.sfFooter .sfSupportLinks a:hover,.sfFooter .sfSupportLinks a:focus{text-decoration:none}
+.sfLinkBtn,.sfChangeAlbum .sfOptionalExpander{display:inline-block;min-height:28px;line-height:27px;padding-right:10px;padding-left:10px;max-width:470px;vertical-align:middle;text-decoration:none;border:1px solid #ccc;border-radius:3px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfLinkBtnIn{font-family:open_sansregular,Arial,Verdana,sans-serif;font-weight:normal}
+.sfLinkBtn,a.sfLinkBtnIn{color:#333;background-color:#fff;transition:background-color .2s;font-size:13px}
+.sfLinkBtn:hover,.sfLinkBtn:focus,.sfLinkBtn:hover a.sfLinkBtnIn,.sfLinkBtn:focus a.sfLinkBtnIn{color:#000;background-color:#f2f2f2}
+.sfDisabledLinkBtn,.sfDisabledLinkBtn:hover,.sfDisabledLinkBtn:focus,.sfDisabled,.sfDisabled:hover,.sfDisabled:focus,.sfDisabledField .sfLinkBtn,.sfDisabledField .sfLinkBtn:hover,.sfDisabledField .sfLinkBtn:focus{cursor:default;color:#999!important;background-color:#f2f2f2;pointer-events:none}
+.sfLinkBtn .sfDialogHeadingStep{display:none}
+.sfNew,.sfSave,.sfRemove,.sfDelete,.sfSaveDraft,.sfSendTest,.sfScheduleDelivery,.sfDiscard,.sfMigrate,.sfSave:not(.sfLinkBtn) .sfLinkBtn,.sfSave a.sfLinkBtnIn{min-height:30px;line-height:29px;border:0;color:#fff}
+.sfNew,.sfSave,.sfMigrate,.sfSave:not(.sfLinkBtn) .sfLinkBtn,.sfSave a.sfLinkBtnIn{background-color:#4cb861}
+.sfNew:hover,.sfNew:focus,.sfAllToolsWrapper .sfSave:hover,.sfAllToolsWrapper .sfSave:focus,.sfUpload .sfNew:hover,.sfUpload .sfNew:focus,.sfSave:hover,.sfSave:focus,.sfMigrate:hover,.sfMigrate:focus,.sfSave:not(.sfLinkBtn) .sfLinkBtn:hover,.sfSave:not(.sfLinkBtn) .sfLinkBtn:focus,.sfSave:hover a.sfLinkBtnIn,.sfSave:focus a.sfLinkBtnIn{background-color:#429f55;color:#fff}
+.sfSave:not(.sfLinkBtn),.sfSave:not(.sfLinkBtn):hover,.sfSave:not(.sfLinkBtn):focus{background-color:transparent}
+.sfSave.sfDisabledLinkBtn,a.sfSave.sfDisabledLinkBtn:hover,a.sfSave.sfDisabledLinkBtn:focus,.sfSave.sfDisabled,a.sfSave.sfDisabled:hover,a.sfSave.sfDisabled:focus{background-color:#81c48f;cursor:default;color:#fff!important}
+.sfSelectorDialog .sfSave,.sfInpageWnd .sfSave{min-width:50px;text-align:center}
+.sfRemove,.sfDelete,.sfDiscard{background-color:#cc3a38}
+.sfRemove:hover,.sfRemove:focus,.sfDelete:hover,.sfDelete:focus,.sfDiscard:hover,.sfDiscard:focus{background-color:#c30000;color:#fff}
+.sfSendTest,.sfScheduleDelivery{background-color:#265db9}
+.sfSendTest:hover,.sfSendTest:focus,.sfScheduleDelivery:hover,.sfScheduleDelivery:focus{background-color:#1a4283;color:#fff}
+.sfCreateTaxonBtn{float:right;margin-top:3px}
+.sfMainFormBtns .sfLinkBtn.sfSecondaryBtn{margin-top:2px}
+.sfMainFormBtns .sfGoto.sfSecondaryBtn{margin-top:8px}
+a.sfCancel{padding-left:3px;color:#f00}
+a.sfCancel:hover,a.sfCancel:focus{color:#00f}
+a.sfCancel.sfAddOther{color:#105CB6}
+a.sfCancel.sfAddOther:hover,a.sfCancel.sfAddOther:focus{color:#00f}
+.sfDeleteBtn{display:inline-block;width:15px;height:14px;overflow:hidden}
+.sfDeleteBtn::before{display:inline-block;visibility:visible;margin-right:5px;font-family:FontAwesome;content:"\f014";vertical-align:top;line-height:1.1;font-size:14px;color:#999}
+.sfSidebar .sfWidgetsList .sfRecycleBinWidget a::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f014";vertical-align:top;line-height:1.1;font-size:14px}
+.sfDeleteLinkBtn{float:right}
+.sfXItm{display:inline-block;cursor:pointer;width:16px;height:16px;overflow:hidden;color:#999}
+.sfXItm::before{display:inline-block;font-family:FontAwesome;content:"\f057";line-height:16px;font-size:16px}
+.sfXItm:hover{color:#666}
+.sfChange,.sfChangeAlbum .sfOptionalExpander{min-height:24px;line-height:23px}
+.sfChangeLnk{font-size:10px}
+.sfSecondaryBtn{float:right}
+.sfImgPreviewWrp .sfSecondaryBtn{display:inline-block;margin-top:5px;float:none;vertical-align:top}
+.sfDialog .sfForm .sfext{vertical-align:bottom}
+.sfDialog .sfForm .sfFileOpenReplaceWrp{display:inline;vertical-align:bottom}
+.sfSelectorDialog .sfChange{margin-right:5px}
+.sfOptionsChange{min-height:20px;line-height:19px;padding-left:8px;padding-right:8px;font-size:12px}
+.sfOptionsChange::after{display:inline-block;margin-left:5px;font-family:FontAwesome;content:"\f0d7";vertical-align:middle;line-height:1.1;font-size:14px}
+a.sfClose{font-size:11px;color:#666}
+a.sfClose:hover,a.sfClose:focus{color:#333}
+.sfButtonArea .sfLinkBtn,.sfButtonAreaTop .sfLinkBtn,.sfTopButtonArea .sfLinkBtn{margin-right:5px}
+.sfMainFormBtns .sfWorkflowMenuWrp .sfLinkBtn{margin-right:0;margin:1px 7px 0 0}
+.sfMainFormBtns .sfWorkflowMenuWrp .sfPreview{position:absolute;top:1px;right:0}
+.sfMainFormBtns .sfDelItem{position:absolute;right:0;top:4px}
+.sfPageVersionToolbarWrp .sfPageVersionNoteWrp .sfButtonArea .sfLinkBtn{margin-right:0}
+.sfAddGroup{margin-top:5px}
+.sfLinkBtn.sfNotBtn,.sfLinkBtn.sfNotBtn:hover,.sfLinkBtn.sfNotBtn:focus{border:0;background-color:transparent;min-height:0;line-height:inherit;color:#105CB6}
+.sfLinkBtn.sfNotBtn:hover,.sfLinkBtn.sfNotBtn:focus{color:#00f}
+.sfClearer{clear:both}
+.sfClearfix:before,.sfClearfix:after{content:"";display:table}
+.sfClearfix:after{clear:both}
+.sfClearfix{zoom:1}
+.sfInlineBlock,.sfInlineBlock.sfTxtLbl{display:inline-block}
+.sfDisplayNone{display:none}
+.sfDisplayNoneImportant{display:none!important}
+.sfDisplayBlock{display:block}
+.sfDisplayInline{display:inline}
+.sfDisplayBlockImportant{display:block!important;visibility:visible!important}
+.sfVisibilityHidden{visibility:hidden}
+td.sfVisibilityHidden{visibility:visible}
+td.sfVisibilityHidden .sys-container{visibility:hidden}
+.sfOverflowHidden{overflow:hidden}
+.sfOverflowHiddenX{overflow-x:hidden}
+.sfTextEllipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfTextEllipsis90Percent{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:90%}
+.sfNowrapLine{white-space:nowrap}
+.sfAlignMiddle{vertical-align:middle}
+.sfAlignTop{vertical-align:top}
+.sfNoWrap{white-space:nowrap}
+.sfAlignBottom,ul.sfAlignBottomList>li{vertical-align:bottom}
+.sfAlignCenter{text-align:center!important}
+.sfBlockAlignCenter{margin:0 auto}
+.sfAlignRight{text-align:right!important}
+.sfAlignLeft{text-align:left!important}
+.sfTextLowercase{text-transform:lowercase}
+.sfTextUppercase{text-transform:uppercase}
+.sfBulletList{list-style-type:disc}
+.sfOrderedList{list-style-type:decimal}
+.sfInsideList{list-style-position:inside}
+.sfInlineList>li{display:inline-block;zoom:1;*display:inline;vertical-align:top}
+.sfTickList li,.sfPositive,.sfNegative,.sfAlertWarning,.sfAlertSuccess{padding-left:25px;position:relative}
+.sfTickList li:before,.sfPositive:before,.sfNegative:before,.sfAlertWarning:before,.sfAlertSuccess:before{display:block;width:18px;position:absolute;left:0;font-family:FontAwesome;margin-right:5px;vertical-align:top;font-size:20px;line-height:26px}
+.sfTickList li:before,.sfPositive:before{height:14px;top:2px;content:"\f00c";color:#38AB63;line-height:1}
+.sfNegative:before{height:17px;top:0;content:"\f00d";color:#c00;line-height:1}
+.sfAlertSuccess:before{height:20px;top:-2px;content:"\f058";color:#689b30}
+.sfAlertWarning:before{height:20px;top:-2px;content:"\f06a";color:#f60}
+.sfAlertWarningColor{color:#f60}
+.sfAlertSuccessColor{color:#1F924A}
+.sfSecondaryTxt{color:#666}
+.sfLightTxt{color:#999}
+.sfFontNormal{font-weight:normal!important}
+.sfSmallestTxt{font-size:11px}
+.sfSmallerTxt,.sfSmallerTxt .sfTxt,.sfSmallerTxt select{font-size:12px}
+.sfBaseTxt{font-size:13px}
+.sfBiggerTxt{font-size:15px}
+.sfBiggestTxt,.sfBiggestTxt.fa{font-size:18px}
+.sfBold{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWarningTxt{color:#f00}
+.sfChangeTextWrp .sfChangeText:hover{background:#ff9}
+.sfChangeTextWrp input{padding:0;border:0;outline:0;font-size:12px;line-height:inherit}
+.sfHBorderBottom{border-bottom:1px solid #e5e5e5}
+.sfHBorderTop{border-top:1px solid #e5e5e5}
+.sfVBorderRight{border-right:1px solid #e5e5e5}
+.sfVBorderMiddle{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>) repeat-y 50% 0}
+.sfMinDlgHieght{min-height:150px}
+.sfFlLeft{float:left}
+.sfFlRight{float:right}
+.sf3To2Ratio .sfLeftCol{width:59%}
+.sf3To2Ratio .sfRightCol{width:39%}
+.sf2To3Ratio .sfLeftCol{width:39%}
+.sf2To3Ratio .sfRightCol{width:59%}
+.sf1To1Ratio .sfLeftCol,.sf1To1Ratio .sfRightCol{width:48%}
+.sf1To1Ratio5Cols .sfCol{float:left;width:25%}
+.sfRelative{position:relative}
+.sfHalfInlineBlockCol{display:inline-block;zoom:1;*display:inline;width:48%;vertical-align:top;padding-right:1%}
+.sfHalfInlineBlockCol .sfHalfInlineBlockCol{display:block;width:100%;padding-right:0}
+.sfQuarterInlineBlockCol{display:inline-block;width:23%;vertical-align:top;padding-right:1%}
+.sfPointerEventsNone{pointer-events:none}
+.sfSearch .sfTxt{width:500px;margin-right:10px}
+.sfSelectorDialog .sfSearch .sfTxt{width:300px}
+.sfDialog.sfFormDialog .sfPublicWrapper{display:none}
+.sfMaxDialogFake{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:2999;background-color:#f4f6f7}
+a.sfBack{display:inline-block;vertical-align:top;margin-top:20px}
+.sfBack.sfBackInline{margin-top:50px}
+a.sfBack::before{display:inline-block;margin-right:8px;font-family:FontAwesome;vertical-align:middle;content:"\f0a8";font-size:14px}
+.sfHeader a.sfBack{margin-top:14px;margin-left:15px}
+a.sfPrev,a.sfNext{color:#777;float:left}
+a.sfPrev{padding-right:8px;border-right:1px solid #999}
+a.sfNext{padding-left:7px;border-left:1px solid #999;margin-left:-1px}
+a.sfPrev::before,a.sfNext::after{display:inline-block;font-family:FontAwesome;vertical-align:middle;font-size:14px}
+a.sfPrev::before{margin-right:5px;content:"\f0a8"}
+a.sfNext::after{margin-left:5px;content:"\f0a9"}
+a.sfPrev:hover,a.sfNext:hover{color:#333}
+.sfPrevNextWrp{position:absolute;z-index:10000}
+.sfNewer::before,.sfOlder::after{display:inline-block;font-family:FontAwesome;vertical-align:middle;line-height:1.1;font-size:14px;color:#84c1ff}
+.sfNewer::before{margin-right:5px;content:"\f0a8"}
+.sfOlder::after{margin-left:5px;content:"\f0a9"}
+.sfNewerOlderNavWrp .sfNewer{float:left}
+.sfNewerOlderNavWrp .sfOlder{float:right}
+.sfButtonArea{margin-top:20px;color:#666;min-height:30px}
+.sfButtonAreaLong{min-width:410px}
+.sfButtonAreaTop{margin-top:0}
+body.sfEmpty .sfTwoColsSecond .sfButtonArea{display:none}
+.sfButtonAreaList{margin-top:20px}
+.sfForm .sfButtonAreaList li{padding-bottom:8px}
+.sfForm .sfButtonAreaList .sfPreviewBtnWrp{margin-top:25px;text-align:right}
+.sfWorkflowMenuWrp{white-space:nowrap}
+.sfSelectorDialog .sfButtonAreaTop{margin-top:15px}
+.sfSelectorDialog .sfButtonAreaTop.sfBtnsTopSep{margin-top:8px;padding-bottom:10px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 100%}
+.sfTwoColsSecond .sfButtonAreaTop{margin-bottom:30px}
+.sfFormDialog .sfButtonArea,.sfFormDialog .sfButtonAreaTop{min-height:27px;position:relative;color:#666}
+.sfFormDialog.sfCompareTranslationDialog .sfButtonArea,.sfFormDialog.sfCompareTranslationDialog .sfButtonAreaTop{width:620px}
+.sfFormDialog .sfButtonAreaTop{margin-bottom:20px}
+.sfFormIn li .sfButtonArea{margin-top:5px}
+.sfItemNoteDialogPopup .sfButtonArea{margin-top:15px}
+.sfSidebar .sfFilterBy .sfButtonArea{margin-top:10px}
+.sfDetachedBtnArea{padding:10px;background-color:#dee2e7;border:1px solid #ccc}
+.sfDialog.sfVersionPreview .sfNewContentForm .sfDetachedBtnArea{position:relative;z-index:1000}
+.sfButtonArea.sfMainFormBtns .sfWorkflowMenuLoading{padding-top:2px}
+.sfExpandLink{text-align:right}
+.sfDialog.sfFormDialog #moduleEditorDialog,.sfDialog.sfFormDialog #campaignWizard,.sfDialog.sfFormDialog #subscriberForm{*height:100%}
+.sfNewItemForm,.sfBatchEditForm,.sfEditItemFormWide,.sfNewPageForm,.sfNewContentForm,.sfHistoryForm,.sfMediumNewContentForm,.sfPreviewForm{margin:0 auto;padding:0 0 40px;border:0}
+.sfNewItemForm{width:510px;position:relative;_z-index:1100;*z-index:1100}
+.sfNewPageForm,.sfWideDialog .sfNewContentForm{width:900px}
+.sfPreviewForm{width:960px}
+.sfW65{width:65px}
+.sfW150{width:150px}
+.sfW190{width:190px!important}
+.sfW270{width:270px}
+.sfW335{width:335px}
+.sfW370{width:370px}
+.sfW400{width:400px}
+.sfW430{width:430px}
+.sfW450{width:450px}
+.sfW565{width:565px}
+.sfW660{width:660px}
+.sfW900{width:900px}
+.sfW140{width:140px}
+.sfW180{width:180px}
+.sfMaxWidth270{max-width:270px}
+.sfMaxWidth370{max-width:370px}
+.sfMaxWidth400{max-width:400px;word-break:break-word}
+.sfMaxWidth200{display:block;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfMaxWidth100Percent{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfMinHeight30{min-height:30px}
+.sfCenteredMasterView{margin-left:auto;margin-right:auto}
+.sfWidgetTmpDialog .sfNewContentForm{width:970px}
+.sfCompareTranslationDialog .sfNewContentForm{width:1228px}
+.sfMediumDialog .sfNewContentForm,.sfMediumNewContentForm{width:760px}
+.sfMediumNewContentForm.sfShiftLeft{position:relative;margin-left:-130px}
+.sfNewContentForm,.sfNewItemForm.sfItemWithMobilePreview{width:620px;position:relative;_z-index:1100;*z-index:1100}
+@media print{.sfNewContentForm{margin:0}
+div.sfForm{border:0 none}
+body.sfFormDialog{background:0}
+a.sfBack,.sfItemReadOnlyInfo{display:none}
+.sfFormDialog .sfNewContentForm h1{padding-left:20px}
+.t-ie .RadWindow ~ .sfWrapper,.t-ie .RadWindow ~ .sfFooter{display:none}
+.sfFormDialog h1{margin-top:0;margin-bottom:0}
+.sfHideForPrint,.sfFormDialog .sfButtonAreaTop,.sfTranslationsToolbarWrp{display:none}
+}
+.sfNewContentForm h2{margin-bottom:5px;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfHistoryForm{width:900px}
+.sfVersionComparison .sfNewContentForm{width:1200px}
+.sfFullscreenDlg .sfNewContentForm,.sfFullscreen .sfMain>.sfContent{width:100%}
+.sfTemlpateWrapper{margin-top:25px;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>);background-repeat:repeat-y;background-position:620px 0}
+.sfFaqForm{width:620px;float:left}
+.sfFaq{float:right;width:260px;line-height:1.2;color:#333}
+.sfEditableInfo{width:500px;float:left;margin-top:0!important}
+.sfEditableInfoSubsequent{width:562px}
+.sfForm.sfEditableInfoSubsequent{width:500px}
+.sfReadOnlyInfo{float:right;width:275px;line-height:1.2}
+.sfReadOnlyInfo .sfHighlightReadOnly{border:1px dashed #d6d6d6;padding:15px;margin-bottom:15px}
+.sfReadOnlyInfo .sfHighlightReadOnly .sfNote{margin-top:4px;margin-bottom:6px}
+.sfBatchEditForm,.sfEditItemFormWide{width:800px}
+.sfTranslationsToolbarWrp{margin-top:-19px;margin-bottom:14px}
+.sfCompareTranslationDialog .sfTranslationsToolbarWrp{margin-bottom:40px}
+.sfTranslationsToolbarWrp .sfToggleTranslation{float:right}
+.sfTranslationsToolbarWrp .sfForm{margin-top:0;margin-right:120px;padding:0;border:0;background-color:transparent}
+.sfCompareTranslationDialog .sfNewContentForm .sfMainLangVersionWrp{width:620px;float:left}
+.sfCompareTranslationDialog .sfNewContentForm .sfTranslateFromWrp{width:580px;float:right}
+.sfTranslateFromWrp .sfTranslateFromLang{display:none}
+.sfCompareTranslationDialog .sfTranslateFromWrp .sfTranslateFromLang{display:block;margin:-32px 0 10px 32px}
+.sfTranslateFromWrp .sfTranslateFromLang .sfTxtLbl,.sfTranslateFromWrp .sfTranslateFromLang div{display:inline}
+.sfTranslateFromWrp .sfForm label,.sfTranslateFromWrp .sfForm input,.sfTranslateFromWrp .sfForm select{pointer-events:none}
+.sfTranslateFromWrp .sfForm input{color:#ccc;border:1px solid #ccc;background-color:#ebebe4}
+.sfTranslateFromWrp .sfItemHeaderSection{display:none}
+.sfTranslateFromWrp .sfTitleField .sfTxtContent{font-size:16px}
+.sfTranslateFromWrp .sfTitleField .sfTxtContent,.sfNewContentForm .sfTxtTitle{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfTranslateFromWrp .sfContentField .sfRTFContent{max-height:500px;overflow:auto}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection,.sfBasicSettingsWrp .sfSettingsSection{margin-bottom:30px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfDependentFieldCtrl{margin-left:20px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfFirstDependentCtrl{margin-top:5px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection .sfLastDependentCtrl{margin-bottom:20px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSeparateFieldCtrl{margin-top:15px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfDependentFieldCtrl.sfSecondaryFld{color:#666;font-size:11px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfFieldsToDisplayList{margin-top:9px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfFieldsToDisplayList>.sfFieldsToDisplay{margin-bottom:10px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfFieldsToDisplayList .sfFieldsToDisplay .sfFieldsToDisplay label{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfInputFieldsList li,.sfBasicSettingsWrp .sfInputFieldsList li{margin-bottom:8px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfActionsList li{margin-bottom:10px}
+.sfSubdoaminWrp{margin-top:-20px;margin-left:20px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSubdoaminWrp h3{margin-bottom:3px;font-size:12px}
+.sfSubdoaminWrp li{margin-bottom:10px}
+.sfSubdoaminWrp label{display:block}
+.sfSubdoaminWrp .sfTxt{width:280px}
+.sfOpenBackLangWrp{margin-top:2px}
+.sfCloseBackLangWrp{margin-top:15px}
+.sfTrackBounce .sfDetailsPopupWrp{margin-left:-30px}
+.sfTrackBounce .sfDependentFieldCtrl+.sfDependentFieldCtrl{position:relative;z-index:0}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection.sfChoiceExampleSection{margin-top:15px;margin-bottom:20px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection.sfChoiceExampleSection .sfExample{margin-left:15px;margin-top:10px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection.sfChoiceExampleSection .sfIncludeTaxDiv h3{padding-bottom:5px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection.sfChoiceExampleSection .sfIncludeTaxDiv{margin-left:15px;margin-top:10px;padding-bottom:30px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfSettingsSection.sfChoiceExampleSection .sfIncludeTaxDiv a{text-decoration:underline;font-size:11px}
+.sfWrapper .sfForumSettings h2,.sfWrapper .sfForumSettings h3,.sfWrapper .sfForumSettings h4{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfWrapper .sfForumSettings h2{margin-top:25px;margin-bottom:23px;color:#000;font-size:19px}
+.sfWrapper .sfForumSettings h3{font-size:14px}
+.sfWrapper .sfForumSettings h4{margin-top:15px;margin-bottom:3px}
+.sfItemVariationList .sfItemVariationRow{border-bottom:1px solid #e4e4e4;margin-bottom:15px;padding-bottom:35px}
+.sfMigrationToolWrp .sfSettingsSection{margin-top:30px}
+.sfWrapper .sfMigrationToolWrp h2{font-size:19px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000}
+.sfMigrationToolWrp .sfSettingsSection .sfInputFieldsList{margin-bottom:15px;padding:10px 15px;width:320px;background-color:#f1f1f1}
+.sfMigrationToolWrp .sfSettingsSection .sfInputFieldsList li{margin-bottom:8px}
+.sfMigrationToolWrp .sfSettingsSection .sfTxt{width:300px}
+.sfMigrationToolWrp .sfSettingsSection .sfShort .sfTxt{width:180px}
+.sfMigrationToolWrp .RadGrid{margin-top:15px;margin-bottom:15px;width:450px}
+.sfMigrationToolWrp .RadGrid .rgMasterTable{width:100%}
+.sfMigrationToolWrp .RadGrid tbody .rgRow td{padding-right:10px}
+.sfMigrationToolWrp .RadGrid tbody .rgRow td.sfTitleCol{padding-top:5px}
+.sfMigrationToolWrp .RadGrid tbody .rgRow td .sfItemTitle{display:block;height:24px}
+.sfWorkingOverlay .sfCancel{display:block;margin-top:10px}
+.sfWorkingOverlay .sfWorkingOverlayIn{position:fixed;width:50px;height:50px;text-align:center;top:50%;left:50%;margin-top:-25px;margin-left:-25px;z-index:9010}
+.sfWorkingOverlay .sfWorkingOverlayColor{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%;z-index:9000;background-color:#fff!important;opacity:.6!important;filter:alpha(opacity=60)!important}
+.sfMigrationReportWrp{padding:10px 15px;height:480px;overflow:auto;background-color:#fff}
+.sfMigrationToolWrp .sfMigrationHelp{margin-top:5px;font-size:13px}
+.sfMigrationHelp .sfMigrationHelpDetails{margin-top:5px;margin-bottom:10px;padding:10px 20px 20px;background-color:#FFC}
+.sfMigrationHelp .sfMigrationHelpDetails li{margin-left:25px}
+.sfMigrationHelp .sfMigrationHelpDetails ul li{list-style-type:disc}
+.sfMigrationHelp .sfMigrationHelpDetails ol li{list-style-type:decimal}
+.sfSyncSiteWrp h2{font-size:18px;color:#000}
+.sfSyncSiteWrp h3{font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSyncSiteWrp .sfThisSrv,.sfSyncSiteWrp .sfSrvList{font-size:12px;vertical-align:top;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSyncSiteWrp .sfSelectedItem{margin-left:10px}
+.sfSyncSiteWrp .sfDependentCtrl{margin-top:10px;margin-left:15px}
+.sfSyncSiteWrp .sfExample{margin-top:5px}
+.sfSyncSiteWrp .sfTxtLbl{margin-bottom:5px}
+.sfSyncSiteWrp .sfThisSrv{width:auto;text-align:left}
+.sfSyncSiteWrp .sfSrvList{margin-left:5px;font-weight:normal}
+.sfSyncSiteWrp .sfSyncTypesHeader,.sfAdvancedListCols{display:inline-block;color:#777;font-size:9px;font-weight:normal;letter-spacing:1px;text-transform:uppercase;white-space:nowrap}
+.sfSyncSiteWrp .sfSyncTypesHeader{margin-left:18px}
+.sfLastLyncSummary{line-height:1.2}
+.sfLastLyncSummary .sfTxtLbl{font-size:18px;font-weight:normal}
+.sfFormDialog .sfLastLyncSummary{margin-top:5px;padding:10px 15px 15px;background-color:#fff}
+.sfFormDialog .sfLastLyncSummary .sfLastSyncInfo,.sfFormDialog .sfLastLyncSummary .sfLastSyncFailure{display:inline-block;vertical-align:top}
+.sfFormDialog .sfLastLyncSummary .sfLastSyncInfo{margin-right:30px;width:240px}
+.sfFormDialog .sfLastLyncSummary .sfLastSyncFailure{width:315px}
+.sfFormDialog .sfLastLyncSummary .sfFailed,.sfFormDialog .sfLastLyncSummary .sfSucceeded{margin-top:5px}
+.sfDetailsContainer{padding:10px 15px 15px;background-color:#fff}
+.sfDetailsContainer .sfDetailsContainer{padding:0}
+.sfSyncSiteWrp .sfMainFormBtns{margin-top:40px;position:relative}
+.sfSyncScheduleWrp{white-space:nowrap}
+.sfSyncSiteWrp .sfMainFormBtns .sfscheduledBox{display:block;margin-top:-20px;margin-bottom:30px;padding:10px;width:680px;background-color:#ffc;background-position:10px -1290px;border:15px solid #F2F2F2}
+.sfCron{display:inline-block}
+.sfCron .cron-block,.sfCron .cron-period{margin-right:5px}
+.sfSyncSiteWrp .sfMainFormBtns .sfscheduledBox span,.sfSyncSiteWrp .sfMainFormBtns .sfscheduledBox strong,.sfSyncSiteWrp .sfMainFormBtns .sfscheduledBox .sfScheduledTypes{padding-left:20px}
+.sfSyncSiteWrp .sfMainFormBtns .sfscheduledBox strong{display:block}
+.sfSyncSiteWrp .sfMainFormBtns .sfFlLeft{margin-top:-2px;margin-right:10px}
+.sfSingleModuleWrp h2{margin-top:20px;font-size:27px;color:#000;line-height:1.2}
+.sfActive{color:#390}
+.sfInactive{color:#f00}
+.sfNotInstalled{color:#666}
+.sfSingleModuleWrp .sfDescription{margin-top:10px;font-size:16px;word-wrap:break-word}
+.sfSingleModuleWrp .sfDescription a{font-size:11px}
+.sfSingleModuleWrp .sfButtonArea{margin-top:15px}
+.sfSingleModuleWrp .sfNeutral{display:inline-block;margin-top:0;font-size:11px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSingleModuleWrp h3{font-size:18px}
+.sfModuleDetailsWrp{margin-bottom:20px;padding-bottom:30px}
+.sfModuleDetailsWrp .sfModuleSettingsWrp{margin-top:20px;padding-top:15px;border-top:1px solid #ccc}
+.sfModuleDetailsWrp .sfModuleSettingsList li{margin-top:25px}
+.sfModuleDetailsWrp .sfModuleSettingsList li:first-child{margin-top:15px}
+.sfModuleDetailsWrp .sfModuleSettingsList a,.sfModuleDetailsWrp .k-widget .sfItemFields{padding-left:50px;min-height:30px;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfModuleBuilder.gif") %>) no-repeat -100px -100px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfItemFields,.sfModuleDetailsWrp .k-widget .sfItemFields{padding-top:3px;background-position:0 2px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfItemNameAndDesc{background-position:0 -148px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfItemPermissions{background-position:0 -300px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfBackendScreenTweaks{background-position:0 -446px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfGoToContentWrp{margin-top:40px;padding-top:14px;border-top:1px solid #ccc}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfGoToContentWrp p{margin-top:-16px}
+.sfModuleDetailsWrp .sfModuleSettingsList .sfGoToContent{font-size:13px;padding-top:5px;padding-bottom:6px;background-position:0 -600px}
+.sfModuleDetailsWrp .sfModuleSettingsList p,.sfModuleDetailsWrp .k-widget p{margin-left:50px;margin-top:-5px;line-height:1.2}
+.sfModuleDetailsWrp .k-widget p{margin-top:-12px;font-size:12px;font-style:italic}
+.sfModuleCodeRefWrp{width:350px;vertical-align:top}
+.sfCodeRefLnk{padding-left:35px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;min-height:30px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;box-sizing:border-box}
+.sfCodeRefLnk::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f1c9";font-size:26px;color:#70b6f3;position:absolute;margin-left:-35px}
+.sfModuleCodeRefWrp .sfCreateMobileAppAd,.sfModuleCodeRefWrp .sfCloudServiceAd{padding:15px 10px;border:1px dashed #ccc;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfModuleBuilder.gif") %>) no-repeat -999px -999px}
+.sfModuleCodeRefWrp .sfCreateMobileAppAd:hover,.sfModuleCodeRefWrp .sfCloudServiceAd:hover{border-color:#999}
+.sfModuleCodeRefWrp .sfCreateMobileAppAd{padding-left:45px;background-position:12px -884px}
+.sfModuleCodeRefWrp .sfCloudServiceAd{padding-left:60px;background-position:15px -732px}
+.sfBackendScreensList{margin-top:20px}
+.sfBackendScreensList li{width:255px;margin-top:15px;margin-bottom:35px;margin-right:30px}
+.sfBackendScreensList h3{margin-bottom:15px;padding-bottom:140px;width:255px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTweakBackendScreens.gif") %>) no-repeat -1000px -1000px}
+.sfBackendScreensList p{margin-bottom:10px;line-height:1.2}
+.sfBackendScreensList .sfMasterView h3{background-position:0 30px}
+.sfBackendScreensList .sfDetailsView h3{background-position:0 -270px}
+.sfConnectedToDecore{display:block;padding:20px 0;min-height:70px;box-sizing:border-box;white-space:nowrap}
+.sfConnectedToDecore,.sfConnectedToDecore .sfStation::after,.sfConnectedToDecore .sfDestination::before{color:#38AB63}
+.sfNotConnectedToServerDecore,.sfNotConnectedToServerDecore .sfStation::after,.sfNotConnectedToServerDecore .sfDestination::before{color:#ccc}
+.sfConnectedToDecore .sfStation,.sfConnectedToDecore .sfDestination{display:inline-block;vertical-align:top;color:#333}
+.sfConnectedToDecore>.sfStation::after,.sfConnectedToDecore>.sfDestination::before{font-family:FontAwesome;content:"\f108";font-size:20px;vertical-align:middle;display:inline-block}
+.sfCloudService>.sfDestination::before{content:"\f0c2"}
+.sfConnectedToDecore>.sfStation::after{margin-left:10px}
+.sfConnectedToDecore>.sfDestination::before{margin-right:10px}
+.sfConnectedToDecore .sfArrowBase{display:inline-block;margin:0 30px;position:relative;top:14px;background-color:currentColor;color:inherit;height:1px;width:115px;text-align:center}
+.sfConnectedToDecore .sfArrowBase span{display:inline-block;padding-top:5px;color:inherit}
+.sfConnectedToDecore .sfArrowBase span:empty::before{content:"Connected"}
+.sfNotConnectedToServerDecore .sfArrowBase span:empty::before{content:"Disconnected"}
+.sfConnectedToDecore .sfArrowLeft::before,.sfConnectedToDecore .sfArrowRight::after,.sfConnectedToDecore .sfArrowTwoWay::before,.sfConnectedToDecore .sfArrowTwoWay::after{position:absolute;content:"";width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent}
+.sfConnectedToDecore .sfArrowLeft::before,.sfConnectedToDecore .sfArrowTwoWay::before{top:-7px;left:-7px;border-right:7px solid currentColor}
+.sfConnectedToDecore .sfArrowRight::after,.sfConnectedToDecore .sfArrowTwoWay::after{top:-7px;right:-7px;border-left:7px solid currentColor}
+.sfConnectedToService .sfProgressBarWrp{width:100%}
+.sfConnectedToService .sfUsageMetricsWrp .sfNote{width:100%;margin-left:0;margin-top:5px}
+.sfConnectedToService .k-grid .k-grid-header th.k-header{border:0}
+.sfConnectedToService th .sfTitleCol{text-transform:uppercase}
+.sfThisSrv{margin-top:10px;width:120px;vertical-align:top}
+.sfCloudSrv{width:250px;word-break:break-all;vertical-align:top}
+.sfWrapper .sfUsageMetricsWrp h3{font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfProgressBarWrp.sfUsageMetrics{background-color:#fff;border-color:#999}
+.sfProgressBarWrp.sfUsageMetrics{border-color:#999}
+.sfProgressBarWrp.sfUsageMetrics .sfProgressBarIn{background-color:#09f}
+.sfBandwidth .sfProgressBarWrp.sfUsageMetrics .sfProgressBarIn{background-color:#f60}
+.sfUsageMetricsWrp .sfNote{margin-left:10px;margin-top:-10px}
+.sfWrapper .k-datepicker,.sfWrapper .k-timepicker{width:12.4em!important}
+.sfWrapper .k-picker-wrap .k-select,.sfDialog .k-picker-wrap .k-select,.sfSelectorDialog .k-picker-wrap .k-select{line-height:inherit}
+.sfGridSelectorInMasterViewWrp .sfProvidersListView,.sfGridSelectorInMasterViewWrp .sfProvidersListView li{display:inline;line-height:1.1}
+.sfGridSelectorInMasterViewWrp .sfProvidersListView li{margin-right:5px}
+.sfGridSelectorInMasterViewWrp.k-grid tbody tr:hover{background-color:transparent}
+.sfListSelectorInMasterViewWrp.sfGrey ul{background-color:#fff;padding:5px}
+.sfListSelectorInMasterViewWrp ul{border-bottom:1px solid #eee}
+.sfListSelectorInMasterViewWrp li{padding:4px;border-top:1px solid #eee}
+#gridEditorColumnsEditor{width:auto;min-width:720px;min-height:200px;position:relative;white-space:nowrap;overflow:visible;float:left}
+#gridEditorColumnsEditor li{display:inline-block;top:0;vertical-align:top;margin-right:10px;padding:10px;background-color:#fff;position:relative;height:160px;cursor:move}
+#gridEditorColumnsEditor .sfFieldName{display:block;height:55px;overflow:hidden;white-space:normal;padding-left:15px;padding-right:15px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+#gridEditorColumnsEditor .ui-sortable-placeholder{background-color:#ff9;visibility:visible!important;height:160px}
+#gridEditorColumnsEditor .sfColumnDragHandle{display:block;width:15px;height:15px;position:absolute;top:10px;left:8px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 5px -2998px;overflow:hidden;text-indent:-999px}
+#gridEditorColumnsEditor .sfDeleteGridColumn{display:block;width:13px;height:13px;position:absolute;top:8px;right:8px;overflow:hidden}
+#gridEditorColumnsEditor .sfDeleteGridColumn::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f057";font-size:14px;line-height:1;color:#999}
+#gridEditorColumnsEditor .sfDeleteGridColumn:hover::before{color:#666}
+#gridEditorColumnsEditor .sfTitle .sfDeleteGridColumn,#gridEditorColumnsEditor .sfActions .sfDeleteGridColumn{top:-1000px;left:-1000px}
+#gridEditorColumnsEditor .sfFieldAlreadyColumn{display:none!important}
+#gridEditorColumnsEditor .sfActions{float:none}
+#gridEditorColumnsEditor .sfShortText.sfTitle{width:300px}
+#gridEditorColumnsEditor .sfShortText,#gridEditorColumnsEditor .sfurlname,#gridEditorColumnsEditor .sfUrlName{width:160px}
+#gridEditorColumnsEditor .sfLongText{width:270px}
+#gridEditorColumnsEditor .sfDateTime,#gridEditorColumnsEditor .sfNumber,#gridEditorColumnsEditor .sfYesNo,#gridEditorColumnsEditor .sfVideo,#gridEditorColumnsEditor .sfImage,#gridEditorColumnsEditor .sfDocument,#gridEditorColumnsEditor .sfActions,#gridEditorColumnsEditor .sfAuthor,#gridEditorColumnsEditor .sfPublicationDate{width:80px}
+#gridEditorColumnsEditor .sfClassification,#gridEditorColumnsEditor .sfSingleChoice,#gridEditorColumnsEditor .sfMultipleChoice,#gridEditorColumnsEditor .sfAddressField{width:100px}
+#gridEditorColumnsEditor .sfColPreviewImg{position:absolute;left:10px;bottom:10px;right:10px;display:block;height:93px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTweakBackendGrid.gif") %>) no-repeat -1000px -1000px}
+#gridEditorColumnsEditor .sfShortText.sfTitle .sfColPreviewImg{background-position:0 0}
+#gridEditorColumnsEditor .sfShortText .sfColPreviewImg{background-position:0 -150px}
+#gridEditorColumnsEditor .sfLongText .sfColPreviewImg{background-position:0 -300px}
+#gridEditorColumnsEditor .sfDateTime .sfColPreviewImg,#gridEditorColumnsEditor .sfPublicationDate .sfColPreviewImg{background-position:0 -450px}
+#gridEditorColumnsEditor .sfClassification .sfColPreviewImg{background-position:0 -600px}
+#gridEditorColumnsEditor .sfMultipleChoice .sfColPreviewImg{background-position:0 -750px}
+#gridEditorColumnsEditor .sfSingleChoice .sfColPreviewImg{background-position:0 -900px}
+#gridEditorColumnsEditor .sfNumber .sfColPreviewImg{background-position:0 -1050px}
+#gridEditorColumnsEditor .sfYesNo .sfColPreviewImg{background-position:0 -1200px}
+#gridEditorColumnsEditor .sfVideo .sfColPreviewImg{background-position:0 -1350px}
+#gridEditorColumnsEditor .sfImage .sfColPreviewImg{background-position:0 -1500px}
+#gridEditorColumnsEditor .sfurlname .sfColPreviewImg,#gridEditorColumnsEditor .sfUrlName .sfColPreviewImg{background-position:0 -1800px}
+#gridEditorColumnsEditor .sfAuthor .sfColPreviewImg{background-position:0 -1950px}
+#gridEditorColumnsEditor .sfActions .sfColPreviewImg{background-position:0 -2100px}
+#gridEditorColumnsEditor .sfTranslations .sfColPreviewImg{background-position:0 -2250px}
+#gridEditorColumnsEditor .sfAddressField .sfColPreviewImg{background-position:0 -2400px}
+#formFieldsSectionsEditor{margin:30px auto 0;padding-top:35px;padding-bottom:40px;width:545px;background-color:#fff;position:relative;border:1px solid #e4e4e4}
+#formFieldsSectionsEditor li{margin-bottom:5px;margin-left:35px;margin-right:35px;padding:7px 5px 7px 25px;position:relative;background-color:#fff;box-shadow:3px 3px #e4e4e4}
+#formFieldsSectionsEditor .sfFormEditorSection{background-color:transparent;padding-bottom:0;box-shadow:none}
+#formFieldsSectionsEditor .sfFormEditorSection.sfSectionTitle{width:auto!important;height:auto!important}
+#formFieldsSectionsEditor .sfFormEditorSection .sfSectionFieldTitle{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+#formFieldsSectionsEditor .sfFormEditorSection .sfEditSection{padding-left:5px;padding-right:5px;color:#333;vertical-align:top}
+#formFieldsSectionsEditor .sfSectionFieldDragHandle{display:block;width:15px;height:15px;position:absolute;top:8px;left:5px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 5px -2998px;cursor:move;text-indent:-999px;overflow:hidden}
+#formFieldsSectionsEditor .sfFormEditorSection .sfSectionFieldDragHandle{top:11px}
+#formFieldsSectionsEditor .sfDeleteSection{display:inline-block;width:13px;height:13px;overflow:hidden;vertical-align:top;margin-top:2px}
+#formFieldsSectionsEditor .sfDeleteSection::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f057";font-size:14px;line-height:1;color:#999}
+#formFieldsSectionsEditor .sfDeleteSection:hover::before{color:#666}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfUrlMode .sfDependentFieldCtrl{color:#666;line-height:1.2}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfUrlMode li{margin-bottom:14px}
+.sfTwoColsSecond.sfBasicSettingsWrp .sfUrlMode label{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+body.sfHasLeftSidebar.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfMain,body.sfHasLeftSidebar.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfMain{padding-bottom:10px;background-image:none}
+body.sfHasLeftSidebar.sfTwitterBasicSettings.sfEmpty .sfTwoColsSecond.sfBasicSettingsWrp .sfMain,body.sfHasLeftSidebar.sfBlobStorageBasicSettings.sfEmpty .sfTwoColsSecond.sfBasicSettingsWrp .sfMain{height:25px}
+body.sfHasLeftSidebar.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfWorkArea,body.sfHasLeftSidebar.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfWorkArea{padding:0}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp h2,body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp h2{margin-bottom:0}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp h2#sfDontHaveAppTitle,body.sfTwitterBasicSettings.sfEmpty .sfTwoColsSecond.sfBasicSettingsWrp h2#sfAddTwitterAppTitle,body.sfTwitterBasicSettings.sfEmpty .sfTwoColsSecond.sfBasicSettingsWrp h2#sfWantToRegTitle{display:none}
+body.sfTwitterBasicSettings.sfEmpty .sfTwoColsSecond.sfBasicSettingsWrp h2#sfDontHaveAppTitle{display:block}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfBreadCrumb,body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfAllToolsWrapper,body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .RadGrid .sfCheckBoxCol,body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfBreadCrumb,body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfAllToolsWrapper,body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .RadGrid .sfCheckBoxCol{display:none}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .RadGrid{padding:0;width:500px}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .sfButtonArea{margin-top:20px}
+body.sfTwitterBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp p{margin-bottom:15px}
+body.sfEditorBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .RadGrid{margin-bottom:10px;padding:0;width:600px}
+body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .RadGrid,body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .k-grid{padding:8px 0 0;width:650px}
+body.sfBlobStorageBasicSettings .sfTwoColsSecond.sfBasicSettingsWrp .k-grid{padding-top:10px}
+body.sfEmpty.sfHasLeftSidebar.sfTwitterBasicSettings{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y 0 0}
+body.sfEmpty.sfHasLeftSidebar.sfTwitterBasicSettings .sfMain{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLeftSidebar.gif") %>) repeat-y 0 0}
+body.sfEmpty.sfHasLeftSidebar.sfTwitterBasicSettings .sfEmptyList{left:0;margin-left:0;margin-top:0;min-height:0;padding-top:0;position:static;text-align:left;top:0;width:auto}
+body.sfEmpty.sfHasLeftSidebar.sfTwitterBasicSettings .sfEmptyList .sfWhatsNext{display:none}
+body.sfEmpty.sfHasLeftSidebar.sfTwitterBasicSettings .sfEmptyList .sfMessage{padding:0;color:#000;font-size:19px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfGreen{color:#690}
+.sfGreenMain{color:#38ab63}
+.sfBasicSettingsWrp .sfDragNDropListWrp.sfSrvList{margin-top:15px;width:500px}
+.sfBasicSettingsWrp .sfDragNDropListWrp.sfSrvList .sfDragPoint{width:270px;padding-left:38px;padding-top:6px;padding-bottom:5px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 4px -3899px}
+.sfBasicSettingsWrp .sfDragNDropListWrp.sfSrvList .sfManageItem{padding-top:4px;width:80px;text-align:right;vertical-align:top}
+.sfBasicSettingsWrp .sfDragNDropListWrp.sfSrvList .sfDragNDropItem{width:auto}
+.sfEditUser{position:relative}
+.sfEditUser .sfReadOnlyInfo{position:absolute;right:-60px}
+.sfEditUser .sfReadOnlyInfo .sfHighlightReadOnly{padding-bottom:45px}
+.sfFormDialog h1{margin:0;padding:20px 0 32px}
+.sfFormDialog .sfNewItemForm h1,.sfFormDialog .sfNewContentForm h1{overflow:hidden;text-overflow:ellipsis}
+.sfFormDialog .sfNewItemForm h1{width:510px}
+.sfFormDialog .sfNewContentForm h1{width:620px}
+.sfFormDialog .sfNewItemForm .sfItemReadOnlyInfo h1{margin-top:15px;padding-bottom:25px;width:260px;color:#000}
+.sfFormDialog h1 .sfItemStatus{font-size:12px}
+.sfFormDialog h1 .sfTitleInBetween{font-size:16px}
+.sfFormDialog h2{margin-top:0;padding-top:10px}
+.sfFormDialog h2.sfCompletedStatus{font-size:19px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000;padding-top:0;margin-bottom:15px}
+.sfFormDialog .sfExpandableForm h2{margin-bottom:5px}
+.sfFormDialog .sfFormIn h2{padding-top:0;line-height:1.2;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#666}
+.sfFormDialog .sfFormIn h2.sfNextStepTitle{color:#000}
+.sfFormDialog .sfFormIn h2.sfImptSectionTitle{font-size:16px;color:#000;margin-bottom:15px}
+.sfFormDialog .sfExpandableForm{padding:7px 30px 2px}
+.sfFormDialog .sfExpandableForm.sfExpandedForm .sfExpandedTarget{margin-top:9px;padding-top:11px}
+.sfFormDialog .sfExpandableForm.sfExpandedForm .sfExpandedTarget .k-grid .k-scrollbar{overflow:auto}
+.sfFormDialog .sfExpandableForm.sfExpandedForm .sfExpandedTarget .k-grid .sfDeleteCol .sfXItm.sfDelBtn{float:right;padding-left:1px}
+.sfFormDialog .sfExpandableForm h2,.sfFormDialog .sfExpandedForm.sfItemReadOnlyInfo .sfExpandedForm h2{margin-left:-17px;padding-top:0;line-height:1.2;font-family:open_sansregular,Arial,Verdana,sans-serif;font-weight:normal}
+.sfFormDialog .sfExpandedForm.sfItemReadOnlyInfo .sfExpandableForm h2{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfFormDialog .sfSelectorDialog .sfExpandableForm h2,.sfFormDialog .sfSelectorDialog .sfExpandedForm.sfItemReadOnlyInfo .sfExpandedForm h2{margin-top:0;margin-left:0}
+.sfDialog .sfExpandableForm h2 a,a.sfExpandableLnk{color:#666;cursor:pointer}
+.sfDialog .sfExpandableForm h2 a::before,a.sfExpandableLnk::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0da";vertical-align:middle;line-height:1;font-size:16px;width:10px}
+.sfDialog .sfExpandableForm h2 a{display:block!important}
+a.sfExpandableLnk::before,.sfDialog .sfExpandedForm .sfExpandableForm h2 a::before{content:"\f0da"}
+.sfDialog .sfExpandedForm h2 a::before,.sfDialog .sfExpandedForm .sfExpandedForm h2 a::before,a.sfExpandedLnk::before{content:"\f0d7"}
+.sfDialog .sfExpandableForm h2 a:hover,.sfDialog .sfExpandableForm h2 a:focus,.sfDialog .sfExpandedForm h2 a:hover,.sfDialog .sfExpandedForm h2 a:focus,a.sfExpandableLnk:hover,a.sfExpandableLnk:focus{color:#333}
+.sfDialog .sfExpandableForm h2 .sfNote{font-size:12px}
+.sfDialog .sfExpandedForm h2 .sfNote{display:none}
+.sfDialog .sfExpandableForm .sfExpandedTarget{display:block!important;padding-bottom:15px}
+.sfDialog .sfCollapsedTarget{display:none!important}
+.sfSelectorDialog .sfExpandableForm .sfExpandedTarget{margin-left:15px}
+.sfForm{margin-top:15px;padding:20px 30px;border-width:1px;border-style:solid;border-color:#e4e4e4;background-color:#fff}
+.RadGrid.sfFormIn tbody tr.rgHoveredRow,.RadGrid.sfFormIn tbody tr:hover{background-color:transparent}
+.sfSectionInSection{margin-top:0;padding:0;border:0;background-color:transparent}
+.sfStatusForm{border-color:#ccc}
+.sfStatusForm .sfFormIn{background-color:#dbe1e3}
+.sfBatchEditForm .sfFormIn{padding-top:10px;padding-bottom:10px}
+.sfItemReadOnlyInfo{margin-top:0;padding:0;position:absolute;right:-290px;top:125px;width:260px;border-width:0;background-color:transparent}
+.sfCompareTranslationDialog .sfItemReadOnlyInfo{display:none}
+.sfItemReadOnlyInfo .sfExpandableForm{padding:0}
+.sfFirstForm{margin-top:0}
+.sfFirstProfileTypeForm{margin-top:-15px;position:relative}
+.sfEditUser .sfFirstProfileTypeForm .sfUserAvatar,.sfNewItemForm .sfFirstProfileTypeForm .sfUserAvatar{position:absolute;top:20px;right:30px}
+.sfEditUser .sfForm .sfUserAvatar .sfImgPreviewWrp .sfPreviewImgFrame,.sfNewItemForm .sfForm .sfUserAvatar .sfImgPreviewWrp .sfPreviewImgFrame{display:block}
+.sfEditUser .sfFirstProfileTypeForm{margin-top:-10px;position:relative;z-index:100}
+.sfRolesList,.sfUsersList{height:150px;overflow:auto;*position:relative}
+.sfFormDialog .sfRolesList,.sfFormDialog .sfUsersList{height:auto;max-height:150px;_height:150px}
+.sfEditItemFormWide .sfFormColWrapper{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>);background-repeat:repeat-y;background-position:415px 0}
+.sfEditItemFormWide .sfFormLeftCol{width:400px;float:left}
+.sfEditItemFormWide .sfFormRightCol{width:300px;float:right}
+.sfForm .sfFormSeparator{padding-top:15px}
+.sfForm .sfFormSeparator:first-child{padding-top:0}
+.sfForm .sfLinkLine{padding:15px;background-color:#fff}
+.sfForm .sfLinkLine strong{display:block;font-size:13px}
+.sfForm .sfLinkLine .sfsboxpublish strong{font-size:18px}
+.sfForm li,.sfForm td,.sfGridForm td{padding-bottom:10px}
+.sfForm .sfCheckBox li{padding-bottom:0}
+.sfSectionInSection .sfFieldWrp{display:block;padding-bottom:10px}
+.sfForm .sfRadioList li,.sfForm .sfInGroup{padding-bottom:1px}
+.sfForm .sfDependentGroup{margin-left:20px}
+.sfForm .sfDependentGroupLv2{margin-left:35px}
+.sfForm .sfDependentGroup span.sfRadioList{line-height:1.4}
+.sfForm .sfFirstInDependentGroup{margin-top:5px}
+.sfForm .sfLastInDependentGroup{margin-bottom:10px}
+.sfForm .sfOnlyChildInDependentGroup{margin-top:5px;margin-bottom:10px}
+.sfForm .sfSubgroupInGroup{margin-bottom:10px}
+.sfForm span.sfRadioList{line-height:1.8}
+.sfForm input,.sfRadioList input,.sfRadio input,.sfCheckListBox input,.sfCheckBox input{vertical-align:middle}
+.sfRadioList.sfMultiLineRadio li{display:flex;align-items:baseline}
+.sfRadioList.sfMultiLineRadio label{margin-bottom:10px;display:inline-block;vertical-align:top}
+.sfRadioList.sfMultiLineRadio .sfSecondaryTxt{line-height:1}
+.sfHorizontalRadioList label{padding-right:15px}
+.sfHorizontalRadioList .sfTxtLbl{margin-bottom:8px}
+.sfForm .sfChooseModeList{margin-top:10px}
+.sfForm .sfChooseModeList label{line-height:1.2}
+.sfForm .sfChooseModeList br{display:none}
+.sfForm .sfHorizontalAlign,.sfSelectorDialog .sfHorizontalAlign,.sfWrapper .sfHorizontalAlign{display:inline-block;margin-right:10px;vertical-align:top}
+.sfForm .sfHorizontalAlign.sfCheckBox,.sfForm .sfHorizontalAlign.sfLbl,.sfForm .sfHorizontalAlign.sfNoLbl,.sfWrapper .sfHorizontalAlign.sfCheckBox,.sfWrapper .sfHorizontalAlign.sfLbl,.sfWrapper .sfHorizontalAlign.sfNoLbl{margin-top:22px}
+.sfSelectorDialog .sfHorizontalAlign.sfCheckBox,.sfSelectorDialog .sfHorizontalAlign.sfLbl,.sfSelectorDialog .sfHorizontalAlign.sfNoLbl{margin-top:22px}
+.sfSelectorDialog .sfHorizontalAlign .sfTxtLbl{margin-bottom:3px;font-weight:normal}
+.sfForm .sfHorizontalGroup,.sfForm .sfHorizontalGroup div{display:inline}
+.sfForm .sfStatusOptionsList{float:left;margin-right:20px;padding-right:35px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>) repeat-y 100% 0;position:relative;z-index:20}
+.sfForm .sfPublicationPeriod ol{position:relative;z-index:10}
+.sfForm .sfPublicationPeriod li{float:left;padding:5px 15px 0 0}
+.sfForm .sfPublicationPeriod .sfError{position:absolute;left:131px;bottom:-23px;z-index:20}
+.sfForm .sfPublicationPeriod .sfTxtLbl{font-size:11px}
+label.error,span.sfError{display:block;margin:4px 0 6px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.k-widget.k-tooltip-validation.sfError{display:block;border:0;background-color:transparent;box-shadow:none;text-align:left}
+.k-widget.k-tooltip-validation.sfError .k-icon{display:none}
+.sfErrorNoIcn,.k-widget.k-tooltip-validation.sfError,label.error,span.sfError{color:#f30}
+.sfError.k-tooltip-validation .k-warning{display:none}
+span.sfError{padding-top:1px}
+.sfError--inline{padding-bottom:3px;line-height:1.5}
+.sfError--inline-wrapper{margin:4px 0 6px}
+.sfTxtLbl{display:block;cursor:default!important;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfImportantForm .sfTxtLbl{font-size:18px;font-weight:normal;margin-bottom:5px}
+.sfSliderSelection .sfTxtLbl{display:block}
+.sfTxtLblWithExample{padding-bottom:3px}
+.sfTxtLblWithExample .sfTxtLbl{display:inline}
+.sfTxtLblWithExample .sfMoreDetails{font-size:12px}
+select{font-family:open_sansregular,Arial,Verdana,sans-serif;padding:2px 5px 4px;border-color:#ccc}
+.sfCodeBlock{padding:10px;border:2px inset #ccc;background-color:#fff;overflow:auto;max-width:600px}
+.sfCodeTxt{font-family:"Courier New","open_sansregular",Arial,sans-serif}
+.sfBasicDim .sfDisabled{color:#999}
+.sfEnumTxtLbl{font-size:12px;cursor:default!important;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfCheckBox label,.sfRadio label,.sfCheckListBox label,.sfRadioList label{padding-left:5px;vertical-align:middle}
+.sfTypeOptions .sfRadioList label{font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;line-height:1.2}
+.sfDropDownList .sfDdLbl{display:block}
+.sfDisabledFieldCtrl label{color:#999}
+.sfTxtLbl .sfRequired,.sfTxtLbl .sfNote{color:#999;font-weight:normal;font-style:italic}
+.sfRequiredItalics{font-style:italic}
+.sfTooltip{cursor:pointer;color:#999;font-weight:normal}
+.sfNote,.sfLblNote,.sfAttention{font-size:12px;line-height:1.2;color:#666;font-weight:normal;font-family:open_sansregular,Arial,Verdana,sans-serif}
+.sfInfoBlockWrp{background-color:#f2f2f2}
+.sfFormExaplanation .sfNote{color:#000}
+.sfAttention{padding-left:25px}
+.sfAttention::before{display:inline-block;margin-right:5px;margin-left:-20px;font-family:FontAwesome;content:"\f071";vertical-align:top;font-size:14px;color:#ff8600}
+.sfExpire::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f017";vertical-align:top;font-size:14px;color:#666}
+p.sfNote{margin-bottom:5px}
+.sfCheckBox.sfNote{color:#000}
+.sfForm .sfChooseModeList .sfNote{margin-left:17px;margin-bottom:10px;display:block}
+.sfExtraInfo{font-size:10px;color:#777}
+.sfDetailsList .sfNote{font-weight:normal}
+.sfEmphazie{color:#f00;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.RadGrid .sfEmphazie,.k-grid .sfEmphazie{font-weight:normal}
+.sfTxtReadOnly{font-weight:normal}
+.sfExample,.sfDescription{padding-top:5px;padding-bottom:5px;line-height:1.4;color:#666}
+.sfUnit{margin-left:10px}
+.sfCheckBox .sfDescription,.sfRadioList .sfDescription{margin-left:17px}
+.sfTxtAreaExampleOnRight .sfExample{display:inline-block;margin-left:10px}
+.k-window .sfSelectorDialog .sfExample{max-width:355px}
+.sfConstantField .sfTxtContent,.sfConstantField .sfDescription{display:inline}
+.sfItemReadOnlyInfo .sfAuthorInfoWrp .sfAuthorLnk{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfExample ul{list-style-type:disc;margin-left:20px}
+.sfImportantWarning{color:#fb0000}
+.blockUI{background-color:#e9ecef!important}
+.sfSelectorDialog .blockUI{background-color:#f1f1f1!important}
+.sfSliderSelection .sfSelectedItem,.sfSliderSelection .RadSlider{vertical-align:top}
+.sfFormExaplanation .sfzip,.sfFormExaplanation .sfxls{margin-top:11px;margin-bottom:8px;padding-top:8px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+select.sfTransformationSelect{width:140px}
+.sfDetailsPopupWrp{font-size:12px;position:relative}
+.sfDetailsPopupWrp.sfCtrlDetails{margin-left:5px;margin-top:38px;vertical-align:top}
+.sfDetailsPopupWrp .sfDetailsPopup{position:absolute;z-index:100;top:25px;left:0;width:295px;padding:15px 15px 20px;background-color:#ddecf4}
+.sfDetailsPopupWrp.sfInDecisionScreen .sfDetailsPopup{padding:25px 30px;width:540px;font-size:12px}
+.sfDetailsPopupWrp.sfInDecisionScreen .sfDetailsPopup p{margin-bottom:10px}
+.sfDetailsPopupWrp .sfDetailsPopup ul{margin-left:25px;list-style-type:disc}
+.sfDetailsPopupWrp .sfDetailsPopup.sfFailDetails{top:15px;background-color:#ffb9b9}
+.sfSelectorDialog .sfLegendWrp .sfDetailsPopup{width:235px;right:-10px;left:auto;background-color:#fff;border:1px solid #ccc}
+.sfSelectorDialog .sfLegendWrp.sfLeftAligned{margin-left:10px;vertical-align:top}
+.sfSelectorDialog .sfLegendWrp.sfLeftAligned .sfDetailsPopup{width:300px;right:auto;left:0}
+.sfSelectorDialog .sfLegendWrp .sfGroupingTitle{margin-top:0;margin-bottom:0}
+.sfSelectorDialog .sfRightCol .sfDetailsPopupWrp .sfDetailsPopup{left:-150px}
+.sfDetailsPopupWrp.sfCtrlDetails .sfDetailsPopup{left:auto;right:0;top:15px;width:230px}
+.sfDialog .sfDetailsPopupWrp h3{margin-bottom:20px;font-size:15px;line-height:1.2;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfDialog .sfDetailsPopupWrp ul,.sfSelectorDialog .sfDetailsPopupWrp ul{padding-bottom:15px}
+.sfDialog .sfDetailsPopupWrp li,.sfSelectorDialog .sfDetailsPopupWrp li{padding-bottom:0}
+.sfDialog .sfDetailsPopupWrp ol,.sfSelectorDialog .sfDetailsPopupWrp ol{list-style-type:decimal;margin-top:5px;margin-left:25px}
+.sfError .sfDetailsPopupWrp a{text-decoration:underline;color:#f30}
+.sfError .sfDetailsPopup{color:#000;width:220px;top:15px}
+.sfError .sfDetailsPopup ul{height:150px;overflow:auto;border:1px solid #999;background-color:#fff}
+.sfError .sfDetailsPopup li{margin-left:20px;list-style-type:disc;font-weight:normal}
+.sfError .sfDetailsPopup.sfDetailsPopupList ul{margin-left:0;margin-top:10px;overflow-y:auto;background-color:transparent}
+.sfError .sfDetailsPopup.sfDetailsPopupList li{margin-left:0;margin-bottom:3px;list-style:none}
+.sfItemTitle .sfDetailsPopupWrp .sfDetailsPopup{top:15px;width:150px}
+.sfFormDialog .sfFormIn h2.sfContentFieldsGridTitle{color:#000}
+.sfForm .sfContentFieldsGridWrp{margin-top:10px;background-color:#fff}
+.sfForm .sfContentFieldsGridWrp.sfOrderNumber{padding-top:10px}
+.sfForm .sfContentFieldsGridWrp.sfOrderNumber li{padding-bottom:0}
+.sfNewContentForm .sfTemplateContent{float:left;width:685px}
+.sfItemPreview .sfNewContentForm .sfTemplateContent{float:none;width:625px}
+.sfNewContentForm .sfTemplateContent textarea.sfTxt{width:685px;height:520px}
+.sfTemplateContent .CodeMirror-scroll,.sfComparedField .CodeMirror-scroll{height:520px;background-color:#fff;border:2px inset #d4d0c8}
+.sfTemplateContent .CodeMirror-scroll{width:685px}
+.sfItemPreview .sfTemplateContent .CodeMirror-scroll{width:625px}
+.sfNewContentForm .sfTemplateTagsWrp{float:right;width:190px}
+.sfNewContentForm .sfTemplateTagsWrp h2{margin-top:20px;margin-bottom:5px;padding-top:0;padding-bottom:5px;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 100%}
+.sfNewContentForm .sfTemplateTagsWrp h3{margin-top:5px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfNewContentForm .sfTemplateTagsWrp h3 a{color:#666}
+.sfNewContentForm .sfTemplateTagsWrp h3 a:hover,.sfNewContentForm .sfTemplateTagsWrp h3 a:focus{color:#333}
+.sfNewContentForm .sfTemplateTagsWrp h3 a::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;content:"\f0d7";font-size:14px;width:10px}
+.sfNewContentForm .sfTemplateTagsWrp h3 a.sfCollapsed::before{content:"\f0da"}
+.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode{margin-top:3px;margin-left:17px}
+.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode li.sys-container{margin-top:1px;padding:0;display:list-item;width:auto;font-size:12px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode li.sys-container:hover{background-color:transparent}
+.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode a{color:#666}
+.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode a:hover,.sfNewContentForm .sfTemplateTagsWrp .sfItemsListMode a:focus{color:#333}
+.sfNewContentForm .sfHtmlTxtWrp .sfTemplateTagsWrp{margin-top:50px}
+.sfNewContentForm .sfPlaintxtWrp .sfTemplateTagsWrp{margin-top:15px}
+.sfNewContentForm .sfTemplateTagsWrp .sfDropdownList select{width:180px}
+.sfNewContentForm .sfTemplateTagsWrp .sfChange,.sfUnsubscribeDim .sfRightCol .sfChange{margin-top:3px}
+.sfNewContentForm .sfWarningMsg,.sfNewItemForm .sfWarningMsg{display:block;margin:0 0 15px;padding:5px 15px;background-color:#ffc}
+.RadEditor.Sitefinity .reContentCell>iframe+iframe{top:-1000px;left:-1000px}
+div.RadEditor,div.RadEditor *{font-family:open_sansregular,Arial,Verdana,sans-serif}
+.sfEditorWrp div.RadEditor{border:0;background-color:transparent}
+.sfEditorWrp .sfFullScreenEditor.RadEditor{position:fixed;top:0;left:0;right:0;bottom:0}
+.sfEditorWrp div.RadEditor .reContentCell{border-color:#ccc}
+.sfEditorWrp{position:relative}
+.sfEditorWrp .sfFullScreenEditor{background-color:#e9ecef;position:relative;z-index:3000}
+.sfEditorWrp .reToolbarWrapper .reToolbar{width:auto!important;*width:100%!important}
+div.RadEditor .reToolbar a,div.RadEditor .reToolbar a span{cursor:pointer}
+div.RadEditor .reToolbar .reTool{border:1px solid transparent}
+.sfEditorWrp .reToolbarWrapper .reToolbar li,div.RadEditor .reToolbar .reTool,div.RadEditor .reToolbar .reTool.reTool_selected,div.RadEditor .reToolbar .reTool.reTool_selected:hover,div.RadEditor .reToolbar .reTool:hover{background-image:none}
+div.RadEditor .reToolbar .reTool.reTool_selected,div.RadEditor .reToolbar .reTool:hover{border-color:#ccc;border-radius:2px}
+div.RadEditor .reToolbar .reTool.reTool_selected:hover,div.RadEditor .reToolbar .reTool:hover{background-color:#fff;box-shadow:1px 1px 1px #9f9f9f}
+div.RadEditor .reToolbar .reTool.reTool_selected,div.RadEditor .reToolbar .reTool.reTool_selected:hover{background-color:#f1f1f1;box-shadow:1px 1px 1px #9f9f9f inset}
+.RadEditor .reTool .split_arrow:hover{border-left:0}
+div.RadEditor .reDropdown:hover,div.RadEditor .reTool_disabled.reDropdown:hover{background-color:#fff;background-image:none}
+div.RadEditor .reEditorModes{background-color:transparent!important}
+.RadEditor .reEditorModes span{background-image:none}
+.RadEditor .reEditorModes a{width:50px;color:#105CB6}
+.RadEditor .reEditorModes a:hover,.RadEditor .reEditorModes a:focus{color:#00f}
+.RadEditor .reEditorModes a.reMode_selected{background-image:none;background-color:transparent;border-radius:5px}
+.RadEditor .reEditorModes .reMode_selected,.RadEditor .reEditorModes .reMode_selected:hover,.RadEditor .reEditorModes .reMode_selected:focus{color:#000}
+div.RadEditor .reEditorModes a span{margin:0;padding:0;text-align:center}
+div.RadEditor .reEditorModes .reMode_selected span{cursor:default}
+.sfEditorWrp .sfFullScreenEditor .reToolbarWrapper{margin-right:0!important;margin-bottom:0;padding-left:15px;padding-top:6px;padding-bottom:5px;background-color:#fff;background-image:none}
+.sfEditorWrp .sfFullScreenEditor .reToolbarWrapper .reToolbar{display:block!important}
+.sfEditorWrp .reToolbarWrapper li.reSeparator{margin:4px 4px 4px!important;height:18px;width:2px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>) repeat-y 100% 0}
+.sfEditorWrp .reToolbarWrapper .grip_first,.sfEditorWrp .reToolbarWrapper .grip_last{display:none}
+.sfEditorWrp .reToolbarWrapper{margin-right:101px;margin-bottom:4px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>) repeat-y 100% 0}
+.sfEditorWrp .sfMoreTools .reToolbarWrapper{margin-right:140px}
+.sfEditorWrp .reToolbarWrapper .sfChange{position:absolute;top:4px;right:5px;min-height:0;padding:0 4px 2px}
+.sfEditorWrp .sfFullScreenEditor .reToolbarWrapper .sfChange{display:none}
+.sfEditorWrp .reToolZone,.sfEditorWrp .reWrapper_corner,.sfEditorWrp .reWrapper_center{padding-bottom:0}
+.sfEditorWrp .reWrapper_corner,.sfEditorWrp .reWrapper_center,.sfEditorWrp .reLeftVerticalSide,.sfEditorWrp .reRightVerticalSide{font-size:0;line-height:0}
+.sfEditorWrp .reLeftVerticalSide,.sfEditorWrp .reRightVerticalSide{padding:0}
+.sfEditorWrp .sfFullScreenEditor table.reBottomTable{background-color:#fff}
+.sfEditorWrp .sfFullScreenEditor .reEditorModesCell{padding-top:5px;padding-left:15px;padding-bottom:5px}
+.sfDialog .reDropDownBody td{padding:5px 10px}
+.sfDialog .reDropDownBody dir,.sfDialog .reDropDownBody menu,.sfDialog .reDropDownBody pre,.sfDialog .reDropDownBody address{margin:0;padding:0;color:#000}
+.sfDialog .reDropDownBody h1,.sfDialog .reDropDownBody h2,.sfDialog .reDropDownBody h3,.sfDialog .reDropDownBody h4,.sfDialog .reDropDownBody h5{margin:0;padding:0;color:#000}
+.sfDialog .reDropDownBody h1{font-size:24px}
+.sfDialog .reDropDownBody h2{font-size:18px}
+.sfDialog .reDropDownBody h3{font-size:14px}
+.sfDialog .reDropDownBody h4{font-size:13px}
+.sfDialog .reDropDownBody h5{font-size:12px}
+.sfCodeField div.sfExample{display:block;width:145px;position:absolute;right:0;top:0}
+.sfCodeField div.sfExample h2{margin-top:0;font-size:13px;color:#666}
+.sfCodeField div.sfExample p{margin-top:18px}
+.sfCodeField div.sfExample code{font-style:italic}
+.sfExLab{font-size:11px;color:#666;font-weight:normal}
+.sfListExample{padding-left:16px}
+.sfTypeOptions .sfExample{display:block;padding-left:16px;font-family:open_sansregular,Arial,Verdana,sans-serif;margin-bottom:10px}
+.sfTypeOptions .sfRadioList br{display:none}
+.sfTypeOptions .sfRadioList .sfExample br{display:inline}
+.sfTxt,.k-autocomplete.k-widget .k-input.sfTxt{padding:4px 5px;width:400px;vertical-align:middle;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:13px;border:1px solid #ccc;border-radius:0}
+.k-autocomplete.k-widget .k-input.sfTxt{padding-left:0;padding-right:0}
+.sfTxt[disabled="disabled"]{color:#ccc}
+.sfTxt[readonly="readonly"]{padding:0;border:0;resize:none}
+.sfTxt.k-dropdown{padding:0}
+.sfTxt .k-dropdown-wrap,.sfTxt.k-widget .k-dropdown-wrap.k-state-border-down{padding:2px}
+.sfTxt .k-dropdown-wrap .k-select{width:auto}
+.sfTxt.k-widget .k-state-default>.k-select{background:#fff}
+html body .riSingle .riTextBox.sfTxt{font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:13px;padding:2px 5px 4px;border-color:#ccc;height:28px;box-sizing:border-box}
+.sfMainInSequence .sfTxt{padding-top:1px;padding-bottom:0;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+span.sfTxtReadOnly{padding:3px 5px;display:block;border:2px inset #ccc;color:#666;background-color:#fff}
+.sfFormCtrl span.sfTxtReadOnly{width:318px}
+.sfTxt.hasDatepicker,.sfNewContentForm .sfTxt.hasDatepicker{width:120px}
+.sfTitleField .sfTxt{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+textarea.sfTxt{height:80px;overflow:auto}
+.sfTwoLines textarea.sfTxt{height:32px}
+.sfPlainTxtField textarea.sfTxt{height:260px}
+.sfNewPageForm .sfTxt{width:545px}
+.sfNewContentForm .sfTxt,.sfNewContentForm .sfPageSelectorWrp{width:545px}
+.sfNewContentForm .sfDependentGroupLv2 .sfTxt{width:500px}
+.sfNewItemForm .sfDependentGroup .sfTxt{width:380px}
+.sfNewContentForm .sfDependentGroup .sfTxt{width:525px}
+.sfTxtAreaExampleOnRight .sfTxt{width:325px}
+.sfNewContentForm .sfBulkEdit .sfTxt{width:230px}
+.sfNumberField .sfTxt{width:80px}
+.sfNewContentForm select{padding:4px 1px 5px}
+.sfNewContentForm+.sfHelpOnRight{top:100px}
+@media screen and (max-width:1400px){.sfNewContentForm+.sfHelpOnRight{margin:0 auto 40px;position:static;width:690px}
+}
+.sfDropDownList400 select{width:400px}
+.sfSelectorDialog .sfDropdownList.sfDropDownList200 select{min-width:200px;width:200px}
+.sfItemNoteDialogPopup{background-color:#f1f1f1}
+.sfItemNoteDialogPopup textarea.sfTxt{width:245px}
+.sfTxtCheckboxWrapper{display:inline}
+.sfTxtCheckboxWrapper input{vertical-align:middle}
+.sfSelectorDialog .sfShortField250.sfInlineBlock{width:260px}
+.sfShortField40 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField40 .sfTxt,.sfNewContentForm .sfDependentGroup .sfShortField40 .sfTxt{width:40px}
+.sfShortField60 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField60 .sfTxt{width:60px}
+.sfShortField80 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField80 .sfTxt{width:80px}
+.sfShortField100 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField100 .sfTxt{width:100px}
+.sfShortField120 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField120 .sfTxt{width:120px}
+.sfShortField145 .sfTxt,.sfSelectorDialog .sfContentViews .sfShortField145 .sfTxt{width:145px}
+.sfShortField150 .sfTxt{width:150px}
+.sfShortField180 .sfTxt,.sfNewContentForm .sfDependentGroup .sfShortField180 .sfTxt,.sfSelectorDialog .sfShortField180 .sfTxt{width:180px}
+.sfShortField250 .sfTxt,.sfNewContentForm .sfDependentGroup .sfShortField250 .sfTxt,.sfSelectorDialog .sfShortField250 .sfTxt{width:250px}
+.sfShortField310 .sfTxt,.sfNewContentForm .sfDependentGroup .sfShortField310 .sfTxt,.sfSelectorDialog .sfShortField310 .sfTxt{width:310px}
+.sfShortField350 .sfTxt,.sfNewContentForm .sfDependentGroup .sfShortField350 .sfTxt,.sfSelectorDialog .sfShortField350 .sfTxt{width:350px}
+.sfPageUrlField .sfTxt{width:150px}
+.sfFormLeftCol .sfTxt{width:380px}
+.sfFormRightCol .sfTxt{width:280px;height:42px}
+.sfPrice .sfTxt{padding-top:1px;padding-bottom:1px;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfUrlPath{color:#999}
+.sfUrlPath{color:#999}
+.sfBlockable,.sfBlockable div{display:inline}
+.sfBlockable div.sfError{display:block}
+.sfBlockIt{font-size:11px;padding-left:6px}
+.sfBlockable.sfBlocked .sfTxtContent,.sfBlockable.sfBlocked .sfFieldWrp,.sfBlockable.sfBlocked .sfFieldWrp .sfTxt{color:#f00}
+.sfBlockable.sfBlocked .sfBlockLbl{font-size:11px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;padding-left:4px;padding-right:8px}
+.sfForm .sfPreviewVideoFrame{padding-bottom:7px}
+.sfSelectorDialog .sfSelectField90 select{width:90px}
+.sfSelectorDialog .RadUpload .ruInputs li{margin-bottom:0}
+.sfReadOnlyInfo dl{padding-left:16px}
+.sfReadOnlyInfo dt{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfReadOnlyInfo dd{padding-bottom:15px}
+.sfForm .sfPreviewImgFrame{padding-bottom:5px;width:555px;overflow:hidden}
+.sfDialog .sfForm .sfImgPreviewWrp .sfPreviewImgFrame{display:inline-block;vertical-align:top;margin-right:5px;padding-bottom:0;width:auto;height:auto;min-height:100px;min-width:100px}
+.sfDialog .sfForm .sfUserAvatar .sfImgPreviewWrp .sfPreviewImgFrame{width:100px;height:100px;overflow:hidden}
+.sfDialog .sfForm .sfAppIcn .sfImgPreviewWrp .sfPreviewImgFrame{min-height:0;min-width:0}
+.sfItemReadOnlyInfo .sfItemFrontProps{padding:10px;background-color:#f2f2f2}
+.sfItemReadOnlyInfo .sfItemFrontProps .sfTxt{width:220px}
+.sfItemReadOnlyInfo .sfItemCustomDim{margin-left:33px;margin-bottom:10px}
+.sfItemReadOnlyInfo .sfItemDims{display:inline-block;margin-bottom:5px;margin-right:10px;vertical-align:top}
+.sfItemReadOnlyInfo .sfItemFrontProps .sfItemDims .sfTxt{width:50px}
+.sfItemReadOnlyInfo .sfItemFrontProps .sfCheckBox{font-size:11px}
+.sfItemReadOnlyInfo .sfItemFrontProps .sfChangeMode{color:#666}
+.sfItemReadOnlyInfo .sfOneLineInfo .sfTxtLbl,.sfItemReadOnlyInfo .sfOneLineInfo .sfTxtContent{display:inline}
+.sfItemReadOnlyInfo.sfFormFAQ{margin-top:45px}
+.sfItemReadOnlyInfo.sfFormFAQ.sfNoTopBtns{margin-top:18px}
+.sfItemReadOnlyInfo.sfFormFAQ dt,.sfWrapper .sfFormFAQ dt{margin-top:10px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfItemReadOnlyInfo.sfFormFAQ dd,.sfWrapper .sfFormFAQ dd{margin-top:10px}
+.sfWrapper .sfFormFAQ h3{font-size:13px;font-weight:normal;color:#666}
+.sfDefinedAdvancedBtn{text-align:right}
+.sfDefinedAdvancedBtn .sfTxtLbl{display:inline;font-weight:normal;font-size:11px;padding-right:5px}
+.sfItemReadOnlyInfo .sfNoItemsPanel .sfOrderedList li{padding-bottom:0}
+.sfProductImagesHolder,.sfMediaItemsHolder{margin-bottom:5px}
+.sfProductImagesHolder .sfSingleImageWrp,.sfMediaItemsHolder .sfAsset{margin:0 10px 10px 0;padding-bottom:0;border:10px solid #ddecf4;background-color:#ddecf4;position:relative;float:left;border-radius:3px}
+.sfDocType.sfMediaItemsHolder .sfAsset{clear:both;border-bottom-width:7px;border-left-width:8px;border-top-width:5px}
+.sfProductImagesHolder .sfSingleImageWrp .sfImgWrp,.sfMediaItemsHolder .sfAsset .sfTmbWrp{display:block;margin-bottom:5px;width:95px;height:95px;overflow:hidden;position:relative}
+.sfProductImagesHolder .sfSingleImageWrp .sfStatus,.sfMediaItemsHolder .sfAsset .sfStatus{position:absolute;left:-5px;top:-5px;z-index:99;padding-left:16px;text-indent:-9999px;overflow:hidden;background-color:transparent}
+.sfProductImagesHolder.sfDocType .sfStatus,.sfMediaItemsHolder.sfDocType .sfStatus{left:15px;top:3px}
+.sfProductImagesHolder .ui-sortable-placeholder,.sfMediaItemsHolder .ui-sortable-placeholder{background-color:#ff9;border-color:#ff9;visibility:visible!important}
+.sfMediaItemsHolder.sfVideoType .sfAsset .sfTmbWrp{height:72px}
+.sfProductImagesHolder .sfSingleImageWrp .sfImgWrp img,.sfMediaItemsHolder .sfAsset .sfTmbWrp img{position:absolute;bottom:0;right:0}
+.sfProductImagesHolder .sfSingleImageWrp .outerbox,.sfMediaItemsHolder .sfAsset .outerbox{position:absolute;left:23px;top:123px;color:#105CB6}
+.sfProductImagesHolder .sfSingleImageWrp .outerbox,.sfMediaItemsHolder .sfAsset .outerbox{z-index:4500}
+.sfMediaItemsHolder.sfVideoType .sfAsset .outerbox{top:100px}
+.sfProductImagesHolder .outerbox li::before{display:none}
+.sfProductImagesHolder .sfSingleImageWrp .sfPrimaryProductImageMarker{position:absolute;top:-5px;left:-14px;background-color:#54a800;color:#fff;font-size:11px;padding:0 6px;display:none;z-index:10}
+.sfProductImagesHolder .sfSingleImageWrp:first-child .sfPrimaryProductImageMarker{display:block}
+.sfGrippy{width:15px;height:23px;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>);background-repeat:no-repeat;background-position:0 -3000px;cursor:move}
+.sfProductImagesHolder .sfSingleImageWrp .sfGrippy,.sfMediaItemsHolder .sfAsset .sfGrippy{position:absolute;display:block;left:0;bottom:0;background-position:0 -2989px}
+.sfMediaItemsHolder.sfDocType .sfAsset .sfGrippy{background-position:0 -2992px}
+.sfMediaItemsHolder.sfImageType .sfAsset .sfGrippy,.sfMediaItemsHolder.sfVideoType .sfAsset .sfGrippy{position:static;float:left;background-position:0 -2998px;height:15px}
+.sfMediaItemsHolder.sfImageType .sfNotTranslatedLbl,.sfMediaItemsHolder.sfVideoType .sfNotTranslatedLbl{margin-left:0}
+.sfMediaItemsHolder.sfDocType .sfNotTranslatedLbl{margin-top:0;margin-right:3px;vertical-align:middle}
+.sfMediaItemsHolder.sfDocType .sfNotTranslatedItem .sfNote{color:#999}
+.sfMediaItemsHolder.sfImageType .sfNotTranslatedItem .sfStatus,.sfMediaItemsHolder.sfImageType .sfNotTranslatedItem .sfTmbWrp,.sfMediaItemsHolder.sfVideoType .sfNotTranslatedItem .sfStatus,.sfMediaItemsHolder.sfVideoType .sfNotTranslatedItem .sfTmbWrp,.sfMediaItemsHolder.sfDocType .sfNotTranslatedItem .sfStatus,.sfMediaItemsHolder.sfDocType .sfNotTranslatedItem .sfext{opacity:.3}
+.sfMediaItemsHolder.sfImageType .sfAsset{min-height:135px}
+.sfTemplateTmb .sfMediaItemsHolder.sfImageType .sfAsset{min-height:79px}
+.sfMediaItemsHolder.sfVideoType .sfAsset{min-height:111px}
+.k-grid .sfGrippy{width:10px;background-position:5px -3000px}
+.sfMediaItemsHolder .sfDeleteItm,.sfProductFilesHolder .sfDeleteItm,.sfProductDocumentsAndFilesHolder .sfDeleteItm,.sfFormFile .sfDeleteItm{width:13px;height:13px;line-height:13px;overflow:hidden;vertical-align:middle}
+.sfMediaItemsHolder .sfDeleteItm::before,.sfProductFilesHolder .sfDeleteItm::before,.sfProductDocumentsAndFilesHolder .sfDeleteItm::before,.sfFormFile .sfDeleteItm::before{display:inline-block;font-family:FontAwesome;content:"\f057";vertical-align:top;font-size:14px;color:#666}
+.sfMediaItemsHolder .sfDeleteItm:hover::before,.sfProductFilesHolder .sfDeleteItm:hover::before,.sfProductDocumentsAndFilesHolder .sfDeleteItm:hover::before,.sfFormFile .sfDeleteItm:hover::before{color:#333}
+.sfDialog .sfMediaItemsHolder .sfext{margin-left:38px;padding-left:22px;min-height:20px;max-width:375px;vertical-align:middle;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensionsSml.gif") %>);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfDialog .sfNoDocStatus .sfMediaItemsHolder .sfext{margin-left:15px}
+.sfHideActions .sfMediaItemsHolder .sfAsset .sfStatus,.sfHideActions .sfOptionsChange{display:none}
+.sfTemplateTmb .sfMediaItemsHolder .sfAsset .sfTmbWrp{margin-bottom:0;max-width:105px;height:79px;width:auto;vertical-align:top;background-color:#fff}
+.sfTemplateTmb .sfMediaItemsHolder .sfAsset .sfTmbWrp img{height:79px;width:auto}
+.sfHideActions .sfMediaItemsHolder .sfAsset .sfTmbWrp img{position:static}
+.sfHideActions .sfMediaItemsHolder .sfAsset{background-color:transparent}
+.sfFormFile .sfAsset{padding-top:6px;padding-bottom:7px;border-bottom:1px solid #e4e4e4;position:relative}
+.sfFormFile .sfAsset:first-child{margin-top:3px;border-top:1px solid #e4e4e4}
+.sfFormFile .sfAsset a:first-child{display:block;padding-right:60px;word-wrap:break-word}
+.sfFormsEditor .sfFormFile .sfAsset a:first-child{padding-right:80px;max-width:530px;overflow:hidden;text-overflow:ellipsis}
+.sfFormFile .sfAsset .sfNote{position:absolute;right:0;top:8px}
+.sfFormsEditor .sfFormFile .sfAsset .sfNote{right:20px}
+.sfFormFile .sfDeleteItm{position:absolute;right:0;top:8px}
+.sfDialog .sfProductFilesHolder,.sfDialog .sfProductDocumentsAndFilesHolder{margin-top:3px}
+.sfDialog .sfProductFilesHolder .sfSingleFileWrp,.sfDialog .sfProductDocumentsAndFilesHolder .sfSingleFileWrp{background-color:#fff;margin-bottom:10px;padding:5px 8px;float:left;clear:both}
+.sfDialog .sfProductFilesHolder .sfSingleFileWrp span,.sfDialog .sfProductDocumentsAndFilesHolder .sfSingleFileWrp span{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensionsSml.gif") %>);background-repeat:no-repeat;min-height:20px;padding-left:25px;vertical-align:top}
+.sfProductFilesHolder .sfDeleteItm,.sfProductDocumentsAndFilesHolder .sfDeleteItm{margin-left:10px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo{margin-top:0;padding-top:20px;padding-bottom:25px;line-height:1.2}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfInlineBlock{vertical-align:top}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfFirst{margin-right:10px;width:60px;height:60px;overflow:hidden}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfFirst img{max-width:60px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfCustomerName{font-size:19px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfCustomerEmail{margin-top:6px;margin-bottom:10px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerInfo .sfLast{margin-top:7px;margin-left:50px}
+ul.sfCustomerOrders li{background-color:white;margin-bottom:12px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders{margin-top:15px;padding-top:20px;padding-bottom:25px;line-height:1.2}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders h2{color:#000;font-size:19px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCustomerOrdersSummary{padding-bottom:10px;font-size:19px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;border-bottom:1px solid #eee}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCustomerOrdersSummary .sfOrders{width:260px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCustomerOrdersSummary .sfOrderQuantity{font-size:27px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCustomerOrdersSummary .sfTotalSpent{font-size:24px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfPriceSummary{margin-top:10px;text-align:right}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfPriceSummary li{padding-bottom:0}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfPriceSummary .sfPriceDiscount{margin-top:10px;margin-bottom:10px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfPriceSummary .sfTotalPrice{margin-top:20px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfPriceSummary .sfTotalPrice strong{font-size:24px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .RadGrid .sfItemTitle{display:block;width:95px}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfBreadCrumb,.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfAllToolsWrapper,.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCheckBoxCol input,.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .RadGrid thead{display:none}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .RadGrid{padding-top:0}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCheckBoxCol{width:0;overflow:hidden}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfWorkArea,.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfCheckBoxCol{padding-left:0;padding-right:0}
+.sfForm .sfContentFieldsGridWrp.sfCustomerOrders .sfMain{padding-bottom:0}
+.sfForm .sfContentFieldsGridWrp.sfOrderShipping{margin-top:15px;padding-top:20px;padding-bottom:25px;line-height:1.2}
+.sfForm .sfContentFieldsGridWrp.sfOrderShipping h2{color:#000;font-size:19px}
+.sfForm .sfContentFieldsGridWrp.sfOrderShipping .sfInlineBlock{vertical-align:top}
+.sfForm .sfContentFieldsGridWrp.sfOrderShipping .sfFirst,.sfForm .sfContentFieldsGridWrp.sfOrderShipping .sfFirst+.sfInlineBlock{width:260px}
+.sfForm .sfContentFieldsGridWrp.sfOrderShipping address{margin-top:20px}
+.sfReportOptionsWrp .RadPicker{margin-right:15px}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp{margin-top:55px;font-size:12px;line-height:1.2}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp li{padding-bottom:0}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp .sfWorkflowStatus{margin-bottom:8px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;font-size:18px}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp .sfWorkflowLastPubDate{margin-bottom:10px;line-height:1.35;color:#666}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp .sfExpandableSection{padding-top:15px}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp .sfExpandableSection .sfTargetList{font-size:12px;line-height:1.4;padding:5px 0}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp a.sfMoreDetails{color:#105CB6}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp a.sfMoreDetails:hover,.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp a.sfMoreDetails:focus{color:#00f}
+.sfItemReadOnlyInfo .sfWorkflowStatusSectionWrp .sfRevisionHistoryWrp{padding-top:7px}
+.sfForm .sfVideoTmbWrp .sfTxtLbl{padding-bottom:3px}
+.sfForm .sfVideoTmbWrp .sfInlineBlock{vertical-align:top}
+.sfForm .sfVideoTmbWrp .sfVideoTmbPreview{max-width:300px;min-width:120px;height:120px;border:15px solid #ddecf4;background-color:#ddecf4;overflow:hidden;text-align:center;border-radius:5px}
+.sfForm .sfVideoTmbWrp .sfVideoTmbObj{height:120px}
+.sfForm .sfVideoTmbWrp .sfVideoTmbObj object:focus{outline:0}
+.sfForm .sfVideoTmbWrp .sfChangeTmbWrp{padding:7px 0 0 8px}
+.sfvideoWrp{height:400px}
+.sftmbVideoWrp{height:600px;width:530px}
+.sfthumbWrp{height:120px}
+.sfPlayerWrp{width:640px;height:360px;overflow:hidden}
+.sfPlayerWrp .RadMediaPlayer{width:100%;height:100%}
+.RadMediaPlayer{position:relative}
+div.RadMediaPlayer .rmpTitleBar{z-index:auto}
+.RadMediaPlayer .sfPlayerError{position:absolute;top:0;left:0;background-color:#e4e4e4;width:100%;height:100%;z-index:150;font-family:open_sansregular,Arial,Verdana,sans-serif}
+.sfPlayerError .sfPlayerErrorWrp{margin-top:-35px;margin-left:-110px;position:absolute;top:50%;left:50%;width:220px;text-align:center}
+.sfPlayerError .sfPlayerErrorMsg{color:#666;font-size:14px}
+.sfPlayerError .sfPlayerErrorImg{display:inline-block;width:53px;height:53px;background:#e4e4e4 url(<% = WebResource("Telerik.Sitefinity.Resources.Images.sfPlayerError.png") %>) no-repeat 0 0}
+.sfNewContentForm .sfPreviewVideoFrame .RadMediaPlayer,.sfNewContentForm .sfPreviewVideoFrame .sfPlayerWrp{width:auto!important}
+.sfNewContentForm .sfPlayerWrp object{width:100%!important}
+ul.sfThumbnailPlayerList{display:none;padding-left:5px;overflow-x:scroll;white-space:nowrap}
+.sfThumbnailPlayerList li{display:inline-block;margin:9px;position:relative;height:88px}
+.sfThumbnailPlayerList .sfThumbnailWrp{display:block;height:88px;overflow:hidden;border:1px solid #fff;cursor:pointer}
+.sfThumbnailPlayerList .sfSel .imgSelect{position:absolute;left:-10px;top:-10px;right:-10px;height:90px;border:10px solid #105cb6}
+.sfThumbnailPlayerList li img{height:88px}
+.sfReorderLibList{margin-top:25px}
+.sfReorderLibList .sfInfo{margin-bottom:7px;color:#ccc;font-size:16px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfReorderLibList .sortable{margin:0;padding:0}
+.sfReorderLibList .sortable li{margin:0 10px 10px 0;float:left;height:60px;width:60px}
+.sfReorderLibList .sortable li span{display:block;width:60px;height:60px;overflow:hidden}
+.sfReorderLibList .ui-state-highlight{height:60px;width:60px;background-color:#ff9}
+.sfReorderLibList .imgSelect{display:none}
+.sfReorderLibList .ui-sortable-helper .imgSelect{display:block;border:5px solid #ff0;height:60px;width:60px;top:-5px;left:-5px;position:absolute;z-index:50}
+.sfReorderDocsBdy .sfReorderLibList .sortable li{padding:10px;width:120px;height:40px;background-color:#f2f2f2;font-size:11px;line-height:1.1}
+.sfReorderDocsBdy .sfReorderLibList .sortable li span{padding-top:3px;width:80px;height:37px;cursor:default;text-overflow:ellipsis}
+.sfReorderDocsBdy .sfReorderLibList .sortable .ui-state-highlight{background-color:#ff9}
+.sfMasterFolder{font-size:18px;color:#333}
+.sfBrowseMaster{padding-top:5px}
+.sfBrowseMaster .sfChange{margin-top:4px;float:right}
+.sfFilesTree{display:block;margin:10px 0;overflow:auto;overflow-x:hidden;overflow-y:auto;position:relative;z-index:10;border-width:1px!important;height:340px;border-style:solid!important;border-color:#ccc!important;background-color:#fff}
+.sfFilesTree .RadFileExplorer{position:relative;z-index:100}
+.sfFilesTree .sfNoMasterFolder{text-align:center;position:absolute;top:50%;left:0;width:100%;margin-top:-40px;z-index:95;color:#666}
+.sfFilesTree .sfNoMasterFolder a{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;text-decoration:underline;color:#666}
+.sfFilesTree .sfNoMasterFolder a:hover,.sfFilesTree .sfNoMasterFolder a:focus{text-decoration:none}
+.sfTrackingConsentTree .RadTreeView>.rtUL>li.rtFirst>.rtTop{display:none}
+.sfTrackingConsentTree .RadTreeView>.rtUL>li.rtFirst>ul{padding-left:0}
+.sfAllToolsWrapper div.RadTabStrip{margin-top:-16px;margin-left:-30px;padding-left:40px;background-color:#fff}
+.sfAllToolsWrapper div.RadTabStrip .rtsLink{padding:12px 10px 12px 0}
+.sfAllToolsWrapper div.RadTabStrip .rtsSelected{position:static;padding:12px 10px 12px 0;bottom:0;border-top:0;border-left:0;border-right:0;background-color:transparent}
+.sfAllToolsWrapper div.RadTabStrip .rtsOut{padding-left:10px;border-left:1px solid #ccc}
+.sfAllToolsWrapper div.RadTabStrip .rtsFirst .rtsOut{padding-left:0;border-left:0}
+.sfGlobalPermissions .sfWorkArea .sfWhoCanTitle,body.sfDialog .sfWhoCanTitle{padding-bottom:6px;font-size:16px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfItemPermissionsList{width:400px;padding-top:20px}
+.sfNewContentForm .sfItemPermissionsList{padding-left:20px;padding-right:20px}
+.sfItemPermissionsList h3{margin-bottom:5px;font-size:13px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfItemPermissionsList h4{margin:8px 0 4px 13px;color:#000;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfItemPermissionsList .sfChangeWrapper{margin:-30px 0 8px;padding:0 0 17px;text-align:right;border-bottom:1px solid #e4e4e4}
+.sfItemPermissionsList li{padding:0 0 6px}
+.sfItemPermissionsList li:first-child h2{padding-top:0}
+.sfItemPermissionsList li:last-child .sfChangeWrapper{background-image:none}
+.sfItemPermissionsList .sfPermissionDenied,.sfItemPermissionsList .sfPermissionDenied h4{color:#f00}
+.sfItemPermissionsList .sfUserPerm,.sfItemPermissionsList .sfRolePerm,.sfItemPermissionsList .sfInheritedUserPerm,.sfItemPermissionsList .sfInheritedRolePerm{display:block;cursor:default}
+.sfItemPermissionsList .sfUserPerm::before,.sfItemPermissionsList .sfRolePerm::before,.sfItemPermissionsList .sfInheritedUserPerm::before,.sfItemPermissionsList .sfInheritedRolePerm::before,.sfGroupIcon::before,.sfUserIcon::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;font-size:14px}
+.sfItemPermissionsList .sfRolePerm::before,.sfItemPermissionsList .sfInheritedRolePerm::before,.sfGroupIcon::before{content:"\f0c0";color:#999}
+.sfItemPermissionsList .sfUserPerm::before,.sfItemPermissionsList .sfInheritedUserPerm::before,.sfUserIcon::before{content:"\f007";color:#999}
+.sfItemPermissionsList .sfPermissionDenied .sfRolePerm::before,.sfItemPermissionsList .sfPermissionDenied .sfInheritedRolePerm::before{content:"\f0c0";color:#ff9898}
+.sfItemPermissionsList .sfPermissionDenied .sfUserPerm::before,.sfItemPermissionsList .sfPermissionDenied .sfInheritedUserPerm::before{content:"\f007";color:#ff9898}
+.sfItemPermissionsList .sfInheritedUserPerm,.sfItemPermissionsList .sfInheritedRolePerm{color:#999}
+.sfItemPermissionsList .sfPermissionDenied .sfInheritedRolePerm,.sfItemPermissionsList .sfPermissionDenied .sfInheritedUserPerm{color:#ff9f9f}
+.sfInheritsPermissionsWrp{min-height:65px}
+.sfInheritsPermissionsWrp .sfSearchLoading{padding-top:10px}
+.sfInheritsPermissionsWrp .sfNeutral{margin-bottom:0}
+.sfPermissionsProviderList .RadComboBox{display:inline-block}
+.sfHiddenCell{width:1px!important;text-indent:-9999px;overflow:hidden}
+.sfHiddenCell span,.sfHiddenCell input{display:none!important}
+.sfPermissionsByUsersAndRoles{margin-bottom:20px;padding:15px 25px;width:420px;background-color:#fff}
+.sfSelectorDialog .sfPermissionsByUsersAndRoles{margin-bottom:0;padding:0;width:auto}
+.sfPermissionsByUsersAndRoles table{width:100%;vertical-align:top}
+.sfPermissionsByUsersAndRoles thead th.sfPermissionTitle{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfPermissionsByUsersAndRoles thead th{padding-bottom:7px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e5e5e5}
+.sfPermissionsByUsersAndRoles tbody th,.sfPermissionsByUsersAndRoles tbody td{padding:3px 0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e5e5e5}
+.sfPermissionsByUsersAndRoles .sfAllowedCol,.sfPermissionsByUsersAndRoles .sfDeniedCol{width:50px;text-align:center}
+.sfActionAllowed,.sfActionDenied{display:inline-block;vertical-align:top;vertical-align:middle;width:14px;height:14px;overflow:hidden}
+.sfActionAllowed::before,.sfActionDenied::before{display:inline-block;font-family:FontAwesome;vertical-align:top;font-size:14px;line-height:14px}
+.sfActionAllowed::before{content:"\f058";color:#76A443}
+.sfActionDenied::before{content:"\f056";color:#FF4848}
+.sfPermissionsByUsersAndRoles .sfActionAllowed,.sfPermissionsByUsersAndRoles .sfActionDenied{display:block;margin:0 auto}
+.sfPermissionsByUsersAndRoles .sfChangeWrapper{padding-top:9px;text-align:right}
+.sfPermissionsByUsersAndRoles table+.sfChangeWrapper+table{margin-top:15px}
+.sfPermissionsFilter li{margin-bottom:1px}
+.sfSidebar .sfRolesFilter .sfSel a,.sfSidebar .sfUsersFilter .sfSel a{background-color:#e4e4e4;color:#333}
+.sfTwoColsFirst .sfUsersFilter,.sfTwoColsFirst .sfRolesFilter{width:100%;float:left;clear:both;padding-top:17px}
+.sfTwoColsFirst .sfUsersTabTitle,.sfTwoColsFirst .sfRolesTabTitle{cursor:pointer;float:left;color:#105CB6}
+.sfTwoColsFirst .sfUsersTabTitle:hover,.sfTwoColsFirst .sfUsersTabTitle:active,.sfTwoColsFirst .sfUsersTabTitle:focus,.sfTwoColsFirst .sfRolesTabTitle:hover,.sfTwoColsFirst .sfRolesTabTitle:active,.sfTwoColsFirst .sfRolesTabTitle:focus{color:#00f}
+.sfTwoColsFirst .sfSel .sfUsersTabTitle,.sfTwoColsFirst .sfSel .sfRolesTabTitle{font-family:open_sanssemibold,Arial,Verdana,sans-serif;cursor:default;color:#000}
+.sfTwoColsFirst .sfRolesTabTitle{padding-right:9px}
+.sfTwoColsFirst .sfUsersTabTitle{border-left:1px solid #ccc;padding-left:9px}
+.sfAdvancedOptions{margin-top:20px;color:#666}
+.sfAdvancedOptions .sfTitle{color:#000;padding-bottom:5px}
+.sfAdvancedOptions .sfCheckBox input,.sfAdvancedOptions .sfCheckBox label{vertical-align:middle}
+.sfExplicitlySelected,.sfCategoriesList{margin-bottom:6px}
+.sfAddCtrl .sfCategoriesList{max-width:350px}
+.sfExplicitlySelected{padding-top:4px;padding-bottom:5px;padding-left:10px}
+.sfExplicitlySelected li,.sfCategoriesList li{display:inline-block;margin-right:4px;margin-bottom:4px;padding:2px 10px 3px;cursor:default;background-color:#ddecf4;color:#333;border-radius:10px}
+.sfExplicitlySelected li:last-child,.sfCategoriesList li:last-child{padding-bottom:3px}
+.sfExplicitlySelected li span,.sfCategoriesList .sfRemoveBtn,.sfContentToPublishList .sfRemoveBtn,.sfSelectedItem .sfRemoveBtn,.sfDarkRemoveBtn{display:inline-block;width:13px;height:13px;overflow:hidden;vertical-align:middle;margin-left:5px;cursor:pointer}
+.sfExplicitlySelected li span::before,.sfCategoriesList .sfRemoveBtn::before,.sfContentToPublishList .sfRemoveBtn::before,.sfSelectedItem .sfRemoveBtn::before,.sfDarkRemoveBtn::before{display:inline-block;font-family:FontAwesome;content:"\f057";vertical-align:top;line-height:13px;font-size:14px;color:#999}
+.sfExplicitlySelected li span:hover::before,.sfCategoriesList .sfRemoveBtn:hover::before,.sfContentToPublishList .sfRemoveBtn:hover::before,.sfSelectedItem .sfRemoveBtn:hover::before,.sfDarkRemoveBtn:hover::before{color:#666}
+.sfCompareTranslationDialog .sf_binderLocalization_showIfLanguageUnavailable{font-size:11px;color:#999;padding-left:2px;padding-right:2px}
+.sfContentToInclude .sfTxtLbl,.sfContentPublishedAs .sfTxtLbl{font-size:13px;margin-bottom:7px}
+.sfPipeTitle.sfPipeRSSOutboundPipe,.sfPipeTitle.sfPipeTwitterOutboundPipe,.sfPipeTitle.sfPipeTwitter,.sfContentPublishedAs .sfPipeTitle.sfPipeContentOutboundPipe,.RadGrid .sfPipeTitle.sfPipeContentOutboundPipe{padding:2px 0 2px 20px;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensionsSml.gif") %>);background-repeat:no-repeat}
+.sfPipeTitle.sfPipeRSSOutboundPipe{background-position:0 -1200px}
+.sfPipeTitle.sfPipeTwitterOutboundPipe,.sfPipeTitle.sfPipeTwitter{background-position:0 -1400px}
+.sfContentPublishedAs .sfPipeTitle.sfPipeContentOutboundPipe,.RadGrid .sfPipeTitle.sfPipeContentOutboundPipe{background-position:0 -1500px}
+.RadGrid .sfPipeContentList{margin-top:-2px}
+.RadGrid .sfPipeTitle.sfPipeRSSOutboundPipe,.RadGrid .sfPipeTitle.sfPipeTwitterOutboundPipe,.RadGrid .sfPipeTitle.sfPipeTwitter,.RadGrid .sfPipeTitle.sfPipeContentOutboundPipe{margin-bottom:2px}
+.sfContentToInclude .sfContentToPublishList{width:370px}
+.sfContentToInclude .sfContentToPublishList .sys-container{margin-bottom:10px;padding:3px 13px 6px;background-color:#fff}
+.sfContentToInclude .sfContentToPublishList .sfCkbox,.sfContentToInclude .sfContentToPublishList .sfPipeTitle{display:none}
+.sfContentToInclude .sfContentToPublishList .sfPublishDescription{display:inline}
+.sfContentToInclude .sfContentToPublishList .sfChangeRemoveBtns{float:right}
+.sfContentPublishedAs .sfContentToPublishList .sys-container{margin-bottom:10px}
+.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeRSSOutboundPipe,.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeTwitterOutboundPipe,.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeTwitter,.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeContentOutboundPipe{font-weight:normal}
+.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeRSSOutboundPipe{background-position:0 -1198px}
+.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeTwitterOutboundPipe,.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeTwitter{background-position:0 -1398px}
+.sfContentPublishedAs .sfContentToPublishList .sfPipeTitle.sfPipeContentOutboundPipe{background-position:0 -1498px}
+.sfContentPublishedAs .sfContentToPublishList .sfPublishDescWrp{margin-top:3px;margin-left:20px;padding:5px 10px;background-color:#fff}
+.sfContentPublishedAs .sfContentToPublishList .sfPublishDescription,.sfContentPublishedAs .sfContentToPublishList .sfChangeRemoveBtns{display:inline-block;vertical-align:top}
+.sfContentPublishedAs .sfContentToPublishList .sfPublishDescription{width:315px}
+.sfContentPublishedAs .sfContentToPublishList .sfPublishDescription a{display:block;word-wrap:break-word}
+.sfContentToIndex .sfTxtLbl{line-height:1.1;font-size:16px}
+.sfContentToIndex .sfDescription{margin-bottom:3px;padding-bottom:9px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 100%}
+.sfContentToIndex .sfPublishDescWrp{margin:2px 0 6px 20px;padding:3px 13px 6px;background-color:#fff}
+.sfContentToIndex .sfPublishDescWrp.sfHideInSearch{display:none}
+.sfContentToIndex .sfPublishDescWrp.sfPageToPublishContent{font-size:11px}
+.sfContentToIndex .sfChangeRemoveBtns{display:inline}
+.sfAltContent .sfPageToPublishContent{display:none}
+.sfRolesUsersSelector{background-color:#fff;position:absolute;top:0;right:0;bottom:0;left:0;z-index:10000;*overflow-x:hidden;min-height:565px}
+.sfRolesUsersSelector.sfWorkflowUserSelector{width:430px;*min-height:600px}
+.sfRolesUsersSelector.sfWorkflowUserSelector .sfWorkflowSimpleUserAndRolesWrp{margin-top:6px;padding-top:9px;min-height:38px}
+.sfSelectorDialog .sfSearchAndLangSelector .sfTxt{width:400px}
+.sfSelectorDialog .sfSearchAndLangSelector select{width:180px}
+.sfSelectorDialog .sfUsersTabTitle,.sfSelectorDialog .sfRolesTabTitle{margin-top:10px;color:#105CB6;cursor:pointer;float:left}
+.sfSelectorDialog .sfUsersTabTitle:hover,.sfSelectorDialog .sfRolesTabTitle:hover{color:#00f}
+.sfSelectorDialog .sfRolesTabTitle{margin-left:20px}
+.sfSelectorDialog .sfUsersTabTitle .sfLeft,.sfSelectorDialog .sfRolesTabTitle .sfLeft{padding:10px 15px}
+.sfSelectorDialog .sfRolesTabTitle::before{display:block;content:" ";height:1px;background-color:#ddd;width:100%;position:absolute;left:0;margin-top:28px}
+.sfSelectorDialog .sfSel .sfUsersTabTitle .sfLeft,.sfSelectorDialog .sfSel .sfRolesTabTitle .sfLeft{border-top:1px solid #ddd;border-left:1px solid #ddd;border-right:1px solid #ddd;background-color:#fff;border-top-left-radius:4px;border-top-right-radius:4px;background-color:#fff;bottom:-1px;position:relative}
+.sfSelectorDialog .sfSel .sfUsersTabTitle .sfLeft,.sfSelectorDialog .sfSel .sfRolesTabTitle .sfLeft,.sfSelectorDialog .sfSel .sfUsersTabTitle:hover .sfLeft,.sfSelectorDialog .sfSel .sfRolesTabTitle:hover .sfLeft{cursor:default;color:#555}
+.sfRolesFlatList,.sfUsersFlatList,.sfRolesUsersSelector .sfButtonArea{padding-top:10px;width:100%;float:left;clear:both}
+a.sfSetPermission,a.sfSetPermission:hover,a.sfSetPermission:focus{cursor:default!important;color:#999}
+.sfSelSection{margin-left:15px;padding:3px 10px 5px 5px;vertical-align:middle;background-color:#ddecf4;border-radius:10px}
+.sfSelSection::before{margin-left:4px;margin-right:2px;display:inline-block;font-family:FontAwesome;content:"\f114";vertical-align:middle;line-height:1.1;font-size:14px;color:#999}
+.sfPageHierarchy .sfSelSection::before{content:"\f016"}
+.sfChooseList{padding:5px 0}
+.sfChooseList .sfTaxonomiesLoadMore{color:#000!important;font-size:11px;padding:4px 0!important;display:inline-block!important;height:13px;line-height:20px;background:none!important;font-style:italic}
+.sfPageHierarchy .sfChooseList{margin-left:16px}
+.sfSelectorDialog .sfForm .sfChooseList{max-width:480px}
+.sfChooseList em{font-style:normal}
+div.sfChooseList .RadTreeView,.sfChooseCategory .RadTreeView{margin:5px 0 15px;padding:0;min-height:50px;max-height:150px;overflow:auto;line-height:14px;font-size:13px}
+.sfChooseCategory .RadTreeView{padding-left:0}
+div.sfChooseList div.RadTreeView{border:1px solid #e4e4e4;padding:10px;border-radius:3px}
+div.sfChooseList div.RadTreeView.sfRadTreeViewEmpty{color:#ccc;background-color:#f9f9f9}
+div.sfChooseList div.RadTreeView .rtLI span.rtIn,div.sfChooseList div.RadTreeView .rtLI .rtHover span.rtIn,.sfChooseCategory div.RadTreeView .rtLI span.rtIn,.sfChooseCategory div.RadTreeView .rtLI .rtHover span.rtIn,.sfChooseCategory div.RadTreeView .rtLI .rtSelected span.rtIn{display:inline-block;min-height:14px}
+div.sfChooseList div.RadTreeView .rtIn::before,.sfChooseCategory div.RadTreeView .rtIn::before{margin-left:4px;margin-right:2px;display:inline-block;font-family:FontAwesome;content:"\f114";vertical-align:middle;line-height:1.1;font-size:14px;color:#000}
+.sfPageHierarchy div.sfChooseList div.RadTreeView .rtIn::before{content:"\f016"}
+div.sfChooseList div.RadTreeView .rtLI .rtSelected span.rtIn,.sfChooseCategory div.RadTreeView .rtLI .rtSelected span.rtIn{color:#000;background-color:#DCECF5;border-radius:3px}
+div.sfChooseList div.RadTreeView .rtLI .rtSelected.rtHover span.rtIn,.sfChooseCategory div.RadTreeView .rtLI .rtSelected.rtHover span.rtIn,div.sfChooseList div.RadTreeView .rtSelected .rtIn::before,.sfChooseCategory div.RadTreeView .rtSelected .rtIn::before{color:#000}
+.sfSelectorDialog .sfBasicDim{min-width:355px;min-height:100px}
+.k-window .sfSelectorDialog .sfBasicDim{min-height:50px}
+.sfSelectorDialog .sfMsgBasicDim{width:355px}
+.sfSelectorDialog .sfBasicDim .sfDim360{min-width:360px}
+.sfSelectorDialog .sfBasicDim .sfDim500{min-width:500px}
+.sfSelectorDialog .sfBasicDim .sfDim550{min-width:550px}
+.sfSelectorDialog .sfBasicDim.sfFlatDialogSelector,.ui-dialog .sfBasicDim.sfFlatDialogSelector{*width:350px}
+.sfSelectorDialog .sfSmallLargeColsDim{width:525px}
+.sfSelectorDialog .sfPercentageColsDim{width:650px}
+.sfSelectorDialog .sfPercentageColsDim .sfLeftCol{width:410px;height:328px}
+.sfSelectorDialog .sfPercentageColsDim .sfRightCol{width:200px;height:328px}
+.sfSelectorDialog .sfTextareaExampleDim{width:570px}
+.sfSelectorDialog .sfNavDim,.sfSelectorDialog .sfUserProfileDim,.sfSelectorDialog .sfHierarchicalContentDim{margin-top:0}
+.sfSelectorDialog .sfUserProfileDim{width:590px}
+.sfSelectorDialog .sfNavDim{width:630px;background-position:295px 0}
+.sfSelectorDialog .sfEquelColsDim{width:630px}
+.sfSelectorDialog .sfMappingPane{width:550px}
+.sfSelectorDialog .sfHierarchicalContentDim,.sfSelectorDialog .sfContentDim730{width:730px}
+.sfSelectorDialog .sfUnsubscribeDim{width:770px}
+.sfSelectorDialog .sfWorkflowUserSelector h1{padding-bottom:9px}
+.sfSelectorDialog h1,div.sfInpageWnd h1,.sfSelectorDialog h1.sfOneTitleOnly{padding:0 0 15px;font-size:10px;text-transform:uppercase;font-weight:normal;color:#666}
+.sfSelectorDialog h1 .sfDialogHeadingStep,div.sfInpageWnd h1 .sfDialogHeadingStep{margin-right:5px;display:inline-block;width:23px;height:23px;line-height:24px;font-size:12px;font-weight:normal;text-align:center;color:#fff;background-color:#999;border-radius:50%}
+.sfSelectorDialog.sfDlgWithSourceSelector h1{padding-right:120px}
+.sfHideTitle .sfTitleToHide{display:none}
+.sfSelectorDialog .sfFormCtrl h1{padding-top:0;padding-bottom:0;background-image:none;color:#000;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog h2,.sfSelectorDialog .sfSettingsSection h3,.sfSelectorDialog .rmpView h1,div.sfInpageWnd .rmpView h1{margin-top:18px;font-size:13px;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000}
+.sfSelectorDialog .rmpView h1,div.sfInpageWnd .rmpView h1{text-transform:none;border-bottom:0;padding-bottom:0}
+.sfSelectorDialog h2.sfGroupingTitle{font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:16px;margin-bottom:5px;margin-top:20px}
+.sfMsgBasicDim h2{font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog .sfModeSelector h2{margin-top:0}
+.sfSelectorDialog h1 strong{font-size:13px;font-weight:normal}
+.sfSelectorDialog h1.sfSpecificTitle strong{display:block}
+.sfSelectorDialog h1 .sfNote{display:block;font-size:16px}
+.sfSwitchControlModes{padding-top:8px;padding-bottom:13px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 100%}
+.sfSwitchControlModes .sfTxtLbl{padding-right:5px;display:inline}
+.sfSwitchControlModes .sfRadioList label{margin-right:10px}
+.sfSwitchControlModes br{display:none}
+.sfInpageWnd .sfSelectorFilters{margin-top:10px}
+.sfSelectorDialog .sfSelectorFilters{padding:9px 0 4px}
+.sfSelectorDialog .sfEditorCustomDialog .sfSelectorFilters{padding-top:16px}
+.sfSelectorDialog .sfEditorCustomDialog.sfLinkManagerWrp .sfSelectorFilters{padding-top:0;background-image:none}
+.sfSelectorDialog .sfFlatDialogSelector .sfSelectorFilters{padding:16px 0 11px}
+.sfSelectorDialog .sfSelectorFilters>.sfProvidersList{margin-left:15px;width:120px;order:2}
+.sfSelectorDialog .sfSelectorFilters>div{flex:auto}
+.sfFormCtrl+.sfSelectorFilters{padding-top:0}
+.sfSelectorDialog .sfMultipleSelectionWrp .sfSelectorFilters{background-image:none}
+.sfSelectorDialog .sfSelectorGridWrapper{margin-bottom:10px;padding:10px;height:340px;*height:335px;overflow:auto;border-width:1px;background-color:#fff;border-style:solid;border-color:#ccc}
+.sfSelectorDialog .sfSelectorContainer{min-height:480px}
+.sfSelectorDialog .sfSelectorContainer .sfSelectorGridWrapper{height:auto;max-height:290px}
+.sfHierarchicalExpanded .sfSelectorGridWrapper{min-width:365px}
+.sfSelectorDialog .sfEditorCustomDialog .sfSelectorGridWrapper{height:240px;*height:235px;*overflow-x:hidden}
+.sfSelectorDialog.sfCompositeDialog .sfSelectorGridWrapper{height:240px;*width:355px}
+.sfSelectorDialog .sfPropertiesListWrapper{padding:0 0 2px;width:100%;clear:both;height:370px;overflow:auto}
+.sfSelectorDialog .sfSelectorModeSwitcher{margin:7px 0 12px}
+.sfSelectorDialog div.RadWindow .rwTitlebarControls em{color:#666;font-size:14px;margin-left:-25px;position:relative}
+.sfSelectorDialog .TelerikModalOverlay{background-color:#f1f1f1!important}
+.sfSelectorDialog .RadWindow a.rwIcon{background-image:none}
+.sfSelectorShortWrapper{background-color:#fff;border:1px solid #ccc;height:235px;*height:235px;overflow:auto;padding:10px}
+.sfSelectorShortWrapper li{margin-bottom:5px}
+.sfSelectorShortWrapper li.sfHighlighted{background-color:#ffc}
+.sfSelectorShortWrapper li.sfTemplateItm{margin-bottom:10px}
+.sfSelectorShortWrapper .sfItemTitle a{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorShortWrapper .sfTemplateItm img{width:30px;margin-top:5px;margin-right:5px}
+.sfSelectorShortWrapper .sfTemplateItm .sfItemTitle{max-width:270px}
+.sfSelectorShortWrapper .sfTemplateItm .sfItemTitle a{display:block}
+.sfSelectorShortWrapper .sfTemplateItm .sfItemTitle span{font-size:11px;color:#666}
+.sfSortingCondition{width:395px}
+.sfSortingCondition .sfSortRules>li{margin-bottom:15px}
+.sfSortingCondition select{margin-top:6px;width:200px;vertical-align:top}
+.sfSortingCondition .sfRadioList{padding-left:15px;width:100px}
+.sfSortingCondition .sfAddRuleWrp{margin-top:30px}
+.sfSortingCondition .sfRemoveAllWrp{float:right;margin-top:-32px;width:90px}
+.sfSortingCondition a.sfAddRule,.sfSortingCondition a.sfRemoveRule{color:#666;text-decoration:underline}
+.sfSortingCondition a.sfAddRule:hover,.sfSortingCondition a.sfAddRule:focus,.sfSortingCondition a.sfRemoveRule:hover,.sfSortingCondition a.sfRemoveRule:focus{text-decoration:none}
+.sfSortingCondition a.sfAddRule::before,.sfSortingCondition a.sfRemoveRule::before{display:inline-block;margin-right:5px;font-family:FontAwesome;vertical-align:middle;line-height:1.1;font-size:14px;color:#666}
+.sfSortingCondition a.sfAddRule::before{content:"\f055"}
+.sfSortingCondition a.sfRemoveRule::before{content:"\f056"}
+.sfSelectorDialog .sfInpageWnd .sfSelectorBtns{margin-top:10px}
+.sfSelectorDialog .sfSelectorBtns{margin-top:30px;padding-top:15px;border-top:1px solid #e5e5e5}
+.sfSelectorDialog .sfSelectorBtns.sfSelectorNoBorderBtns{padding-top:0;border-top:0}
+.sfSelectorDialog.sfMultiLangWithViewsDlg .sfSelectorBtns{padding-top:30px}
+.sfSelectorDialog .sfSelectorBtns .sfModeSwitcher{float:right}
+.sfSelectorDialog .sfSelectorBtns .sfModeSwitcher .sfLinkBtn{font-size:11px}
+.sfSelectorDialog.sfMultiLangWithViewsDlg .sfSelectorBtns .sfModeSwitcher{margin-top:-26px}
+.ui-dialog.sfProcessingInfoDlg .sfSelectorBtns{min-height:23px}
+.sfPropsToolsWrapper{min-height:28px;padding-top:6px;padding-bottom:8px;border-bottom:1px solid #ddd}
+#breadcrumbDiv{padding-top:5px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+#breadcrumbDiv .bcArrow{display:inline-block;margin:2px 7px 0;width:11px;height:10px;overflow:hidden}
+#breadcrumbDiv .bcArrow::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f178";font-size:10px;color:#b5b5b5}
+#expandCollapsePanel{padding-top:4px;float:right;color:#ccc}
+.sfSelectorDialog .sfPropertiesListWrapper #screens{padding:15px 0}
+.sfSelectorDialog .sfPropertiesListWrapper #screens li div.sf_propertyElement{padding-bottom:5px}
+#expandCollapsePanel a{color:#666}
+#expandCollapsePanel a:hover,#expandCollapsePanel a:focus{color:#333}
+.sfSelectorDialog .sfPropertiesListWrapper .sf_categoryElement a{font-size:14px;color:#333;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog .sfPropertiesListWrapper .sf_categoryElement a:hover,.sfSelectorDialog .sfPropertiesListWrapper .sf_categoryElement a:focus{color:#000}
+.sfSelectorDialog .sfPropertiesListWrapper .sf_categoryElement a::before{display:inline-block;font-family:FontAwesome;margin-right:5px;width:10px;vertical-align:top;content:"\f0da";font-size:14px;color:#999}
+.sfSelectorDialog .sfPropertiesListWrapper .sf_categoryElement.sfCollapsedCategory a::before{content:"\f0d7"}
+.sfSelectorDialog .sfCategorizedList .sf_propertyElement{padding-left:15px}
+.sfSelectorDialog .sf_propertyElement label{display:block;color:#333}
+.sfSelectorDialog .sf_propertyElement .sf_propertyInput{display:block;padding:5px;width:300px;font-size:12px;border-width:1px;font-family:open_sansregular,Arial,Verdana,sans-serif;color:#333;border-style:solid;border-top-color:#abadb3;border-right-color:#dbdfe6;border-bottom-color:#e3e9ef;border-left-color:#e2e3ea}
+.sfCheckboxGroupProperty{padding:15px 0 10px}
+.sfDropdownBasicProperty,.sfCheckboxBasicProperty{padding:15px 0 10px 18px}
+.sfCheckboxBasicProperty.sfFirstIngroup,.sfCheckboxBasicProperty.sfIngroup{padding-bottom:0}
+.sfCheckboxBasicProperty.sfLastIngroup,.sfCheckboxBasicProperty.sfIngroup{padding-top:0}
+.sfEditTemplateWrp{padding-top:15px}
+.sfExpandedPropertyDetails{padding:2px 0 10px 18px}
+.sfCheckboxBasicProperty .sfExpandedPropertyDetails{padding-bottom:0}
+.sfExpandableSection .sfExpandedPropertyDetails{padding-left:0}
+.sfTitledList .sfExpandedPropertyDetails{margin-top:-5px;padding-top:0;padding-bottom:2px}
+.sfCustomFieldsAppearanceWrp .sfSelectorFilters{display:none}
+.sfSelectorDialog .sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper{border:0;padding:0;height:auto;min-height:100px;background-color:transparent}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .RadGrid{background-color:transparent;border:0}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .rgHoveredRow,.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .rgSelectedRow{background-color:transparent;background-image:none;color:#333}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .rgHoveredRow>td,.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .rgSelectedRow>td{border-bottom-color:#fff}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .sfCheckBoxCol{width:13px}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper strong{font-weight:normal;font-family:open_sansregular,Arial,Verdana,sans-serif}
+.sfCustomFieldsAppearanceWrp .sfSelectorGridWrapper .RadGrid td{padding-left:0}
+.sfSelectedItem,ul.decSitesList{display:inline-block;margin-right:5px;padding:4px 15px;background-color:#ddecf4;border-radius:15px;vertical-align:middle}
+.sfSelectedItem:empty{display:none!important}
+.sfHorizontalAlign .sfSelectedItem{display:inline-block;vertical-align:top;max-width:100px;overflow:hidden;text-overflow:ellipsis}
+ul.decSitesList{margin-top:0;margin-bottom:0}
+a.sfSelectedItem{font-size:9px;color:#333}
+a.sfSelectedItem:hover,a.sfSelectedItem:focus{color:#000}
+.sfSelectorDialog .sfSelItemWrp .sfSelectedItem{padding-top:3px;padding-bottom:3px;margin-right:10px}
+.sfContentViews.sfViewsTopSep{margin-top:20px}
+.sfInlineWrapper,.sfInlineWrapper div{display:inline}
+.sfSetNumberPropery .sfTxtLbl{display:inline;font-weight:normal}
+.sfSetNumberPropery .sfTxt{width:35px!important;padding-top:2px;padding-bottom:2px}
+.sfCustomImgSizeWrp .sfSetNumberPropery{margin-top:10px}
+.sfCustomImgSizeWrp .sfSetNumberPropery .sfTxtLbl{display:inline-block;min-width:40px}
+.sfCustomImgSizeWrp .sfInlineBlock{vertical-align:top}
+.sfCustomImgSizeWrp .sfTieRatio{position:relative;margin-top:20px}
+.sfCustomImgSizeWrp .sfTieRatio label{position:absolute;top:0;left:0;display:block;text-indent:-999px;overflow:hidden;width:23px;height:35px;cursor:pointer;background:#f1f1f1 url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 0 -2300px}
+.sfCustomImgSizeWrp.sfDontKeepRatio .sfTieRatio label{background-position:0 -2390px}
+.sfSelectorDialog .sfModeSelector .sfTxtLbl{font-weight:normal}
+.sfSelectorDialog .sfModeSelector .sfCssClassOptWrp{margin-top:10px}
+.sfSelectorDialog .sfModeSelector .sfCssClassOptWrp .sfTxtLbl,.sfSelectorDialog .sfModeSelector .sfMainModeOption .sfTxtLbl{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfSelectorDialog .sfModeSelector .sfCheckboxGroupProperty .sfTxtLbl{font-family:open_sanssemibold,Arial,Verdana,sans-serif;line-height:1.1;padding-bottom:5px}
+.sfSelectorDialog .sfModeSelector .sfTxt,.sfSelectorDialog .sfModeSelector .sfTargetList .sfTxt,.sfSelectorDialog .sfModeSelector .sfDependentFieldCtrl .sfTxt{width:220px}
+.sfUrlPicker .sfTxt{width:220px}
+.sfSelectorDialog .sfTitledList{margin-top:28px}
+.sfSelectorDialog .sfExpandableSection .sfTitledList{margin-top:0}
+.sfSelectorDialog .sfTitledList label{vertical-align:middle;padding-left:4px}
+.sfSelectorDialog .sfTitledList .sfCheckBox label{font-weight:normal}
+.sfSelectorDialog .sfTitledList label,.sfSelectorDialog .sfDropdownBasicProperty label.sfTxtLbl{font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfExternalSitesListWrp{margin-top:18px}
+.sfExternalSitesFormWrp{margin-top:18px}
+.sfExternalSitesFormWrp li{margin-bottom:8px}
+.sfChooseTemplateWrapper{margin-bottom:10px;background-color:#e4e4e4}
+.sfChooseTemplateWrapper select{width:200px;height:125px;float:left}
+.sfChooseTemplateWrapper .sfTemplateNameWrp{width:145px;float:left;padding:10px 0 10px 10px;overflow:hidden}
+.sfChooseTemplateWrapper .sfTemplateNameWrp .sfTmpTitle{display:block;padding-left:20px;padding-bottom:5px;line-height:1.2;min-height:20px}
+.sfChooseTemplateWrapper .sfTemplateNameWrp .sfTmpTitle::before{display:inline-block;font-family:FontAwesome;position:absolute;margin-left:-20px;margin-right:5px;vertical-align:top;content:"\f0f6";font-size:14px;color:#666}
+.sfChooseTemplateWrapper .sfTemplateNameWrp .sfChange{margin-left:20px}
+.sfExpandedPropertyDetails .sfTemplateNameWrp{padding-bottom:5px}
+.sfHasIconList li{margin-bottom:5px;padding-left:45px}
+.sfHasIconList .sfLargeIcon{padding-top:5px;padding-bottom:13px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensions.gif") %>) no-repeat 5px -100px}
+.sfHasIconList .sfSmallIcon{padding-bottom:10px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensionsSml.gif") %>) no-repeat 21px -100px}
+.sfHasIconList.sfRssIcn{margin-top:3px}
+.sfHasIconList.sfRssIcn li{padding-left:40px}
+.sfHasIconList.sfRssIcn .sfLargeIcon{background-position:0 -1200px;padding-top:3px}
+.sfHasIconList.sfRssIcn .sfSmallIcon{background-position:14px -1198px}
+.sfHasIcon{margin-top:20px;margin-bottom:10px}
+.sfHasIcon label{margin-left:5px;padding:2px 0 3px 24px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfFileExtensionsSml.gif") %>) no-repeat 0 -100px}
+.sfDesignerSelector{position:absolute;top:0;right:0;bottom:0;left:0;z-index:10000;min-height:500px;background-color:#fff}
+.sfDesignerSelector.sfMappingDesignerWrp{*width:570px;*height:620px}
+.sfDesignerSelector.sfChooseFileWrp{min-height:380px;*height:470px}
+.sfSelectorDialog .sfDesignerSelector .sfSelectorFilters .sfSearchLoading,.sfSelectorDialog .ui-dialog .sfSelectorFilters .sfSearchLoading{position:absolute;left:5px;top:88px}
+.sfSelectorDialog .sfSelectorWrapper .sfSelectorFilters .sfSearchLoading,.sfSelectorDialog .ui-dialog .sfSelectorFilters .sfSearchLoading{position:absolute;left:5px;top:88px}
+.sfSelectorDialog .sfEditorCustomDialog{padding-bottom:11px}
+.sfSelectorDialog .sfEditorCustomDialog .sfSearchBoxSet,.sfInpageWnd .sfSearchBoxSet,.sfWndInWnd.sfInpageWnd .sfSearchBoxSet{margin-bottom:10px}
+.sfSelectorDialog .sfCodeField{position:relative}
+.sfSelectorDialog .sfFormCtrl,.sfSelectorDialog .sfSettingsSection{margin-top:18px}
+.sfSelectorDialog .sfFormCtrl .sfFormCtrl{margin-top:0}
+.sfSelectorDialog .sfFormCtrl.sfFirstCtrl{margin-top:0}
+.sfSelectorDialog .sfForm{padding:0;border:0}
+.sfSelectorDialog .sfFormIn{background-color:transparent;border-left:0;border-top:0;padding:0}
+.sfFormDialog .sfSelectorDialog .sfExpandableForm .sfExpandedTarget{background-image:none;margin-top:0;padding-top:0}
+.sfSelectorDialog .sfForm .sfExpandedTarget>ul>li{padding-bottom:0;margin-top:18px}
+.sfSelectorDialog .sfLblOneLine label{white-space:nowrap}
+.sfSelectorDialog .sfContentViews .sfTxtUrlSeletor .sfTxt{width:230px}
+.sfSelectorDialog .sfCodeField textarea.sfTxt{width:400px;height:250px}
+.sfSelectorDialog .sfTxtAreaNotActive{padding:5px;height:65px;width:320px;overflow:auto;background-color:#fff}
+.sfCodeField .CodeMirror-scroll{width:400px;height:250px;background-color:#fff;border:2px inset #d4d0c8}
+.sfSelectorDialog .sfFormCtrl.sfCodeXmlField textarea.sfTxt{width:480px;height:400px}
+.sfSelectorDialog .sfTxtUrlSeletor.sfTxtUrlSeletor div,.ui-dialog .sfContentViews .sfTxtUrlSeletor.sfTxtUrlSeletor div{display:inline}
+.sfSelectorDialog .sfDependentFieldCtrl,.sfSelectorDialog .sfSimulatorCriteriaList .sfDependentFieldCtrl{margin-left:15px}
+.sfSelectorDialog .sfDependentFieldCtrl.sfNeutral{margin-top:5px}
+.sfSelectorDialog ul.sfDependentFieldCtrl li{margin-top:5px}
+.sfSelectorDialog .sfDialogSeparatorBottom{padding-bottom:20px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 100%}
+.sfSelectorDialog .sfImageOverviewPanel{margin-top:18px}
+.sfSelectorDialog .sfImageOverviewPanel .sfInlineBlock{vertical-align:top}
+.sfSelectorDialog .sfImageOverviewPanel .sfImgWrp{margin-right:10px}
+.sfSelectorDialog .sfImageOverviewPanel .sfImgWrp img{border:10px solid #fff}
+.sfSelectorDialog .sfFormCtrl .sfTxt{width:320px}
+.sfSelectorDialog .sfFormCtrl .sfAddCtrl .sfTxt{width:275px}
+.sfSelectorDialog .sfFormCtrl .sfAddCtrl .sfTxt.k-autocomplete{width:auto!important}
+.sfSelectorDialog .sfFormCtrl .sfAddCtrl .sfTxt.k-autocomplete .sfTxt{width:275px!important}
+.sfSelectorDialog .sfShort.sfInlineBlock{width:220px}
+.sfSelectorDialog .sfFormCtrl.sfShort .sfTxt{width:210px}
+.sfSelectorDialog .sfTargetList.sfShort .sfTxt{width:195px}
+.sfSelectorDialog .sfContentViews .sfNumeric input.sfTxt{width:50px}
+.sfSelectorDialog .sfTimePickerBasedOnDateTimePicker .sfTxt{width:50px;text-indent:-60px}
+.sfSelectorDialog .sfFormCtrl textarea.sfTxt{width:320px;height:65px}
+.sfSelectorDialog .sfContentViews .sfCodeArea textarea.sfTxt{height:250px;width:400px}
+.sfSelectorDialog .sfContentViews .sfDependentFieldCtrl .sfTxt,.sfSelectorDialog .sfContentViews .sfTargetList .sfTxt,.sfSelectorDialog .sfContentViews .sfExpandedPropertyDetails .sfTxt{width:300px}
+.sfSelectorDialog .sfDependentFieldCtrl .sfShort .sfTxt,.sfSelectorDialog .sfTargetList .sfShort .sfTxt{width:180px}
+.sfSelectorDialog .sfDependentFieldCtrl .sfShort40 .sfTxt,.sfSelectorDialog .sfTargetList .sfShort40 .sfTxt{width:40px}
+.sfSelectorDialog .sfDependentFieldCtrl textarea.sfTxt{height:65px}
+.sfFormChoiceColumns .sfRadioList{display:block;line-height:21px;padding-left:46px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfForms.gif") %>) no-repeat 0 -800px}
+.sfFormChoiceColumns .sfRadioList input,.sfFormChoiceColumns .sfRadioList label{vertical-align:middle}
+.sfSelectorDialog .sfNumericRangeCtrlWrp{padding-top:5px;vertical-align:baseline}
+.sfSelectorDialog .sfNumericRangeCtrlWrp .sfNumeric{padding-right:7px}
+.sfSelectorDialog .sfNumericRangeCtrlWrp .sfNumeric .sfTxtLbl,.sfSelectorDialog .sfHorizontalSequenceCtrl .sfTxtLbl{font-weight:normal}
+.sfSelectorDialog .sfDropdownList select{min-width:318px}
+.sfSelectorDialog .sfRightCol .sfDropdownList select{min-width:220px}
+.sfSelectorDialog .sfCompositeDdlCtrl select{min-width:220px}
+.sfSelectorDialog .sfSelectField90 select{width:90px}
+.sfSelectorDialog .sfSelectField150 select{width:150px}
+.sfSelectorDialog .sfSelectField250 select{min-width:0;width:250px}
+.sfSelectorDialog .sfCompositeDdlCtrl{padding-bottom:6px;max-width:250px}
+.sfSelectorDialog .sfNumeric.sfInlineBlock{padding-right:7px}
+.sfFormCtrl .sfTxtWrp{padding:3px;background-color:#fff}
+.sfMetaEditorWrp{width:525px}
+.sfMetaEditorWrp .sfRightCol{width:360px}
+.sfDragNDropListWrp{max-height:170px;overflow:auto}
+.sfDragNDropListWrp .sfDragNDropItem{margin-bottom:3px}
+.sfDragNDropListWrp .sfDragPoint{display:inline-block;background:#fff url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 6px -2993px;margin-right:3px;padding:3px 3px 3px 20px;cursor:move}
+.sfDragNDropListWrp .ui-sortable-disabled .sfDragPoint{padding-left:3px;background:0;cursor:default}
+.sfLangSelectorWrp .sfDragNDropListWrp .ui-sortable-disabled .sfCulture{cursor:default}
+.sfSelectorDialog .sfDragNDropListWrp .sfDragPoint .sfTxt{width:240px;cursor:text}
+.sfSelectorDialog .sfDragNDropListWrp.sfMultipleChoiceListWrp .sfDragPoint .sfTxt{width:180px}
+.sfSelectorDialog .sfDragNDropListWrp .sfDragPoint .sfVal{padding:3px;width:55px;vertical-align:middle;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:12px}
+.sfDragNDropListWrp .sfAddBtn,.sfDragNDropListWrp .sfRemoveBtn{display:inline-block;height:18px;line-height:16px;width:18px;text-align:center;cursor:pointer;overflow:hidden;vertical-align:middle;border:1px solid #999;border-radius:5px;background-color:#f1f1f1}
+.sfDragNDropListWrp .sfAddBtn::before,.sfDragNDropListWrp .sfRemoveBtn::before{display:block;margin-top:2px;font-family:FontAwesome;vertical-align:top;line-height:1;font-size:14px;color:#999}
+.sfDragNDropListWrp .sfAddBtn:hover,.sfDragNDropListWrp .sfRemoveBtn:hover{background-color:#fff}
+.sfDragNDropListWrp .sfAddBtn:hover::before,.sfDragNDropListWrp .sfRemoveBtn:hover::before{color:#666}
+.sfDragNDropListWrp .sfAddBtn::before{content:"\f055"}
+.sfDragNDropListWrp .sfRemoveBtn::before{content:"\f056"}
+.sfDisbaledDragNDrop.sfDragNDropListWrp .sfDragPoint{background-image:none;padding-left:10px;cursor:default}
+.sfDragNDropListWrp .sfDragPoint .sfTitle{display:inline-block;width:225px}
+.sfVertical .sfDragNDropListWrp .sfDragNDropItem{height:auto}
+.sfPropListTable .sf_header{padding:0 10px 5px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#777}
+.sfPropListTable .sf_row{margin-bottom:10px;padding:10px;background-color:#fff}
+.sfMulitChoiceHeader .sfTxtLbl{display:inline-block}
+.sfMulitChoiceHeader .sfLblLblWrp{margin-left:20px;width:190px}
+.sfBasicSettingsWrp .sfDragNDropListWrp,.sfLangSelectorWrp .sfDragNDropListWrp,.sfPageSelectorWrp{margin-bottom:11px;max-height:none;overflow:visible}
+.sfBasicSettingsWrp .sfDragNDropList,.sfLangSelectorWrp .sfDragNDropList,.sfPageSelectorWrp .sfPageSelectorList{border-bottom:1px solid #e4e4e4}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfDragNDropItem,.sfLangSelectorWrp .sfDragNDropListWrp .sfDragNDropItem{width:395px}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfDragNDropItem,.sfLangSelectorWrp .sfDragNDropListWrp .sfDragNDropItem,.sfPageSelectorWrp .sfPageSelectorList .sfPageSelectorItem{padding-top:3px;border-top:1px solid #e4e4e4;min-height:30px}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfDragNDropItem.sfMultiSiteAndLingual,.sfLangSelectorWrp .sfDragNDropListWrp .sfDragNDropItem.sfMultiSiteAndLingual{width:595px}
+.sfLangSelectorWrp .sfDragNDropListWrp .sfDragNDropItem{padding-bottom:0;min-height:26px}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfCulture,.sfLangSelectorWrp .sfDragNDropListWrp .sfCulture,.sfPageSelectorWrp .sfCulture,.sfLanguageAbbr{margin-right:7px;padding-left:1px;padding-right:1px;min-width:17px;height:16px;font-size:11px;line-height:16px;text-transform:uppercase;text-align:center;background-color:#006cd9;color:#fff;cursor:pointer}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfDragPoint,.sfLangSelectorWrp .sfDragNDropListWrp .sfDragPoint{width:200px;vertical-align:top}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfDefaultLang,.sfLangSelectorWrp .sfDragNDropListWrp .sfDefaultLang{padding-top:3px;vertical-align:top;width:100px}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfSetAsDefault,.sfLangSelectorWrp .sfDragNDropListWrp .sfSetAsDefault{padding-top:4px;width:100px;vertical-align:top}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfRemoveLang,.sfLangSelectorWrp .sfDragNDropListWrp .sfRemoveLang{padding-top:4px;width:50px;text-align:right;vertical-align:top}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfSitesUsingLang,.sfLangSelectorWrp .sfDragNDropListWrp .sfSitesUsingLang{padding-top:4px;width:200px;vertical-align:top}
+.sfBasicSettingsWrp .sfDragNDropListWrp .sfSitesUsingLang a,.sfLangSelectorWrp .sfDragNDropListWrp .sfSitesUsingLang a{white-space:nowrap}
+.sfLangSelectorWrp{padding-top:10px;background-color:#fff}
+.sfDragNDropListWrp .sfDragNDropHeader{padding-bottom:7px;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#777}
+.sfDragNDropListWrp .sfDragNDropHeader .sfCultureAndLang{padding-left:20px;width:206px}
+.sfDragNDropListWrp .sfDragNDropHeader .sfIsDefault{width:100px}
+.sfDragNDropListWrp .sfDragNDropHeader .sfSitesUsingLang{width:200px}
+.sfPageSelectorWrp .sfPageSelectorList .sfPageSelectorItem{position:relative;padding:15px;padding-right:70px}
+.sfPageSelectorWrp .sfPageSelectorList .sfPageSelectorItem .sfItemTitle{max-width:80%;vertical-align:top;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfPageSelectorWrp .sfPageSelectorList .sfPageSelectorItem .sfCulture{margin-left:20px;margin-top:3px;cursor:default}
+.sfPageSelectorWrp .sfPageSelectorList .sfPageSelectorItem .sfExternalRight{position:absolute;right:20px;top:15px}
+.sfDataCol{width:335px}
+.sfSmallColRight{width:75px;text-align:right}
+.sfAdvancedList{margin-top:10px;border-top:1px solid #e4e4e4}
+.sfAdvancedList li{padding-top:6px;border-bottom:1px solid #e4e4e4;min-height:27px}
+.sfAdvancedList .sfItemTitle{width:335px;vertical-align:top;overflow:hidden;text-overflow:ellipsis}
+.sfAdvancedList .sfDetailsLnk{width:75px;text-align:right;overflow:hidden;text-overflow:ellipsis}
+.sfDetailsLnk.sfSyncedItem{color:#008000}
+.sfDetailsLnk.sfFailedItem{color:#F00}
+.sfAdvancedList .sfExpandedSection{margin-top:9px;padding-top:10px;border-top:1px solid #e4e4e4;font-size:11px}
+.sfAdvancedList .sfExpandedSection .sfSyncLogItm{margin-left:20px;margin-top:10px;line-height:1.2}
+.sfExternalSitesListWrp .sfDragNDropListWrp .sfTitle{width:265px}
+.sfExternalSitesListWrp .sfDragNDropListWrp .sfRemoveBtn{border:0}
+.sfExternalSitesListWrp .sfDragNDropListWrp .sfRemoveBtn::before{content:"\f057"}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp{margin-bottom:10px;color:#333}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp .sfDragPoint{padding-right:10px}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp .sfDragNDropItem{height:23px}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp .ui-sortable-placeholder{vertical-align:top}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp .sfRemoveBtn{border:0}
+.sfSelectedCustomLinksWrp .sfDragNDropListWrp .sfRemoveBtn::before{content:"\f057 "}
+.sfMoreDetailsIcn{display:inline-block;width:14px;height:14px;cursor:help;overflow:hidden}
+.sfMoreDetailsIcn::before{display:block;font-family:FontAwesome;vertical-align:top;content:"\f06a";font-size:14px;line-height:1;color:#64b5f1}
+.sfExpandableSection a.sfMoreDetails,.sfExpandableSection span.sfMoreDetails{text-decoration:none}
+.sfExpandableSection a.sfMoreDetails::before,.sfExpandableSection span.sfMoreDetails::before{display:inline-block;margin-right:5px;font-family:FontAwesome;content:"\f0da";vertical-align:middle;line-height:1.1;font-size:18px;color:#666;width:10px}
+.sfExpandedSection .sfExpandableSection a.sfMoreDetails::before{content:"\f0da"}
+.sfExpandedSection a.sfMoreDetails::before,.sfExpandedSection .sfExpandableSection.sfExpandedSection a.sfMoreDetails::before,.sfExpandedSection span.sfMoreDetails::before{content:"\f0d7"}
+.sfExpandedSection a.sfMoreDetails .sfNote,.sfExpandedSection span.sfMoreDetails .sfNote{display:none}
+.sfExpandableSection span.sfMoreDetails{cursor:pointer;color:#666}
+.sfTwoColsFirst .sfExpandableSection span.sfMoreDetails{color:#000}
+.sfForm .sfExpandableSection span.sfMoreDetails{color:#999;padding-top:1px}
+.sfForm .sfExpandableSection span.sfMoreDetails:hover{color:#666}
+.sfExpandableSection .sfTargetList{display:none;margin-left:20px}
+.sfExpandedSection .sfTargetList{display:block}
+.sfTwoColsFirst .sfExpandedSection .sfTargetList{margin-bottom:20px}
+.sfExpandableSection .sfTargetList.sfEmphaziedLabels li{margin-top:5px}
+.sfExpandedSection .sfTargetList.sfHeaderDirective{margin-left:0;margin-top:-25px;margin-bottom:45px}
+.sfExpandableSection.sfHeaderDirectiveSection{margin-bottom:-30px}
+.sfDialog .sfExpandableSection.sfLanguageVersionSettings{padding-bottom:20px}
+.sfDialog.sfDesignerAdvancedMode .sfExpandableSection.sfLanguageVersionSettings{margin-top:1px;padding-top:15px;padding-bottom:10px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHBorder.gif") %>) repeat-x 0 0}
+.sfDialog .sfExpandableSection.sfLanguageVersionSettings h3{margin-top:0}
+.sfDialog .sfExpandableSection.sfLanguageVersionSettings .sfTargetList{margin-top:5px;font-size:11px;color:#666}
+.sfDialog .sfExpandableSection.sfLanguageVersionSettings .sfTargetList .sfTxtLbl{font-size:11px;font-weight:normal}
+.sfSelectorDialog .sfMediaTypeList{margin-left:15px;margin-top:5px}
+.sfSelectorDialog .sfMediaTypeList br{display:none}
+.sfSelectorDialog .sfMediaTypeList label{width:90px}
+.sfSelectorDialog .sfMediaTypeList input,.sfSelectorDialog .sfMediaTypeList label{float:left;vertical-align:top}
+.sfSelectorDialog .sfMediaTypeList input+label+br+input+label+br+input+label+br{display:block;clear:both}
+.sfSelectorDialog .sfMediaTypeList input+label+br+input+label+br+input+label+br+input+label+br{display:none}
+.sfSelectorDialog .sfMediaTypeList input+label+br+input+label+br+input+label+br+input+label+br+input+label+br+input+label+br{display:block;clear:both}
+.sfSelectorDialog .sfMediaTypeList input+label+br+input+label+br+input+label+br+input+label+br+input+label+br+input+label+br+input+label+br{display:none}
+.sfColWrapper{margin-top:15px;background-color:transparent;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>);background-repeat:repeat-y;background-position:-100px 0}
+.sfModeSelector{margin-top:15px}
+.sfEqualCols{background-position:50% 0}
+.sfEqualCols .sfLeftCol,.sfEqualCols .sfRightCol{width:300px}
+.sfEqualCols.sfNavDim .sfLeftCol,.sfEqualCols.sfUserProfileDim .sfLeftCol,.sfEqualCols.sfUserProfileDim .sfRightCol{width:280px}
+.sfEqualCols.sfNavDim .sfRightCol{width:320px}
+.sfUnsubscribeDim .sfLeftCol{width:535px}
+.sfEqualCols.sfHierarchicalContentDim .sfLeftCol,.sfEqualCols.sfHierarchicalContentDim .sfRightCol{width:350px}
+.sfContentDim730 .sfLeftCol{width:300px}
+.sfContentDim730 .sfRightCol{width:400px;padding-left:15px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfVBorder.gif") %>) repeat-y 0 0}
+.sfUnsubscribeDim .sfRightCol{margin-top:50px;width:225px}
+.sfLeftCol{float:left}
+.sfRightCol{float:right}
+.sfCol20{width:20%}
+.sfCol80{width:80%}
+.sfRightCol .sfStep2Options{padding-left:30px}
+.sfRightCol .sfStep2Options li{margin-top:3px}
+.sfRightCol .sfStep2Options .sfSecondStepExample,.sfContentViews .sfSecondStepExample{font-size:11px;color:#666;padding-bottom:10px;font-style:italic;line-height:1.2}
+.sfRightCol .sfStep2Options #liTopLevelPages .sfSecondStepExample{padding-left:20px}
+.sfRightCol .sfStep2Options .sfSocialAppsUserSelect{width:240px;height:200px}
+.sfActionInStpes{margin-top:8px;margin-bottom:8px;padding-bottom:14px}
+.sfActionInStpes .sfStpesActions,.sfActionInStpes .sfRadioList{margin-left:34px}
+.sfLeftCol .sfSocialAppsSelect{margin:15px 0 0 30px;padding:3px;border:1px solid #999;background-color:#fff;overflow:auto;width:234px;height:194px}
+.sfLeftCol .sfSocialAppsSelect .sfSel a,.sfLeftCol .sfSocialAppsSelect .sfSel a:hover,.sfLeftCol .sfSocialAppsSelect .sfSel a:focus{color:#333;cursor:default}
+.sfUploadedItemWrp{border:1px solid #ccc;background-color:#fff;padding:10px;width:628px;height:464px;overflow:auto;position:relative;z-index:10}
+.sfSelectorDialog.ui-dialog .ui-dialog-content{overflow:hidden}
+.sfUploadedItemWrp .sfSearchBoxSet .sfTxt{width:260px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode{min-height:370px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode li{display:inline-block;vertical-align:top;margin:7px;width:72px;height:72px;position:relative;z-index:20}
+.sfTemplateTmbSelector .sfContentViews .sfUploadedItemWrp .sfItemsListMode li{width:97px;height:73px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode li.sfTooltipShown{z-index:30}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode li,.sfContentViews .sfUploadedItemWrp .sfItemsListMode li.sfSel:hover{padding:0;border:0}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode a{display:block;width:70px;height:70px;line-height:70px;border:1px solid #fff;overflow:hidden;text-align:center}
+.sfTemplateTmbSelector .sfContentViews .sfUploadedItemWrp .sfItemsListMode a{width:95px;height:71px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfDefaultTmb{width:100%;height:100%}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .imgSelect{display:none}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfSmallLibTmb .sfItemTitle{padding-left:0;padding-top:53px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#105CB6;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfLibraries.gif") %>) no-repeat 11px -1790px;cursor:pointer}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfSmallLibTmb .sfItemTitle:hover{color:#00f}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfSel .imgSelect{display:block;width:72px;height:72px;border:10px solid #e6f2f8;position:absolute;top:-10px;left:-10px;z-index:50}
+.sfTemplateTmbSelector .sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfSel .imgSelect{width:97px;height:73px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfTooltipWrp{display:none;padding:4px;width:160px;position:absolute;top:56px;left:41px;background-color:#ffc;color:#333;border:1px solid black;z-index:1000;overflow:hidden}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfTooltipWrp.sfTooltipRAlign{left:auto;right:41px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode .sfTooltipWrp li{display:list-item;height:auto;margin:0 0 1px;white-space:nowrap;width:auto}
+.sfSelectorDialog .k-upload.sfFilesSelected{width:500px}
+.sfSelectorDialog .k-upload.sfNoFilesSelected{width:650px;height:486px}
+.sfSelectorDialog .k-upload.sfNoFilesSelected .k-dropzone{padding:0;width:648px;height:484px;border-radius:0}
+.sfSelectorDialog .k-upload.sfNoFilesSelected .k-dropzone-hovered{height:482px}
+.sfSelectorDialog .k-upload.sfNoFilesSelected .k-upload-button,.sfSelectorDialog .k-upload.sfNoFilesSelected .k-dropzone em,.sfSelectorDialog .k-upload.sfNoFilesSelected .k-dropzone-hovered em{margin-top:220px}
+.k-upload-button.k-button:focus:active:not(.k-state-disabled):not([disabled]){-webkit-box-shadow:none;box-shadow:none}
+.k-upload-button.k-button:active:hover,.k-upload-button.k-button.k-state-active:hover{border:0;background-color:transparent}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode{margin-right:10px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode li{display:list-item;margin:0;padding:5px;width:auto;height:auto;color:#000}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode li.sfSel:hover{padding:5px}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode .sfItemTitle{padding-left:0}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode .sfSmallLibTmb .sfItemTitle{padding-left:17px;text-align:left}
+.sfContentViews .sfUploadedItemWrp .sfItemsListMode.sfDocItemsListMode .sfLine{display:block;color:#666}
+.sfLibFilterWrp{background-color:#FFF;border:1px solid #CCC;height:465px;overflow:auto;padding:10px 0 10px 10px;position:relative;z-index:10;width:250px}
+.sfLibFilterButtons .sfNotBtn{display:block;margin-left:15px;padding:3px 5px}
+.sfLibFilterButtons .sfNotBtn.sfSelected{display:inline-block;margin-left:15px;color:#333;background-color:#e4e4e4}
+.sfLibFilterButtons .sfNotBtn.sfUpload{display:inline-block;padding:5px}
+.sfLibFilterButtons .sfNotBtn.sfOneClickUpload{padding:4px 9px;background-color:#fff;border-radius:3px;border:1px solid #ccc;color:#333;transition:background-color .2s}
+.sfLibFilterButtons .sfNotBtn.sfOneClickUpload::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;content:"\f093";font-size:14px;color:#666}
+.sfLibFilterButtons .sfNotBtn.sfOneClickUpload:hover{background-color:#f2f2f2}
+.sfLibFilterButtons .sfNotBtn.sfOneClickUpload.sfSelected .sfLinkBtnIn{margin-left:0;color:#000!important}
+.sfSelectorDialog .sfLibFilterWrp h2{margin-top:10px;margin-left:15px}
+.sfLibFilterWrp .sfSelectorFilters{display:none}
+.sfLibFilterWrp .sfSelectorWrp{background-color:transparent;border:0;height:auto;padding:0;overflow:visible}
+.sfCtrlModes{margin-top:15px}
+.sfCtrlModes li{position:relative;z-index:10}
+.sfCtrlModes li input{position:absolute;left:65px;top:3px;z-index:100}
+.sfCtrlModes li label,.sfCtrlModes.sfLegend li{display:block;padding-left:82px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDesignerIcons.gif") %>) no-repeat -40px 0}
+.sfCtrlModes li label .sfNote{display:block;line-height:1.2}
+.sfNavModes li input{left:65px;_left:61px;*left:61px;top:3px;_top:0;*top:0}
+.sfNavModes li label,.sfNavModes.sfLegend li{padding-left:82px}
+.sfDialog .sfDetailsPopupWrp .sfLegend{list-style-type:none;margin-left:0}
+.sfNavModes .sfHorizontal label,.sfNavModes.sfLegend .sfHorizontal{background-position:6px 3px;height:30px}
+.sfNavModes .sfHorizontalDropDownMenu label,.sfNavModes.sfLegend .sfHorizontalDropDownMenu{background-position:3px -100px;height:45px}
+.sfNavModes .sfHorizontalTabs label,.sfNavModes.sfLegend .sfHorizontalTabs{background-position:2px -200px;height:35px}
+.sfNavModes .sfVerticalSimple label,.sfNavModes.sfLegend .sfVerticalSimple{background-position:35px -300px;height:45px}
+.sfNavModes .sfVerticalTree label,.sfNavModes.sfLegend .sfVerticalTree{background-position:35px -400px;height:45px}
+.sfNavModes .sfSiteMapInColumns label,.sfNavModes.sfLegend .sfSiteMapInColumns{background-position:6px -500px;height:35px}
+.sfNavModes .sfSiteMapInRows label,.sfNavModes.sfLegend .sfSiteMapInRows{background-position:0 -600px;height:50px}
+.sfNavModes .sfCustomNavigation label,.sfNavModes .sfCloud label{background-position:6px -700px;height:35px}
+.sfNavModes .sfHorizontalLanguageSelector label,.sfNavModes .sfHorizontalCurrencySelector label{background-position:5px -1697px;height:25px}
+.sfNavModes .sfVerticalLanguageSelector label,.sfNavModes .sfVerticalCurrencySelector label{background-position:40px -1797px;height:35px}
+.sfNavModes .sfDropDownLanguageSelector label,.sfNavModes .sfDropDownCurrencySelector label{background-position:31px -1896px;height:20px}
+.sfForumsModes li input{left:135px;_left:131px;*left:131px;top:3px;_top:0;*top:0}
+.sfForumsModes .sfFullFunctionality input{top:15px}
+.sfForumsModes li label{padding-left:150px}
+.sfForumsModes .sfFullFunctionality label{background-position:0 -2984px;height:51px;padding-top:12px}
+.sfForumsModes .sfForumsListOnly label{background-position:94px -3096px;height:51px}
+.sfForumsModes .sfForumThreadsOnly label{background-position:94px -3196px;height:51px}
+.sfForumsModes .sfPostsOfOneThread label{background-position:94px -3296px;height:51px}
+.sfHierarchicalContentMode li input{left:200px;_left:196px;*left:196px;top:4px;_top:0;*top:0}
+.sfHierarchicalContentMode li.sfFullFunctionality input{top:20px}
+.sfHierarchicalContentMode li label{padding-left:215px;height:50px;background-position:152px -3600px;word-wrap:break-word}
+.sfHierarchicalContentMode li.sfFullFunctionality.sfTwoTypes label{background-position:101px -3900px}
+.sfHierarchicalContentMode li.sfFullFunctionality.sfThreeTypes label{background-position:52px -3800px}
+.sfHierarchicalContentMode li.sfFullFunctionality.sfFourTypes label{background-position:0 -3400px}
+.sfHierarchicalContentMode li.sfFullFunctionality.sfManyTypes label{background-position:0 -3500px}
+.sfHierarchicalContentMode li.sfLast label{background-position:152px -3700px}
+.sfTwoTypes .sfHContentTypeLblList{padding-left:101px}
+.sfThreeTypes .sfHContentTypeLblList{padding-left:52px}
+.sfHContentTypeLblList li{display:inline-block;margin-right:12px;width:36px;height:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px;color:#666}
+.sfListCtrlModes .sfFieldWrp{display:block;margin-top:18px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDesignerIcons.gif") %>) no-repeat 0 -2300px}
+.sfListCtrlModes .sfFieldWrp input{margin-top:3px;position:relative;left:90px;vertical-align:top}
+.sfListCtrlModes .sfFieldWrp label{display:inline-block;height:49px;max-width:235px;position:relative;padding-left:95px}
+.sfUserProfileModes li input{left:103px;top:3px}
+.sfUserProfileModes li label{padding-left:120px}
+.sfUserProfileModes .sfReadOnly label{background-position:59px -1999px;height:35px}
+.sfUserProfileModes .sfWriteOnly label{background-position:59px -2099px;height:50px}
+.sfUserProfileModes .sfReadAndWrite label{background-position:8px -2196px;height:45px}
+.sfCreateEditTmplWrapper{padding-top:6px}
+.sfActiveImgWrp{padding:10px;background-color:#fff}
+.sfActiveImgWrp img{max-width:340px;max-height:340px}
+.sfNoMediaItem{background-color:#fff;margin-top:18px;margin-bottom:18px;text-align:center;height:300px}
+.sfNoMediaItem .sfMediaItemViewIcn{display:block;width:50px;height:37px;margin:0 auto;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfWidgetsIcons.gif") %>) no-repeat -1000px -1000px}
+.sfNoMediaItem .sfImageViewIcn{background-position:50% -100px}
+.sfNoMediaItem .sfVideoIcn{background-position:50% -1600px}
+.sfNoMediaItem .sfDownloadLinkIcn{background-position:50% -1900px}
+.sfSelImgWrp .sfSelImg,.sfSmallPreviewWrp .sfSelImgProps{display:inline-block;zoom:1;*display:inline;vertical-align:top}
+.sfSelImgWrp .sfSelImg{border:10px solid #fff;overflow:hidden}
+.sfSelImgWrp .sfSelDoc{border:10px solid #fff;background-color:#fff;height:280px;text-align:center}
+.sfSelImgWrp .sfSelDoc a{display:block;font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sfSelImgWrp .sfSelDoc .sfext{margin-top:100px;margin-bottom:5px}
+.sfSelImgWrp .sfSilverlightPlayer .sfPreviewVideoFrame,.sfSelImgWrp .sfSilverlightPlayer .sfPreviewVideoFrame div{display:inline-block;zoom:1;*display:inline;vertical-align:top;width:auto;height:auto}
+.sfSmallPreviewWrp .sfSelImgWrp img{max-width:100px;min-height:50px}
+.sfSelImgWrp img{max-width:340px;min-height:150px}
+.sfSelImgWrp .sfUnpublishedItm{margin-top:130px}
+.sfSmallPreviewWrp .sfSelImgWrp .sfSelImgProps{display:inline-block;zoom:1;*display:inline;vertical-align:top;margin-left:10px;max-width:200px}
+.sfSelImgWrp .sfSelImgProps ul{margin-bottom:5px;line-height:1.3}
+.sfSelImgWrp .sfSelImgProps li{margin-bottom:3px;white-space:nowrap;max-width:350px;overflow:hidden;text-overflow:ellipsis}
+.sfSmallPreviewWrp .sfSelDoc{height:auto;min-height:60px}
+.sfSmallPreviewWrp .sfSelDoc .sfext{margin-top:5px}
+.sfImageAlignment li{display:inline;white-space:nowrap}
+.sfImageAlignment input,.sfImageAlignment label{vertical-align:middle}
+.sfImageAlignment label{height:20px;line-height:19px;padding-left:30px;padding-right:10px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDesignerIcons.gif") %>) no-repeat -1000px -1000px}
+.sfImageAlignment .sfImageAlignmentNone label{background-position:0 -2595px}
+.sfImageAlignment .sfImageAlignmentLeft label{background-position:0 -2695px}
+.sfImageAlignment .sfImageAlignmentCenter label{background-position:0 -2795px}
+.sfImageAlignment .sfImageAlignmentRight label{background-position:0 -2895px}
+.sfImgGalleryModes li input{left:92px;_left:88px;*left:88px;top:3px;_top:0;*top:0}
+.sfImgGalleryModes li label{padding-left:110px}
+.sfImgGalleryModes .sfThumbPlusDetail label{background-position:0 -800px;height:50px}
+.sfImgGalleryModes .sfThumbPlusOverlay label{background-position:0 -900px;height:50px}
+.sfImgGalleryModes .sfThumbStripPlusImage label{background-position:0 -1100px;height:50px}
+.sfImgGalleryModes .sfSimpleList label{background-position:47px -1200px;height:50px}
+.sfDocLibraryModes li input,.sfEventsModes li input{left:92px;_left:88px;*left:88px;top:3px;_top:0;*top:0}
+.sfDocLibraryModes li label,.sfEventsModes li label{padding-left:110px;height:50px}
+.sfDocLibraryModes .sfDocList label{background-position:47px -1300px}
+.sfDocLibraryModes .sfDocTable label{background-position:47px -1400px}
+.sfDocLibraryModes .sfListAndDetails label{background-position:0 -1500px}
+.sfDocLibraryModes .sfTableAndDetails label{background-position:0 -1600px}
+.sfEventsModes .sfListOnly label{background-position:0 -4000px}
+.sfEventsModes .sfSingleOnly label{background-position:0 -4100px}
+.sfEventsModes .sfCalendar label{background-position:0 -4200px}
+.sfSelectorDialog .sfItemReadOnlyInfo{position:static;top:0;left:0;width:auto}
+.sfSelectorDialog .sfItemReadOnlyInfo .sfItemFrontProps{background-color:transparent;padding:18px 0 0}
+.sfSelectorDialog .sfItemReadOnlyInfo .sfItemFrontProps li{padding-bottom:10px}
+.sfDependentFieldCtrlWrp .sfRadioList{margin-left:15px;display:block}
+.sfContentBlocksDesignerWrp{width:660px;overflow:hidden;padding-top:5px;padding-bottom:20px}
+.sfSelectorDialog .RadEditor{min-width:0!important}
+.sfContentBlocksBtnAreaBottom{float:right;margin-top:-10px;position:relative;z-index:20}
+.sfContentBlocksBtnAreaBottom .sfLinkBtn{margin-right:10px}
+.sfContentBlocksBtnAreaTop{position:absolute;top:3px;right:5px;z-index:1000}
+.sfSelectorDialog.sfContentBlockDesigner h1 .sfNote{font-size:11px}
+.sfDesignerSelector.sfFlatDialogSelector{*min-width:355px}
+.sfContentBlockDesigner .sfDesignerSelector.sfFlatDialogSelector{z-index:3000;height:550px}
+.sfSharedContentPreviewWrp{padding:10px;height:304px;border:1px solid #e4e4e4;background-color:#fff;overflow:auto}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp h1{margin-bottom:20px;font-size:24px;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp h2{margin-bottom:18px;margin-top:18px;font-size:18px;font-weight:normal;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp h3{margin-bottom:18px;margin-top:18px;font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp h4{margin-top:18px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp h5{margin-top:18px;font-size:13px;font-weight:normal;font-style:italic;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp p{margin-bottom:18px;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp ul,.sfContentBlockDesigner .sfSharedContentPreviewWrp ol{margin-left:25px;margin-bottom:18px;color:#000}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp ul{list-style-type:disc}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp ol{list-style-type:decimal}
+.sfContentBlockDesigner .sfSharedContentPreviewWrp li{margin-top:5px;color:#000}
+.sfSelectorDialog .sfContentBlocksDesignerWrp .sfNeutral{position:relative;line-height:1.5;padding:1px 4px 4px}
+.sfSelectorDialog .sfContentBlocksDesignerWrp .sfNeutral .sfFailure{display:inline;margin:0;padding:1px 5px}
+.sfWhiteBoxWrp{position:absolute;padding:10px;background-color:#fff;border:1px solid #e4e4e4;max-width:168px;bottom:60px}
+.sfWhiteBoxWrp .sfBiggerTxt{font-size:13px;color:#666}
+.sfWhiteBoxWrp .sfExtLink{display:inline-block;padding-left:30px}
+.sfWhiteBoxWrp .sfExtLink::before{display:inline-block;font-family:FontAwesome;vertical-align:top;content:"\f05d";font-size:30px;line-height:1;color:#64b5f1;position:absolute;left:8px}
+.sfBackendScreenTweaksWrp .sfContent{overflow:auto;height:calc(100vh - 145px)}
+.k-window.sfMaximizedWindow .sfBackendScreenTweaksWrp.sfMain{padding-bottom:0}
+.sfBackendScreenTweaksWrp .sfSidebar .sfWidgetsList{padding-top:0;padding-left:0;padding-right:0;height:100%}
+.sfBackendScreenTweaksWrp .sfSidebar ul,.sfBackendScreenTweaksWrp .sfSidebar h3{padding-left:8%;padding-right:8%}
+.sfBackendScreenTweaksWrp .sfSidebar ul{overflow:auto;height:calc(100vh - 130px)}
+.sfBackendScreenTweaksWrp .sfSidebar h3{padding-top:25px;margin-bottom:10px}
+.sfPreviewScreenWrp .sfPreviewMainContentWrp{width:80vw;height:100vh}
+.sfPreviewScreenWrp .sfPreviewSideContentWrp{position:absolute;top:0;right:0;width:20vw;height:100vh;padding:20px;border-left:1px solid #ddd;box-sizing:border-box;background-color:#f5f7f8}
+.sfSeparatorCircle{display:inline-block;font-size:8px;color:#333;vertical-align:middle}
+.sfSeparatorCircle::before{content:"\25CF"}

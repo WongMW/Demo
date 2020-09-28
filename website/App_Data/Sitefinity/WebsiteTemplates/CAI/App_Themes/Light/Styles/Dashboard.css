@@ -1,0 +1,166 @@
+.sfDashColLeft,.sfDashColRight,.sfDashColLeft40,.sfDashColRight60{float:left}
+.sfDashColLeft{padding-left:2%;width:48%}
+.sfDashColRight{padding-left:2%;width:48%}
+.sfDashColLeft40{width:40%}
+.sfDashColRight60{width:58%;padding-left:1%}
+.sfDashboardNewThemeWidgetColsWrp img{max-width:100%}
+.sfDashboardIcon::before{display:inline-block;margin-right:5px;font-family:FontAwesome;min-width:35px;vertical-align:top;text-align:center;font-size:32px;line-height:1;color:#64b4f1;transition:.2s color}
+.sfDashboardIcon:hover::before{color:#00f}
+.sfCreatePage::before{content:"\f016"}
+.sfCreateBlog::before{content:"\f0f6"}
+.sfCreateForm::before{content:"\f046"}
+.sfManageTemplates::before{content:"\f0db"}
+.sfUploadPhoto::before{content:"\f03e"}
+.sfManageUsers::before{content:"\f0c0"}
+.sfDashboardStartUpWrp{margin-bottom:40px;padding:20px;position:relative;background-color:#fff;border:1px solid #e4e4e4}
+.sfDashboardStartUpWrp .sfSep,.sfDashboardNewThemeWidgetWrp .sfSep,.sfDashboardWidgetWrp .sfSep{margin-top:20px;padding-top:20px;border-top:1px solid #f2f2f2}
+.sfDashboardStartUpWrp h2{margin-top:5px;color:#000;font-size:24px}
+.sfDashboardStartUpWrp p{margin-top:10px;margin-bottom:10px}
+.sfDashboardStartUpWrp .sfLinksToDoc li{margin-top:10px;margin-bottom:10px;font-size:16px}
+.sfDashboardStartUpWrp .sfXItm,.sfDashboardWidgetWrp .sfXItm{position:absolute;top:15px;right:20px}
+.sfDashboardWidgetWrp .sfXItm.sfXItmStatic{position:static}
+.sfRowWithRemoveBtn .removeBtn{visibility:hidden}
+.sfRowWithRemoveBtn:hover .removeBtn{visibility:visible}
+.sfDashboardStartUpWrp .sfXItm::before,.sfDashboardWidgetWrp .sfXItm::before{content:"\f00d";color:#666}
+.sfDashboardStartUpWrp .sfXItm:hover::before,.sfDashboardStartUpWrp .sfXItm:focus::before,.sfDashboardWidgetWrp .sfXItm:hover::before,.sfDashboardWidgetWrp .sfXItm:focus::before{color:#000}
+body{background-color:#f2f2f2}
+.sf_cols .sf_colsIn{margin-left:0;margin-right:40px}
+.sf_cols .sf_colsOut:first-child .sf_colsIn{margin-left:40px}
+.sfDashboardWidgetWrp{position:relative;margin-bottom:40px;padding:15px 20px;background-color:#fff;border:1px solid #e4e4e4;min-height:100px}
+.sfDashboardWidgetWrp .sfNoData{padding-top:35px;min-height:238px;font-size:15px;text-align:center;color:#666}
+.sfDashboardWidgetWrp .sfNoData::before{display:block;margin:0 auto 10px;font-family:FontAwesome;vertical-align:top;content:"\f15c";font-size:80px;color:#fff;text-align:center;background-color:#cfe8fb;border-radius:50%;width:150px;height:150px;line-height:150px}
+.sfDashboardWidgetWrp .sfNoAnalyticsData{margin-top:15px;margin-bottom:19px;width:100%;height:202px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDashboardNoData.gif") %>) no-repeat 100% -400px}
+.sfDashboardWidgetWrp .sfNoAnalyticsData::before{content:"No stats enabled";top:125px;position:absolute;width:100%;font-size:18px;text-align:center;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#ccc}
+.sfDashboardWidgetWrp .sfChartWrp{margin-top:10px;margin-bottom:5px;height:300px}
+.sfDashboardWidgetWrp .sfNewerOlderNavWrp{position:absolute;left:20px;right:20px;bottom:20px}
+.sfDashboardWidgetWrp .sfXConfirmWrp{position:relative}
+.sfDashboardWidgetWrp .sfXConfirm{position:absolute;right:0;top:10px;white-space:nowrap;padding:10px;border:1px solid #ccc;background-color:#fff;color:#105CB6;cursor:pointer}
+.sfDashboardConfigureLink{margin-bottom:40px}
+.sfInlineEdit{margin-right:3px;padding:3px 3px 3px 21px;background:#000 url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfInlineEditing.png") %>) no-repeat 5px -47px}
+.sfLoadingWrp{position:relative;width:100%;min-height:265px;line-height:265px;text-align:center}
+.sfLoadingWrp img{position:absolute;top:50%;left:50%;margin-top:-10px;margin-left:-15px}
+.sfDashboardWidgetWrp .sfTitleCol .sfIsDoc{margin-top:5px;padding-left:35px}
+.sfDashboardWidgetWrp .sfIsDoc img{display:none}
+.sfExternalRight{white-space:nowrap}
+.sfDashboardWidgetWrp .sfCultureLbl{display:inline-block}
+.sfWrapper .sfLicenseExpWidget{margin-bottom:40px}
+.sfSystemStatus{display:flex}
+.sfSystemStatusIcon{margin-top:20px;width:45px;height:45px;border-radius:50%;border:2px solid #ff4848;display:flex;align-items:center;justify-content:center;margin-right:15px;color:#ff4848}
+.sfSystemStatusIcon:before{display:inline-block;font-family:FontAwesome;content:"\f12a";font-size:32px}
+.sfSystemStatusList li:last-child .sfSystemStatusDetails{border-bottom:1px solid #f2f2f2}
+.sfSystemStatusDetails{flex:1;padding-top:20px;padding-bottom:20px;border-top:1px solid #f2f2f2}
+.sfSystemStatusSeparator{margin-left:10px;margin-right:10px}
+.sfSystemStatusLink{margin-bottom:5px}
+.sfRecyclePanelWidget{margin-top:-42px}
+.sfRecyclePanelWidget .sfAllToolsWrapper{margin-bottom:0;padding-bottom:6px}
+.sfDashboardWidgetWrp .k-grid tbody td{padding-top:8px;padding-bottom:7px}
+.sfDashboardWidgetWrp .k-grid span.sfLine{margin-bottom:-3px;padding-bottom:0}
+.sfColLimit{max-width:1240px}
+.sfColLimit .sfDashColLeft{padding-right:2%;width:30%}
+.sfColLimit .sfDashColMid{padding-right:3%;width:30%;float:left}
+.sfColLimit .sfDashColRight{width:30%}
+.sfBrowseAndEditLinkWrp{padding:0 40px;background-color:#999}
+.sfBrowseAndEditLinkWrp{margin-top:-1px;padding:10px 40px 0;height:31px;background-color:#999}
+.sfBrowseAndEditLinkWrp a{padding:3px 0;color:#fff;text-decoration:underline;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfBrowseAndEditLinkWrp a::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;content:"\f0db";font-size:20px;line-height:20px}
+.sfBrowseAndEditLinkWrp a:hover,.sfBrowseAndEditLinkWrp a:focus{text-decoration:none}
+.sfVideoDuration{padding:0 2px;position:absolute;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif;background-color:#484848;border:1px solid #2e2e2e;color:#fff;min-width:28px;text-align:center}
+.sfHighlights{margin:17px 0 18px;padding:14px 17px;background-color:#f2f2f2}
+.sfToDam{padding:3px 0 3px 40px;line-height:1.2}
+.sfToMigrationTool{padding:3px 0;line-height:1.2;white-space:nowrap}
+.sfToMigrationTool::before{display:inline-block;float:left;margin-right:5px;vertical-align:top;content:"3.7";width:32px;height:32px;line-height:32px;text-align:center;background-color:#64b5f1;color:#fff;font-size:14px}
+.sfToDam{background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfHelpAndResources.gif") %>) no-repeat 0 -1700px}
+.sfToMigrationTool span,.sfToMigrationTool:hover span,.sfToDam span,.sfToDam:hover span{color:#000;display:block}
+.sfWatchVideoWrp{position:relative;border:10px solid #fff}
+.sfWatchVideoWrp .sfVideoDuration{bottom:9px;right:7px}
+a.sfWatchVideo,a.sfWatchVideo:link,a.sfWatchVideo:visited,a.sfWatchVideo:hover,a.sfWatchVideo:active{display:block;width:320px;height:158px;text-indent:-9999px;overflow:hidden;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDashboard.gif") %>) no-repeat 0 0}
+a.sfWatchVideo:hover{background-position:0 -250px}
+.sfHighlights h2{font-size:24px;color:#5e5e5e;line-height:1.2;margin-top:8px;margin-bottom:8px}
+.sfHighlights h3{font-size:19px;color:#5e5e5e;line-height:1.2;margin-top:12px;margin-bottom:8px}
+.sfHighlights .sfDashColMid p{margin-bottom:8px;line-height:1.3}
+.sfHighlights .sfDashColMid ul{margin-bottom:20px;list-style-type:disc;line-height:1.3}
+.sfHighlights .sfDashColMid li{margin-left:20px;margin-bottom:8px}
+ol.sfHowToList{margin-top:15px;font-size:16px;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+ol.sfHowToList .sfHowTo1,ol.sfHowToList .sfHowTo2,ol.sfHowToList .sfHowTo3{margin-bottom:4px}
+ol.sfHowToList a{display:inline-block;vertical-align:top;padding:3px 0 5px}
+ol.sfHowToList a:before{display:inline-block;margin-right:5px;width:30px;height:30px;line-height:30px;text-align:center;background-color:#83abff;color:#fff;border-radius:50%}
+ol.sfHowToList .sfHowTo1 a::before{content:"1"}
+ol.sfHowToList .sfHowTo2 a::before{content:"2"}
+ol.sfHowToList .sfHowTo3 a::before{content:"3"}
+.sfWrapper h2.sfVideoListTitle{margin-bottom:16px;margin-left:17px;font-size:24px;color:#5e5e5e}
+.sfWrapper h2.sfVideoListTitle::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:middle;content:"\f26c";font-size:26px;color:#64b5f1}
+.sfVideoList{line-height:1.2}
+.sfVideoList .sfVideoExample{border-top:1px solid #f2f2f2}
+.sfVideoList .sfDashColLeft .sfVideoExample:first-child,.sfVideoList .sfDashColMid .sfVideoExample:first-child,.sfVideoList .sfDashColRight .sfVideoExample:first-child{border-top:0}
+.sfVideoList .sfVideoExample a{display:block;position:relative;padding:8px 9px 8px 129px;min-height:75px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDashboard.gif") %>) no-repeat 9px -1392px}
+.sfVideoList .sfVideoExample a:hover{background-color:#f7f7f7}
+.sfVideoList .sfVideoExample .sfPageLayouts{background-position:9px -1542px}
+.sfVideoList .sfVideoExample .sfBlogs{background-position:9px -1692px}
+.sfVideoList .sfVideoExample .sfEvents{background-position:9px -1842px}
+.sfVideoList .sfVideoExample .sfMultilingual{background-position:9px -1992px}
+.sfVideoList .sfVideoExample .sfFluentAPI{background-position:9px -2142px}
+.sfVideoList .sfVideoExample .sfPageSetupWithWidgets{background-position:9px -2291px}
+.sfVideoList .sfVideoExample .sfForms{background-position:9px -2442px}
+.sfVideoList .sfVideoExample .sfImagesAndDocuments{background-position:9px -2592px}
+.sfVideoList .sfVideoExample .sfPermissions{background-position:9px -2742px}
+.sfVideoList .sfVideoExample .sfAnalytics{background-position:9px -2892px}
+.sfVideoList .sfVideoExample .sfInlineEditing{background-position:9px -3042px}
+.sfVideoList .sfVideoExample .sfNews{background-position:9px -3192px}
+.sfVideoList .sfVideoExample .sfCategories{background-position:9px -3342px}
+.sfVideoList .sfVideoExample .sfVersioning{background-position:9px -3492px}
+.sfVideoList .sfVideoExample .sfMobileWeb{background-position:9px -3942px}
+.sfVideoList .sfVideoExample .sfTemplateBuilder{background-position:9px -3792px}
+.sfVideoList .sfVideoExample a strong{display:block;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfVideoList .sfVideoExample .sfVideoDuration{top:59px;left:73px}
+.sfVideoList .sfVideoExample .sfVideoInfo{margin-top:5px;color:#666;white-space:normal}
+.sfDashboardSysLinks{margin-top:20px;padding-top:10px;padding-left:5px;border-top:9px solid #f2f2f2;font-size:15px;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfDashboardSysLinks li{padding-right:70px;display:inline}
+.sfDashboardSysLinks a,.sfDashboardSysLinks a:link,.sfDashboardSysLinks a:visited,.sfDashboardSysLinks a:hover,.sfDashboardSysLinks a:active{padding-left:25px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfDashboard.gif") %>) no-repeat -1000px -1000px}
+.sfDashboardSysLinks a.sfMoreVideos,.sfDashboardSysLinks a.sfMoreVideos:link,.sfDashboardSysLinks a.sfMoreVideos:visited,.sfDashboardSysLinks a.sfMoreVideos:hover,.sfDashboardSysLinks a.sfMoreVideos:active{background-position:0 -1100px}
+.sfDashboardSysLinks a.sfLessVideos,.sfDashboardSysLinks a.sfLessVideos:link,.sfDashboardSysLinks a.sfLessVideos:visited,.sfDashboardSysLinks a.sfLessVideos:hover,.sfDashboardSysLinks a.sfLessVideos:active{background-position:0 -1200px}
+a.sfFullDoc::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:top;content:"\f02d";font-size:20px;line-height:20px;color:#64b5f1}
+abbr{font-style:italic;cursor:help}
+.sfSeeAllVideosWrp{margin-top:30px;text-align:right;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+@media only screen and (min-width:320px) and (max-width:480px),only screen and (min-width:320px) and (max-width:568px),only screen and (-webkit-device-pixel-ratio:3){body,form{min-width:100%}
+.sitesDropDownWrapper,.RadMenu.RadMenu_MainMenu,.sfTopBar,.sfDashboardStartUpWrp,.sfRecyclePanelWidget,.sfDashboardNewThemeWidgetWrp,.sfDashboardDecWidgetWrp{display:none}
+.sfWrapper .sfHeader{min-height:10px;float:right;padding:0;margin-right:15px}
+.sfHeader .sfSiteSelectorMenuWrp{background-color:#333;margin-left:0;margin-right:0;border:0;box-shadow:none}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu{margin-top:0;margin-left:0}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu::before{display:none}
+.sfHeader .sfSiteSelectorMenuWrp .cmDiv{padding-top:15px}
+.sfHeader .sfSiteSelectorMenuWrp,.cmDiv .clickMenu li.main{position:static;padding-bottom:5px}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu li.main::after{position:absolute;right:0;top:20px}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu div.outerbox{position:absolute!important;top:50px!important;left:0!important;bottom:0;border:0;background-color:#333;box-shadow:none;padding:0;width:100%;overflow:auto;z-index:1000}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu li.main>span{display:block;padding:3px 5px;overflow:hidden;width:80px;text-align:right;color:#999;font-weight:normal;font-size:13px;text-overflow:ellipsis}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu li.main>span:active{background-color:#5e5e5e}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox li{margin-bottom:0}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a{border-top:1px solid #5e5e5e;width:inherit;font-size:16px;font-weight:normal;font-family:open_sanssemibold,Arial,Verdana,sans-serif;color:#FFF;border-top:1px solid #5e5e5e;line-height:1.8;padding:5px 10px;white-space:pre-wrap;word-break:break-all}
+.sfHeader .sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox a.sfSel{color:#F1F1F1;background-color:#5e5e5e}
+.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeMenuWrp,.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfGlobalSettingsWrp,.sfSiteSelectorMenuWrp .clickMenu div.outerbox .innerBox .sfCustomizeLnkWrp a{display:none}
+.sfWrapper{background-image:none}
+.sfHeader+.sfContentBlock{margin-bottom:15px;padding:15px 0 15px 10px;background-color:#333}
+h1.sfBreadCrumb{margin-bottom:0;padding:0;border-bottom:0;font-size:25px;min-height:0;background-color:transparent;color:#fff}
+.sfWrapper h2{font-size:24px}
+.sf_colsIn .sfDashboardWidgetWrp{min-height:145px!important}
+.sfLoadingWrp{height:50px!important;min-height:50px!important;line-height:50px!important}
+.sfFooter{margin-top:0}
+.sfFooter .sfSupportLinks,.sfGoto.sfMoreDetails{display:none}
+.sfDashboardWidgetWrp .sfFilterWrp,.sfDashboardWidgetWrp .k-grid .sfDateAuthor span,.sfDashboardWidgetWrp .k-grid .sfViewCol a,.sfDashboardWidgetWrp .sfXConfirmWrp,.sfDashboardWidgetWrp .sfNewerOlderNavWrp,.sfDashboardWidgetWrp .sfGoto{display:none!important}
+.sfDashboardWidgetWrp{position:relative}
+.sfDashboardWidgetWrp:before{display:block;content:" ";position:absolute;top:0;left:0;right:0;bottom:0;z-index:100}
+.sfLoadingWrp{height:90px!important;min-height:90px!important;line-height:90px!important}
+.sfDashboardWidgetWrp .k-grid{margin-bottom:10px!important}
+.sfDashboardWidgetWrp .k-grid table{width:100%}
+.sfDashboardWidgetWrp .k-grid .sfTypeCol,.sfDashboardWidgetWrp .k-grid .sfDateAuthor,.sfDashboardWidgetWrp .k-grid .sfLanguage,.sfDashboardWidgetWrp .k-grid .sfViewCol{padding-left:0!important;padding-right:0!important;width:0}
+.sfDashboardWidgetWrp .k-grid .sfDateAuthor{text-indent:-9999px}
+.sfDashboardWidgetWrp .k-grid .sfTitleCol{white-space:nowrap}
+.sfDashboardWidgetWrp .k-grid .sfTitleCol .sfItemTitle,.sfDashboardWidgetWrp .k-grid .sfTitleCol .sfMediaItem{color:#000}
+.sfDashboardWidgetWrp .k-grid .sfTitleCol .sfItemTitle strong,.sfDashboardWidgetWrp .k-grid .sfTitleCol .sfMediaItem strong{display:block;overflow:hidden;text-overflow:ellipsis;width:170px}
+.sfDashboardWidgetWrp .k-grid .sfTypeCol .sfItemType{color:#333;background-color:transparent;position:absolute;right:0;padding:15px 0 0}
+.sfDashboardWidgetWrp .k-grid .sfLanguage .sfCultureLbl{position:absolute;right:0;margin-top:-4px}
+.sf_colsOut.sf_2cols_1_33,.sf_colsOut.sf_2cols_2_67,.sf_colsOut.sf_2cols_1_67,.sf_colsOut.sf_2cols_2_33,.sf_colsOut.sf_2cols_1_50,.sf_colsOut.sf_2cols_2_50,.sf_colsOut.sf_2cols_1_25,.sf_colsOut.sf_2cols_2_75,.sf_colsOut.sf_2cols_1_75,.sf_colsOut.sf_2cols_2_25,.sf_5cols_1_20,.sf_5cols_2_20,.sf_5cols_3_20,.sf_5cols_4_20,.sf_5cols_5_20,.sf_4cols_1_25,.sf_4cols_2_25,.sf_4cols_3_25,.sf_4cols_4_25,.sf_3cols_1_25,.sf_3cols_2_50,.sf_3cols_3_25,.sf_3cols_1_33,.sf_3cols_2_34,.sf_3cols_3_33{width:100%!important}
+.sf_cols .sf_colsOut .sf_colsIn{margin:0 15px 15px 15px!important;overflow:hidden}
+.sfWrapper .sf_cols .sf_colsOut:first-child .sf_colsIn{margin-left:15px!important}
+.sfWrapper .sf_cols{padding-bottom:0}
+.sfWrapper #welcomeWidget+.sf_cols{margin-top:15px}
+}

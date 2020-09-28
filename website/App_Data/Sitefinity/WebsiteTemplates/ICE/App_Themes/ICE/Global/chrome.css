@@ -1,0 +1,442 @@
+img {
+	text-decoration: none;
+	border: 0px;
+}
+
+/* @group page */
+
+/* @end */
+
+/* @group navigation */
+#navigation ul li a {
+	background: #d2d4d5 url(../../App_Themes/ICE/_img/nav-button-bg.png) top left repeat-x;
+	display: block;
+	float: left;
+	padding: 5px 15px 0px 15px;
+	color: #000000;
+	text-decoration: none;
+	height: 20px;
+}
+* html #navigation ul li a {
+	padding: 2px 15px 3px 15px;
+}
+#navigation ul li a:hover {
+	background: transparent url(../../App_Themes/ICE/_img/nav-button-bg.png) bottom left repeat-x;
+	color: #ffffff;
+	
+}
+#navigation ul li a:active {
+	background: transparent url(../../App_Themes/ICE/_img/nav-button-bg.png) center left repeat-x;
+	color: #ffffff;
+}
+#navigation ul li.active a {
+	background: transparent url(../../App_Themes/ICE/_img/nav-button-bg.png) center left repeat-x;
+	color: #ffffff;
+}
+
+/* dropdown styles */
+#navigation ul#navigation-ul li:hover ul.dropdown,
+#navigation ul#navigation-ul li.sfhover ul.dropdown {
+	display: block;
+	z-index: 4000;
+}
+#navigation ul li ul.dropdown {
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	background: #fff;
+	margin: 0;
+	border-top: 1px solid #a6a6a6;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-left: 1px solid #a6a6a6;
+	padding: 0;
+	height: auto;
+	width: 175px;
+}
+#navigation ul li ul.dropdown li {
+	background: #a6a6a6;
+	display: block;
+	height: auto;
+	text-indent: 0;
+	margin: 0;
+	float: none;
+	width: 175px;
+	padding: 0px 0px 0px 0px;
+	background: #ca0002 url(../../App_Themes/ICE/_img/nav-dropdown-active-bg.png) left top repeat-x;
+}
+
+#navigation ul li ul.dropdown li a {
+	display: block;
+	background: none;
+	float: none;
+	text-indent: 0;
+	color: #ca0002;
+	background: #d3d5d6 url(../../App_Themes/ICE/_img/nav-dropdown-inactive-bg.png) left top repeat-x;
+	font-size: 11px;
+	height: auto;
+	line-height: 1.1em;
+	
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 5px 5px 5px;
+	width: 165px;
+}
+
+#navigation ul li ul.dropdown li a:hover {
+	color: #ffffff;
+	background: none;
+}
+
+#navigation ul li ul.dropdown li.active a {
+	background: none;
+	color: #ffffff;
+}
+/* NEW STYLE */
+#navigation #MenuArea {
+	float: right;
+	width: auto;
+}
+
+/* @end */
+
+/* @group header */
+#header {
+	position: relative;
+}
+/* @end */
+
+/* @group content */
+body a.learn-more {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-learn-more-bg.png) top left repeat-x;
+	padding: 0px;
+	height: 19px;
+	width: 75px;
+	text-indent: -3000px;
+	display: block;
+	float: right;
+}
+body a:hover.learn-more {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-learn-more-bg.png) bottom left repeat-x;
+}
+
+body a.read-more {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-read-more-bg.png) top left repeat-x;
+	padding: 0px;
+	height: 19px;
+	width: 75px;
+	text-indent: -3000px;
+	display: block;
+	float: right;
+}
+body a:hover.read-more {
+	background: #9e040c url(../../App_Themes/ICE/_img/content-read-more-bg.png) bottom left repeat-x;
+}
+
+#content .content-block-2col {
+	background: #ffffff url(../../App_Themes/ICE/_img/content-block-2col-bg.png) bottom left repeat-x;
+}
+#content .content-block-2col-left {
+	width: 310px;
+	padding: 20px 10px 15px 20px;
+	float: left;
+}
+#content .content-block-2col-right {
+	width: 310px;
+	padding: 20px 20px 15px 10px;
+	float: left;
+}
+#home #content .content-block-2col-left {
+	width: 225px;
+}
+#home #content .content-block-2col-right {
+	width: 225px;
+}
+
+
+#home #content .content-callout {
+	padding: 20px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+	height:10px;
+	
+}
+#home #content .content-callout p.learn-more-container {
+	background: #58595b url(../../App_Themes/ICE/_img/content-learn-more-container-bg.png) top left repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content .content-callout
+{
+    padding: 20px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
+    
+}
+#content .content-callout p.learn-more-container {
+	background: #58595b url(../../App_Themes/ICE/_img/content-learn-more-container-bg.png) top left repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#home a.ms-gold-partner {
+	margin: 10px 0px 0px 0px;
+}
+a.ms-gold-partner {
+	display: block;
+	text-decoration: none;
+	margin: 10px 10px 0px 0px;
+	float: right;
+}
+/*Nalini Added width 90% issue:12429*/
+.content-container {
+	padding: 20px 0px 15px 0px;
+	/*background: #ffffff url(../../App_Themes/ICE/_img/content-container-bg.png) bottom left repeat-x;*/
+	/*background: url("../../App_Themes/ICE/_img/page-home-bg.png") repeat-x scroll 0 0 transparent;*/
+	width:100%;
+	float:left;
+}
+/* @end */
+
+/* @group sidebar */
+#sidebar {
+	
+}
+
+#sidebar ul#subnav {
+	background: #1e1e1e;
+	margin: 0px 0px 10px 0px;
+/*	line-height: auto;*/
+}
+#sidebar ul#subnav li {
+	padding: 0px;
+	margin: 0px;
+	background: transparent;
+	line-height: 1.1em;
+	height: auto;
+	position: relative;
+	background: #616264 url(../../App_Themes/ICE/_img/subnav-active-bg.png) repeat-x;
+}
+* html #sidebar ul#subnav li {
+	width: 200px;
+}
+#sidebar ul#subnav li h3 {
+	color: #ffffff;
+	padding: 8px 10px 3px 10px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: bold;
+	background: #9f040c url('_img/subnav-header-bg.png') repeat-x;
+}
+* html #sidebar ul#subnav li h3 {
+	padding: 8px 10px 3px 10px;
+	margin: 0px;
+/*	line-height: auto;*/
+	height: auto;
+}
+#sidebar ul#subnav li a {
+	background: #d3d5d6 url('_img/subnav-inactive-bg.png') repeat-x;
+	display: block;
+	width: 180px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	color: #005cab;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1.2em;
+	
+	border-top: 1px solid #1e1e1e;
+	margin: 0px;
+}
+#sidebar ul#subnav li a:hover {
+	background: none;
+	color: #ffffff;
+}
+#sidebar ul#subnav li a:active {
+	background: none;
+	color: #ffffff;
+}
+#sidebar ul#subnav li.active a {
+	background: none;
+	color: #ffffff;
+}
+
+
+#home #sidebar .sidebar-callout {
+
+}
+#sidebar .sidebar-callout {
+	background: #d1d3d4 url(../../App_Themes/ICE/_img/sidebar-home-callout-bg.png) left top repeat-x;
+		   background:#e7d2b6;
+	width:230px;
+	padding: 10px;
+	
+	margin: 0px 50px 10px 0px;
+}
+
+#sidebar .sidebar-callout p.learn-more-container {
+	background: #58595b url(../../App_Themes/ICE/_img/content-learn-more-container-bg.png) top left repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+#home #sidebar .sidebar-callout p.learn-more-container {
+	background: #58595b url(../../App_Themes/ICE/_img/content-learn-more-container-bg.png) top left repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#sidebar .news-list {
+	margin: 0px 0px 10px 0px;
+}
+#sidebar .news-list li {
+	display: block;
+	width: 350px;
+	background: #616264 url(../../App_Themes/ICE/_img/news-list-home-active-bg.png) top left repeat-x;
+}
+#sidebar .news-list h2 {
+	font-size: 108%;
+	height: 22px;
+	background: #CA0002 url(../../App_Themes/ICE/_img/news-list-home-h2-bg.png) top left repeat-x;
+	padding: 7px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+}
+#sidebar .news-list li a {
+	width: 310px;
+	display: block;
+	color: #005cab;
+	font-weight: bold;
+	padding: 6px 20px 5px 20px;
+	background: #d2d4d5 url(../../App_Themes/ICE/_img/news-list-home-inactive-bg.png) top left repeat-x;
+}
+#sidebar .news-list li a:hover {
+	/*color: #ffffff;
+	background: none;*/
+}
+#sidebar .news-list li a:active {
+	/*color: #ffffff;
+	background: none;*/
+}
+
+#sidebar .link-list {
+	margin: 0px 0px 10px 0px;
+	padding:0px;
+}
+#sidebar .link-list li {
+	display: block;
+	width: 100%;
+	color: #7A582D;
+    
+    font-size: 11px;
+    font-weight: bold;
+	
+	/*background: #616264 url(../../App_Themes/ICE/_img/news-list-home-active-bg.png) top left repeat-x;*/
+	background:url("../../App_Themes/ICE/_img/page-home-bg.png") repeat-x scroll 0 0 transparent padding: 10px 20px 5px 20px;
+}
+#sidebar .link-list h2 {
+	font-size: 11px;
+	height: 22px;
+	width: 230px;
+	/*background: #CA0002 url(../../App_Themes/ICE/_img/news-list-home-h2-bg.png) top left repeat-x;*/
+	padding: 7px 10px 0px 10px;
+	margin: 1px 0px 1px 0px;
+}
+#sidebar .link-list li a {
+	width: 230px;
+	display: block;
+	/*color: #005cab;*/
+	/*Nalini*/
+	color:#7A582D;
+	text-decoration: none;
+	padding: 6px 10px 5px 10px;
+	/*background: #d2d4d5 url(../../App_Themes/ICE/_img/news-list-home-inactive-bg.png) top left repeat-x;*/
+	
+	
+}
+#sidebar .link-list li a:hover {
+	/*color: #ffffff;
+	background: none;*/
+	text-decoration:underline;
+}
+#sidebar .link-list li a:active {
+	/*color: #ffffff;
+	background: none;*/
+}
+#sidebar .link-list li.active a {
+	/*background: none;
+	color: #ffffff;*/
+}
+
+#home #sidebar #search {
+	padding: 10px 20px 10px 20px;	
+}
+#sidebar #search {
+	background: #616264 url(../../App_Themes/ICE/_img/sidebar-home-search-bg.png) top left repeat-x;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 10px 0px;
+	position: relative;
+	height: 20px;
+}
+
+#sidebar #search input {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	height: 19px;
+	border: none;
+	width: 125px;
+/*	line-height: auto;*/
+}
+* html #sidebar #search input {
+
+}
+#home #sidebar #search input {
+	width: 135px;
+}
+#home #sidebar #search input.submit {
+	width: 55px;
+}
+#sidebar #search input.submit {
+	background: #9e040c url(../../App_Themes/ICE/_img/search-button-bg.png) top left repeat-x;
+	display: block;
+	width: 55px;
+	cursor: pointer;
+	text-indent: -3000px;
+}
+#sidebar #search input:hover.submit {
+	background: #9e040c url(../../App_Themes/ICE/_img/search-button-bg.png) bottom left repeat-x;
+}
+#sidebar .contact-info {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	/*background: #ffffff url(../../App_Themes/ICE/_img/sidebar-contact-bg.png) bottom left repeat-x;*/
+	/*background:url("../../App_Themes/ICE/_img/page-home-bg.png") repeat-x scroll 0 0 transparent;*/
+	
+	position: relative;
+}
+/* NEW STYLE */
+#sidebar div.contact-info table {
+	padding: 0px 10px 5px 10px;
+}
+/* NEW STYLE */
+#content table tr {
+	padding: 0px 0px 10px 0px;
+}
+
+
+
+/* @end */
+
+/* @group footer */
+
+/* @end */
+
+/*Nalini 12429*/
+/*Dilip issue 12717 change 10px for top and 10px for bottom  */
+.content-container-Home {
+	padding: 10px 0px 10px 0px;
+	width:90%;
+	float:left;
+	background-color:#eeeeee;
+	
+}

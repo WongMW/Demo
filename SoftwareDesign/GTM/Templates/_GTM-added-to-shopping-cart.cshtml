@@ -1,0 +1,30 @@
+﻿@model SoftwareDesign.GTM.Model.ImpressionDto
+
+<script>
+    // Measure adding a product to a shopping cart by using an 'add' actionFieldObject
+    // and a list of productFieldObjects.
+    dataLayer.push({
+        'event': 'addToCart',
+        'ecommerce': {
+            'currencyCode': '@Model.Currency',
+            'add': {                                // 'add' actionFieldObject measures.
+                'products': [
+                @foreach (var detail in Model.Products)
+                {
+                    <text>
+                        { //  adding a product to a shopping cart.
+                            'name': '@detail.Name',
+                            'id': '@detail.Id',
+                            'price': '@detail.GetPrice()',
+                            'brand': '@detail.Brand',
+                            'category': '@detail.Category',
+                            'variant': '@detail.Variant',
+                            'quantity': @detail.Quantity
+                        },
+                    </text>
+                }
+                ]
+            }
+        }
+    });
+</script>

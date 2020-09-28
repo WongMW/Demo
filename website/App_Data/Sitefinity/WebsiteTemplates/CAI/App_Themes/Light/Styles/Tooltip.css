@@ -1,0 +1,6 @@
+div.RadToolTip .rtWrapper td.rtWrapperContent{font-family:open_sansregular,Arial,Verdana,sans-serif;padding:13px 15px 10px 15px;background-color:#feffca;border:1px solid #d7d7d7;font-size:13px}
+div.RadToolTip table.rtShadow .rtCloseButton{margin-top:20px;margin-right:20px}
+div.RadToolTip .rtWrapper .rtWrapperTopLeft,div.RadToolTip .rtWrapper .rtWrapperTopRight,div.RadToolTip .rtWrapper .rtWrapperBottomLeft,div.RadToolTip .rtWrapper .rtWrapperBottomRight,div.RadToolTip .rtWrapper .rtWrapperTopCenter,div.RadToolTip .rtWrapper .rtWrapperBottomCenter,div.RadToolTip table.rtShadow .rtWrapperTopLeft,div.RadToolTip table.rtShadow .rtWrapperTopRight,div.RadToolTip table.rtShadow .rtWrapperBottomLeft,div.RadToolTip table.rtShadow .rtWrapperBottomRight,div.RadToolTip table.rtShadow .rtWrapperTopCenter,div.RadToolTip table.rtShadow .rtWrapperBottomCenter,div.RadToolTip .rtWrapper .rtWrapperLeftMiddle,div.RadToolTip .rtWrapper .rtWrapperRightMiddle,div.RadToolTip table.rtShadow .rtWrapperLeftMiddle,div.RadToolTip table.rtShadow .rtWrapperRightMiddle,div.RadToolTip .rtCallout{background-image:none}
+div.RadToolTip .rtWrapper td.rtWrapperContent ul,div.RadToolTip .rtWrapper td.rtWrapperContent ol{margin-left:20px}
+div.RadToolTip .rtWrapper td.rtWrapperContent ul{list-style-type:disc}
+div.RadToolTip .rtWrapper td.rtWrapperContent ol{list-style-type:decimal}

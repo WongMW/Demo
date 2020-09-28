@@ -1,0 +1,23 @@
+﻿@model SoftwareDesign.GTM.Model.ProductDto
+
+<script>
+    // Measure a view of product details. This example assumes the detail view occurs on pageload,
+    // and also tracks a standard pageview of the details page.
+    dataLayer.push({
+        'event': 'product-detail',
+        'ecommerce': {
+            'currencyCode': '@Model.Currency',                       // Local currency is optional.
+            'detail': {
+                'actionField': { 'list': '@Model.List' },    // 'detail' actions have an optional list property.
+                'products': [{
+                    'name': '@Model.Name',         // Name or ID is required.
+                    'id': '@Model.Id',
+                    'price': '@Model.GetPrice()',
+                    'brand': '@Model.Brand',
+                    'category': '@Model.Category',
+                    'variant': '@Model.Variant'
+                }]
+            }
+        }
+    });
+</script>

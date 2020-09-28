@@ -1,0 +1,62 @@
+div.RadWindow{border:15px solid #fff;background-color:#fff;font-family:open_sansregular,Arial,Verdana,sans-serif;border-radius:3px;box-shadow:0 5px 15px rgba(0,0,0,.5)}
+div.RadWindow .rwWindowContent iframe{width:100%;height:100%;float:left}
+div.RadWindow table,div.RadWindow table td{padding:0}
+div.RadWindow table{width:100%;height:100%;table-layout:auto;table-layout:fixed}
+div.RadWindow>table.rwTable{display:table;table-layout:fixed}
+.sfFileExplorer div.RadWindow table{border:0}
+div.RadWindow table td{padding:0;margin:0;border-collapse:collapse;vertical-align:top}
+div.RadWindow .rwContentRow td.rwWindowContent{height:100%!important}
+div.RadWindow .rwContentRow td.rwLoading,.sfSelectorDialog div.RadWindow.rwMaximizedWindow .rwContentRow td.rwLoading,.sfDialog.sfFormDialog .ui-dialog .ui-dialog-content.rwLoading,.sfSelectorDialog .k-loading-image{width:100%;background-color:#fff!important;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingFormBtns.gif") %>)!important;background-repeat:no-repeat;background-position:50% 50%}
+div.RadWindow.rwMaximizedWindow .rwContentRow td.rwLoading{background-color:#fff!important}
+div.RadWindow .rwTopResize,div.RadWindow .rwTitlebarControls a.rwIcon,div.RadWindow .rwTitlebarControls em{display:none}
+div.RadWindow .rwTopLeft,div.RadWindow .rwTopRight,div.RadWindow .rwFooterLeft,div.RadWindow .rwFooterRight{line-height:15px;width:20px;height:15px;background-color:#fff;background-image:none}
+div.RadWindow .rwBodyLeft,div.RadWindow .rwBodyRight{line-height:20px;width:20px;background-color:#fff;background-image:none}
+div.RadWindow .rwTitlebar,div.RadWindow .rwFooterCenter{line-height:15px;height:15px;background-color:#fff;background-image:none}
+div.RadWindow .rwTitlebarControls{height:15px}
+div.RadWindow_Default .rwControlButtons a{background-image:none;text-indent:0;overflow:visible;font-size:inherit;line-height:inherit}
+div.RadWindow .rwCloseButton{position:absolute;top:0;right:-5px;cursor:pointer!important}
+div.RadWindow .rwCloseButton span{display:none}
+div.RadWindow .rwCloseButton::before{display:inline-block;font-family:FontAwesome;vertical-align:middle;content:"\f00d";font-size:14px;color:#666}
+div.RadWindow .rwCloseButton:hover::before{color:#333}
+.sfSelectorDialog .sfCloseBtn{display:block;position:absolute;top:0;right:0;height:21px;width:30px;text-decoration:none;overflow:hidden;text-align:center;text-indent:-3333px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 10px -1693px}
+div.RadWindow.sfWindowInWindow{border-width:0}
+div.RadWindow.sfWindowInWindow .rwTopLeft,div.RadWindow.sfWindowInWindow .rwTopRight,div.RadWindow.sfWindowInWindow .rwFooterLeft,div.RadWindow.sfWindowInWindow .rwFooterRight{line-height:0;width:0;height:0}
+div.RadWindow.sfWindowInWindow .rwBodyLeft,div.RadWindow.sfWindowInWindow .rwBodyRight{line-height:0;width:0}
+div.RadWindow.sfWindowInWindow .rwTitlebar,div.RadWindow.sfWindowInWindow .rwFooterCenter{line-height:0;height:0}
+div.RadWindow.sfWindowInWindow .rwTitlebarControls{height:0}
+.sfSelectorDialog .sfInpageWnd .rwTitlebarControls{display:none}
+div.sfInpageWnd .rwContentRow td.rwWindowContent>div{background-color:#fff;width:auto!important}
+.sfSelectorDialog div.sfInpageWnd .rwContentRow td.rwWindowContent>div{*width:350px!important}
+body.sfContentBlockDesigner{overflow-x:hidden;*width:660px;*overflow-y:auto}
+body.sfContentBlockDesigner.sfFullScreenEditorWrp{*width:auto}
+.TelerikModalOverlay{background-color:#666!important;opacity:.6!important;filter:alpha(opacity=60)!important}
+.sfContentBlockDesigner .TelerikModalOverlay{display:none}
+div.RadWindow.sfWndInWnd,.sfSelectorDialog .sfInpageWnd{top:0!important;left:0!important;border:0!important}
+.sfSelectorDialog .sfInpageWnd{width:350px!important}
+div.RadWindow.sfWndInWnd>table.rwTable,.sfSelectorDialog .sfInpageWnd>table.rwTable{border:0}
+div.RadWindow.sfWndInWnd .rwWindowContent,.sfSelectorDialog .sfInpageWnd .rwWindowContent{background-color:transparent!important}
+div.RadWindow.sfWndInWnd .rwTopLeft,.sfSelectorDialog .sfInpageWnd .rwTopLeft,div.RadWindow.sfWndInWnd .rwTopRight,.sfSelectorDialog .sfInpageWnd .rwTopRight,div.RadWindow.sfWndInWnd .rwFooterLeft,.sfSelectorDialog .sfInpageWnd .rwFooterLeft,div.RadWindow.sfWndInWnd .rwFooterRight,.sfSelectorDialog .sfInpageWnd .rwFooterRight{line-height:0;width:0;height:0}
+div.RadWindow.sfWndInWnd .rwBodyLeft,.sfSelectorDialog .sfInpageWnd .rwBodyLeft,div.RadWindow.sfWndInWnd .rwBodyRight,.sfSelectorDialog .sfInpageWnd .rwBodyRight{line-height:0;width:0}
+div.RadWindow.sfWndInWnd .rwTitlebar,.sfSelectorDialog .sfInpageWnd .rwTitlebar,div.RadWindow.sfWndInWnd .rwFooterCenter,.sfSelectorDialog .sfInpageWnd .rwFooterCenter{line-height:0;height:0}
+div.RadWindow.sfWndInWnd .rwTitlebarControls,.sfSelectorDialog .sfInpageWnd .rwTitlebarControls{height:0}
+.sfInpageWnd.sfAutoHeightInpageWnd{top:50px!important}
+.sfInpageWnd.sfAutoHeightInpageWnd,.sfInpageWnd.sfAutoHeightInpageWnd .rwTable,.sfInpageWnd.sfAutoHeightInpageWnd .rwTable .rwWindowContent,.sfInpageWnd.sfAutoHeightInpageWnd .rwContentRow td.rwWindowContent>div{height:auto!important}
+div.k-window{display:none;border:0;padding-top:0!important;overflow:visible!important;border-radius:0!important}
+div.k-window .k-window-titlebar{margin-top:0!important;padding:0;border:0;height:15px;z-index:1000}
+div.k-window .k-window-titlebar .k-window-actions{top:22px;right:19px;padding-top:0}
+div.k-window .k-window-titlebar .k-window-title{display:none}
+div.k-window .k-window-titlebar .k-button:active:hover{color:inherit}
+div.k-window .k-window-content{overflow:visible!important}
+div.k-window .sfSelectorDialog{background-color:#fff;border:15px solid #fff;padding:15px 20px;border-radius:0}
+div.k-window .sfSelectorDialog .k-content{overflow:visible}
+.k-window.sfMaximizedWindow .sfLoadingTransition{background:#fff url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingFormBtns.gif") %>) no-repeat 50% 50%}
+.k-window.sfMaximizedWindow .sfLoadingTransition>div{display:none}
+.k-window .k-window-titlebar{position:absolute}
+div.k-window .k-header{background-color:transparent}
+.sfDialog.sfSelectorDialog .k-window.sfWindowInWindow,.sfDialog.sfSelectorDialog .ui-dialog.sfWindowInWindow{top:0!important;left:0!important;right:0!important;width:auto!important}
+.sfDialog.sfSelectorDialog .k-window.sfWindowInWindow .sfSelectorDialog{border:0;padding:0}
+.sfDialog.sfSelectorDialog .k-window.sfWindowInWindow .k-window-titlebar .k-window-actions{display:none}
+.sfWindowAsPartOfPage{width:100%!important;left:0!important;right:0!important;top:44px!important;bottom:26px!important;background-color:#f4f6f7;z-index:5!important}
+.sfWindowAsPartOfPage.k-window{overflow:auto!important}
+.sfWindowAsPartOfPage .sfFormDialog h1{padding-top:32px;white-space:normal}
+.RadWindow.reInsertLink .reControlsLayout .reControlCellLight input{width:132px}

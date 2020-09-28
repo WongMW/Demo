@@ -1,0 +1,39 @@
+﻿@model SoftwareDesign.GTM.Model.ImpressionDto
+
+<script>
+    
+    getImpressionDetail = function(name, id, price, brand, category, variant, list, position) {
+
+        var obj = {
+            'name': name,
+            'id': id,
+            'brand': brand,
+            'category': category,
+            'variant': variant,
+            'list': list,
+            'position': position
+        };
+
+        if (price) {
+            obj.price = price;
+        }
+
+        return obj;
+    }
+    
+// Measures product impressions and also tracks a standard
+// pageview for the tag configuration.  
+// Product impressions are sent by pushing an impressions object
+// containing one or more impressionFieldObjects.
+    dataLayer.push({
+        'event': 'product-impression',
+        'ecommerce': {
+            'currencyCode': '@Model.Currency',                       // Local currency is optional.
+            'impressions': [
+                @foreach (var detail in Model.Products){
+                    @:getImpressionDetail('@detail.Name','@detail.Id', '@detail.GetPrice()', '@detail.Brand', 
+                        @:'@detail.Category','@detail.Variant','@detail.List','@detail.Position'),
+            }]
+        }
+    });
+</script>

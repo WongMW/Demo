@@ -1,0 +1,128 @@
+﻿#layoutWrapper
+{
+    margin-bottom: 30px;
+}
+.leftContainer
+{
+    float: left;
+    margin: 0px 200px 30px 0px;
+}
+.riSingle
+{
+    margin-right: 3px;
+}
+.qsfConfig h3
+{
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+#layoutWrapper label
+{
+    width: 160px;
+    display: block;
+    margin-bottom: 4px;
+}
+ 
+.cellType
+{
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+div.RadToolTip_Metro table.rtWrapper .rtWrapperContent
+{
+    background: #fff;
+    color: #25a0da;
+}
+ 
+ 
+ 
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopLeft,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopRight,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomLeft,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomRight,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperLeftMiddle,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperRightMiddle
+{
+    background: #25a0da;
+    border: 0;
+}
+ 
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperTopLeft,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperTopRight,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperBottomLeft,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperBottomRight,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperLeftMiddle,
+div.RadToolTip_Metro.columnHeadeTooltip table.rtWrapper .rtWrapperRightMiddle
+{
+    background: #e61e26;
+    border: 0;
+}
+ 
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperTopLeft,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperTopRight,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperBottomLeft,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperBottomRight,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperBottomCenter,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperLeftMiddle,
+div.RadToolTip_Metro.rowHeadeTooltip table.rtWrapper .rtWrapperRightMiddle
+{
+    background: #429657;
+    border: 0;
+}
+ 
+div.RadToolTip_Metro table.rtWrapper .rtWrapperLeftMiddle,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperRightMiddle
+{
+    width: 2px;
+}
+ 
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopLeft,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopRight,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomLeft,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomRight
+{
+    width: 2px;
+    height: 2px;
+}
+ 
+div.RadToolTip_Metro table.rtWrapper .rtWrapperTopCenter,
+div.RadToolTip_Metro table.rtWrapper .rtWrapperBottomCenter
+{
+    height: 2px;
+}
+ 
+ 
+div.RadToolTip_Metro.rowHeadeTooltip .rtWrapper .rtWrapperContent
+{
+    background: #fff;
+    color: #429657;
+}
+ 
+div.RadToolTip_Metro.columnHeadeTooltip .rtWrapper .rtWrapperContent
+{
+    background: #fff;
+    color: #e61e26;
+}
+ 
+.innerContent
+{
+    padding-left: 19px;
+    color: #000;
+}
+ 
+.innerContent li
+{
+    margin-bottom: 4px;
+}

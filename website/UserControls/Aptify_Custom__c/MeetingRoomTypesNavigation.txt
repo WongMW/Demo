@@ -1,0 +1,20 @@
+<UserControl type="MeetingRoomTypesGrid" name = "MeetingRoomTypesGrid" >
+    <links>
+      <link name="RedirectURL" value="/MeetingRoomTypes" />
+    </links>
+    <properties>
+      <property name="RedirectIDParameterName" value="ID" />
+    </properties>
+</UserControl>
+
+<UserControl type="MeetingRoomTypes" name= "MeetingRoomTypes" >
+   <links>
+     <link name="RedirectURL" value="/MeetingRoomTypesGrid"  />
+   </links>
+   <properties>
+     <property name="AppendRecordIDToRedirectURL" value="true" />
+     <property name="EncryptQueryStringValue" value="true" />
+     <property name="RedirectIDParameterName" value="ID" />
+     <property name="QueryStringRecordIDParameter" value="ID" />
+   </properties>
+</UserControl>

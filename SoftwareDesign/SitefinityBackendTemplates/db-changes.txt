@@ -1,0 +1,1 @@
+﻿1. Navigate to Design -> Widget Templates -> Full new item -> Paste the contents of file Widget-Full-News-Item.txt into textarea and click Save Changes

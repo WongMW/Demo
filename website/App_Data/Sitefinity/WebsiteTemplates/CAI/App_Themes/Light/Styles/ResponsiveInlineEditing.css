@@ -1,0 +1,26 @@
+@media only screen and (min-width:320px) and (max-width:480px),only screen and (min-width:320px) and (max-width:568px),only screen and (-webkit-device-pixel-ratio:3){}
+@media only screen and (min-width:320px) and (max-width:480px),only screen and (min-width:320px) and (max-width:568px),only screen and (-webkit-device-pixel-ratio:3){body{min-width:0;background-color:#fff;transition:margin .5s}
+.sfPublicWrapper{width:98%;padding-left:1%;padding-right:1%;margin-top:0;padding-top:10px}
+.sfPublicWrapper img{max-width:100%}
+.sfWorkflowBtnsShown{margin-top:60px}
+.k-editor-toolbar{white-space:normal}
+.sfInlineEditingWorkflowMenu{min-height:0;padding:5px;min-height:60px}
+.sfEditorToolbarShown .sfInlineEditingWorkflowMenu{display:none!important}
+.sfInlineEditingWorkflowMenu .sfContentTitleWrp{margin-top:10px;text-align:left}
+.sfInlineEditingWorkflowMenu .sfContentTitleWrp .sfContentItmTitle{display:none}
+.sfInlineEditingWorkflowMenu .sfPageTitleWrp{position:static;text-align:left}
+.sfInlineEditingWorkflowMenu .sfPageTitleWrp .sfTitle{margin-right:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sfContentMenuListWrp{position:static}
+.sfContentMenuListWrp .sfToggleContentMenu{position:absolute;top:10px;left:auto;right:40px}
+.sfContentMenuListWrp .sfContentMenuList{top:36px;left:0;right:0;width:auto;margin-top:-1px}
+.sfEditorToolbarWrp{top:0!important;z-index:10006;position:fixed!important}
+.sfInlineEditingWorkflowMenu .sfBtnsWrp{display:none;top:32px;left:0;right:0;padding-left:10px;padding-right:10px;padding-bottom:10px;background-color:#F4F4F4;z-index:100}
+.sfToggleToobarBtns{display:block;position:absolute;top:5px;right:5px;padding:0 5px;background-color:#333;color:#fff;padding:0 10px 5px;font-size:14px}
+.sfToggleToobarBtns:hover,.sfToggleToobarBtns:focus,.sfToggleToobarBtns:active{background-color:#105cb6;color:#fff}
+.sfPublishEdit,.sfSaveDraft,.sfCancelEdit{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:none;width:100%;margin-top:10px;margin-left:0}
+.sfInlineEditDlgWrp .sfTxt{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%}
+.sfEditorToolsWindow{top:0!important}
+.sfEditInWindowMode .k-overlay{display:none!important}
+.sfInlineEditDlgWrp{position:fixed!important;top:0!important;left:0!important;right:0!important;bottom:0!important;width:100%!important;height:100%!important;border-radius:0;box-shadow:none}
+.sfInlineEditingPageMenu{top:50%!important;margin-top:-28px}
+}

@@ -1,0 +1,111 @@
+html,body,form{font-family:open_sansregular,Arial,Verdana,sans-serif!important}
+body{background-color:#f1f1f1}
+.rfdSkinnedButton+.rfdSkinnedButton,.rfdSkinnedButton+.rfdSkinnedButton button,.reRightMostCell .rfdSkinnedButton,.reRightMostCell .rfdSkinnedButton button,.reBottomcell td+td .rfdSkinnedButton,.reBottomcell td+td .rfdSkinnedButton button,.FindAndReplaceDialog .reBottomcell .rfdSkinnedButton,.FindAndReplaceDialog .reBottomcell .rfdSkinnedButton button{background-image:none!important}
+.FindAndReplaceDialog .reBottomcell .rfdSkinnedButton,.FindAndReplaceDialog .reBottomcell .rfdSkinnedButton button{padding-left:0!important;text-align:left!important}
+button#CancelButton,button#CloseButton,button#IPCancelButton,button#ImageMap_Cancel{min-width:0!important;color:#f00!important;padding-right:0!important}
+button#CancelButton:hover,button#CloseButton:hover,button#IPCancelButton:hover,button#ImageMap_Cancel:hover{color:#00f!important}
+.ManagerDialog,.ManagerDialog .DialogSeparator{border-color:#b2b2b2!important}
+.reDialog iframe{border-color:#b2b2b2!important;background-color:#fff!important}
+#tablePropertiesRow,#cellPropertiesRow{margin-top:-15px}
+.reConfirmCancelButtonsTbl{float:none!important}
+.reBottomcell{text-align:left!important}
+#tableDesignRow td+td .rfdRoundedCorners{width:255px!important}
+#tablePropertiesRow,#cellPropertiesRow{margin-top:0!important}
+#tablePropertiesRow td+td .rfdRoundedCorners{width:350px!important}
+#cellPropertiesRow td+td .rfdRoundedCorners{width:275px!important}
+#accessibilityRow .rfdRoundedCorners{width:668px!important}
+#accessibilityRow textarea{width:520px!important}
+#sbMainPane{width:425px!important}
+#sbMainPane fieldset{width:368px!important}
+#sbMainPane #fontAttributes{width:362px!important}
+#sbMainPane #borderColorPane{width:100px!important}
+#sbMainPane #borderWidthPane{width:130px!important}
+#sbMainPane #borderStylePane{width:100px!important}
+#FindPage td+td fieldset.rfdRoundedCorners,#ReplacePage td+td fieldset.rfdRoundedCorners{width:135px!important}
+#ReplacePage .reControlCell{width:180px!important}
+#ReplacePage .reControlCell input{width:178px!important}
+.RadForm_Default{background-color:white}
+.RadForm_Default.rfdZone{background-color:white}
+.RadForm_Default.RadForm .rfdSkinnedButton,.RadForm_Default.RadForm .rfdTextInput,.RadForm_Default.RadForm.rfdLabel label,.RadForm_Default.RadForm.rfdLabel .rfdAspLabel,.RadForm_Default.RadForm.rfdTextbox input,.RadForm_Default.RadForm.rfdTextarea textarea,.RadForm_Default.RadForm.rfdFieldset fieldset,.RadForm_Default.RadForm.rfdFieldset legend,.RadForm_Default.RadForm .rfdSelect,.RadForm_Default.RadForm.rfdHeading h4,.RadForm_Default.RadForm.rfdHeading h5,.RadForm_Default.RadForm.rfdHeading h6,.RadForm_Default.RadForm .riTextBox,.RadForm_Default.RadForm .rfdValidationSummaryControl,.RadForm_Default.RadForm .rfdLoginControl{color:black}
+.RadForm_Default.rfdHeading h4,.RadForm_Default.rfdHeading h5,.RadForm_Default.rfdHeading h6{border-bottom-color:#dbdfe6}
+.RadForm_Default.RadForm.rfdFieldset fieldset{border-color:#e0e0e0;background-color:white}
+.RadForm_Default .rfdSkinnedButton{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTrans.png") %>);_background-image:none;border-color:#ccc;color:#333;background-color:#dfe1ca;background-image:linear-gradient(#f5f5e6);border-color:#ccc}
+.RadForm_Default .rfdSkinnedButton:hover{border-color:#ccc;color:black;background:#dbf4c7;background-image:linear-gradient(#f4fdec);box-shadow:inset 0 0 1px white}
+.RadForm_Default .rfdSkinnedButton:active,.RadForm_Default .rfdClickedButton,.RadForm_Default .rfdFocusedButton{border-color:#666;color:black;background-color:#93da59;background-image:linear-gradient(#cdf5ab);box-shadow:inset 0 0 1px white}
+.RadForm_Default .rfdSkinnedButton.rfdInputDisabled{border-color:#d3d5d7;color:#afaeae;background-color:#dfe1ca;background-image:linear-gradient(#f5f5e6)}
+.RadForm_Default .rfdTextInput,.RadForm_Default textarea{background-color:white;color:#333;border-color:#e2e3ea}
+.RadForm_Default .rfdTextInput:hover,.RadForm_Default textarea:hover{background-color:white;color:black;border-color:#abadb3}
+.RadForm_Default .rfdTextInput:active,.RadForm_Default textarea:active,.RadForm_Default .rfdTextInput:focus,.RadForm_Default textarea:focus{background-color:white;color:black;border-color:#666}
+.RadForm_Default .rfdTextInput:disabled,.RadForm_Default textarea:disabled{background-color:white;color:#afaeae;border-color:#dfdfdf}
+.RadForm_Default .rfdDropDownArrow{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfOldArrows.gif") %>);_background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfOldArrows.gif") %>)}
+.RadForm_Default.rfdScrollBars body::-webkit-scrollbar,.RadForm_Default.rfdScrollBars body::-webkit-scrollbar-thumb:vertical,.RadForm_Default.rfdScrollBars body::-webkit-scrollbar-thumb:horizontal,.RadForm_Default.rfdScrollBars div::-webkit-scrollbar,.RadForm_Default.rfdScrollBars div::-webkit-scrollbar-thumb:vertical,.RadForm_Default.rfdScrollBars div::-webkit-scrollbar-thumb:horizontal form::-webkit-scrollbar,.RadForm_Default.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,.RadForm_Default.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal{background-color:#eff0f1}
+.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-track-piece,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-corner{background-color:#e6e6e6}
+.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,.RadForm_Default.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal{border-color:#ccc;background-color:#eff0f1}
+.RadForm_Default.rfdScrollBars{scrollbar-3dlight-color:#dbdbdb;scrollbar-arrow-color:#606060;scrollbar-base-color:#ff6347;scrollbar-darkshadow-color:#aeaeae;scrollbar-face-color:#dee2e7;scrollbar-highlight-color:#fff;scrollbar-shadow-color:#aeaeae;scrollbar-track-color:#f4f4f4}
+.RadForm_Default.rfdGrids .rfdTable{border:1px solid #ccc;background:white;color:black;font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:12px}
+.RadForm_Default.rfdGrids .rfdTable th{border-bottom:1px solid #ccc;border-left:1px solid #dbdfe6;background-color:#eff0f1;color:black}
+.RadForm_Default.rfdGrids .rfdTable a{color:black}
+.RadForm_Default .rfdValidationSummaryControl,.RadForm_Default .rfdLoginControl{background-color:#eff0f1;border:1px solid #ccc}
+.RadForm_Default a.rfdLoginControl,.RadForm_Default a.rfdLoginControl:active,.RadForm_Default a.rfdLoginControl:visited{color:black}
+.RadForm_Default a.rfdLoginControl:hover{color:black}
+.rfdSelectBox_Default{border-color:#ccc}
+.rfdSelectBox_Default li{color:#333;background-color:white}
+.rfdSelectBox_Default li:hover,.rfdSelectBox_Default .rfdSelect_hovered,.rfdSelectBox.rfdSelectBox_Default li:hover{color:#333;background-color:#e8e8e8}
+.rfdSelectBox_Default .rfdSelect_selected,.rfdSelectBox.rfdSelectBox_Default .rfdSelect_selected:hover{color:black;background-color:#ffffe1}
+.rfdSelectBox_Default .rfdSelectBox_optgroup_label:hover{background:0;color:black}
+div.reToolWrapper table.reSpinBox input.radfd_skipme{width:18px!important}
+.RadTabStrip_Default{color:black;font:12px Arial,Helvetica,sans-serif;line-height:26px}
+.RadTabStrip_Default .rtsGhostTab{border-color:#ccc;border-radius:5px;color:#333;background-color:#efefef}
+.RadTabStrip_Default .rtsLI,.RadTabStrip_Default .rtsLink{color:#105cb6;font:normal 12px/26px Arial,Helvetica,sans-serif}
+.RadTabStripLeft_Default .rtsSeparator,.RadTabStripRight_Default .rtsSeparator{background:#817F61}
+.RadTabStrip_Default .rtsDisabled{color:#666}
+.RadTabStrip_Default .rtsSelected{color:#FFF}
+.RadTabStrip_Default .rtsDisabled:hover .rtsTxt,.RadTabStrip_Default .rtsSelected:hover .rtsTxt{text-decoration:none}
+.RadTabStrip_Default .rtsLevel .rtsIn,.RadTabStripLeft_Default .rtsLevel .rtsIn,.RadTabStripRight_Default .rtsLevel .rtsIn{line-height:20px}
+.RadTabStripTop_Default .rtsLevel .rtsIn{padding:0 5px 5px}
+.RadTabStripBottom_Default .rtsLevel .rtsIn{padding:3px 5px 0}
+div.RadTabStripLeft_Default .rtsLink,div.RadTabStripRight_Default .rtsLink{padding:4px 0 0}
+div.RadTabStripLeft_Default .rtsOut,div.RadTabStripRight_Default .rtsOut{padding:0 0 4px}
+div.RadTabStrip_Default .rtsPrevArrow,div.RadTabStrip_Default .rtsNextArrow,div.RadTabStrip_Default .rtsPrevArrowDisabled,div.RadTabStrip_Default .rtsNextArrowDisabled{margin-top:2px}
+.RadTabStripTop_Default .rtsLevel{background-color:transparent}
+.RadTabStripTop_Default .rtsLevel .rtsLink,.RadTabStripTop_Default .rtsOut,.RadTabStripTop_Default .rtsIn,.RadTabStripBottom_Default .rtsLink,.RadTabStripBottom_Default .rtsOut,.RadTabStripBottom_Default .rtsIn{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTabStrip.gif") %>);background-position:-9px 0}
+.RadTabStripLeft_Default .rtsSelected,.RadTabStripLeft_Default .rtsSelected .rtsOut,.RadTabStripLeft_Default .rtsSelected .rtsIn,.RadTabStripRight_Default .rtsSelected,.RadTabStripRight_Default .rtsSelected .rtsOut,.RadTabStripRight_Default .rtsSelected .rtsIn{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTabStrip.gif") %>)}
+.RadTabStripLeft_Default .rtsLast .rtsLink,.RadTabStripRight_Default .rtsLast .rtsLink{border-bottom:1px solid #898C95}
+.RadTabStripTop_Default .rtsSelected,.RadTabStripTop_Default .rtsSelected:hover{background-position:0 0}
+.RadTabStripTop_Default .rtsSelected .rtsOut,.RadTabStripTop_Default .rtsSelected:hover .rtsOut{background-position:100% 0}
+.RadTabStripTop_Default .rtsSelected .rtsIn,.RadTabStripTop_Default .rtsSelected:hover .rtsIn{background-position:50% 0}
+.RadTabStripBottom_Default .rtsSelected,.RadTabStripBottom_Default .rtsSelected:hover{background-position:0 -30px}
+.RadTabStripBottom_Default .rtsSelected .rtsOut,.RadTabStripBottom_Default .rtsSelected:hover .rtsOut{background-position:100% -30px}
+.RadTabStripBottom_Default .rtsSelected .rtsIn,.RadTabStripBottom_Default .rtsSelected:hover .rtsIn{background-position:50% -30px}
+div.RadTabStripLeft_Default .rtsSelected,div.RadTabStripLeft_Default .rtsSelected:hover{background-position:100% 0}
+div.RadTabStripLeft_Default .rtsSelected .rtsOut,div.RadTabStripLeft_Default .rtsSelected:hover .rtsOut{background-position:100% 100%}
+div.RadTabStripLeft_Default .rtsSelected .rtsIn,div.RadTabStripLeft_Default .rtsSelected:hover .rtsIn{background-position:100% 50%}
+div.RadTabStripRight_Default .rtsSelected,div.RadTabStripRight_Default .rtsSelected:hover{background-position:0 0}
+div.RadTabStripRight_Default .rtsSelected .rtsOut,div.RadTabStripRight_Default .rtsSelected:hover .rtsOut{background-position:0 100%}
+div.RadTabStripRight_Default .rtsSelected .rtsIn,div.RadTabStripRight_Default .rtsSelected:hover .rtsIn{background-position:0 50%}
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2,.RadTabStrip_Default_SimpleSubItems .rtsLevel3,.RadTabStrip_Default_SimpleSubItems .rtsLevel4{background:#fff}
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsSelected,.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsSelected,.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsSelected{color:#000}
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsLink,.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsOut,.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsIn,.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsLink,.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsOut,.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsIn,.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsLink,.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsOut,.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsIn{background:0}
+div.RadTabStrip .rtsPrevArrow{background-position:0 -70px}
+div.RadTabStrip .rtsNextArrow{background-position:-18px -70px}
+div.RadTabStrip .rtsPrevArrow:hover{background-position:-36px -70px}
+div.RadTabStrip .rtsNextArrow:hover{background-position:-54px -70px}
+div.RadTabStrip .rtsPrevArrowDisabled,div.RadTabStrip .rtsPrevArrowDisabled:hover{background-position:-72px -70px}
+div.RadTabStrip .rtsNextArrowDisabled,div.RadTabStrip .rtsNextArrowDisabled:hover{background-position:-90px -70px}
+div.RadTabStripVertical .rtsPrevArrow{background-position:0 -90px}
+div.RadTabStripVertical .rtsNextArrow{background-position:-18px -90px}
+div.RadTabStripVertical .rtsPrevArrow:hover{background-position:-36px -90px}
+div.RadTabStripVertical .rtsNextArrow:hover{background-position:-54px -90px}
+div.RadTabStripVertical .rtsPrevArrowDisabled,div.RadTabStripVertical .rtsPrevArrowDisabled:hover{background-position:-72px -90px}
+div.RadTabStripVertical .rtsNextArrowDisabled,div.RadTabStripVertical .rtsNextArrowDisabled:hover{background-position:-90px -90px}
+.RadTabStripTop_Default_Baseline .rtsLevel1,.RadTabStripBottom_Default_Baseline .rtsLevel1,.RadTabStrip_Default .rtsLevel .rtsOut,.RadTabStrip_Default .rtsLevel .rtsLink.rtsAfter{background:0}
+.RadTabStrip_Default .rtsLevel .rtsFirst .rtsLink{background-position:-9px 0}
+.RadTabStrip_Default .rtsLevel .rtsLink.rtsSelected{background-position:0 0;color:#fff}
+.RadForm_Default .redWrapper .redSection{border-bottom-color:#dbdfe6}
+.RadTabStrip_Default .rtsLevel .rtsLink.rtsSelected .rtsOut{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTabStrip.gif") %>);background-position:100% 0}
+.redWrapper .reToolWrapper .redRow .reTool,.redWrapper .redRow .reTool{background:#dfe1ca}
+.RadForm_Default .redWrapper .rfdSelect{width:207px!important}
+.RadForm_Default .redWrapper a.reDropdown{width:192px}
+.RadForm_Default .rfdSelect_Default{border-color:#ccc;color:#333;background-color:#dfe1ca;background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTrans.png") %>);background-image:linear-gradient(#f5f5e6);border-color:#ccc}
+.RadForm_Default .rfdSelect_Default:hover{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTrans.png") %>);background-color:#dbf4c7}
+.RadForm_Default .rfdSelect_Default:active{background-image:url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfTrans.png") %>);background-color:#93da59}

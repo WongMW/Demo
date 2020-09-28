@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" EnableTheming="true" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title></title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8; IE=Edge;" />     
+            <link href="~/CSS/custom.min.css?v=67.0.3" rel="stylesheet"/>
+            <script src="https://kit.fontawesome.com/46f6623cd9.js" crossorigin="anonymous"></script>
+            <%--<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" type='text/css'/>
+                <link href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" type='text/css'/>--%>
+            <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'/>
+            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>        
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" defer="defer"></script>
+        <%-- Susan Issue 18489 add CrazyEgg --%>
+        <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0011/5988.js" async="async"></script>
+        <%-- Susan Issue 18377 defer JS calls --%>
+       <!-- Google Tag Manager -->
+        <script type="text/javascript">(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PRM7QS');</script>
+        <!-- End Google Tag Manager -->
+        <script type="text/javascript">
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#003d51"
+            },
+            "button": {
+              "background": "#8c1d40"
+            }
+          },
+          "position": "bottom-right",
+          "content": {
+            "href": "/cookies"
+          }
+        })});
+        </script>
+
+        <%--https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery--%>
+        <%-- Susan Issue 18377 remove defer CSS calls as it was impacting on visuals of site --%>
+        <%--<script type="text/javascript">
+          var loadDeferredStyles = function () {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+          };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+          else window.addEventListener('load', loadDeferredStyles);
+        </script>--%>
+    </head>
+
+    <body class="main-body">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRM7QS"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <form id="form1" class="main-form" runat="server">
+            <telerik:RadScriptManager ID="ScriptManager1" runat="server">
+            </telerik:RadScriptManager>
+            <asp:ContentPlaceHolder ID="baseTemplatePlaceholder" runat="server" />
+        </form>
+        <%-- Susan Issue 18377 FUNCTION to defer JS calls --%>
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+                var element1 = document.createElement("script");
+                element1.src = "/Scripts/defer.js?v=1";
+                document.body.appendChild(element1);
+            }
+            if (window.addEventListener)
+                window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+                window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+    </body>
+    <script type="text/javascript" src="/Scripts/jquery.bxslider.min.js?v=1"></script>
+    <script type="text/javascript">
+        function handleNavMenu() {
+            $('.sfSel').parent().parent().addClass('active');
+            $('.sfSel').parent().children('.k-i-expand').click();
+        }
+    </script>
+</html>

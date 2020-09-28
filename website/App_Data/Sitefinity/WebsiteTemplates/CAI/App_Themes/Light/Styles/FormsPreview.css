@@ -1,0 +1,85 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0}
+a{outline:0}
+body:focus,div:focus,fieldset:focus,span:focus,li:focus,p:focus{outline:0}
+body{font-family:open_sansregular,Arial,Verdana,sans-serif;font-size:12px;line-height:1.5;min-width:985px}
+a{color:#105CB6;text-decoration:none}
+a:hover,a:focus{text-decoration:none;color:#00f}
+.sfPageContainer{background:#f2f2f2}
+.sfPublicWrapper{margin:20px auto;padding:0;width:620px;background:#fff;border:50px solid #fff}
+.sfTxtLbl{cursor:default}
+.sfExample{font-size:11px;color:#666}
+.sfError{color:#f00;padding-left:20px;background:transparent url(<% = WebResource("Telerik.Sitefinity.Resources.Themes.Light.Images.sfIcons.gif") %>) no-repeat 0 -497px}
+.sfLeftLbls .sfError,.sfRightLbls .sfError{margin-left:164px}
+.sfSuccess{margin-top:50px;font-size:18px;text-align:center;color:#690}
+.sfErrorSummary{background-color:#ffb9b9}
+.sfFormBox{margin-bottom:20px}
+.sfFormBox .sfTxt{padding:3px;font-size:12px;font-family:inherit}
+.sfFormBox.sfTxtBoxSmall .sfTxt{width:120px}
+.sfFormBox.sfTxtBoxMedium .sfTxt{width:300px}
+.sfFormBox.sfTxtBoxLarge .sfTxt{width:400px}
+.sfFormRadiolist{margin-bottom:20px}
+.sfFormRadiolist .sfRadioList{display:block;line-height:18px}
+.sfFormRadiolist .sfRadioList label,.sfFormRadiolist .sfRadioList input{vertical-align:middle}
+.sfFormRadiolist .sfRadioList label{margin-left:3px}
+.sfFormCheckboxlist{margin-bottom:20px}
+.sfFormCheckboxlist .sfCheckListBox{display:block;line-height:20px}
+.sfFormCheckboxlist .sfCheckListBox label,.sfFormCheckboxlist .sfCheckListBox input{vertical-align:middle}
+.sfFormCheckboxlist .sfCheckListBox label{margin-left:3px}
+.sfFormBlock{margin-bottom:20px}
+.sfFormBlock .sfTxt{padding:3px;font-size:12px;font-family:inherit}
+.sfFormBlock.sfTxtBlockSmall .sfTxt{width:300px;height:60px}
+.sfFormBlock.sfTxtBlockMedium .sfTxt{width:300px;height:100px}
+.sfFormBlock.sfTxtBlockLarge .sfTxt{width:420px;height:260px}
+.sfFormDropdown{margin-bottom:20px}
+.sfFormDropdown select{padding:1px;font-size:12px;font-family:inherit}
+.sfFormDropdown.sfDdlSmall select{width:120px}
+.sfFormDropdown.sfDdlMedium select{width:300px}
+.sfFormDropdown.sfDdlLarge select{width:420px}
+.sfFormTitle{margin:50px 0 20px}
+.sfFormTitle:first-child{margin:20px 0}
+.sfFormTitle.sfTitleSmall{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfFormTitle.sfTitleMedium{font-size:18px;font-weight:normal}
+.sfFormTitle.sfTitleLarge{font-size:24px;font-weight:normal}
+.sfFormInstructions{margin-bottom:20px}
+.sfContentBlock h1,.sfContentBlock h2,.sfContentBlock h3,.sfContentBlock h4,.sfContentBlock h5{line-height:1.2}
+.sfContentBlock h1{margin-bottom:20px;font-size:30px;font-weight:normal}
+.sfContentBlock h1 ~ h1{margin-top:40px}
+.sfContentBlock h2{margin-top:35px;margin-bottom:20px;font-size:18px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfContentBlock h3{margin-top:30px;margin-bottom:10px;font-size:20px;font-weight:normal;padding-bottom:5px;border-bottom:1px solid #ccc}
+.sfContentBlock h4{margin-top:25px;font-size:13px;font-family:open_sanssemibold,Arial,Verdana,sans-serif}
+.sfContentBlock h5{margin-top:18px;font-size:13px;font-weight:normal;font-style:italic}
+.sfContentBlock p{margin-bottom:18px}
+.sfContentBlock ul{padding-left:20px;list-style:disc;margin-bottom:18px}
+.sfContentBlock ol{padding-left:20px;list-style-type:decimal;margin-bottom:18px}
+.sfFormFile{margin-bottom:20px}
+.sfFormFile .sfFieldWrp{margin-bottom:5px}
+.sfFormFile .RadUpload .ruInputs li.ruActions{margin-top:0}
+.RadUpload .ruInputs .ruRemove{width:18px;height:18px;text-indent:-9999px;overflow:hidden;background:transparent url("../Images/sfPublicContent.gif") no-repeat 3px -1197px;margin-left:5px;margin-top:2px}
+.sfFormSubmit{margin-bottom:20px}
+.sfLeftLbls .sfFormSubmit,.sfRightLbls .sfFormSubmit{margin-left:164px}
+.sfFormSubmit.sfSubmitBtnSmall input{font-size:13px;padding:2px 5px}
+.sfFormSubmit.sfSubmitBtnMedium input{font-size:14px;font-family:open_sanssemibold,Arial,Verdana,sans-serif;padding:4px 10px}
+.sfFormSubmit.sfSubmitBtnLarge input{font-size:18px;padding:4px 10px}
+.sfTopLbls .sfTxtLbl{font-family:open_sanssemibold,Arial,Verdana,sans-serif;display:block}
+.sfLeftLbls .sfTxtLbl,.sfLeftLbls .sfFieldWrp{display:inline-block;vertical-align:top}
+.sfLeftLbls .sfTxtLbl{margin-top:2px;margin-right:10px;width:150px;line-height:1.1}
+.sfRightLbls .sfTxtLbl,.sfRightLbls .sfFieldWrp{display:inline-block;vertical-align:top}
+.sfRightLbls .sfTxtLbl{margin-top:2px;margin-right:10px;width:150px;line-height:1.1;text-align:right}
+.sfPageBreak,#RadDockZoneHeader,#RadDockZoneFooter,#RadDockZoneBody{position:relative}
+.sfPageBreak,#RadDockZoneHeader{margin-bottom:150px!important}
+#RadDockZoneFooter{margin-top:150px!important}
+.sfPageBreak:after,#RadDockZoneHeader:after,#RadDockZoneFooter:after{content:"";display:block;height:50px;position:absolute;left:-52px;right:-52px;background:#f2f2f2}
+.sfPageBreak:before{display:none;content:"";height:110px;position:absolute;bottom:-130px;border-top:1px dashed #9f9f9f;border-bottom:1px dashed #9f9f9f;width:100%;z-index:10}
+.sfPageBreak:after{content:"";display:block;position:absolute;left:-52px;right:-52px;height:50px;background:#f2f2f2;bottom:-130px;border-top:30px solid #fff;border-bottom:30px solid #fff}
+#RadDockZoneHeader:after{bottom:-100px}
+#RadDockZoneFooter:after{top:-100px}
+.zePlaceholderHighlighted .sfPageBreak:before{display:block}
+.sfZoneLabel,.sfPageNumber{position:absolute;right:-36px;margin-top:-38px;font-size:11px;color:#999}

@@ -1,0 +1,37 @@
+table.order-confirmation { border: 0px; width: 100%;  }  
+table.order-confirmation td { padding: 1px; vertical-align: top; }
+table.order-confirmation td.LeftColumn { font-weight: bold;}  
+table.order-confirmation td.LeftMoneyColumn { text-align: right;} 
+table.order-confirmation td.RightColumn { text-align: left;}  
+table.order-confirmation td.RightMoneyColumn { text-align: right; } 
+table.order-confirmation td.header { padding: 2px; border: 1px solid gray; }  
+table.order-confirmation td.halfwidth { width: 50%; }  
+table.order-confirmation td.header-no-padding { padding: 0px; border: 1px solid gray; }  
+table.order-confirmation td.OrderConfirmationHeader { font-weight: bold; font-size: 16pt; border-bottom: solid 1px gray; padding: 6px; }  
+table.order-confirmation td.OrderConfirmationNoFontHeader { padding: 6px; }  
+
+
+.MeetingName {font-weight: bold; font-size: 12pt; }
+.MeetingDates {font-weight: bold; font-size: 10pt; }
+.BottomBorder {border-bottom: solid 1px gray;}
+.TopBorder {border-top: solid 1px gray;}
+
+td.MeetingFormContentArea { width: 100%; padding: 3px;  }  
+td.MeetingFormActionArea { width: 180px; padding: 3px; border-top: solid 1px gray; border-right: solid 1px gray;}
+td.MeetingFormRightArea { padding: 3px; border-left: solid 1 px gray; border-top: solid 1px gray; }
+
+td.EducationFormContentArea { width: 100%; padding: 3px;  }  
+td.EducationFormActionArea { vertical-align: top; width: 180px; padding: 3px; border-top: solid 1px gray; border-right: solid 1px gray;}
+td.EducationFormRightArea { padding: 3px; border-left: solid 1 px gray; border-top: solid 1px gray; }
+
+
+.CommitteeName { font-weight: bold; font-size: 16pt; }  
+.CommitteeTermName { font-size: 12pt; }  
+td.CommitteeTermLeft { padding: 3px; border-right: solid 1px gray;border-top: solid 1px gray; width: 125px;}
+td.CommitteeTermRight { padding: 3px; border-left: solid 1px gray;border-top: solid 1px gray;}
+/*Nalini*/
+.rightplacetd
+{
+    text-align:right;
+    width:20px;
+}

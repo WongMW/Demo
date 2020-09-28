@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5EEDF91-BDC1-4876-BE13-A780C0E157A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoftwareDesign</RootNamespace>
+    <AssemblyName>SoftwareDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aptify.Consulting.Accounting.AptifySalesTax">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Accounting.AptifySalesTax.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Component.AutoUpdateCACurriculumDetailsPF">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Component.AutoUpdateCACurriculumDetailsPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Component.ChangeSessionToAutumn__c">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Component.ChangeSessionToAutumn__c.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Component.FlowDownClassPartsthroughtOrder__c">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Component.FlowDownClassPartsthroughtOrder__c.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Component.SETCurrencyAsPerCompanyCurrency__c">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Component.SETCurrencyAsPerCompanyCurrency__c.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Component.TrainingTicketRedemptionPF">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Component.TrainingTicketRedemptionPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.DuplicateCheck__c">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.DuplicateCheck__c.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.EBO.UpdateSubGroupsOnClassRegistration">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.EBO.UpdateSubGroupsOnClassRegistration.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Entity.ClassRegistrationEntityPlugin">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Entity.ClassRegistrationEntityPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Entity.OrderEntry">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Entity.OrderEntry.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Entity.OrderLinesEntity">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Entity.OrderLinesEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.Entity.SubscriptionDate">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.Entity.SubscriptionDate.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.FlowDownPartPFComponent">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.FlowDownPartPFComponent.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.PaymentGateway.Realex">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.PaymentGateway.Realex.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.ProcessComponent.TaskAutomationCreate">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.ProcessComponent.TaskAutomationCreate.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.ProcessFlows.GenericUpdate">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.ProcessFlows.GenericUpdate.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Consulting.RuleEngine__c">
+      <HintPath>..\ThirdParty\aptify\Aptify.Consulting.RuleEngine__c.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Companies">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Companies.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.ContactLog">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.ContactLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Employees">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Employees.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Orders">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Orders.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Organizations">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Organizations.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Payments">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Payments.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Persons">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Persons.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.ScheduledTransactions">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.ScheduledTransactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Aptify.Framework.BusinessLogic.GenericEntity.Generated.Subscriptions">
+      <HintPath>..\ThirdParty\aptify\Aptify.Framework.BusinessLogic.GenericEntity.Generated.Subscriptions.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyAddressInterface">
+      <HintPath>..\ThirdParty\aptify\AptifyAddressInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyAlerts">
+      <HintPath>..\ThirdParty\aptify\AptifyAlerts.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyApplication">
+      <HintPath>..\ThirdParty\aptify\AptifyApplication.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyAttributeManagement">
+      <HintPath>..\ThirdParty\aptify\AptifyAttributeManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyCMSIntegration">
+      <HintPath>..\ThirdParty\aptify\AptifyCMSIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyCMSIntegrationGUI">
+      <HintPath>..\ThirdParty\aptify\AptifyCMSIntegrationGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyConnectionState">
+      <HintPath>..\ThirdParty\aptify\AptifyConnectionState.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEBusinessUser">
+      <HintPath>..\binFinal\AptifyEBusinessUser.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEktronCMSIntegration_76">
+      <HintPath>..\ThirdParty\aptify\AptifyEktronCMSIntegration_76.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEktronCMSIntegration_80">
+      <HintPath>..\ThirdParty\aptify\AptifyEktronCMSIntegration_80.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEktronCMSIntegration_80235">
+      <HintPath>..\ThirdParty\aptify\AptifyEktronCMSIntegration_80235.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEktronCMSIntegration_85">
+      <HintPath>..\ThirdParty\aptify\AptifyEktronCMSIntegration_85.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEktronCMSIntegration_86">
+      <HintPath>..\ThirdParty\aptify\AptifyEktronCMSIntegration_86.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyEventFire">
+      <HintPath>..\ThirdParty\aptify\AptifyEventFire.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyExceptionManagement">
+      <HintPath>..\ThirdParty\aptify\AptifyExceptionManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyExceptionManagementInterfaces">
+      <HintPath>..\ThirdParty\aptify\AptifyExceptionManagementInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyFilterRules">
+      <HintPath>..\ThirdParty\aptify\AptifyFilterRules.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyGACUtility">
+      <HintPath>..\ThirdParty\aptify\AptifyGACUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyGenericDataServices">
+      <HintPath>..\ThirdParty\aptify\AptifyGenericDataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyGenericEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyGenericEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyGenericEntityBase">
+      <HintPath>..\ThirdParty\aptify\AptifyGenericEntityBase.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyHousingObjects">
+      <HintPath>..\ThirdParty\aptify\AptifyHousingObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyHttpHandler">
+      <HintPath>..\ThirdParty\aptify\AptifyHttpHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyHttpModule">
+      <HintPath>..\ThirdParty\aptify\AptifyHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyItemRatings">
+      <HintPath>..\ThirdParty\aptify\AptifyItemRatings.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyKnowledgeObjects">
+      <HintPath>..\ThirdParty\aptify\AptifyKnowledgeObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyKnowledgeWebControls">
+      <HintPath>..\ThirdParty\aptify\AptifyKnowledgeWebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyLicensingManager">
+      <HintPath>..\ThirdParty\aptify\AptifyLicensingManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyLinkedInIntegration">
+      <HintPath>..\ThirdParty\aptify\AptifyLinkedInIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyLMSBase">
+      <HintPath>..\ThirdParty\aptify\AptifyLMSBase.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyLogin">
+      <HintPath>..\ThirdParty\aptify\AptifyLogin.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyMarketplaceListingsEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyMarketplaceListingsEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyMarketplaceListingsUI">
+      <HintPath>..\ThirdParty\aptify\AptifyMarketplaceListingsUI.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyMeetingsEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyMeetingsEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyMessagingEngine">
+      <HintPath>..\ThirdParty\aptify\AptifyMessagingEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyMessagingInterfaces">
+      <HintPath>..\ThirdParty\aptify\AptifyMessagingInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyOBDEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyOBDEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyObjectRepository">
+      <HintPath>..\ThirdParty\aptify\AptifyObjectRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyOMDControls">
+      <HintPath>..\ThirdParty\aptify\AptifyOMDControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyOMDEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyOMDEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyOrdersEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyOrdersEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPendingChanges">
+      <HintPath>..\ThirdParty\aptify\AptifyPendingChanges.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPendingChangesObject">
+      <HintPath>..\ThirdParty\aptify\AptifyPendingChangesObject.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPersonCompaniesEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyPersonCompaniesEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPersonsEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyPersonsEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPersonsGUI">
+      <HintPath>..\ThirdParty\aptify\AptifyPersonsGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyPersonSocialNetworkMismatchesLayout">
+      <HintPath>..\ThirdParty\aptify\AptifyPersonSocialNetworkMismatchesLayout.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyProcessFlowEngine">
+      <HintPath>..\ThirdParty\aptify\AptifyProcessFlowEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyProductPrerequisite">
+      <HintPath>..\ThirdParty\aptify\AptifyProductPrerequisite.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyReplicationWizards">
+      <HintPath>..\ThirdParty\aptify\AptifyReplicationWizards.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyReportWizard">
+      <HintPath>..\ThirdParty\aptify\AptifyReportWizard.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyReportWizardInterfaces">
+      <HintPath>..\ThirdParty\aptify\AptifyReportWizardInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyRSSFeed">
+      <HintPath>..\ThirdParty\aptify\AptifyRSSFeed.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySalesTax">
+      <HintPath>..\ThirdParty\aptify\AptifySalesTax.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySalesTaxRate">
+      <HintPath>..\ThirdParty\aptify\AptifySalesTaxRate.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyScheduledTasksEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyScheduledTasksEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyScheduledTasksSchedulers">
+      <HintPath>..\ThirdParty\aptify\AptifyScheduledTasksSchedulers.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyScriptEngine">
+      <HintPath>..\ThirdParty\aptify\AptifyScriptEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySecurityKey">
+      <HintPath>..\ThirdParty\aptify\AptifySecurityKey.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyShippingCalculator">
+      <HintPath>..\ThirdParty\aptify\AptifyShippingCalculator.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySocialNetworkIntegration">
+      <HintPath>..\ThirdParty\aptify\AptifySocialNetworkIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySocialNetworkProcessComponents">
+      <HintPath>..\ThirdParty\aptify\AptifySocialNetworkProcessComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifySQLDataServices">
+      <HintPath>..\ThirdParty\aptify\AptifySQLDataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyTaxJurisdictionsEntity">
+      <HintPath>..\ThirdParty\aptify\AptifyTaxJurisdictionsEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyTopicCodeLinks">
+      <HintPath>..\ThirdParty\aptify\AptifyTopicCodeLinks.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyTopicCodes">
+      <HintPath>..\ThirdParty\aptify\AptifyTopicCodes.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyUtility">
+      <HintPath>..\ThirdParty\aptify\AptifyUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebAddressControls">
+      <HintPath>..\ThirdParty\aptify\AptifyWebAddressControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebBoundControls">
+      <HintPath>..\ThirdParty\aptify\AptifyWebBoundControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebBrowserDashboard">
+      <HintPath>..\ThirdParty\aptify\AptifyWebBrowserDashboard.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebCalendarView">
+      <HintPath>..\ThirdParty\aptify\AptifyWebCalendarView.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebChartView">
+      <HintPath>..\ThirdParty\aptify\AptifyWebChartView.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebClientResources">
+      <HintPath>..\ThirdParty\aptify\AptifyWebClientResources.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebDashboard">
+      <HintPath>..\ThirdParty\aptify\AptifyWebDashboard.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebEmailControl">
+      <HintPath>..\ThirdParty\aptify\AptifyWebEmailControl.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebEntityBrowser">
+      <HintPath>..\ThirdParty\aptify\AptifyWebEntityBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebEntityListView">
+      <HintPath>..\ThirdParty\aptify\AptifyWebEntityListView.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebExclusionManager">
+      <HintPath>..\ThirdParty\aptify\AptifyWebExclusionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebFind">
+      <HintPath>..\ThirdParty\aptify\AptifyWebFind.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebFolderList">
+      <HintPath>..\ThirdParty\aptify\AptifyWebFolderList.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebFormTemplateControls">
+      <HintPath>..\ThirdParty\aptify\AptifyWebFormTemplateControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebGlobal">
+      <HintPath>..\ThirdParty\aptify\AptifyWebGlobal.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebPhoneControls">
+      <HintPath>..\ThirdParty\aptify\AptifyWebPhoneControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebPictureControl">
+      <HintPath>..\ThirdParty\aptify\AptifyWebPictureControl.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebPivotTableView">
+      <HintPath>..\ThirdParty\aptify\AptifyWebPivotTableView.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebReportWizard">
+      <HintPath>..\ThirdParty\aptify\AptifyWebReportWizard.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebShortcutBar">
+      <HintPath>..\ThirdParty\aptify\AptifyWebShortcutBar.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebTab">
+      <HintPath>..\ThirdParty\aptify\AptifyWebTab.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebTopicCodes">
+      <HintPath>..\ThirdParty\aptify\AptifyWebTopicCodes.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebUtility">
+      <HintPath>..\ThirdParty\aptify\AptifyWebUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="AptifyWebViewPlugIn">
+      <HintPath>..\ThirdParty\aptify\AptifyWebViewPlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseUserControlAdvanced">
+      <HintPath>..\ThirdParty\aptify\BaseUserControlAdvanced.dll</HintPath>
+    </Reference>
+    <Reference Include="EBusinessBase">
+      <HintPath>..\ThirdParty\aptify\EBusinessBase.dll</HintPath>
+    </Reference>
+    <Reference Include="EBusinessLogin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f3fa0ecabf9514d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdParty\aptify\EBusinessLogin.dll</HintPath>
+    </Reference>
+    <Reference Include="Elasticsearch.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\binFinal\Elasticsearch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="IAptifyDataServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f3fa0ecabf9514d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdParty\aptify\IAptifyDataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorGenerator.Templating">
+      <HintPath>..\ThirdParty\dlls\RazorGenerator.Templating.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\binFinal\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\binFinal\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.ContentModules, Version=8.1.5840.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\binFinal\Telerik.Sitefinity.ContentModules.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model, Version=8.1.5840.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\binFinal\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search, Version=8.1.5840.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\binFinal\Telerik.Sitefinity.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search.Impl, Version=8.1.5840.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\binFinal\Telerik.Sitefinity.Search.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\binFinal\Telerik.Sitefinity.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\binFinal\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data">
+      <HintPath>..\binFinal\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WebUserActivity">
+      <HintPath>..\ThirdParty\new-missing\WebUserActivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessFacade\Resources\MoodleResource.cs" />
+    <Compile Include="Controls\SDWidgets\uc_aptifyForm.ascx.cs">
+      <DependentUpon>uc_aptifyForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_aptifyForm.ascx.designer.cs">
+      <DependentUpon>uc_aptifyForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_searchResults.ascx.cs">
+      <DependentUpon>uc_searchResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_rootPageListing.ascx.cs">
+      <DependentUpon>uc_rootPageListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_rootPageListing.ascx.designer.cs">
+      <DependentUpon>uc_rootPageListing.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_podcastListing.ascx.cs">
+      <DependentUpon>uc_podcastListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_podcastListing.ascx.designer.cs">
+      <DependentUpon>uc_podcastListing.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_podcastDisplay.ascx.cs">
+      <DependentUpon>uc_podcastDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_podcastDisplay.ascx.designer.cs">
+      <DependentUpon>uc_podcastDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\LoginLogoutLink.ascx.cs">
+      <DependentUpon>LoginLogoutLink.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\LoginLogoutLink.ascx.designer.cs">
+      <DependentUpon>LoginLogoutLink.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SDWidgets\uc_searchResults.ascx.designer.cs">
+      <DependentUpon>uc_searchResults.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GDPR\ClosedWizardCookie.cs" />
+    <Compile Include="GDPR\RegisterOption.cs" />
+    <Compile Include="GTM\AddedToShoppingCart.cs" />
+    <Compile Include="GTM\Checkout.cs" />
+    <Compile Include="GTM\DetailImpression.cs" />
+    <Compile Include="GTM\GtmBase.cs" />
+    <Compile Include="GTM\GtmClick.cs" />
+    <Compile Include="GTM\GtmPurchase.cs" />
+    <Compile Include="GTM\GTMRazorCompiler.cs" />
+    <Compile Include="GTM\Helper\InvalidTemplateException.cs" />
+    <Compile Include="GTM\Helper\TemplateHelper.cs" />
+    <Compile Include="GTM\Impression.cs" />
+    <Compile Include="GTM\Model\CheckoutDto.cs" />
+    <Compile Include="GTM\Model\ImpressionDto.cs" />
+    <Compile Include="GTM\Model\ProductDto.cs" />
+    <Compile Include="GTM\Model\PurchaseDto.cs" />
+    <Compile Include="GTM\RemovedFromShoppingCart.cs" />
+    <Compile Include="Handlers\ServerHtmlHandler.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="HTTP\ScriptCompressorHandler.cs" />
+    <Compile Include="HTTP\ScriptCompressorModule.cs" />
+    <Compile Include="Infrastructure\NotAvailableString.cs" />
+    <Compile Include="PageCustomFields.cs" />
+    <Compile Include="Installer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexUtilities.cs" />
+    <Compile Include="SDHttpModule.cs" />
+    <Compile Include="Search\Elastic\PerformSearch.cs" />
+    <Compile Include="Search\InboundPipes\DahuCustomInboundPipe.cs" />
+    <Compile Include="Search\Models\Pager.cs" />
+    <Compile Include="Search\Models\QueryModel.cs" />
+    <Compile Include="Search\Models\Refiner.cs" />
+    <Compile Include="Search\Models\RefinerItem.cs" />
+    <Compile Include="Search\Models\ResultsModel.cs" />
+    <Compile Include="Search\Models\SuggestsModel.cs" />
+    <Compile Include="Search\ViewModels\ResultViewModel.cs" />
+    <Compile Include="ToolBoxRegister\ToolBoxConfigRegistrar.cs" />
+    <Compile Include="ToolBoxRegister\ToolBoxPathRegistar.cs" />
+    <Compile Include="ToolBoxRegister\UserControlRegistar.cs" />
+    <Compile Include="WEBAPI_PLUGINS\MoodlePlugin.cs" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\SDTemplates\SubscribeForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\LoginLogoutLink.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\uc_podcastDisplay.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\uc_podcastListing.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\uc_rootPageListing.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\uc_aptifyForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\SDWidgets\uc_searchResults.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\book_sample.png" />
+    <Content Include="SitefinityBackendTemplates\db-changes.txt" />
+    <Content Include="SitefinityBackendTemplates\Widget-Full-News-Item.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-added-to-shopping-cart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-checkout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-click.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-detail-impression.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-impression.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-purchase.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GTM\Templates\_GTM-removed-from-shopping-cart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net">
+      <Version>1.2.10</Version>
+    </PackageReference>
+    <PackageReference Include="NEST">
+      <Version>5.5.0</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>10.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Sitefinity.RazorEngine">
+      <Version>3.0.8</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

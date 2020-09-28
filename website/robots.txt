@@ -1,0 +1,14 @@
+﻿# robots.txt 
+Sitemap: https://www.charteredaccountants.ie/sitemap.xml
+
+User-agent: *
+Disallow: /sitefinity/
+Disallow: /Current-Student/Student-Centre/
+Disallow: /ManageMyGroup/Manage-My-Students/
+Disallow: /Forums/
+Disallow: /Directories/
+Disallow: /customerservice/
+Disallow: /ManageMyGroup/
+Disallow: /docs/
+Disallow: /usercontrols/
+

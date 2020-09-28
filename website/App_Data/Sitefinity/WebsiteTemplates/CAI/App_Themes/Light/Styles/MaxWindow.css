@@ -1,0 +1,21 @@
+.RadWindow table,.RadWindow table td{border:0;padding:0}
+.RadWindow table{width:100%;height:100%;table-layout:auto}
+.RadWindow table td{padding:0;margin:0;border-collapse:collapse;vertical-align:top}
+.RadWindow .rwWindowContent{height:100%!important;background-color:#fff!important}
+.RadWindow.rwMaximizedWindow .rwWindowContent,.RadWindow.sfMaximizedWindow .rwWindowContent{width:100%}
+.sfDialog .RadWindow.rwMaximizedWindow .rwTable{height:100%!important}
+div.rwMaximizedWindow .rwTitleRow,div.sfMaximizedWindow .rwTitleRow,div.rwMaximizedWindow .rwTitlebar,div.sfMaximizedWindow .rwTitlebar,div.rwMaximizedWindow .rwCorner,div.sfMaximizedWindow .rwCorner,div.rwMaximizedWindow .rwFooterCenter,div.sfMaximizedWindow .rwFooterCenter{display:none!important}
+.rwPreventPageScrolling div.rwMaximizedWindow,.rwPreventPageScrolling div.sfMaximizedWindow{position:fixed!important}
+div.rwMaximizedWindow,div.sfMaximizedWindow,div.rwMaximizedWindow table,div.sfMaximizedWindow table{border:0!important}
+body.sfLoadingTransition div.sfMaximizedWindow{top:-100vh!important;left:-100vw!important}
+.sfMaximizedWindow.k-window{background-color:#f4f6f7;overflow:auto!important;top:0!important;left:0!important;padding-top:0!important}
+.sfMaximizedWindow .k-window-content{padding:0}
+.sfMaximizedWindow.k-window>.k-window-titlebar,.sfMaximizedWindow.k-window .k-resize-handle{display:none}
+.sfMaximizedWindowWithIframe.k-window,.sfMaximizedWindowWithIframe.k-window .k-content{border-radius:0;background-color:#fff}
+.sfMaximizedWindowWithIframe.k-window .k-content{margin:0;padding:0;border:0;overflow:hidden}
+.sfMaximizedWindowWithIframe.k-window .k-content iframe{margin:0;padding:0;border:0}
+.sfMaximizedWindow.k-window .sfFormDialog .sfBreadCrumb{padding-bottom:0}
+.sfGlobalPermissions.k-window{display:inline-block}
+.k-window.sfGlobalPermissions .sfDialog{display:flex;flex-direction:column}
+.k-window.sfGlobalPermissions .sfMain{margin-top:50px}
+.k-window.sfGlobalPermissions.sfMaximizedWindow .sfFormDialog .sfBreadCrumb{padding:10px 20px}

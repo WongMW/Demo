@@ -1,0 +1,27 @@
+div.sfMasterViews{position:absolute;top:19px;right:22px;z-index:10!important}
+.sfHasSidebar .sfMasterViews{right:20px;float:none;padding:0}
+.RadToolBar.sfMasterViews .rtbItem{margin-left:0;float:none}
+.RadToolBar.sfMasterViews .rtbTemplate{margin-right:10px}
+.sfMasterViews .rtbMiddle .rtbInner{padding:0}
+.sfMasterViews .rtbItem .rtbMid{padding-right:0}
+.sfMasterViews .rtbItem .rtbIn{padding-left:0}
+.sfMasterViews .rtbTemplate span{font-weight:normal;color:#666}
+.sfMasterViews .rtbItem .rtbWrap{margin-left:-1px;width:28px;height:28px;line-height:25px;border-radius:0!important}
+.sfMasterViews .rtbItem .rtbWrap::before,.sfPropertyViews .rtbItem .rtbWrap::before{display:inline-block;font-family:FontAwesome;vertical-align:text-top;font-weight:normal}
+.sfMasterViews .sfMasterViewsGrid::before{content:"\f0c9";font-size:16px}
+.sfMasterViews .sfMasterViewsList::before{content:"\f03a"}
+.sfMasterViews .sfMasterViewsBoxes::before{content:"\f009"}
+.sfMasterViews .rtbItem .rtbText,.sfPropertyViews .rtbItem .rtbText{text-indent:-9999px;overflow:hidden;padding-left:0;padding-right:0}
+div.sfPropertyViews{margin-left:1px}
+div.sfPropertyViews div.rtbInner{padding:0}
+div.sfPropertyViews .rtbOuter .rtbItem{margin:0}
+div.sfPropertyViews div.rtbMiddle{background-color:transparent}
+div.sfPropertyViews .rtbOuter .rtbItem .rtbWrap{margin-left:-1px;width:28px;height:28px;line-height:25px;border-radius:0!important}
+div.sfPropertyViews .rtbItem .rtbText{min-height:17px;line-height:16px}
+div.sfPropertyViews .sfPropAlphabetically::before{content:"\f15d"}
+div.sfPropertyViews .sfPropCategorized::before{content:"\f022"}
+.RadToolBar .sfSwitchBtn::before{display:inline-block;font-family:FontAwesome;margin-right:5px;vertical-align:middle;font-size:14px}
+.RadToolBar .sfLayoutSwitcher::before{content:"\f022"}
+.RadToolBar .sfContentSwitcher::before{content:"\f0db"}
+.RadToolBar .sfThemeSwitcher::before{content:"\f1fc"}
+.RadToolBar .sfSettingsSwitcher::before{content:"\f0ad"}

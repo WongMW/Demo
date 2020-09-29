@@ -14,6 +14,7 @@
     .ICETBLabelVal-price .product-price {
         line-height: 0.9 !important;
     }
+    /* BAD PRACTICE TO PUT STYLE IN PAGE */
 </style>
 
 <%--Product Catlog Performance--%>
